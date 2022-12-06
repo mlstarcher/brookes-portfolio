@@ -1,7 +1,7 @@
 import React from 'react';
 import Welcome from './Welcome.js';
 import CaseStudyCard from './CaseStudyCard.js';
-import caseStudyData from '../content/caseStudyData';
+import caseStudyData from '../assets/caseStudyData';
 
 export default function Home() {
   return (

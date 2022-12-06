@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="container flex justify-center bg-metal py-4 mt-8s">
+    <footer className="container flex justify-center bg-primary py-4 mt-8">
       <div className="flex flex-col text-center">
         <h4 className="p-4 font-semibold">Here's how to contact me:</h4>
         <p className="p-1">email me at brookezstarcher@gmail.com</p>
