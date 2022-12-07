@@ -2,7 +2,6 @@ import React from 'react';
 import Welcome from './Welcome.js';
 import CaseStudyCard from './CaseStudyCard.js';
 import caseStudyData from '../assets/caseStudyData';
-import ComingSoon from './ComingSoon.js';
 
 export default function Home() {
   return (
@@ -13,7 +12,6 @@ export default function Home() {
           return <CaseStudyCard case_study={case_study} key={key} />;
         })}
       </div>
-      <ComingSoon />
     </div>
   );
 }

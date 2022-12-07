@@ -7,7 +7,7 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       white: '#ffffff',
-      'off-white': '#F1EEE7',
+      'off-white': '#f8f0de',
       'off-black': '#302E2E',
       primary: '#E19C75',
       secondary: '#9F8D1F',
@@ -16,3 +16,5 @@ module.exports = {
   },
   plugins: []
 };
+
+// 'off-white': '#F1EEE7',
