@@ -14,7 +14,7 @@ export default function About() {
             alt="Profile"
           ></img>
         </div>
-        <div className="flex flex-col text-center sm:pt-0 pt-8">
+        <div className="flex flex-col text-center sm:text-left sm:pt-0 pt-8">
           <p className="pb-4">Hi! I’m Brooke and I’m a Product Designer.</p>
           <p className="pb-4">
             As a Product Designer, I want to help bridge the gap between humans

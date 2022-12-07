@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Welcome() {
   return (
-    <div className="grid grid-cols-2 gap mb-16">
+    <div className="grid grid-cols-2 gap mb-32">
       <div>
         <h1 className="text-bold text-4xl pb-4">Hi, my name is</h1>
         <h1 className="text-bold text-4xl pb-4">Brooke Starcher.</h1>

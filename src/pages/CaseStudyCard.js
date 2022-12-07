@@ -1,21 +1,21 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function CaseStudyCard({ title, short_description, link }) {
+export default function CaseStudyCard({ case_study }) {
+  console.log('image_name: ', case_study.image_name);
   return (
-    <div className="grid grid-cols-2 mb-16">
+    <div className="grid grid-cols-2 mb-32">
       <div>
-        <div
-          className="border-2 border-gray flex justify-center items-center"
-          style={{ height: '300px', width: '300px' }}
-        >
-          Image Placeholder
-        </div>
+        <img
+          src={case_study.image_name}
+          className="h-96"
+          alt={case_study.alt_tag}
+        ></img>
       </div>
       <div>
-        <h4>{title}</h4>
-        <p>{short_description}</p>
-        <Link to={link}>View Case Study</Link>
+        <h4 className="font-semibold text-2xl mb-4">{case_study.title}</h4>
+        <p className="text-lg mb-8">{case_study.short_description}</p>
+        <Link to={case_study.link}>View Case Study</Link>
       </div>
     </div>
   );
