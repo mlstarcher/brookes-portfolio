@@ -19,7 +19,9 @@ body {
   min-height: 100vh;
 }
 
-
+.case-study-repeater div div .case-study-image:not(:first-child) {
+  height: 60px;
+}
 /*
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',

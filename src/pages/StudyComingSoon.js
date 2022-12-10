@@ -2,19 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 
-export default function CaseStudyCard({ case_study }) {
+export default function StudyComingSoon({ case_study }) {
   return (
     <div className="grid grid-cols-2 mb-32 gap">
-      <div className="pr-16">
+      <div className="pr-16 flex justify-center items-center">
         <img
           src={case_study.image_name}
-          className="case-study-image"
+          className="h-40"
           alt={case_study.alt_tag}
         ></img>
       </div>
-      <div className="flex flex-col justify-center">
-        <h4 className="font-semibold text-6xl mb-4">{case_study.title}</h4>
-        <p className="mb-8 text-2xl">{case_study.short_description}</p>
+      <div className="">
+        <h4 className="font-semibold text-2xl mb-4">{case_study.title}</h4>
+        <p className="text-2xl mb-8">{case_study.short_description}</p>
         <Link
           to={case_study.link}
           className="font-semibold text-accent hover:text-secondary text-xl "
