@@ -6,19 +6,19 @@ import { HashLink as Link } from 'react-router-hash-link';
 export default function Nav() {
   return (
     <ul className="flex justify-between text-3lg">
-      <li className="mr-8 border-b-2 border-off-white hover:border-off-black">
+      <li className="mr-8 border-b-2 border-offWhite hover:border-offBlack">
         <div>
           <Link to="/home#work" smooth className="font-semibold text-xl">
             Work
           </Link>
         </div>
       </li>
-      <li className="mr-8 border-b-2 border-off-white hover:border-off-black">
+      <li className="mr-8 border-b-2 border-offWhite hover:border-offBlack">
         <Link to={`about`} className="font-semibold text-xl ">
           About
         </Link>
       </li>
-      <li className="mr-8 border-b-2 border-off-white hover:border-off-black">
+      <li className="mr-8 border-b-2 border-offWhite hover:border-offBlack">
         <a
           href={Resume}
           target="_blank"

@@ -1,4 +1,5 @@
 import React from 'react';
+import portrait from '../assets/portrait.png';
 
 export default function Welcome() {
   return (
@@ -9,8 +10,8 @@ export default function Welcome() {
         <p className="pb-4">I create delightful user friendly products that</p>
         <p className="pb-4">elevate human experiences.</p>
       </div>
-      <div className="border-2 border-gray flex w-full justify-center items-center ">
-        Image Placeholder
+      <div className="flex w-full justify-center items-center ">
+        <img src={portrait} className="" alt="Portrait"></img>
       </div>
     </div>
   );
