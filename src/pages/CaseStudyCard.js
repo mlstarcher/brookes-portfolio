@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
 
 export default function CaseStudyCard({ case_study }) {
-  console.log('image_name: ', case_study.image_name);
   return (
     <div className="grid grid-cols-2 mb-32 gap">
       <div className="pr-16">

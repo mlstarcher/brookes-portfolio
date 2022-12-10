@@ -1,13 +1,17 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import Resume from '../assets/brooke-starcher-resume.pdf';
+import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Nav() {
   return (
     <ul className="flex justify-between text-3lg">
       <li className="mr-8 border-b-2 border-off-white hover:border-off-black">
-        <a href="#work" className="font-semibold text-xl">
-          Work
-        </a>
+        <div>
+          <Link to="/home#work" smooth className="font-semibold text-xl">
+            Work
+          </Link>
+        </div>
       </li>
       <li className="mr-8 border-b-2 border-off-white hover:border-off-black">
         <Link to={`about`} className="font-semibold text-xl ">
@@ -16,9 +20,10 @@ export default function Nav() {
       </li>
       <li className="mr-8 border-b-2 border-off-white hover:border-off-black">
         <a
-          href="../assets/brooke-starcher-resume.pdf"
+          href={Resume}
           target="_blank"
           className="font-semibold text-xl"
+          rel="noreferrer"
         >
           Resume
         </a>

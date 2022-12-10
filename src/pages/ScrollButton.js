@@ -26,7 +26,10 @@ const ScrollButton = () => {
   window.addEventListener('scroll', toggleVisible);
 
   return (
-    <button className="h-8 w-12 text-2xl text-accent sticky bottom-10 inset-x-3/4">
+    <button
+      className="h-8 w-12 text-2xl text-accent sticky bottom-10"
+      style={{ left: '85%' }}
+    >
       <FaArrowCircleUp
         onClick={scrollToTop}
         style={{ display: visible ? 'inline' : 'none' }}
