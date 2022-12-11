@@ -4,6 +4,7 @@ import About from './pages/About.js';
 import CaseStudy1 from './pages/CaseStudy1.js';
 import ComingSoon from './pages/ComingSoon';
 import ErrorPage from './pages/ErrorPage.js';
+import ScrollToTop from './pages/ScrollToTop.js';
 
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
@@ -11,6 +12,7 @@ function App() {
   return (
     <div className="App bg-offWhite">
       <Router>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index path="" element={<Home />} />

@@ -14,7 +14,9 @@ export default function StudyComingSoon({ case_study }) {
       </div>
       <div className="">
         <h4 className="font-semibold text-2xl mb-4">{case_study.title}</h4>
-        <p className="text-2xl mb-8">{case_study.short_description}</p>
+        <p className="text-2xl mb-8 line-clamp-3">
+          {case_study.short_description}
+        </p>
         <Link
           to={'coming-soon'}
           className="font-semibold text-accent hover:text-secondary text-xl "

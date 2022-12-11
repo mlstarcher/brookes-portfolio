@@ -14,7 +14,9 @@ export default function CaseStudyCard({ case_study }) {
       </div>
       <div className="flex flex-col justify-center">
         <h4 className="font-semibold text-6xl mb-4">{case_study.title}</h4>
-        <p className="mb-8 text-2xl">{case_study.short_description}</p>
+        <p className="mb-8 text-2xl line-clamp-3">
+          {case_study.short_description}
+        </p>
         <Link
           to={case_study.link}
           className="font-semibold text-accent hover:text-secondary text-xl "
