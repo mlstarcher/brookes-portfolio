@@ -3,7 +3,7 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer
-      className="container flex justify-center bg-primary py-4 mt-8"
+      className="container flex justify-center bg-primary py-4"
       style={{ height: '225px' }}
     >
       <div className="flex flex-col text-center">

@@ -8,7 +8,7 @@ export default function Nav() {
     <ul className="flex justify-between text-3lg">
       <li className="mr-8 border-b-2 border-offWhite hover:border-offBlack">
         <div>
-          <Link to="/home#work" smooth className="font-semibold text-xl">
+          <Link to="/#work" smooth className="font-semibold text-xl">
             Work
           </Link>
         </div>
