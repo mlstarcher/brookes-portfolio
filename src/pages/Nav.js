@@ -1,20 +1,12 @@
 import React from 'react';
 // import Resume from '../assets/brooke-starcher-resume.pdf';
 import { HashLink as Link } from 'react-router-hash-link';
-import Hamburger from './Hamburger.js';
-import useMenuStatus from '../App.js';
+// import Hamburger from './Hamburger.js';
 
 export default function Nav() {
-  const ctx = useMenuStatus();
-
   return (
     <div>
-      <div className="sm:hidden">
-        <Hamburger
-          isOpen={ctx.isMenuOpen}
-          onStateChange={(state) => ctx.stateChangeHandler(state)}
-        />
-      </div>
+      <div className="sm:hidden">{/* <Hamburger /> */}</div>
       <ul className="justify-between text-3lg hidden sm:flex">
         <li className="mx-4 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
           <div>
