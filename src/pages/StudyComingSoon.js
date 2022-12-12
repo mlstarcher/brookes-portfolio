@@ -4,17 +4,19 @@ import { FaArrowRight } from 'react-icons/fa';
 
 export default function StudyComingSoon({ case_study }) {
   return (
-    <div className="grid grid-cols-2 mb-32 gap">
-      <div className="pr-16 flex justify-center items-center">
+    <div className="grid grid-cols-1 sm:grid-cols-2 sm:mb-32 mb-8 gap">
+      <div className="sm:pr-16 flex justify-center sm:block">
         <img
           src={case_study.image_name}
-          className="h-40"
+          className="m-w-100 sm:h-auto h-36"
           alt={case_study.alt_tag}
         ></img>
       </div>
-      <div className="">
-        <h4 className="font-semibold text-2xl mb-4">{case_study.title}</h4>
-        <p className="text-2xl mb-8 line-clamp-3">
+      <div className="flex flex-col justify-center">
+        <h4 className="font-semibold text-2xl sm:text-6xl mb-4 mt-8 sm:mt-0">
+          {case_study.title}
+        </h4>
+        <p className="mb-8 text-base sm:text-2xl line-clamp-3">
           {case_study.short_description}
         </p>
         <Link
@@ -23,7 +25,7 @@ export default function StudyComingSoon({ case_study }) {
         >
           <div className="flex items-center">
             <p className="mr-2">View Case Study</p>
-            <FaArrowRight style={{ height: '20px' }} />
+            <FaArrowRight className="m-h-5" />
           </div>
         </Link>
       </div>

@@ -3,18 +3,18 @@ import profile from '../assets/profile.jpg';
 
 export default function About() {
   return (
-    <div className="flex flex-col mb-16">
+    <div className="flex flex-col sm:mb-16">
       <div className="grid grid-cols-1 sm:grid-cols-2">
         <div className="flex flex-col items-center">
           <img
             src={profile}
-            className="rounded-full"
+            className="rounded-full m-w-100 h-auto"
             height="300"
             width="300"
             alt="Profile"
           ></img>
         </div>
-        <div className="flex flex-col text-center sm:text-left sm:pt-0 pt-8 text-2xl">
+        <div className="flex flex-col text-left sm:pt-0 pt-8 sm:text-2xl text-base">
           <p className="pb-4">Hi! I’m Brooke and I’m a Product Designer.</p>
           <p className="pb-4">
             As a Product Designer, I want to help bridge the gap between humans

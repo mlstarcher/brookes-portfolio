@@ -10,7 +10,9 @@ export default function Home() {
     <div>
       <Welcome />
       <div id="work" className="flex justify-center mb-8">
-        <h2 className="text-5xl font-bold mt-16">My Case Studies:</h2>
+        <h2 className="sm:text-5xl text-2xl font-bold sm:mt-16 mt-8">
+          My Case Studies:
+        </h2>
       </div>
       <div>
         {caseStudyData.map((case_study, key) => {
