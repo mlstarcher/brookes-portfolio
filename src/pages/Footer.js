@@ -3,13 +3,12 @@ import React from 'react';
 export default function Footer() {
   return (
     <footer
-      className="container flex justify-center bg-primary py-4"
+      className="container flex flex-col justify-center items-center  bg-primary"
       style={{ height: '225px' }}
     >
-      <div className="flex flex-col text-center">
-        <h4 className="p-4 font-semibold">Here's how to contact me:</h4>
-        <p className="p-1">
-          email me at
+      <h4 className="text-base mb-4">Let's keep in touch!</h4>
+      <div className="flex flex-col items-center text-2xl">
+        <p className="">
           <a
             href="mailto: brookezstarcher@gmail.com"
             target="_blank"
@@ -18,15 +17,13 @@ export default function Footer() {
             brookezstarcher@gmail.com
           </a>
         </p>
-        <p className="p-1">or</p>
-        <p className="p-1">
-          connect with me on
+        <p className="mx-8">
           <a
             href="https://www.linkedin.com/in/brooke-starcher-829763240/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            LinkedIn
+            linkedIn
           </a>
         </p>
       </div>

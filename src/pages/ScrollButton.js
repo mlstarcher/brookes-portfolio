@@ -27,8 +27,8 @@ const ScrollButton = () => {
 
   return (
     <button
-      className="h-8 w-12 text-2xl text-accent hover:text-secondary sticky bottom-10"
-      style={{ left: '85%' }}
+      className="h-8 w-12 text-3xl text-accent hover:text-secondary sticky bottom-10"
+      style={{ left: '90%' }}
     >
       <FaArrowCircleUp
         onClick={scrollToTop}

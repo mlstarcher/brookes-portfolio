@@ -5,7 +5,7 @@ export default function Welcome() {
   return (
     <div className="sm:pl-20 grid grid-cols-2 gap sm:mb-32 mb-16 mt-8">
       <div className="flex flex-col justify-center">
-        <h1 className="font-bold md:text-6xl text-2xl pb-4">
+        <h1 className="font-bold md:text-6xl text-2xl pb-4 text-primary">
           hi, my name is brooke
         </h1>
         <p className="sm:text-2xl text-base">
