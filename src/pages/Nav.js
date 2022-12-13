@@ -32,32 +32,32 @@ export default function Nav() {
           navbarOpen ? ' showMenu' : ''
         }`}
       >
-        <li className="ml-8 mt-4 mb-4">
+        <li className="ml-8 mt-4 mb-6">
           <div>
             <Link
               onClick={() => closeMenu()}
               to="/#work"
               smooth
-              className="font-semibold text-xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
+              className="font-semibold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
             >
               Work
             </Link>
           </div>
         </li>
-        <li className="ml-8 mb-4">
+        <li className="ml-8 mb-6">
           <Link
             onClick={() => closeMenu()}
             to={`about`}
-            className="font-semibold text-xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
+            className="font-semibold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
           >
             About
           </Link>
         </li>
-        <li className="ml-8 mb-4">
+        <li className="ml-8 mb-6">
           <Link
             onClick={() => closeMenu()}
             to={`coming-soon`}
-            className="font-semibold text-xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
+            className="font-semibold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
           >
             Resume
           </Link>

@@ -5,7 +5,6 @@ import linkedin from '../assets/linkedin.svg';
 export default function Footer() {
   return (
     <footer className="w-full flex flex-col justify-center items-center  bg-primary sm:h-56 h-40">
-      <h4 className="text-base mb-4">Let's keep in touch!</h4>
       <div className="flex justify-between items-center">
         <a
           className="mx-2"
@@ -13,7 +12,7 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={email} className="h-10" alt="Email"></img>
+          <img src={email} className="h-8" alt="Email"></img>
         </a>
         <a
           className="mx-2"
@@ -21,9 +20,10 @@ export default function Footer() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src={linkedin} className="h-10" alt="Linked In"></img>
+          <img src={linkedin} className="h-8" alt="Linked In"></img>
         </a>
       </div>
+      <h4 className="text-lg font-semibold mt-4">Let's keep in touch!</h4>
     </footer>
   );
 }
