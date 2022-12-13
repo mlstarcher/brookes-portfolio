@@ -1,28 +1,28 @@
 import React from 'react';
+import email from '../assets/email.svg';
+import linkedin from '../assets/linkedin.svg';
 
 export default function Footer() {
   return (
     <footer className="w-full flex flex-col justify-center items-center  bg-primary sm:h-56 h-40">
       <h4 className="text-base mb-4">Let's keep in touch!</h4>
-      <div className="flex flex-col items-center text-2xl">
-        <p className="border-b-2 border-primary hover:text-secondary hover:border-secondary">
-          <a
-            href="mailto: brookezstarcher@gmail.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            brookezstarcher@gmail.com
-          </a>
-        </p>
-        <p className="mx-8 border-b-2 border-primary hover:text-secondary hover:border-secondary">
-          <a
-            href="https://www.linkedin.com/in/brooke-starcher-829763240/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            linkedIn
-          </a>
-        </p>
+      <div className="flex justify-between items-center">
+        <a
+          className="mx-2"
+          href="mailto: brookezstarcher@gmail.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={email} className="h-10" alt="Email"></img>
+        </a>
+        <a
+          className="mx-2"
+          href="https://www.linkedin.com/in/brooke-starcher-829763240/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img src={linkedin} className="h-10" alt="Linked In"></img>
+        </a>
       </div>
     </footer>
   );
