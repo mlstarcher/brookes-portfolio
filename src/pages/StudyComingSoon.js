@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaArrowRight } from 'react-icons/fa';
+import coming_soon from '../assets/coming_soon.svg';
 
 export default function StudyComingSoon({ case_study }) {
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 sm:mb-32 mb-16 gap">
       <div className="sm:pr-16 flex justify-center sm:block">
         <img
-          src={case_study.image_name}
+          src={coming_soon}
           className="m-w-100 sm:h-auto h-36"
           alt={case_study.alt_tag}
         ></img>

@@ -1,5 +1,5 @@
 import React from 'react';
-import portrait from '../assets/portrait.png';
+import portrait from '../assets/portrait.svg';
 
 export default function Welcome() {
   return (

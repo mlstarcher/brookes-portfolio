@@ -32,7 +32,7 @@ export default function Nav() {
           navbarOpen ? ' showMenu' : ''
         }`}
       >
-        <li className="ml-8 mt-4">
+        <li className="ml-8 mt-4 mb-4">
           <div>
             <Link
               onClick={() => closeMenu()}
@@ -44,7 +44,7 @@ export default function Nav() {
             </Link>
           </div>
         </li>
-        <li className="ml-8">
+        <li className="ml-8 mb-4">
           <Link
             onClick={() => closeMenu()}
             to={`about`}
@@ -53,7 +53,7 @@ export default function Nav() {
             About
           </Link>
         </li>
-        <li className="ml-8">
+        <li className="ml-8 mb-4">
           <Link
             onClick={() => closeMenu()}
             to={`coming-soon`}

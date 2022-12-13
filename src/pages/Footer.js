@@ -2,13 +2,10 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer
-      className="container flex flex-col justify-center items-center  bg-primary"
-      style={{ height: '225px' }}
-    >
+    <footer className="w-full flex flex-col justify-center items-center  bg-primary sm:h-56 h-40">
       <h4 className="text-base mb-4">Let's keep in touch!</h4>
       <div className="flex flex-col items-center text-2xl">
-        <p className="">
+        <p className="border-b-2 border-primary hover:text-secondary hover:border-secondary">
           <a
             href="mailto: brookezstarcher@gmail.com"
             target="_blank"
@@ -17,7 +14,7 @@ export default function Footer() {
             brookezstarcher@gmail.com
           </a>
         </p>
-        <p className="mx-8">
+        <p className="mx-8 border-b-2 border-primary hover:text-secondary hover:border-secondary">
           <a
             href="https://www.linkedin.com/in/brooke-starcher-829763240/"
             target="_blank"
