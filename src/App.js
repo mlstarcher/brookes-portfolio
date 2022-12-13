@@ -1,4 +1,4 @@
-import React, { useState, useContext } from 'react';
+import React from 'react';
 import Layout from './pages/Layout.js';
 import Home from './pages/Home.js';
 import About from './pages/About.js';
