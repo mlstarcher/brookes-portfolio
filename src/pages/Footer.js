@@ -4,7 +4,7 @@ import linkedin from '../assets/linkedin.svg';
 
 export default function Footer() {
   return (
-    <footer className="w-full flex flex-col justify-center items-center  bg-primary sm:h-56 h-40">
+    <footer className="w-full flex flex-col justify-center items-center bg-primary h-32">
       <div className="flex justify-between items-center">
         <a
           className="mx-2"

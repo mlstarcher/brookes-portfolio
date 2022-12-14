@@ -7,7 +7,7 @@ import placeholderData from '../assets/placeholderData.js';
 
 export default function Home() {
   return (
-    <div>
+    <div className="">
       <Welcome />
       <div id="work" className="flex justify-center mb-8">
         <h2 className="sm:text-5xl text-3xl font-bold sm:mt-16 mt-8">

@@ -17,6 +17,11 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  text-align:center;
+}
+
+.wrapper {
+  flex: 1;
 }
 
 .case-study-repeater div div .case-study-image:not(:first-child) {
@@ -56,14 +61,6 @@ body {
 }
 
 /* Icon 3 */
-
-/* .navBar button {
-  position: absolute;
-  right: 20px;
-  top: 20px;
-  z-index: 10;
-  cursor: pointer;
-} */
 
 #nav-icon {
   margin: 0px;
