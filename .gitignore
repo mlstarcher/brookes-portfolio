@@ -21,3 +21,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# Portable Document Format
+*.pdf
+
+# Images
+*.jpg
+*.jpeg
+*.png
+*.tiff
+*.tif
+
+# Scalable Vector Graphics
+*.svg
