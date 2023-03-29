@@ -31,7 +31,7 @@ export default function CaseStudy1() {
     <div className="bg-offWhite">
       <div className="grid grid-cols-1 sm:grid-cols-2 gap sm:mb-16 mb-16 mt-8">
         <div className="flex flex-col justify-center items-center mb-8 sm:mb-0">
-          <h1 className="font-bold text-3xl sm:text-5xl text-offBlack pb-4">
+          <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
             Cleverist
           </h1>
           <p className="text-lg sm:text-2xl text-center px-8">
@@ -58,16 +58,16 @@ export default function CaseStudy1() {
           ></img>
         </div>
       </div>
-      <div className="bg-accent text-white p-6 grid grid-cols-4 gap-1 rounded-2xl">
-        <div className="col-span-1">
+      <div className="bg-accent text-white px-6 py-8 grid grid-cols-1 sm:grid-cols-4 gap-1 rounded-2xl">
+        <div className="col-span-1 sm:mb-0 mb-8">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
           <p className="text-lg sm:text-2xl">End-to-end UX/UI designer</p>
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 sm:mb-0 mb-8">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Product</h4>
           <p className="text-lg sm:text-2xl">Mobile Website</p>
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 sm:mb-0 mb-8">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
           <p className="text-lg sm:text-2xl">July to November 2022</p>
         </div>
@@ -76,8 +76,8 @@ export default function CaseStudy1() {
           <p className="text-lg sm:text-2xl">Figma</p>
         </div>
       </div>
-      <div className="flex flex-col mt-16 mb-8 px-24">
-        <h3 className="text-3xl sm:text-5xl text-center font-semibold">
+      <div className="flex flex-col mt-16 mb-8 sm:px-24">
+        <h3 className="text-3xl sm:text-6xl text-center font-semibold">
           Overview
         </h3>
         <p className="mt-4 text-start text-lg sm:text-2xl">
@@ -134,7 +134,7 @@ export default function CaseStudy1() {
           className="max-w-full h-auto mt-8"
           alt="Research, define, design, test"
         ></img>
-        <h3 className="text-3xl sm:text-5xl text-center font-semibold mt-16">
+        <h3 className="text-3xl sm:text-6xl text-center font-semibold mt-16">
           Research
         </h3>
         <p className="mt-4 text-start text-lg sm:text-2xl">
@@ -156,31 +156,41 @@ export default function CaseStudy1() {
           materials for the activities, or clear directions.
         </p>
       </div>
-      <div className="bg-primary p-6 grid grid-cols-3 gap-1 rounded-2xl">
+      <div className="bg-primary p-6 grid sm:grid-cols-3 grid-cols-1 gap-1 rounded-2xl">
         <div className="col-span-1 flex flex-col items-center px-6">
-          <img
-            src={pbs_kids}
-            className="max-w-full h-24"
-            alt="PBS Kids logo"
-          ></img>
+          <div className="flex items-center" style={{ height: '114px' }}>
+            <img
+              src={pbs_kids}
+              className="max-w-full h-auto"
+              alt="PBS Kids logo"
+            ></img>
+          </div>
           <p className="text-lg sm:text-2xl mt-4">
             Free access to media content and community based experiences that
             support learning for young children.
           </p>
         </div>
         <div className="col-span-1 flex flex-col items-center  px-6">
-          <img
-            src={little_passports}
-            className="max-w-full h-24"
-            alt="Little Passports logo"
-          ></img>
+          <div className="flex items-center" style={{ height: '114px' }}>
+            <img
+              src={little_passports}
+              className="max-w-full h-auto"
+              alt="Little Passports logo"
+            ></img>
+          </div>
           <p className="text-lg sm:text-2xl mt-4">
             Subscriptions for kids that inspire them to learn about the world
             through toys and activities.
           </p>
         </div>
         <div className="col-span-1 flex flex-col items-center  px-6">
-          <img src={kiwico} className="max-w-full h-24" alt="Kiwico Logo"></img>
+          <div className="flex items-center" style={{ height: '114px' }}>
+            <img
+              src={kiwico}
+              className="max-w-full h-auto"
+              alt="Kiwico Logo"
+            ></img>
+          </div>
           <p className="text-lg sm:text-2xl mt-4">
             Subscription box with materials to inspire natural creativity, while
             helping parents who want to bring enriching experiences to their
@@ -188,7 +198,7 @@ export default function CaseStudy1() {
           </p>
         </div>
       </div>
-      <div className="flex flex-col mt-16 mb-8 px-24">
+      <div className="flex flex-col mt-16 mb-8 sm:px-24">
         <h2 className="text-2xl sm:text-4xl text-start font-semibold">
           Hearing People's Stories
         </h2>
@@ -200,39 +210,39 @@ export default function CaseStudy1() {
             the main concerns were time, quality, and availability.
           </strong>
         </p>
-        <div className="mt-8 grid grid-cols-6">
-          <div className="col-span-1 mb-4">
+        <div className="mt-8 grid grid-cols-12">
+          <div className="col-span-3 mb-4">
             <img src={time} className="max-w-full h-auto" alt="time"></img>
           </div>
-          <div className="col-span-5 mb-4">
+          <div className="col-span-9 mb-4">
             <p className="text-left text-lg sm:text-2xl pl-8">
               Parents and caregivers are often busy with their child’s schedule
               as well as their own. Finding activities quickly and easily is
               important.
             </p>
           </div>
-          <div className="col-span-1 mb-4">
+          <div className="col-span-3 mb-4">
             <img
               src={quality}
               className="max-w-full h-auto"
               alt="Quality"
             ></img>
           </div>
-          <div className="col-span-5 mb-4">
+          <div className="col-span-9 mb-4">
             <p className="text-left text-lg sm:text-2xl pl-8">
               Parents and caregivers are often busy with their child’s schedule
               as well as their own. Finding activities quickly and easily is
               important.
             </p>
           </div>
-          <div className="col-span-1 mb-4">
+          <div className="col-span-3 mb-4">
             <img
               src={availability}
               className="max-w-full h-auto"
               alt="Availability"
             ></img>
           </div>
-          <div className="col-span-5 mb-4">
+          <div className="col-span-9 mb-4">
             <p className="text-left text-lg sm:text-2xl pl-8">
               Parents and caregivers do not often have the materials necessary
               for an activity available at home. A link to an itemized online
@@ -290,7 +300,7 @@ export default function CaseStudy1() {
             alt="Mobile Preview"
           ></img>
         </div>
-        <h3 className="text-3xl sm:text-5xl text-center font-semibold mt-16">
+        <h3 className="text-3xl sm:text-6xl text-center font-semibold mt-16">
           Define
         </h3>
         <p className="mt-4 text-start text-lg sm:text-2xl">
@@ -312,7 +322,7 @@ export default function CaseStudy1() {
               <img
                 src={user_persona1}
                 className="max-w-full h-auto"
-                alt="Portrait"
+                alt="User Persona One"
               ></img>
             </div>
           </div>
@@ -359,12 +369,12 @@ export default function CaseStudy1() {
           as well as view and leave comments. The more basic features were added
           based on competitor analysis.
         </p>
-        <div className="flex justify-center items-center mb-16 mt-8 sm:mb-0">
+        <div className="flex justify-center items-center mb-8 sm:mb-16 mt-8 sm:mb-0">
           <div>
             <img
               src={feature_set}
               className="max-w-full h-auto"
-              alt="Portrait"
+              alt="Feature Set"
             ></img>
           </div>
         </div>
@@ -382,7 +392,7 @@ export default function CaseStudy1() {
             <img
               src={learn_grow_sitemap1}
               className="max-w-full h-auto"
-              alt="Portrait"
+              alt="Site Map"
             ></img>
           </div>
         </div>
@@ -406,13 +416,13 @@ export default function CaseStudy1() {
             <img
               src={user_flows}
               className="max-w-full h-auto"
-              alt="Portrait"
+              alt="User Flows"
             ></img>
           </div>
         </div>
       </div>
-      <div className="flex flex-col mt-8 px-24 rounded-2xl bg-primary">
-        <h3 className="text-3xl sm:text-5xl text-center font-semibold mt-8">
+      <div className="flex flex-col mt-8 sm:px-24 px-6 rounded-2xl bg-primary">
+        <h3 className="text-3xl sm:text-6xl text-center font-semibold mt-8">
           Design
         </h3>
         <p className="mt-4 text-start text-lg sm:text-2xl">
@@ -442,11 +452,11 @@ export default function CaseStudy1() {
             <img
               src={early_sketches}
               className="max-w-full h-auto"
-              alt="Portrait"
+              alt="Early Sketches"
             ></img>
           </div>
         </div>
-        <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-16">
+        <h2 className="text-2xl sm:text-4xl text-start font-semibold sm:mt-16">
           Branding
         </h2>
         <p className="mt-4 text-start text-lg sm:text-2xl">
@@ -469,12 +479,12 @@ export default function CaseStudy1() {
             <img
               src={mood_board_w_color_pallette1}
               className="max-w-full h-auto"
-              alt="Portrait"
+              alt="Mood Board"
             ></img>
           </div>
         </div>
-        <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-16">
-          My Fidelity Wireframes
+        <h2 className="text-2xl sm:text-4xl text-start font-semibold sm:mt-16">
+          Mid Fidelity Wireframes
         </h2>
         <p className="mt-4 text-start text-lg sm:text-2xl">
           Based on the sketches, I created mid fidelity,{' '}
@@ -491,11 +501,11 @@ export default function CaseStudy1() {
             <img
               src={mid_fi_wire_frames}
               className="max-w-full h-auto"
-              alt="Portrait"
+              alt="Mid fi wire frames"
             ></img>
           </div>
         </div>
-        <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-16">
+        <h2 className="text-2xl sm:text-4xl text-start font-semibold sm:mt-16">
           High Fidelity UI
         </h2>
         <p className="mt-4 text-start text-lg sm:text-2xl">
@@ -521,13 +531,13 @@ export default function CaseStudy1() {
             <img
               src={hi_fi_wire_frames}
               className="max-w-full h-auto"
-              alt="Portrait"
+              alt="Hi fi wire frames"
             ></img>
           </div>
         </div>
       </div>
-      <div className="flex flex-col mt-16 mb-8 px-24">
-        <h3 className="text-3xl sm:text-5xl text-center font-semibold">Test</h3>
+      <div className="flex flex-col mt-16 mb-8 sm:px-24 px-6">
+        <h3 className="text-3xl sm:text-6xl text-center font-semibold">Test</h3>
         <p className="mt-4 text-start text-lg sm:text-2xl">
           At the end of the visual design portion came one of the most important
           parts of the Cleverist design process - testing. I felt confident
@@ -579,11 +589,11 @@ export default function CaseStudy1() {
             <img
               src={cleverist_iphone}
               className="max-w-full h-auto"
-              alt="Portrait"
+              alt="Cleverist iphone preview"
             ></img>
           </div>
         </div>
-        <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-16">
+        <h2 className="text-2xl sm:text-4xl text-start font-semibold sm:mt-16">
           Analyzing & Prioritizing Results
         </h2>
         <p className="mt-4 text-start text-lg sm:text-2xl">
@@ -594,7 +604,7 @@ export default function CaseStudy1() {
           <strong>design opportunities</strong> and{' '}
           <strong>potential next steps.</strong>
         </p>
-        <div className="grid grid-cols-2 mt-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 mt-8">
           <div className="col-span-1">
             <p className="font-semibold text-lg sm:text-2xl text-left">
               What Worked:
@@ -609,7 +619,7 @@ export default function CaseStudy1() {
               </ul>
             </p>
           </div>
-          <div className="col-span-1">
+          <div className="col-span-1 mt-8 sm:mt-0">
             <p className="font-semibold text-lg sm:text-2xl text-left">
               What Could Change:
               <ul className="list-disc pl-4 mt-4">
@@ -631,11 +641,11 @@ export default function CaseStudy1() {
             <img
               src={analyzing_results1}
               className="max-w-full h-auto"
-              alt="Portrait"
+              alt="Analyzing results"
             ></img>
           </div>
         </div>
-        <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-16">
+        <h2 className="text-2xl sm:text-4xl text-start font-semibold sm:mt-16">
           Final Iterations
         </h2>
         <p className="mt-4 text-start text-lg sm:text-2xl">
@@ -647,12 +657,12 @@ export default function CaseStudy1() {
           <li className="mt-4">
             Button at the end of filter section to allow the user to apply
             filters rather than clicking “X”.
-            <div className="flex justify-center items-center mb-16 mt-8 sm:mb-0">
+            <div className="flex justify-center items-center mt-4 sm:mb-0">
               <div>
                 <img
                   src={activity_filters}
                   className="max-w-full h-auto"
-                  alt="Portrait"
+                  alt="Activity Filters"
                 ></img>
               </div>
             </div>
@@ -660,12 +670,12 @@ export default function CaseStudy1() {
           <li className="mt-4">
             Button at the end of filter section to allow the user to apply
             filters rather than clicking “X”.
-            <div className="flex justify-center items-center mb-16 mt-8 sm:mb-0">
+            <div className="flex justify-center items-center mt-4 sm:mb-0">
               <div>
                 <img
                   src={color_mixing}
                   className="max-w-full h-auto"
-                  alt="Portrait"
+                  alt="Color Mixing"
                 ></img>
               </div>
             </div>
@@ -673,20 +683,20 @@ export default function CaseStudy1() {
           <li className="mt-4">
             On the Activity page, “Leave a Comment” section added before the
             existing comments from other users.
-            <div className="flex justify-center items-center mb-16 mt-8 sm:mb-0">
+            <div className="flex justify-center items-center mb-16 mt-4 sm:mb-0">
               <div>
                 <img
                   src={comments}
                   className="max-w-full h-auto"
-                  alt="Portrait"
+                  alt="Comments"
                 ></img>
               </div>
             </div>
           </li>
         </ul>
       </div>
-      <div className="flex flex-col mt-16 px-24 rounded-2xl bg-secondary">
-        <h3 className="text-3xl sm:text-5xl text-center font-semibold mt-8">
+      <div className="flex flex-col mt-16 sm:px-24 px-6 rounded-2xl bg-secondary">
+        <h3 className="text-3xl sm:text-6xl text-center font-semibold mt-8">
           Next Steps
         </h3>
         <p className="mt-4 text-start text-lg sm:text-2xl mb-8">
@@ -700,8 +710,8 @@ export default function CaseStudy1() {
           </ul>
         </p>
       </div>
-      <div className="flex flex-col mt-16 px-24 rounded-2xl bg-accent mb-16 text-white">
-        <h3 className="text-3xl sm:text-5xl text-center font-semibold mt-8">
+      <div className="flex flex-col mt-16 sm:px-24 px-6 rounded-2xl bg-accent mb-16 text-white">
+        <h3 className="text-3xl sm:text-6xl text-center font-semibold mt-8">
           Learnings & Final Thoughts
         </h3>
         <p className="mt-4 text-left text-lg sm:text-2xl">
