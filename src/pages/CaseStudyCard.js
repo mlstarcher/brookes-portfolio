@@ -13,7 +13,7 @@ export default function CaseStudyCard({ case_study }) {
         ></img>
       </div>
       <div className="flex flex-col justify-center">
-        <h4 className="font-semibold text-3xl sm:text-5xl mb-4 mt-8 sm:mt-0">
+        <h4 className="font-semibold text-2xl sm:text-4xl mb-4 mt-8 sm:mt-0">
           {case_study.title}
         </h4>
         <p className="sm:mb-8 mb-4 text-base sm:text-2xl line-clamp-3">
