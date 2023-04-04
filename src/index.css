@@ -139,11 +139,14 @@ body {
 .scroll-content {
   height: 100%;
   overflow: scroll;
-  /* margin-right: -17px;
-  padding-right: 17px; */
+  margin-top: 16px;
 }
 
 ::-webkit-scrollbar {
   width: 0px;
   background: transparent; /* make scrollbar invisible */
+}
+
+.screen {
+  background-color: #F1EEE7 !important;
 }

@@ -57,14 +57,14 @@ export default function CaseStudy1() {
           <DeviceFrameset
             device="iPhone X"
             color="black"
-            height="600px"
+            height="580px"
             width="300px"
           >
             <div className="scroll-content">
               <img
                 src={cleverist_mobile_wireframe}
                 className="max-w-full h-auto"
-                alt="How might we provide quality educational activites for parents and caregivers to do with their children at home?"
+                alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
               ></img>
             </div>
           </DeviceFrameset>
@@ -121,7 +121,7 @@ export default function CaseStudy1() {
             <img
               src={how_might_we1}
               className="max-w-full h-auto"
-              alt="How might we provide quality educational activites for parents and caregivers to do with their children at home?"
+              alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
             ></img>
           </div>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold">
