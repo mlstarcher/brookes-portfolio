@@ -139,7 +139,7 @@ body {
 .scroll-content {
   height: 100%;
   overflow: scroll;
-  margin-top: 16px;
+  margin-top: 20px;
 }
 
 ::-webkit-scrollbar {
@@ -149,4 +149,8 @@ body {
 
 .screen {
   background-color: rgb(250, 243, 237) !important;
+}
+
+.notch {
+  left: 70.5px !important;
 }

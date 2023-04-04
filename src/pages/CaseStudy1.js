@@ -1,10 +1,10 @@
 import React from 'react';
-import { DeviceFrameset, iPhoneX } from 'react-device-frameset';
+import { DeviceFrameset } from 'react-device-frameset';
 import '../marvel-devices.min.css';
 
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
-import cleverist_image1 from '../assets/cleverist_image1.png';
+// import cleverist_image1 from '../assets/cleverist_image1.png';
 import cleverist_iphone from '../assets/cleverist_iphone.png';
 import color_mixing from '../assets/color_mixing.png';
 import early_sketches from '../assets/early_sketches.png';
