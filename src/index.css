@@ -135,3 +135,15 @@ body {
   width: 0%;
   left: 50%;
 }
+
+.scroll-content {
+  height: 100%;
+  overflow: scroll;
+  /* margin-right: -17px;
+  padding-right: 17px; */
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  background: transparent; /* make scrollbar invisible */
+}

@@ -1,4 +1,8 @@
 import React from 'react';
+import { DeviceFrameset, iPhoneX } from 'react-device-frameset';
+import '../marvel-devices.min.css';
+
+//Images and icons
 import { FaArrowRight } from 'react-icons/fa';
 import cleverist_image1 from '../assets/cleverist_image1.png';
 import cleverist_iphone from '../assets/cleverist_iphone.png';
@@ -24,7 +28,7 @@ import kiwico from '../assets/kiwico.png';
 import pbs_kids from '../assets/pbs_kids.png';
 import little_passports from '../assets/little_passports.png';
 import comments from '../assets/comments.png';
-
+import cleverist_mobile_wireframe from '../assets/cleverist_mobile_wireframe.jpg';
 export default function CaseStudy1() {
   return (
     <div className="bg-offWhite sm:mx-0 mx-8">
@@ -50,11 +54,20 @@ export default function CaseStudy1() {
           </a>
         </div>
         <div className="flex items-center mb-8 sm:mb-16 col-span-12 sm:col-span-6 sm:col-start-7">
-          <img
-            src={cleverist_image1}
-            className="max-w-full"
-            alt="Mobile Preview"
-          ></img>
+          <DeviceFrameset
+            device="iPhone X"
+            color="black"
+            height="600px"
+            width="300px"
+          >
+            <div className="scroll-content">
+              <img
+                src={cleverist_mobile_wireframe}
+                className="max-w-full h-auto"
+                alt="How might we provide quality educational activites for parents and caregivers to do with their children at home?"
+              ></img>
+            </div>
+          </DeviceFrameset>
         </div>
       </div>
       <div className="bg-accent text-white p-8 py-8 grid grid-cols-12 rounded-2xl mb-16">
