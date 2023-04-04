@@ -8,7 +8,7 @@ export default function Layout() {
   return (
     <div className="flex flex-col">
       <Header />
-      <div className="container mx-auto mt-4 wrapper">
+      <div className="container mx-auto mt-4 wrapper px-4">
         <Outlet />
       </div>
       {/* <ScrollButton /> */}
