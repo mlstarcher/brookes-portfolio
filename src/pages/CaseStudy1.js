@@ -32,7 +32,7 @@ export default function CaseStudy1() {
   return (
     <div className="bg-offWhite sm:mx-0 mx-8">
       <div className="grid grid-cols-12">
-        <div className="flex flex-col justify-center items-center mb-8 sm:mb-0 col-span-12 sm:col-span-6 sm:col-start-2 sm:col-end-6">
+        <div className="flex flex-col justify-center items-center mb-8 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
             Cleverist
           </h1>
@@ -52,7 +52,7 @@ export default function CaseStudy1() {
             </div>
           </a>
         </div>
-        <div className="flex items-center mb-8 sm:mb-16 col-span-12 sm:col-span-6 sm:col-start-7">
+        <div className="flex items-center mb-8 sm:mb-16 col-span-12  sm:col-start-8">
           <div className="relative" style={{ height: '600px', width: '300px' }}>
             <img
               className="absolute z-10 pointer-events-none"
@@ -70,21 +70,6 @@ export default function CaseStudy1() {
               ></img>
             </div>
           </div>
-
-          {/* <DeviceFrameset
-            device="iPhone X"
-            color="black"
-            height="580px"
-            width="300px"
-          >
-            <div className="scroll-content">
-              <img
-                src={cleverist_mobile_wireframe}
-                className="max-w-full h-auto"
-                alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
-              ></img>
-            </div>
-          </DeviceFrameset> */}
         </div>
       </div>
       <div className="bg-accent text-white p-8 py-8 grid grid-cols-12 rounded-2xl mb-16">
