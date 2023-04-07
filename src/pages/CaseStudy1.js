@@ -1,10 +1,8 @@
 import React from 'react';
-import { DeviceFrameset } from 'react-device-frameset';
 import '../marvel-devices.min.css';
 
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
-// import cleverist_image1 from '../assets/cleverist_image1.png';
 import cleverist_iphone from '../assets/cleverist_iphone.png';
 import color_mixing from '../assets/color_mixing.png';
 import early_sketches from '../assets/early_sketches.png';
@@ -28,6 +26,7 @@ import kiwico from '../assets/kiwico.png';
 import pbs_kids from '../assets/pbs_kids.png';
 import little_passports from '../assets/little_passports.png';
 import comments from '../assets/comments.png';
+import iphone_14 from '../assets/iphone_14_transparent.png';
 import cleverist_mobile_wireframe from '../assets/cleverist_mobile_wireframe.jpg';
 export default function CaseStudy1() {
   return (
@@ -54,7 +53,25 @@ export default function CaseStudy1() {
           </a>
         </div>
         <div className="flex items-center mb-8 sm:mb-16 col-span-12 sm:col-span-6 sm:col-start-7">
-          <DeviceFrameset
+          <div className="relative" style={{ height: '600px', width: '300px' }}>
+            <img
+              className="absolute z-10 pointer-events-none"
+              src={iphone_14}
+              alt="Mobile preview"
+            ></img>
+            <div
+              className="m-4 mb-0 overflow-scroll"
+              style={{ height: '595px' }}
+            >
+              <img
+                src={cleverist_mobile_wireframe}
+                className="max-w-full h-auto"
+                alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
+              ></img>
+            </div>
+          </div>
+
+          {/* <DeviceFrameset
             device="iPhone X"
             color="black"
             height="580px"
@@ -67,7 +84,7 @@ export default function CaseStudy1() {
                 alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
               ></img>
             </div>
-          </DeviceFrameset>
+          </DeviceFrameset> */}
         </div>
       </div>
       <div className="bg-accent text-white p-8 py-8 grid grid-cols-12 rounded-2xl mb-16">
