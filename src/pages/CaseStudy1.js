@@ -31,7 +31,7 @@ import cleverist_mobile_wireframe from '../assets/cleverist_mobile_wireframe.jpg
 export default function CaseStudy1() {
   return (
     <div className="bg-offWhite sm:mx-0 mx-8">
-      <div className="grid grid-cols-12">
+      <div className="grid grid-cols-12 mb-20">
         <div className="flex flex-col justify-center items-center mb-8 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
             Cleverist
@@ -52,7 +52,7 @@ export default function CaseStudy1() {
             </div>
           </a>
         </div>
-        <div className="flex items-center mb-8 sm:mb-16 col-span-12  sm:col-start-8">
+        <div className="flex items-center col-span-12  sm:col-start-8">
           <div className="relative" style={{ height: '600px', width: '300px' }}>
             <img
               className="absolute z-10 pointer-events-none"
@@ -72,7 +72,7 @@ export default function CaseStudy1() {
           </div>
         </div>
       </div>
-      <div className="bg-accent text-white p-8 py-8 grid grid-cols-12 rounded-2xl mb-16">
+      <div className="bg-accent text-white p-8 py-8 grid grid-cols-12 rounded-2xl mb-32">
         <div className="col-span-12 sm:col-span-3">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
           <p className="text-lg sm:text-2xl">End-to-end UX/UI designer</p>
@@ -92,20 +92,20 @@ export default function CaseStudy1() {
       </div>
       <div className="grid grid-cols-12">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-4">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-10">
             Overview
           </h3>
-          <p className="text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-32">
             Cleverist is a fictitious company that{' '}
             <strong>
               makes it simpler for parents and caregivers to find all of the
               information and materials that they need in one place.
             </strong>
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt16 mb-4">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold  mb-12">
             The Problem
           </h2>
-          <p className="text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-32">
             <strong>
               As a parent or caregiver, finding ways to support a child’s
               education and development from home can be a difficult task.
@@ -119,17 +119,17 @@ export default function CaseStudy1() {
             philosophies or approaches. Cleverist researched how to address
             these pain points.
           </p>
-          <div className="flex flex-col items-center mt-8 mb-8 sm:mb-16">
+          <div className="flex flex-col items-center mt-8 mb-8 sm:mb-32">
             <img
               src={how_might_we1}
               className="max-w-full h-auto"
               alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
             ></img>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
             The Solution
           </h2>
-          <div className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <div className="text-start text-lg sm:text-2xl mb-32">
             <p>A responsive mobile site where parents and caregivers can:</p>
             <ul className="list-disc ml-8">
               <li>
@@ -142,18 +142,18 @@ export default function CaseStudy1() {
               </li>
             </ul>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt-16">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-20">
             Design Thinking Process
           </h2>
           <img
             src={design_thinking_image}
-            className="max-w-full h-auto mt-4 sm:mt-8"
+            className="max-w-full h-auto mb-32"
             alt="Research, define, design, test"
           ></img>
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mt-16">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-12">
             Research
           </h3>
-          <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <p className="mb-32 text-start text-lg sm:text-2xl">
             My goal was to understand the experience that parents or caregivers
             have when trying to facilitate educational activities for their
             children at home. I made a research plan to find out what materials
@@ -162,10 +162,10 @@ export default function CaseStudy1() {
             competition to see what they offered, and kept that in mind during
             user interviews.
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt-16">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
             Looking at the competition
           </h2>
-          <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <p className=" text-start text-lg sm:text-2xl mb-20">
             All of the competitor services offered educational activities, but
             the subscription services tended to be costly and not backed by
             educational resources. The non subscription service had lots of
@@ -174,7 +174,7 @@ export default function CaseStudy1() {
           </p>
         </div>
       </div>
-      <div className="bg-primary p-8 grid grid-cols-12 rounded-2xl mt-8 sm:mt-16">
+      <div className="bg-primary p-8 grid grid-cols-12 rounded-2xl mb-32">
         <div className="col-span-12 sm:col-span-4 flex flex-col items-center">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
@@ -218,10 +218,10 @@ export default function CaseStudy1() {
       </div>
       <div className="grid grid-cols-12 mt-8 sm:mt-16">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
             Hearing People's Stories
           </h2>
-          <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <p className="mb-20 text-start text-lg sm:text-2xl">
             I held 1:1 user interviews with three research participants to learn
             about their needs and pain points when looking for educational
             activities to do with their children. I learned that{' '}
@@ -229,39 +229,39 @@ export default function CaseStudy1() {
               the main concerns were time, quality, and availability.
             </strong>
           </p>
-          <div className="mt-4 sm:mt-8 grid grid-cols-12">
-            <div className="col-span-3 mb-4">
+          <div className="grid grid-cols-12 mb-20">
+            <div className="col-span-3 mb-12">
               <img src={time} className="max-w-full h-auto" alt="time"></img>
             </div>
-            <div className="col-span-9 mb-4">
+            <div className="col-span-9 mb-12">
               <p className="text-left text-lg sm:text-2xl pl-4">
                 Parents and caregivers are often busy with their child’s
                 schedule as well as their own. Finding activities quickly and
                 easily is important.
               </p>
             </div>
-            <div className="col-span-3 mb-4">
+            <div className="col-span-3 mb-12">
               <img
                 src={quality}
                 className="max-w-full h-auto"
                 alt="Quality"
               ></img>
             </div>
-            <div className="col-span-9 mb-4">
+            <div className="col-span-9 mb-12">
               <p className="text-left text-lg sm:text-2xl pl-4">
                 Parents and caregivers are often busy with their child’s
                 schedule as well as their own. Finding activities quickly and
                 easily is important.
               </p>
             </div>
-            <div className="col-span-3 mb-4">
+            <div className="col-span-3 mb-12">
               <img
                 src={availability}
                 className="max-w-full h-auto"
                 alt="Availability"
               ></img>
             </div>
-            <div className="col-span-9 mb-4">
+            <div className="col-span-9 mb-12">
               <p className="text-left text-lg sm:text-2xl pl-4">
                 Parents and caregivers do not often have the materials necessary
                 for an activity available at home. A link to an itemized online
@@ -270,9 +270,9 @@ export default function CaseStudy1() {
             </div>
           </div>
           <div className="mt-8 text-left">
-            <p className="text-lg sm:text-2xl mb-8">Some key quotes were:</p>
+            <p className="text-lg sm:text-2xl mb-14">Some key quotes were:</p>
           </div>
-          <div className="flex mb-8">
+          <div className="flex mb-32">
             <div
               className="bg-accent rounded mr-4"
               style={{ width: '10px' }}
@@ -285,7 +285,7 @@ export default function CaseStudy1() {
               </strong>
             </p>
           </div>
-          <div className="flex mb-8">
+          <div className="flex mb-32">
             <div
               className="bg-accent rounded mr-4"
               style={{ width: '10px' }}
@@ -298,7 +298,7 @@ export default function CaseStudy1() {
               </strong>
             </p>
           </div>
-          <div className="flex mb-8">
+          <div className="flex mb-32">
             <div
               className="bg-accent rounded mr-4"
               style={{ width: '10px' }}
@@ -312,17 +312,17 @@ export default function CaseStudy1() {
               </strong>
             </p>
           </div>
-          <div className="flex flex-col items-center mt-8">
+          <div className="flex flex-col items-center mb-322">
             <img
               src={how_might_we2}
               className="max-w-full h-auto"
               alt="Mobile Preview"
             ></img>
           </div>
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mt-8 sm:mt-16">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-10 ">
             Define
           </h3>
-          <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <p className="mb-20 text-start text-lg sm:text-2xl">
             Before coming up with a design to solve this problem, I needed to
             further define our target user and find out what their wants and
             needs would be for this product. Meet our user Megan. Megan is a
@@ -331,10 +331,9 @@ export default function CaseStudy1() {
             the educational reasoning behind the activities, and participate in
             the activities with her children.
           </p>
-
           <div className="flex justify-center items-center sm:mb-0">
             <div className="flex flex-col items-start">
-              <h2 className="text-2xl sm:text-4xl text-left font-semibold mt-8 sm:mt-16 mb-4 sm:mb-8">
+              <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-12">
                 Meet Megan
               </h2>
               <a
@@ -344,45 +343,45 @@ export default function CaseStudy1() {
               >
                 <img
                   src={user_persona1}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto mb-32"
                   alt="Link to user persona figma file"
                 ></img>
               </a>
             </div>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt-16">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
             Determining the Problems to Solve
           </h2>
-          <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-10">
             With the needs of our user identified, it was clear that there was a
             need for an educational activity resource that{' '}
             <strong>was quick and easy to use,</strong> and that gave a{' '}
             <strong>simple solution for gathering materials</strong> for each
             activity.
           </p>
-          <p className="mt-4 text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-32">
             The next question was: how can these goals be achieved with
             Cleverist? Since one of the biggest pain points was time, I wanted
             to ensure that the site’s design was{' '}
             <strong>easy to understand,</strong> and organized in a way that
             made it as <strong>time efficient</strong> as possible.
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt-16">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
             Finding the Flow
           </h2>
-          <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-32">
             With the user’s problems in mind, the next steps were to determine
             our feature set, create a site map, and user flows. These tools
             helped give scaffolding to the design of the product.
           </p>
-          <div className="flex flex-col items-center mt-8">
+          <div className="flex flex-col items-center mb-32">
             <img
               src={how_might_we3}
               className="max-w-full h-auto"
               alt="Mobile Preview"
             ></img>
           </div>
-          <p className="mt-8 sm:mt-16 text-start text-lg sm:text-2xl">
+          <p className="mb-20 text-start text-lg sm:text-2xl">
             The <strong>feature set</strong> shown here helped me to narrow in
             on which of our desired features were must-haves for a minimum
             viable product, versus which features would be nice but could be
@@ -392,7 +391,7 @@ export default function CaseStudy1() {
             the activities, as well as view and leave comments. The more basic
             features were added based on competitor analysis.
           </p>
-          <div className="flex justify-center items-center mt-8 sm:mt-16">
+          <div className="flex justify-center items-center mb-32">
             <div>
               <img
                 src={feature_set}
@@ -401,7 +400,7 @@ export default function CaseStudy1() {
               ></img>
             </div>
           </div>
-          <p className="mt-8 sm:mt-16 text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-20">
             The <strong>sitemap</strong> was built by considering the feature
             set and how it could be best applied for quick and easy navigation.
             The Log In and Search icons area separated from the navigation and
@@ -410,7 +409,7 @@ export default function CaseStudy1() {
             Activities. Each of those navigation points expands further to
             include more detailed options.
           </p>
-          <div className="flex justify-center items-center mt-8 sm:mt-16">
+          <div className="flex justify-center items-center mb-32">
             <div>
               <img
                 src={learn_grow_sitemap1}
@@ -419,7 +418,7 @@ export default function CaseStudy1() {
               ></img>
             </div>
           </div>
-          <p className="mt-8 sm:mt-16 text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-20">
             These <strong>user flows</strong> helped determine exactly the
             Cleverist user would go about creating an account, and how to find
             and save an activity. Both of which were very important to the
@@ -434,7 +433,7 @@ export default function CaseStudy1() {
             the way I received feedback from critiques and usability tests and
             the filters were changed to Age, Subject, and Duration for clarity.
           </p>
-          <div className="flex justify-center items-center mt-8 sm:mt-16">
+          <div className="flex justify-center items-center mb-32">
             <div>
               <img
                 src={user_flows}
@@ -445,13 +444,13 @@ export default function CaseStudy1() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12">
-        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-16 mt-8 sm:mt-16 px-6 rounded-2xl bg-primary grid grid-cols-12 sm:grid-cols-10">
+      <div className="grid grid-cols-12 mb-32">
+        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-16 px-6 rounded-2xl bg-primary grid grid-cols-12 sm:grid-cols-10">
           <div className="col-span-12 sm:col-span-8 sm:col-start-2 flex flex-col">
-            <h3 className="text-3xl sm:text-6xl text-center font-semibold">
+            <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-12">
               Design
             </h3>
-            <p className="mt-4 sm:mt-8 text-left text-lg sm:text-2xl">
+            <p className="text-left text-lg sm:text-2xl mb-32">
               After determining my information architecture, i got to work
               creating concept sketches and worked on branding using Cleverist’s
               core values. Using the sketches and branding, I moved on to
@@ -460,10 +459,10 @@ export default function CaseStudy1() {
               while still providing a
               <strong>delightful and inspiring experience.</strong>
             </p>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt-16">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
               Early Sketches
             </h2>
-            <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+            <p className="mb-12 text-start text-lg sm:text-2xl">
               I began with some <strong>low fidelity</strong> concept sketches
               to get an idea of how things would look. While these were a great
               place to start, there was still a lot of UI work to do to pull it
@@ -475,7 +474,7 @@ export default function CaseStudy1() {
               would appear to the user, and how an activity page would look once
               one activity was chosen.
             </p>
-            <div className="flex justify-center items-center mt-4 sm:mt-8 px-0 sm:px-16">
+            <div className="flex justify-center items-center px-0 sm:px-16 mb-32">
               <a
                 href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=0%3A1&t=05AJXlKrrTlhUCzR-1"
                 target="_blank"
@@ -488,17 +487,19 @@ export default function CaseStudy1() {
                 ></img>
               </a>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt-16">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
               Branding
             </h2>
-            <div className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
-              With a general idea of how the site could be laid out, the next
-              piece was deciding how I would communicate the Cleverist values
-              using inspiration, color pallette, and logo. I chose to use colors
-              that were a playful spin on primary colors so often seen in
-              children’s products. The core values that I wanted to communicate
-              with the overall branding were:
-              <ul className="list-disc ml-8 mt-4 sm:mt-8">
+            <div className="text-start text-lg sm:text-2xl mb-20">
+              <p className="mb-10">
+                With a general idea of how the site could be laid out, the next
+                piece was deciding how I would communicate the Cleverist values
+                using inspiration, color pallette, and logo. I chose to use
+                colors that were a playful spin on primary colors so often seen
+                in children’s products. The core values that I wanted to
+                communicate with the overall branding were:
+              </p>
+              <ul className="list-disc ml-8">
                 <li>Inspiring</li>
                 <li>Playful</li>
                 <li>Creative</li>
@@ -506,7 +507,7 @@ export default function CaseStudy1() {
                 <li>Approachable</li>
               </ul>
             </div>
-            <div className="flex justify-center items-center mt-4 sm:mt-8">
+            <div className="flex justify-center items-center mb-32">
               <div>
                 <img
                   src={mood_board_w_color_pallette1}
@@ -515,10 +516,10 @@ export default function CaseStudy1() {
                 ></img>
               </div>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt-16">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
               Mid Fidelity Wireframes
             </h2>
-            <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+            <p className="text-start text-lg sm:text-2xl mb-20">
               Based on the sketches, I created mid fidelity,{' '}
               <strong>responsive wireframes </strong> across mobile and desktop
               so that users could access the site on different devices and have
@@ -528,7 +529,7 @@ export default function CaseStudy1() {
               filters in a checklist style rather than a braod drop down
               category so that the user could choose multiple filter options.
             </p>
-            <div className="flex justify-center items-center mt-4 sm:mt-8">
+            <div className="flex justify-center items-center mb-32">
               <a
                 href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=1%3A2&t=05AJXlKrrTlhUCzR-1"
                 target="_blank"
@@ -541,10 +542,10 @@ export default function CaseStudy1() {
                 ></img>
               </a>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt-16">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
               High Fidelity UI
             </h2>
-            <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+            <p className="text-start text-lg sm:text-2xl mb-12">
               This step is where the design really came together visually. I was
               able to fully design the Cleverist site while keeping our persona,
               Megan in mind. A combination of custom made icons and real imagery
@@ -555,7 +556,7 @@ export default function CaseStudy1() {
               href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=1%3A3&t=05AJXlKrrTlhUCzR-1"
               target="_blank"
               rel="noopener noreferrer"
-              className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer mt-4 sm:mt-8"
+              className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer mb-20"
             >
               <div className="flex items-center">
                 <p className="mr-2">View all designs in Figma</p>
@@ -578,12 +579,12 @@ export default function CaseStudy1() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 mt-8 sm:mt-16 ">
+      <div className="grid grid-cols-12">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-12">
             Test
           </h3>
-          <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-12">
             At the end of the visual design portion came one of the most
             important parts of the Cleverist design process - testing. I felt
             confident about my overall design but conducting usability tests
@@ -594,25 +595,25 @@ export default function CaseStudy1() {
             href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
+            className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer mb-32"
           >
-            <div className="flex items-center mt-4 sm:mt-8">
+            <div className="flex items-center">
               <p className="mr-2">View Prototype</p>
               <FaArrowRight className="m-h-5" />
             </div>
           </a>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt-16">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
             Usability Testing
           </h2>
-          <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-10">
             I conducted usability testing sessions to test the homepage, the
             process of creating an account, and the process of finding and
             saving an activity using filters. I held usability testing sessions
             with three participants and documented all feedback.
           </p>
-          <div className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <div className="text-start text-lg sm:text-2xl ">
             The usability test goals were:
-            <ul className="list-disc ml-8">
+            <ul className="list-disc ml-8 mb-10">
               <li>
                 To evaluate wether the prototype allows users to quickly and
                 effectively complete the task flows that the wireframes were
@@ -624,14 +625,14 @@ export default function CaseStudy1() {
               </li>
             </ul>
           </div>
-          <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-20">
             The usability <strong>tests were considered successful</strong>{' '}
             because all of the users could quickly and effectively complete the
             task flows that the wireframes were created for. Some feedback was
             given for future iterations which will be applied to make the
             Cleverist site even easier and more delightful to use.
           </p>
-          <div className="flex justify-center items-center mt-8 sm:mt-16">
+          <div className="flex justify-center items-center mb-32">
             <div>
               <img
                 src={cleverist_iphone}
@@ -640,10 +641,10 @@ export default function CaseStudy1() {
               ></img>
             </div>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt-16">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
             Analyzing & Prioritizing Results
           </h2>
-          <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-20">
             I took the <strong>insights</strong> from the usability testing
             sessions and organized them in a way that would show what worked,
             what could change, what questions the participants had, and their
@@ -651,7 +652,7 @@ export default function CaseStudy1() {
             <strong>design opportunities</strong> and{' '}
             <strong>potential next steps.</strong>
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 mt-8 sm:mt-16">
+          <div className="grid grid-cols-1 sm:grid-cols-2 mb-20">
             <div className="col-span-1">
               <div className="font-semibold text-lg sm:text-2xl text-left">
                 What Worked:
@@ -683,7 +684,7 @@ export default function CaseStudy1() {
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center mt-8 sm:mt-16">
+          <div className="flex justify-center items-center mb-32">
             <div>
               <img
                 src={analyzing_results1}
@@ -692,20 +693,20 @@ export default function CaseStudy1() {
               ></img>
             </div>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mt-8 sm:mt-16">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-12">
             Final Iterations
           </h2>
-          <p className="mt-4 sm:mt-8 text-start text-lg sm:text-2xl">
+          <p className="text-start text-lg sm:text-2xl mb-12">
             Based on the test results, I made some priority revisions throughout
             the site based on how impactful it would be and how it would fit
             into the time frame I had. Below are the main revisions that were
             made.
           </p>
-          <ul className="list-disc ml-8 font-semibold text-lg sm:text-2xl text-left mt-4 sm:mt-8">
-            <li className="mt-4">
+          <ul className="list-disc ml-8 font-semibold text-lg sm:text-2xl text-left mb-20">
+            <li className="mb-20">
               Button at the end of filter section to allow the user to apply
               filters rather than clicking “X”.
-              <div className="flex justify-center items-center mt-8 sm:mt-16">
+              <div className="flex justify-center items-center mb-32">
                 <div>
                   <img
                     src={activity_filters}
@@ -715,10 +716,10 @@ export default function CaseStudy1() {
                 </div>
               </div>
             </li>
-            <li className="mt-4 sm:mt-8">
+            <li className="mb-20">
               Button at the end of filter section to allow the user to apply
               filters rather than clicking “X”.
-              <div className="flex justify-center items-center mt-8 sm:mt-16">
+              <div className="flex justify-center items-center mb-32">
                 <div>
                   <img
                     src={color_mixing}
@@ -728,10 +729,10 @@ export default function CaseStudy1() {
                 </div>
               </div>
             </li>
-            <li className="mt-4 sm:mt-8">
+            <li className="mb-12">
               On the Activity page, “Leave a Comment” section added before the
               existing comments from other users.
-              <div className="flex justify-center items-center mt-8 sm:mt-16">
+              <div className="flex justify-center items-center mb-32">
                 <div>
                   <img
                     src={comments}
@@ -744,12 +745,12 @@ export default function CaseStudy1() {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-12 mt-8 sm:mt-16 p-8 sm:px-0 rounded-2xl bg-secondary">
+      <div className="grid grid-cols-12 p-8 sm:px-0 rounded-2xl bg-secondary mb-32">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mt-8">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-12">
             Next Steps
           </h3>
-          <div className="mt-4 text-start text-lg sm:text-2xl mb-8">
+          <div className="mt-4 text-start text-lg sm:text-2xl mb-10">
             With more time, the next steps I would take on this design project
             would be:
             <ul className="list-disc ml-8 font-semibold">
@@ -761,31 +762,31 @@ export default function CaseStudy1() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 mt-8 sm:mt-16 mb-8 sm:mb-16 sm:px-0 p-8 rounded-2xl bg-accent text-white">
+      <div className="grid grid-cols-12 mb-32 sm:px-0 p-8 rounded-2xl bg-accent text-white">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mt-8">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-12">
             Learnings & Final Thoughts
           </h3>
-          <p className="mt-4 text-left text-lg sm:text-2xl">
+          <p className="mb-10 text-left text-lg sm:text-2xl">
             This was my first real UI/UX design project that I have worked on
             and I learned so much from it.My main growth came in the areas of
             tool sets (primarily Figma), and seeing a project from start to
             finish.
           </p>
-          <p className="mt-4 text-left text-lg sm:text-2xl">
+          <p className="mb-10 text-left text-lg sm:text-2xl">
             I also learned how I would like to continue to improve as a
             designer,. After experiencing the entire design thinking process, I
             have a much better idea how to organize projects and at which stages
             to seek critique and feedback.
           </p>
-          <p className="mt-4 text-left text-lg sm:text-2xl">
+          <p className="mb-10 text-left text-lg sm:text-2xl">
             This was certainly an accelerated version of the Ui/UX design
             process, and there are some things I would have pursued further if
             given more time. I would have liked to see how the further
             iterations of my design took shape, and how they would evolve
             through prototyping and testing.
           </p>
-          <p className="mt-4 text-left text-lg sm:text-2xl mb-8">
+          <p className="text-left text-lg sm:text-2xl mb-8">
             Although this project was new and sometimes challenging, I truly
             enjoyed the challenge and feel that I will continue to stay curious
             about the process and grow as a designer.
