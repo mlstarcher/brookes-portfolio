@@ -233,11 +233,11 @@ export default function CaseStudy1() {
             </strong>
           </p>
           <div className="grid grid-cols-12 mb-10 sm:mb-20">
-            <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex justify-center sm:justify-start">
+            <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
                 src={time}
-                className="max-w-full h-auto"
-                style={{ maxWidth: '160px' }}
+                className="max-w-full"
+                //style={{ maxWidth: '160px' }}
                 alt="time"
               ></img>
             </div>
@@ -248,11 +248,11 @@ export default function CaseStudy1() {
                 easily is important.
               </p>
             </div>
-            <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex justify-center sm:justify-start">
+            <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
                 src={quality}
                 className="max-w-full h-auto"
-                style={{ maxWidth: '160px' }}
+                // style={{ maxWidth: '160px' }}
                 alt="Quality"
               ></img>
             </div>
@@ -263,11 +263,11 @@ export default function CaseStudy1() {
                 easily is important.
               </p>
             </div>
-            <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex justify-center sm:justify-start">
+            <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
                 src={availability}
-                className="max-w-full h-auto"
-                style={{ maxWidth: '160px' }}
+                className="max-w-full"
+                // style={{ maxWidth: '160px' }}
                 alt="Availability"
               ></img>
             </div>
