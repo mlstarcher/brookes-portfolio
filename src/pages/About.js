@@ -3,9 +3,9 @@ import profile from '../assets/profile.jpg';
 
 export default function About() {
   return (
-    <div className="flex flex-col sm:mb-16">
-      <div className="grid grid-cols-1 sm:grid-cols-2">
-        <div className="flex flex-col items-center">
+    <div className="flex flex-col sm:mb-16 sm:mt-0 mt-8">
+      <div className="grid grid-cols-12">
+        <div className="flex flex-col items-center col-span-12 sm:col-start-2 sm:col-end-7">
           <img
             src={profile}
             className="rounded-full m-w-100 h-auto"
@@ -14,7 +14,7 @@ export default function About() {
             alt="Profile"
           ></img>
         </div>
-        <div className="flex flex-col text-left sm:pt-0 pt-8 sm:text-2xl text-base">
+        <div className="flex flex-col text-left sm:pt-0 pt-8 sm:text-2xl text-base col-span-12 sm:col-start-7 sm:col-end-12">
           <p className="pb-4">Hi! I’m Brooke and I’m a Product Designer.</p>
           <p className="pb-4">
             As a Product Designer, I want to help bridge the gap between humans
