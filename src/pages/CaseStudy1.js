@@ -31,8 +31,8 @@ import cleverist_mobile_wireframe from '../assets/cleverist_mobile_wireframe.jpg
 export default function CaseStudy1() {
   return (
     <div className="bg-offWhite sm:mx-0 mx-8">
-      <div className="grid grid-cols-12 mb-20">
-        <div className="flex flex-col justify-center items-center mb-8 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
+      <div className="grid grid-cols-12 mb-20 mt-10 sm:mt-0">
+        <div className="flex flex-col justify-center items-center mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
             Cleverist
           </h1>
@@ -55,13 +55,13 @@ export default function CaseStudy1() {
         <div className="flex items-center col-span-12  sm:col-start-8">
           <div className="relative" style={{ height: '600px', width: '300px' }}>
             <img
-              className="absolute z-10 pointer-events-none"
+              className="absolute z-10 pointer-events-none h-full w-auto"
               src={iphone_14}
               alt="Mobile preview"
             ></img>
             <div
               className="m-4 mb-0 overflow-scroll hide-scrollbar"
-              style={{ height: '595px' }}
+              style={{ height: '580px' }}
             >
               <img
                 src={cleverist_mobile_wireframe}

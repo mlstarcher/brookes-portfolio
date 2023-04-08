@@ -4,12 +4,12 @@ import { FaArrowRight } from 'react-icons/fa';
 
 export default function CaseStudyCard({ case_study }) {
   return (
-    <div className="grid grid-cols-12 sm:mb-40 mb-24 gap">
-      <div className="sm:pr-16 flex justify-center sm:block col-start-2 col-end-7">
+    <div className="grid grid-cols-12 sm:mb-40 mb-24">
+      <div className="sm:pr-16 flex justify-center col-start-2 col-end-7">
         <img
           src={case_study.image_name}
           className="m-w-100 sm:h-auto"
-          style={{ 'max-height': '500px' }}
+          style={{ maxHeight: '500px' }}
           alt={case_study.alt_tag}
         ></img>
       </div>

@@ -136,11 +136,6 @@ body {
   left: 50%;
 }
 
-/* .scroll-content {
-  height: 100%;
-  overflow: scroll;
-} */
-
 .hide-scrollbar::-webkit-scrollbar {
   width: 0px;
   background: transparent;
