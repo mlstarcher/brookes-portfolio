@@ -10,7 +10,7 @@ export default function Home() {
     <div className="">
       <Welcome />
       <div id="work" className="flex justify-center mb-8">
-        <h2 className="sm:text-5xl text-3xl font-bold mb-10">
+        <h2 className="sm:text-5xl text-3xl font-bold mb-8 sm:mb-10">
           My Case Studies:
         </h2>
       </div>

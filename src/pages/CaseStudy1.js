@@ -1,5 +1,4 @@
 import React from 'react';
-import '../marvel-devices.min.css';
 
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
