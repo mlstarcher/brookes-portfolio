@@ -145,3 +145,24 @@ body {
 .screen {
   background-color: rgb(250, 243, 237) !important;
 }
+
+.iphone {
+  height: 573px;
+  overflow: hidden;
+}
+
+.iphone img {
+  animation: scrollImage 20s linear infinite;
+  height: auto;
+  width: 100%;
+  display: block;
+}
+
+@keyframes scrollImage {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-80%);
+  }
+}

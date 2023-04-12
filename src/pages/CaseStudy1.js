@@ -27,6 +27,7 @@ import little_passports from '../assets/little_passports.png';
 import comments from '../assets/comments.png';
 import iphone_14 from '../assets/iphone_14_transparent.png';
 import cleverist_mobile_wireframe from '../assets/cleverist_mobile_wireframe.jpg';
+
 export default function CaseStudy1() {
   return (
     <div className="bg-offWhite">
@@ -51,7 +52,7 @@ export default function CaseStudy1() {
             </div>
           </a>
         </div>
-        <div className="flex items-center justify-center col-span-12  sm:col-start-8">
+        <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8">
           <div className="relative" style={{ height: '600px', width: '300px' }}>
             <img
               className="absolute z-10 pointer-events-none h-full w-auto"
@@ -59,12 +60,12 @@ export default function CaseStudy1() {
               alt="Mobile preview"
             ></img>
             <div
-              className="m-4 mb-0 overflow-scroll hide-scrollbar rounded-lg"
-              style={{ height: '573px' }}
+              className="m-4 mb-0 hide-scrollbar rounded-lg iphone"
+              // style={{ height: '573px' }}
             >
               <img
                 src={cleverist_mobile_wireframe}
-                className="max-w-full h-auto"
+                className="max-w-full h-auto wireframe"
                 alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
               ></img>
             </div>
