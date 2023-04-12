@@ -1,4 +1,7 @@
-import React from 'react';
+import React, { useState, useRef } from 'react';
+import Lightbox from 'yet-another-react-lightbox';
+import 'yet-another-react-lightbox/styles.css';
+import { Zoom, Fullscreen } from 'yet-another-react-lightbox/plugins';
 
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
@@ -29,6 +32,10 @@ import iphone_14 from '../assets/iphone_14_transparent.png';
 import cleverist_mobile_wireframe from '../assets/cleverist_mobile_wireframe.jpg';
 
 export default function CaseStudy1() {
+  const [openMegan, setOpenMegan] = useState(false);
+  const zoomRef = useRef(null);
+  const fullscreenRef = useRef(null);
+
   return (
     <div className="bg-offWhite">
       <div className="grid grid-cols-12 mb-10 sm:mb-20 mt-10 sm:mt-0">
@@ -60,8 +67,8 @@ export default function CaseStudy1() {
               alt="Mobile preview"
             ></img>
             <div
-              className="m-4 mb-0 hide-scrollbar rounded-lg iphone"
-              // style={{ height: '573px' }}
+              className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
+              style={{ marginTop: '14px' }}
             >
               <img
                 src={cleverist_mobile_wireframe}
@@ -196,7 +203,7 @@ export default function CaseStudy1() {
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
               src={little_passports}
-              className="max-w-full h-auto"
+              className="max-w-full h-auto rounded-sm border-white border-8 border-solid"
               alt="Little Passports logo"
             ></img>
           </div>
@@ -349,16 +356,36 @@ export default function CaseStudy1() {
               <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-12">
                 Meet Megan
               </h2>
+              <Lightbox
+                plugins={[Zoom, Fullscreen]}
+                zoom={{ ref: zoomRef }}
+                on={{
+                  click: () => zoomRef.current?.zoomIn()
+                }}
+                fullscreen={{ ref: fullscreenRef }}
+                // on={{
+                //   click: () => fullscreenRef.current?.enter()
+                // }}
+                open={openMegan}
+                close={() => setOpenMegan(false)}
+                slides={[{ src: user_persona1 }]}
+              />
+              <img
+                onClick={() => setOpenMegan(true)}
+                src={user_persona1}
+                className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                alt="Link to user persona figma file"
+              ></img>
               <a
                 href="https://www.figma.com/file/tDsKLFg18liGSNKWCh40dg/PERSONAS?node-id=1%3A131&t=G2zip3zjHLc8hmne-1"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer  mb-16 sm:mb-32"
               >
-                <img
-                  src={user_persona1}
-                  className="max-w-full h-auto mb-16 sm:mb-32"
-                  alt="Link to user persona figma file"
-                ></img>
+                <div className="flex items-center">
+                  <p className="mr-2">View Figma</p>
+                  <FaArrowRight className="m-h-5" />
+                </div>
               </a>
             </div>
           </div>
