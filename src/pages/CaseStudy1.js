@@ -33,6 +33,14 @@ import cleverist_mobile_wireframe from '../assets/cleverist_mobile_wireframe.jpg
 
 export default function CaseStudy1() {
   const [openMegan, setOpenMegan] = useState(false);
+  const [openFS, setOpenFS] = useState(false); //Feature set
+  const [openLG, setOpenLG] = useState(false); //learn_grow_sitemap1;
+  const [openUF, setOpenUF] = useState(false); //user_flows
+  const [openES, setOpenES] = useState(false); //Early Sketches
+  const [openMFWF, setOpenMFWF] = useState(false); //mid_fi_wire_frames
+  const [openHFWF, setOpenHFWF] = useState(false); //hi_fi_wire_frames
+  const [openAR, setOpenAR] = useState(false); //analyzing_results1
+
   const zoomRef = useRef(null);
   const fullscreenRef = useRef(null);
 
@@ -363,12 +371,14 @@ export default function CaseStudy1() {
                   click: () => zoomRef.current?.zoomIn()
                 }}
                 fullscreen={{ ref: fullscreenRef }}
-                // on={{
-                //   click: () => fullscreenRef.current?.enter()
-                // }}
                 open={openMegan}
                 close={() => setOpenMegan(false)}
                 slides={[{ src: user_persona1 }]}
+                carousel={{ finite: 0 <= 1 }}
+                render={{
+                  buttonPrev: 0 <= 1 ? () => null : undefined,
+                  buttonNext: 0 <= 1 ? () => null : undefined
+                }}
               />
               <img
                 onClick={() => setOpenMegan(true)}
@@ -433,7 +443,24 @@ export default function CaseStudy1() {
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
+              <Lightbox
+                plugins={[Zoom, Fullscreen]}
+                zoom={{ ref: zoomRef }}
+                on={{
+                  click: () => zoomRef.current?.zoomIn()
+                }}
+                fullscreen={{ ref: fullscreenRef }}
+                open={openFS}
+                close={() => setOpenFS(false)}
+                slides={[{ src: feature_set }]}
+                carousel={{ finite: 0 <= 1 }}
+                render={{
+                  buttonPrev: 0 <= 1 ? () => null : undefined,
+                  buttonNext: 0 <= 1 ? () => null : undefined
+                }}
+              />
               <img
+                onClick={() => setOpenFS(true)}
                 src={feature_set}
                 className="max-w-full h-auto"
                 alt="Feature Set"
@@ -451,7 +478,24 @@ export default function CaseStudy1() {
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
+              <Lightbox
+                plugins={[Zoom, Fullscreen]}
+                zoom={{ ref: zoomRef }}
+                on={{
+                  click: () => zoomRef.current?.zoomIn()
+                }}
+                fullscreen={{ ref: fullscreenRef }}
+                open={openLG}
+                close={() => setOpenLG(false)}
+                slides={[{ src: feature_set }]}
+                carousel={{ finite: 0 <= 1 }}
+                render={{
+                  buttonPrev: 0 <= 1 ? () => null : undefined,
+                  buttonNext: 0 <= 1 ? () => null : undefined
+                }}
+              />
               <img
+                onClick={() => setOpenLG(true)}
                 src={learn_grow_sitemap1}
                 className="max-w-full h-auto"
                 alt="Site Map"
@@ -475,7 +519,24 @@ export default function CaseStudy1() {
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
+              <Lightbox
+                plugins={[Zoom, Fullscreen]}
+                zoom={{ ref: zoomRef }}
+                on={{
+                  click: () => zoomRef.current?.zoomIn()
+                }}
+                fullscreen={{ ref: fullscreenRef }}
+                open={openUF}
+                close={() => setOpenUF(false)}
+                slides={[{ src: user_flows }]}
+                carousel={{ finite: 0 <= 1 }}
+                render={{
+                  buttonPrev: 0 <= 1 ? () => null : undefined,
+                  buttonNext: 0 <= 1 ? () => null : undefined
+                }}
+              />
               <img
+                onClick={() => setOpenUF(true)}
                 src={user_flows}
                 className="max-w-full h-auto"
                 alt="User Flows"
@@ -515,17 +576,34 @@ export default function CaseStudy1() {
               one activity was chosen.
             </p>
             <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
-              <a
+              <Lightbox
+                plugins={[Zoom, Fullscreen]}
+                zoom={{ ref: zoomRef }}
+                on={{
+                  click: () => zoomRef.current?.zoomIn()
+                }}
+                fullscreen={{ ref: fullscreenRef }}
+                open={openES}
+                close={() => setOpenES(false)}
+                slides={[{ src: early_sketches }]}
+                carousel={{ finite: 0 <= 1 }}
+                render={{
+                  buttonPrev: 0 <= 1 ? () => null : undefined,
+                  buttonNext: 0 <= 1 ? () => null : undefined
+                }}
+              />
+              <img
+                onClick={() => setOpenES(true)}
+                src={early_sketches}
+                className="max-w-full h-auto"
+                alt="Link to figma file of early sketches"
+              ></img>
+              {/* <a
                 href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=0%3A1&t=05AJXlKrrTlhUCzR-1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={early_sketches}
-                  className="max-w-full h-auto"
-                  alt="Link to figma file of early sketches"
-                ></img>
-              </a>
+              </a> */}
             </div>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
               Branding
@@ -570,17 +648,34 @@ export default function CaseStudy1() {
               category so that the user could choose multiple filter options.
             </p>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
-              <a
+              <Lightbox
+                plugins={[Zoom, Fullscreen]}
+                zoom={{ ref: zoomRef }}
+                on={{
+                  click: () => zoomRef.current?.zoomIn()
+                }}
+                fullscreen={{ ref: fullscreenRef }}
+                open={openMFWF}
+                close={() => setOpenMFWF(false)}
+                slides={[{ src: mid_fi_wire_frames }]}
+                carousel={{ finite: 0 <= 1 }}
+                render={{
+                  buttonPrev: 0 <= 1 ? () => null : undefined,
+                  buttonNext: 0 <= 1 ? () => null : undefined
+                }}
+              />
+              <img
+                onClick={() => setOpenMFWF(true)}
+                src={mid_fi_wire_frames}
+                className="max-w-full h-auto"
+                alt="Link to figma file of mid fi wire frames"
+              ></img>
+              {/* <a
                 href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=1%3A2&t=05AJXlKrrTlhUCzR-1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={mid_fi_wire_frames}
-                  className="max-w-full h-auto"
-                  alt="Link to figma file of mid fi wire frames"
-                ></img>
-              </a>
+              </a> */}
             </div>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
               High Fidelity UI
@@ -604,17 +699,34 @@ export default function CaseStudy1() {
               </div>
             </a>
             <div className="flex justify-center items-center mt-8 sm:mt-16">
-              <a
+              <Lightbox
+                plugins={[Zoom, Fullscreen]}
+                zoom={{ ref: zoomRef }}
+                on={{
+                  click: () => zoomRef.current?.zoomIn()
+                }}
+                fullscreen={{ ref: fullscreenRef }}
+                open={openHFWF}
+                close={() => setOpenHFWF(false)}
+                slides={[{ src: hi_fi_wire_frames }]}
+                carousel={{ finite: 0 <= 1 }}
+                render={{
+                  buttonPrev: 0 <= 1 ? () => null : undefined,
+                  buttonNext: 0 <= 1 ? () => null : undefined
+                }}
+              />
+              <img
+                onClick={() => setOpenHFWF(true)}
+                src={hi_fi_wire_frames}
+                className="max-w-full h-auto"
+                alt="Link to figma file of hi fi wire frames"
+              ></img>
+              {/* <a
                 href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=1%3A3&t=05AJXlKrrTlhUCzR-1"
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={hi_fi_wire_frames}
-                  className="max-w-full h-auto"
-                  alt="Link to figma file of hi fi wire frames"
-                ></img>
-              </a>
+              </a> */}
             </div>
           </div>
         </div>
@@ -726,7 +838,24 @@ export default function CaseStudy1() {
           </div>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
+              <Lightbox
+                plugins={[Zoom, Fullscreen]}
+                zoom={{ ref: zoomRef }}
+                on={{
+                  click: () => zoomRef.current?.zoomIn()
+                }}
+                fullscreen={{ ref: fullscreenRef }}
+                open={openAR}
+                close={() => setOpenAR(false)}
+                slides={[{ src: analyzing_results1 }]}
+                carousel={{ finite: 0 <= 1 }}
+                render={{
+                  buttonPrev: 0 <= 1 ? () => null : undefined,
+                  buttonNext: 0 <= 1 ? () => null : undefined
+                }}
+              />
               <img
+                onClick={() => setOpenAR(true)}
                 src={analyzing_results1}
                 className="max-w-full h-auto"
                 alt="Analyzing results"
