@@ -350,7 +350,7 @@ export default function CaseStudy1() {
                 Meet Megan
               </h2>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/static/media/User+Persona+V+1.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/User+Persona+V+1.pdf"
                 className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -419,7 +419,7 @@ export default function CaseStudy1() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/static/media/Feature+Set.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Feature+Set.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -444,7 +444,7 @@ export default function CaseStudy1() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/static/media/Learn+_+Grow+Sitemap+1.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Learn+_+Grow+Sitemap+1.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -475,7 +475,7 @@ export default function CaseStudy1() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/static/media/User+Flows.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/User+Flows.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -522,7 +522,7 @@ export default function CaseStudy1() {
             </p>
             <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/static/media/Early+Sketches.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Early+Sketches.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -578,7 +578,7 @@ export default function CaseStudy1() {
             </p>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/static/media/Mid+Fi+Wire+Frames.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Mid+Fi+Wire+Frames.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -613,7 +613,7 @@ export default function CaseStudy1() {
             </a>
             <div className="flex justify-center items-center mt-8 sm:mt-16">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/static/media/Hi+Fi+Wire+frames.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Hi+Fi+Wire+frames.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="max-w-full h-auto"
@@ -736,7 +736,7 @@ export default function CaseStudy1() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/static/media/Analyzing+Results+1.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Analyzing+Results+1.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
