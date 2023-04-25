@@ -235,12 +235,7 @@ export default function CaseStudy1() {
           </p>
           <div className="grid grid-cols-12 mb-10 sm:mb-20">
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
-              <img
-                src={time}
-                className="max-w-full"
-                //style={{ maxWidth: '160px' }}
-                alt="time"
-              ></img>
+              <img src={time} className="max-w-full" alt="time"></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
@@ -268,7 +263,6 @@ export default function CaseStudy1() {
               <img
                 src={availability}
                 className="max-w-full"
-                // style={{ maxWidth: '160px' }}
                 alt="Availability"
               ></img>
             </div>
