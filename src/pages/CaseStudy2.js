@@ -178,7 +178,7 @@ export default function CaseStudy2() {
         </div>
       </div>
       <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center">
+        <div className="col-span-12 sm:col-span-6 flex flex-col items-center">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
               src={pbs_kids}
@@ -191,7 +191,7 @@ export default function CaseStudy2() {
             Oregon’s farmers and consumers.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
+        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
               src={little_passports}
@@ -204,7 +204,7 @@ export default function CaseStudy2() {
             sold by members of the community.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
+        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
               src={kiwico}
@@ -217,7 +217,7 @@ export default function CaseStudy2() {
             sell garden produce, backyard chicken eggs, supplies, and more.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
+        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
               src={kiwico}
@@ -833,28 +833,24 @@ export default function CaseStudy2() {
             Learnings & Final Thoughts
           </h3>
           <p className="mb-10 text-left text-lg sm:text-2xl">
-            This was my first real UI/UX design project that I have worked on
-            and I learned so much from it.My main growth came in the areas of
-            tool sets (primarily Figma), and seeing a project from start to
-            finish.
+            The Local Basket app was able to effectively connect users to
+            farmers and makers in their community. In doing so, this app makes
+            it easy to promote local agriculture, support eco-friendliness and
+            sustainability, and improve access to fresh and healthy food which
+            was what inspired me to choose this project from the start.
           </p>
           <p className="mb-10 text-left text-lg sm:text-2xl">
-            I also learned how I would like to continue to improve as a
-            designer,. After experiencing the entire design thinking process, I
-            have a much better idea how to organize projects and at which stages
-            to seek critique and feedback.
+            My research and testing methods allowed me to identify user pain
+            points and design a solution that addressed those issues, resulting
+            in a successful outcome and a pleasant shopping experience that
+            users would be happy to implement in their weekly routine.
           </p>
           <p className="mb-10 text-left text-lg sm:text-2xl">
-            This was certainly an accelerated version of the Ui/UX design
-            process, and there are some things I would have pursued further if
-            given more time. I would have liked to see how the further
-            iterations of my design took shape, and how they would evolve
-            through prototyping and testing.
-          </p>
-          <p className="text-left text-lg sm:text-2xl mb-8">
-            Although this project was new and sometimes challenging, I truly
-            enjoyed the challenge and feel that I will continue to stay curious
-            about the process and grow as a designer.
+            One big takeaway from this particular project was that although new
+            design patterns are interesting to explore, users often prefer
+            designs that are familiar to them so that they are as intuitive as
+            possible. I believe I was able to use inspiration from other food
+            ordering apps while still putting my own authentic spin on it.
           </p>
         </div>
       </div>
