@@ -9,6 +9,15 @@ const caseStudyData = [
     link: `case-study1`,
     image_name: iphone,
     alt_tag: 'iphones'
+  },
+  {
+    title: 'Local Basket',
+    sub_title: 'UI/UX DESIGN, BRANDING',
+    short_description:
+      'An app that helps users place orders for produce and goods from vendors at their local farmer’s market.',
+    link: `case-study2`,
+    image_name: iphone,
+    alt_tag: 'iphones'
   }
 ];
 
