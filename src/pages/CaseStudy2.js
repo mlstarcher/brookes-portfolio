@@ -498,8 +498,8 @@ export default function CaseStudy2() {
               <strong>placing an order</strong> for pickup,{' '}
               <strong>searching nearby markets, vendors</strong>, and{' '}
               <strong>products</strong>, and repeating a previous order. At the
-              end of the order process, directories and maps were provided to
-              help the user find their pickup location.
+              end of the order process, <strong>directories and maps</strong>{' '}
+              were provided to help the user find their pickup location.
             </p>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
               Early Sketches
@@ -509,12 +509,9 @@ export default function CaseStudy2() {
               to get an idea of how things would look. While these were a great
               place to start, there was still a lot of UI work to do to pull it
               together. In these early sketches, the focus was seeing how the
-              flows would be applied to the mobile site. I wanted to see where
-              each step of the flow would take the use. Starting with the
-              navigation (hamburger menu), choosing activities, then interest
-              and finally art. From there I laid out how the filtered activities
-              would appear to the user, and how an activity page would look once
-              one activity was chosen.
+              flows would be applied to the app. I wanted to see where each step
+              of the flow would take the use. Starting with home page categories
+              I included markets, vendors, and products.
             </p>
             <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
               <a
@@ -536,17 +533,17 @@ export default function CaseStudy2() {
             <div className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
               <p className="mb-10">
                 With a general idea of how the site could be laid out, the next
-                piece was deciding how I would communicate the Cleverist values
-                using inspiration, color pallette, and logo. I chose to use
-                colors that were a playful spin on primary colors so often seen
-                in children’s products. The core values that I wanted to
+                piece was deciding how I would communicate the Local Basket's
+                values using inspiration, color pallette, and logo. I chose to
+                use colors that were a playful spin on primary colors so often
+                seen in children’s products. The core values that I wanted to
                 communicate with the overall branding were:
               </p>
               <ul className="list-disc ml-8">
-                <li>Inspiring</li>
-                <li>Playful</li>
-                <li>Creative</li>
-                <li>Enriching</li>
+                <li>Familiar</li>
+                <li>Vibrant</li>
+                <li>Organic</li>
+                <li>Warm</li>
                 <li>Approachable</li>
               </ul>
             </div>
@@ -564,13 +561,11 @@ export default function CaseStudy2() {
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
               Based on the sketches, I created mid fidelity,{' '}
-              <strong>responsive wireframes </strong> across mobile and desktop
-              so that users could access the site on different devices and have
-              a consistent experience. I like to think of these as the blueprint
-              stage. One main detail that was built apon was how the filters
-              would be applied, at this stage in the design I chose to makethe
-              filters in a checklist style rather than a braod drop down
-              category so that the user could choose multiple filter options.
+              <strong>responsive wireframes</strong> for mobile to see how users
+              would work through a flow with more detail. I like to think of
+              these as the blueprint stage. One main detail that was built upon
+              was how the user and item ratings could be shown, as well as the
+              layout of the maps and directories toward the end of the flow.
             </p>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <a
@@ -590,11 +585,21 @@ export default function CaseStudy2() {
               High Fidelity UI
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
-              This step is where the design really came together visually. I was
-              able to fully design the Cleverist site while keeping our persona,
-              Megan in mind. A combination of custom made icons and real imagery
-              gave the site the exact feel we were going for in a way that was
-              simple, clean, and time efficient.
+              The app came together beautifully, but I conducted usability
+              testing to gather feedback on the new design. The feedback was
+              great for the UI elements as well as the ease of completing tasks.
+              Based on notes from the users, some changes needed to be made to
+              elevate this design. The main change would be to{' '}
+              <strong>
+                create an opportunity for the user to order from multiple
+                vendors at one market within one transaction.
+              </strong>{' '}
+              With this new feature, some elements needed to be changed to
+              better support ordering from several vendors. A number icon was
+              added to the basket rather than as a hovering button above
+              navigation which would prevent clutter on the screen. Next, an
+              accordion option at the end of checkout was added to allow users
+              to see maps and directories for each vendor in an organized way.
             </p>
             <a
               href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=1%3A3&t=05AJXlKrrTlhUCzR-1"
@@ -631,7 +636,7 @@ export default function CaseStudy2() {
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
             At the end of the visual design portion came one of the most
-            important parts of the Cleverist design process - testing. I felt
+            important parts of the Local Basket design process - testing. I felt
             confident about my overall design but conducting usability tests
             using the Figma prototype would give clarity and inform my further
             iterations.
@@ -674,8 +679,8 @@ export default function CaseStudy2() {
             The usability <strong>tests were considered successful</strong>{' '}
             because all of the users could quickly and effectively complete the
             task flows that the wireframes were created for. Some feedback was
-            given for future iterations which will be applied to make the
-            Cleverist site even easier and more delightful to use.
+            given for future iterations which will be applied to make the Local
+            Basket App even easier and more delightful to use.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
@@ -695,7 +700,7 @@ export default function CaseStudy2() {
             what could change, what questions the participants had, and their
             additional ideas. This organization helped me visualize{' '}
             <strong>design opportunities</strong> and{' '}
-            <strong>potential next steps.</strong>
+            <strong>potential next steps</strong>.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 mb-10 sm:mb-20">
             <div className="col-span-1">
@@ -716,15 +721,15 @@ export default function CaseStudy2() {
               <div className="font-semibold text-lg sm:text-2xl text-left">
                 What Could Change:
                 <ul className="list-disc ml-8 mt-4">
-                  <li>Users felt there should be a button to apply filters.</li>
                   <li>
-                    Users wanted a heart or save icon on activities to allow
-                    activities to be saved to library.
+                    Adjusting the “items in basket” to being just a number on
+                    the basket icon rather than a bar.
                   </li>
                   <li>
-                    Users wanted to see an area where they could leave a comment
-                    on an activity.
+                    Users felt there should be away to place orders with
+                    multiple vendors in one transaction.
                   </li>
+                  <li>More information on parking and accessibility.</li>
                 </ul>
               </div>
             </div>
@@ -750,14 +755,13 @@ export default function CaseStudy2() {
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
             Based on the test results, I made some priority revisions throughout
-            the site based on how impactful it would be and how it would fit
-            into the time frame I had. Below are the main revisions that were
-            made.
+            the app based on how impactful it would be and how it would fit into
+            the timeframe I had. Below are the main revisions that were made.
           </p>
           <ul className="list-disc ml-8 font-semibold text-lg sm:text-2xl text-left mb-10 sm:mb-20">
             <li className="mb-10 sm:mb-20">
-              Button at the end of filter section to allow the user to apply
-              filters rather than clicking “X”.
+              Showing the items in basket as a number, rather than a hovering
+              bar.
               <div className="flex justify-center items-center mb-16 sm:mb-32">
                 <div>
                   <img
@@ -769,8 +773,9 @@ export default function CaseStudy2() {
               </div>
             </li>
             <li className="mb-10 sm:mb-20">
-              Button at the end of filter section to allow the user to apply
-              filters rather than clicking “X”.
+              The ability to add multiple orders from different vendors to one
+              transaction was added. Vendors were listed separately at checkout,
+              but joined as one transaction.
               <div className="flex justify-center items-center mb-16 sm:mb-32">
                 <div>
                   <img
@@ -782,8 +787,10 @@ export default function CaseStudy2() {
               </div>
             </li>
             <li className="mb-6 sm:mb-12">
-              On the Activity page, “Leave a Comment” section added before the
-              existing comments from other users.
+              To include more accessibility and parking information, I needed to
+              keep the maps and directory but find a way to keep it clean and
+              easy to view. I chose to make each vendor’s information pop out as
+              an accordion to view.
               <div className="flex justify-center items-center mb-16 sm:mb-32">
                 <div>
                   <img
@@ -806,9 +813,15 @@ export default function CaseStudy2() {
             With more time, the next steps I would take on this design project
             would be:
             <ul className="list-disc ml-8 font-semibold">
-              <li>Creating an “add your own activity” feature.</li>
-              <li>Design features for the Community section.</li>
-              <li>Add a FAQ section.</li>
+              <li>
+                Creating designs for a potential “Vendor” side of the app.
+              </li>
+              <li>Add a grocery list feature.</li>
+              <li>
+                Include Information about other local events such as
+                craft/makers markets.
+              </li>
+              <li>Add social media links.</li>
               <li>Continue to test and iterate.</li>
             </ul>
           </div>
