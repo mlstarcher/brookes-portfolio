@@ -119,7 +119,7 @@ export default function CaseStudy2() {
             <strong>
               With a busy schedule it can be difficult to plan your shopping
               around the unpredictability of a farmers market.
-            </strong>
+            </strong>{' '}
             Local Basket is an app that provides customers with a convenient way
             to purchase fresh produce and other goods directly from local
             farmers and vendors by placing orders ahead of time for pickup.
@@ -204,7 +204,7 @@ export default function CaseStudy2() {
             sold by members of the community.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
+        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
               src={kiwico}
@@ -217,7 +217,7 @@ export default function CaseStudy2() {
             sell garden produce, backyard chicken eggs, supplies, and more.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
+        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
               src={kiwico}
