@@ -2,31 +2,32 @@ import React from 'react';
 
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
-import cleverist_iphone from '../assets/cleverist_iphone.png';
-import color_mixing from '../assets/color_mixing.png';
-import early_sketches from '../assets/early_sketches.png';
-import mid_fi_wire_frames from '../assets/mid_fi_wire_frames.png';
-import hi_fi_wire_frames from '../assets/hi_fi_wire_frames.png';
-import how_might_we1 from '../assets/how_might_we1.png';
-import how_might_we2 from '../assets/how_might_we2.png';
-import how_might_we3 from '../assets/how_might_we3.png';
-import learn_grow_sitemap1 from '../assets/learn_grow_sitemap1.png';
-import mood_board_w_color_pallette1 from '../assets/mood_board_w_color_pallette1.png';
-import user_flows from '../assets/user_flows.png';
-import user_persona1 from '../assets/user_persona1.png';
-import design_thinking_image from '../assets/design_thinking_image.png';
-import feature_set from '../assets/feature_set.png';
-import analyzing_results1 from '../assets/analyzing_results1.png';
-import activity_filters from '../assets/activity_filters.png';
-import quality from '../assets/quality.png';
-import time from '../assets/time.png';
-import availability from '../assets/availability.png';
-import kiwico from '../assets/kiwico.png';
-import pbs_kids from '../assets/pbs_kids.png';
-import little_passports from '../assets/little_passports.png';
-import comments from '../assets/comments.png';
+
+import cleverist_iphone from '../assets/cleverist/cleverist_iphone.png';
+import color_mixing from '../assets/cleverist/color_mixing.png';
+import early_sketches from '../assets/cleverist/early_sketches.png';
+import mid_fi_wire_frames from '../assets/cleverist/mid_fi_wire_frames.png';
+import hi_fi_wire_frames from '../assets/cleverist/hi_fi_wire_frames.png';
+import how_might_we1 from '../assets/cleverist/how_might_we1.png';
+import how_might_we2 from '../assets/cleverist/how_might_we2.png';
+import how_might_we3 from '../assets/cleverist/how_might_we3.png';
+import learn_grow_sitemap1 from '../assets/cleverist/learn_grow_sitemap1.png';
+import mood_board_w_color_pallette1 from '../assets/cleverist/mood_board_w_color_pallette1.png';
+import user_flows from '../assets/cleverist/user_flows.png';
+import user_persona1 from '../assets/cleverist/user_persona1.png';
+import design_thinking_image from '../assets/cleverist/design_thinking_image.png';
+import feature_set from '../assets/cleverist/feature_set.png';
+import analyzing_results1 from '../assets/cleverist/analyzing_results1.png';
+import activity_filters from '../assets/cleverist/activity_filters.png';
+import quality from '../assets/cleverist/quality.png';
+import time from '../assets/cleverist/time.png';
+import availability from '../assets/cleverist/availability.png';
+import kiwico from '../assets/cleverist/kiwico.png';
+import pbs_kids from '../assets/cleverist/pbs_kids.png';
+import little_passports from '../assets/cleverist/little_passports.png';
+import comments from '../assets/cleverist/comments.png';
 import iphone_14 from '../assets/iphone_14_transparent.png';
-import cleverist_mobile_wireframe from '../assets/cleverist_mobile_wireframe.jpg';
+import cleverist_mobile_wireframe from '../assets/cleverist/cleverist_mobile_wireframe.jpg';
 
 export default function CaseStudy1() {
   return (

@@ -1,4 +1,4 @@
-import iphone from '../assets/cleverist_iphone.png';
+import iphone from './cleverist/cleverist_iphone.png';
 
 const caseStudyData = [
   {

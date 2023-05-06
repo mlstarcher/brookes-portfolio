@@ -2,31 +2,13 @@ import React from 'react';
 
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
-import cleverist_iphone from '../assets/cleverist_iphone.png';
-import color_mixing from '../assets/color_mixing.png';
-import early_sketches from '../assets/early_sketches.png';
-import mid_fi_wire_frames from '../assets/mid_fi_wire_frames.png';
-import hi_fi_wire_frames from '../assets/hi_fi_wire_frames.png';
+
+import iphone_14 from '../assets/iphone_14_transparent.png';
+import ambiance from '../assets/Ambiance.png';
+import guilder_order from '../assets/guilder_order.png';
 import how_might_we1 from '../assets/how_might_we1.png';
 import how_might_we2 from '../assets/how_might_we2.png';
-import how_might_we3 from '../assets/how_might_we3.png';
-import learn_grow_sitemap1 from '../assets/learn_grow_sitemap1.png';
-import mood_board_w_color_pallette1 from '../assets/mood_board_w_color_pallette1.png';
-import user_flows from '../assets/user_flows.png';
-import user_persona1 from '../assets/user_persona1.png';
 import design_thinking_image from '../assets/design_thinking_image.png';
-import feature_set from '../assets/feature_set.png';
-import analyzing_results1 from '../assets/analyzing_results1.png';
-import activity_filters from '../assets/activity_filters.png';
-import quality from '../assets/quality.png';
-import time from '../assets/time.png';
-import availability from '../assets/availability.png';
-import kiwico from '../assets/kiwico.png';
-import pbs_kids from '../assets/pbs_kids.png';
-import little_passports from '../assets/little_passports.png';
-import comments from '../assets/comments.png';
-import iphone_14 from '../assets/iphone_14_transparent.png';
-import cleverist_mobile_wireframe from '../assets/cleverist_mobile_wireframe.jpg';
 
 export default function CaseStudy2() {
   return (
@@ -64,7 +46,7 @@ export default function CaseStudy2() {
               style={{ marginTop: '14px' }}
             >
               <img
-                src={cleverist_mobile_wireframe}
+                src={guilder_order}
                 className="max-w-full h-auto wireframe"
                 alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
               ></img>
@@ -378,17 +360,17 @@ export default function CaseStudy2() {
                   <FaArrowRight className="m-h-5" />
                 </div>
               </a>
+              <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+                Jade's Journey
+              </h2>
+              <p className=" text-start text-lg sm:text-2xl mb-10 sm:mb-20">
+                After getting to know our user Jade, I made a journey map as a
+                visual representation of her journey to shop at the farmers
+                market. This helped me understand what her acts, thoughts,
+                behaviors, and emotions would be and therefore what her pain
+                points might be so that I could better address them.
+              </p>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
-              Jade's Journey
-            </h2>
-            <p className=" text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-              After getting to know our user Jade, I made a journey map as a
-              visual representation of her journey to shop at the farmers
-              market. This helped me understand what her acts, thoughts,
-              behaviors, and emotions would be and therefore what her pain
-              points might be so that I could better address them.
-            </p>
           </div>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             Determining the Problems to Solve
