@@ -5,29 +5,28 @@ import { FaArrowRight } from 'react-icons/fa';
 
 import iphone_14 from '../../assets/iphone_14_transparent.png';
 import design_thinking_image from '../../assets/design_thinking_image.png';
-import guilder_order from '../../assets/local_basket/guilder_order.png';
 import how_might_we1 from '../../assets/local_basket/how_might_we1.png';
 import how_might_we2 from '../../assets/local_basket/how_might_we2.png';
 import how_might_we3 from '../../assets/local_basket/how_might_we3.png';
 import yelp from '../../assets/local_basket/yelp.png';
-import ofma from '../../assets/local_basket/cafe_olli.png';
+import ofma from '../../assets/local_basket/ofma.png';
 import farmish from '../../assets/local_basket/farmish.png';
-// import stumptown from '../../assets/local_basket/stumptown.png';
+import grown_by from '../../assets/local_basket/grown_by.png';
 import availability from '../../assets/local_basket/availability.png';
 import consistency from '../../assets/local_basket/consistency.png';
 import navigation from '../../assets/local_basket/navigation.png';
 import persona1 from '../../assets/local_basket/persona1.png';
 import feature_set from '../../assets/local_basket/feature_set.png';
 import mood_board from '../../assets/local_basket/mood_board.png';
-import mid_fi_wireframe from '../../assets/local_basket/mid_fi_wireframe.png';
-import hi_fi_wireframe from '../../assets/local_basket/hi_fi_wireframe.png';
+import mid_fi_wireframes from '../../assets/local_basket/mid_fi_wireframes.png';
+import hi_fi_wireframes from '../../assets/local_basket/hi_fi_wireframes.png';
 import iteration1 from '../../assets/local_basket/iteration1.png';
 import iteration2 from '../../assets/local_basket/iteration2.png';
 import iteration3 from '../../assets/local_basket/iteration3.png';
 // import guilder_sitemap from '../../assets/local_basket/guilder_sitemap.png';
 import user_flow from '../../assets/local_basket/user_flow.png';
 import sketches from '../../assets/local_basket/sketches.png';
-// import local_basket_iphones from '../../assets/local_basket/local_basket_iphones.png';
+import local_basket_iphones from '../../assets/local_basket/local_basket_iphones.png';
 
 export default function LocalBasket() {
   return (
@@ -64,11 +63,11 @@ export default function LocalBasket() {
               className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
               style={{ marginTop: '14px' }}
             >
-              <img
+              {/* <img
                 src={guilder_order}
                 className="max-w-full h-auto wireframe"
                 alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
-              ></img>
+              ></img> */}
             </div>
           </div>
         </div>
@@ -181,7 +180,7 @@ export default function LocalBasket() {
       <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center">
           <div className="flex items-center" style={{ height: '114px' }}>
-            <img src={good} className="max-w-full h-auto" alt="Good logo"></img>
+            <img src={ofma} className="max-w-full h-auto" alt="Good logo"></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
             Website with a statewide network of farmers markets connecting
@@ -191,7 +190,7 @@ export default function LocalBasket() {
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
-              src={cafe_olli}
+              src={grown_by}
               className="max-w-full h-auto rounded-sm"
               alt="Cafe Olli logo"
             ></img>
@@ -204,7 +203,7 @@ export default function LocalBasket() {
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
-              src={starbucks}
+              src={farmish}
               className="max-w-full h-auto"
               alt="Starbucks Logo"
             ></img>
@@ -217,7 +216,7 @@ export default function LocalBasket() {
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
-              src={stumptown}
+              src={yelp}
               className="max-w-full h-auto"
               alt="Stumptown Logo"
             ></img>
@@ -243,7 +242,7 @@ export default function LocalBasket() {
           <div className="grid grid-cols-12 mb-10 sm:mb-20">
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={convenience}
+                src={navigation}
                 className="max-w-full"
                 alt="Convenience"
               ></img>
@@ -257,7 +256,7 @@ export default function LocalBasket() {
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={ambiance}
+                src={consistency}
                 className="max-w-full h-auto"
                 // style={{ maxWidth: '160px' }}
                 alt="Ambiance"
@@ -271,7 +270,11 @@ export default function LocalBasket() {
               </p>
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
-              <img src={offerings} className="max-w-full" alt="Offerings"></img>
+              <img
+                src={availability}
+                className="max-w-full"
+                alt="Offerings"
+              ></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
@@ -350,7 +353,7 @@ export default function LocalBasket() {
           <div className="flex justify-center items-center">
             <div className="flex flex-col items-start">
               <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-12">
-                Meet Allie and Tyler
+                Meet Megan
               </h2>
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/User+Persona+V+1.pdf"
@@ -359,19 +362,7 @@ export default function LocalBasket() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={guilder_persona1}
-                  className="max-w-full h-auto mb-6 sm:mb-12 pointer"
-                  alt="Link to user persona figma file"
-                ></img>
-              </a>
-              <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/User+Persona+V+1.pdf"
-                className="max-w-full h-auto mb-6 sm:mb-12 pointer"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={guilder_persona2}
+                  src={persona1}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -442,7 +433,7 @@ export default function LocalBasket() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={features}
+                  src={feature_set}
                   className="max-w-full h-auto"
                   alt="Feature Set"
                 ></img>
@@ -468,7 +459,7 @@ export default function LocalBasket() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={guilder_user_flow}
+                  src={user_flow}
                   className="max-w-full h-auto"
                   alt="Site Map"
                 ></img>
@@ -498,11 +489,12 @@ export default function LocalBasket() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
-                  src={guilder_sitemap}
+                {/* TODO */}
+                {/* <img
+                  src={sitemap}
                   className="max-w-full h-auto"
                   alt="Site Map"
-                ></img>
+                ></img> */}
               </a>
             </div>
           </div>
@@ -546,7 +538,7 @@ export default function LocalBasket() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={guilder_sketches}
+                  src={sketches}
                   className="max-w-full h-auto"
                   alt="Link to figma file of early sketches"
                 ></img>
@@ -575,7 +567,7 @@ export default function LocalBasket() {
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <div>
                 <img
-                  src={guilder_mood_board}
+                  src={mood_board}
                   className="max-w-full h-auto"
                   alt="Mood Board"
                 ></img>
@@ -600,7 +592,7 @@ export default function LocalBasket() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={guilder_mid_fi}
+                  src={mid_fi_wireframes}
                   className="max-w-full h-auto"
                   alt="Link to figma file of mid fi wire frames"
                 ></img>
@@ -645,7 +637,7 @@ export default function LocalBasket() {
                 className="max-w-full h-auto"
               >
                 <img
-                  src={guilder_hi_fi}
+                  src={hi_fi_wireframes}
                   className="max-w-full h-auto"
                   alt="Link to figma file of hi fi wire frames"
                 ></img>
@@ -710,7 +702,7 @@ export default function LocalBasket() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <img
-                src={guilder_iphone}
+                src={local_basket_iphones}
                 className="max-w-full h-auto"
                 alt="Cleverist iphone preview"
               ></img>
@@ -790,7 +782,7 @@ export default function LocalBasket() {
               <div className="flex justify-center items-center mb-16 sm:mb-32">
                 <div>
                   <img
-                    src={activity_filters}
+                    src={iteration1}
                     className="max-w-full h-auto"
                     alt="Activity Filters"
                   ></img>
@@ -803,11 +795,11 @@ export default function LocalBasket() {
               but joined as one transaction.
               <div className="flex justify-center items-center mb-16 sm:mb-32">
                 <div>
-                  {/* <img
-                    src={color_mixing}
+                  <img
+                    src={iteration2}
                     className="max-w-full h-auto"
                     alt="Color Mixing"
-                  ></img> */}
+                  ></img>
                 </div>
               </div>
             </li>
@@ -818,11 +810,11 @@ export default function LocalBasket() {
               an accordion to view.
               <div className="flex justify-center items-center mb-16 sm:mb-32">
                 <div>
-                  {/* <img
-                    src={comments}
+                  <img
+                    src={iteration3}
                     className="max-w-full h-auto"
                     alt="Comments"
-                  ></img> */}
+                  ></img>
                 </div>
               </div>
             </li>

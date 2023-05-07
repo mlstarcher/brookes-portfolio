@@ -26,7 +26,7 @@ const caseStudyData = [
     short_description:
       'A responsive website where parents and caregivers can find educational activities to do with their children at home.',
     link: `sephora`,
-    image_name: iphone,
+    image_name: cleverist_iphone,
     alt_tag: 'iphones'
   },
   {
@@ -35,7 +35,7 @@ const caseStudyData = [
     short_description:
       'A responsive website where parents and caregivers can find educational activities to do with their children at home.',
     link: `guilder`,
-    image_name: iphone,
+    image_name: cleverist_iphone,
     alt_tag: 'iphones'
   }
 ];
