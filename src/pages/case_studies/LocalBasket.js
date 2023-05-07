@@ -353,10 +353,10 @@ export default function LocalBasket() {
           <div className="flex justify-center items-center">
             <div className="flex flex-col items-start">
               <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-12">
-                Meet Megan
+                Meet Jade
               </h2>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/User+Persona+V+1.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/journey_map.pdf"
                 className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -427,7 +427,7 @@ export default function LocalBasket() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Feature+Set.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/feature_set.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -532,7 +532,7 @@ export default function LocalBasket() {
             </p>
             <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Early+Sketches.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/sketches.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -566,11 +566,17 @@ export default function LocalBasket() {
             </div>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <div>
-                <img
-                  src={mood_board}
-                  className="max-w-full h-auto"
-                  alt="Mood Board"
-                ></img>
+                <a
+                  href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/mood_board.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={mood_board}
+                    className="max-w-full h-auto"
+                    alt="Mood Board"
+                  ></img>
+                </a>
               </div>
             </div>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
@@ -586,7 +592,7 @@ export default function LocalBasket() {
             </p>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Mid+Fi+Wire+Frames.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/mid_fi_wireframes.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -631,7 +637,7 @@ export default function LocalBasket() {
             </a>
             <div className="flex justify-center items-center mt-8 sm:mt-16">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Hi+Fi+Wire+frames.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/hi_fi_wireframes.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="max-w-full h-auto"

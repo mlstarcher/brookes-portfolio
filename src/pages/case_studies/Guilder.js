@@ -33,7 +33,7 @@ export default function Guilder() {
       <div className="grid grid-cols-12 mb-10 sm:mb-20 mt-10 sm:mt-0">
         <div className="flex flex-col justify-center items-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
-            Local Basket
+            Guilder
           </h1>
           <p className="text-lg sm:text-2xl text-center">
             A Princess Bride themed coffee shop in Portland, Oregon in need of a
