@@ -19,11 +19,11 @@ export default function Home() {
           return <CaseStudyCard case_study={case_study} key={key} />;
         })}
       </div>
-      <div>
+      {/* <div>
         {placeholderData.map((case_study, key) => {
           return <StudyComingSoon case_study={case_study} key={key} />;
         })}
-      </div>
+      </div> */}
     </div>
   );
 }

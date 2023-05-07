@@ -3,43 +3,43 @@ import React from 'react';
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
 
-import cleverist_iphone from '../assets/cleverist/cleverist_iphone.png';
-import color_mixing from '../assets/cleverist/color_mixing.png';
-import early_sketches from '../assets/cleverist/early_sketches.png';
-import mid_fi_wire_frames from '../assets/cleverist/mid_fi_wire_frames.png';
-import hi_fi_wire_frames from '../assets/cleverist/hi_fi_wire_frames.png';
-import how_might_we1 from '../assets/cleverist/how_might_we1.png';
-import how_might_we2 from '../assets/cleverist/how_might_we2.png';
-import how_might_we3 from '../assets/cleverist/how_might_we3.png';
-import learn_grow_sitemap1 from '../assets/cleverist/learn_grow_sitemap1.png';
-import mood_board_w_color_pallette1 from '../assets/cleverist/mood_board_w_color_pallette1.png';
-import user_flows from '../assets/cleverist/user_flows.png';
-import user_persona1 from '../assets/cleverist/user_persona1.png';
-import design_thinking_image from '../assets/cleverist/design_thinking_image.png';
-import feature_set from '../assets/cleverist/feature_set.png';
-import analyzing_results1 from '../assets/cleverist/analyzing_results1.png';
-import activity_filters from '../assets/cleverist/activity_filters.png';
-import quality from '../assets/cleverist/quality.png';
-import time from '../assets/cleverist/time.png';
-import availability from '../assets/cleverist/availability.png';
-import kiwico from '../assets/cleverist/kiwico.png';
-import pbs_kids from '../assets/cleverist/pbs_kids.png';
-import little_passports from '../assets/cleverist/little_passports.png';
-import comments from '../assets/cleverist/comments.png';
-import iphone_14 from '../assets/iphone_14_transparent.png';
-import cleverist_mobile_wireframe from '../assets/cleverist/cleverist_mobile_wireframe.jpg';
+import iphone_14 from '../../assets/iphone_14_transparent.png';
+import design_thinking_image from '../../assets/design_thinking_image.png';
+import guilder_order from '../../assets/local_basket/guilder_order.png';
+import how_might_we1 from '../../assets/local_basket/how_might_we1.png';
+import how_might_we2 from '../../assets/local_basket/how_might_we2.png';
+import how_might_we3 from '../../assets/local_basket/how_might_we3.png';
+import yelp from '../../assets/local_basket/yelp.png';
+import ofma from '../../assets/local_basket/cafe_olli.png';
+import farmish from '../../assets/local_basket/farmish.png';
+// import stumptown from '../../assets/local_basket/stumptown.png';
+import availability from '../../assets/local_basket/availability.png';
+import consistency from '../../assets/local_basket/consistency.png';
+import navigation from '../../assets/local_basket/navigation.png';
+import persona1 from '../../assets/local_basket/persona1.png';
+import feature_set from '../../assets/local_basket/feature_set.png';
+import mood_board from '../../assets/local_basket/mood_board.png';
+import mid_fi_wireframe from '../../assets/local_basket/mid_fi_wireframe.png';
+import hi_fi_wireframe from '../../assets/local_basket/hi_fi_wireframe.png';
+import iteration1 from '../../assets/local_basket/iteration1.png';
+import iteration2 from '../../assets/local_basket/iteration2.png';
+import iteration3 from '../../assets/local_basket/iteration3.png';
+// import guilder_sitemap from '../../assets/local_basket/guilder_sitemap.png';
+import user_flow from '../../assets/local_basket/user_flow.png';
+import sketches from '../../assets/local_basket/sketches.png';
+// import local_basket_iphones from '../../assets/local_basket/local_basket_iphones.png';
 
-export default function CaseStudy1() {
+export default function LocalBasket() {
   return (
     <div className="bg-offWhite">
       <div className="grid grid-cols-12 mb-10 sm:mb-20 mt-10 sm:mt-0">
         <div className="flex flex-col justify-center items-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
-            Cleverist
+            Local Basket
           </h1>
           <p className="text-lg sm:text-2xl text-center">
-            A website that helps parents and caregivers find educational
-            activities to do with their children at home.
+            An app that helps users place orders for produce and goods from
+            vendors at their local farmer’s market.
           </p>
           <a
             href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
@@ -65,7 +65,7 @@ export default function CaseStudy1() {
               style={{ marginTop: '14px' }}
             >
               <img
-                src={cleverist_mobile_wireframe}
+                src={guilder_order}
                 className="max-w-full h-auto wireframe"
                 alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
               ></img>
@@ -82,12 +82,12 @@ export default function CaseStudy1() {
         </div>
         <div className="col-span-12 sm:col-span-3">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Product</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Mobile Website</p>
+          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Mobile App</p>
         </div>
         <div className="col-span-12 sm:col-span-3">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
           <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
-            July to November 2022
+            February to March 2023
           </p>
         </div>
         <div className="col-span-12 sm:col-span-3">
@@ -101,28 +101,33 @@ export default function CaseStudy1() {
             Overview
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            Cleverist is a fictitious company that{' '}
-            <strong>
-              makes it simpler for parents and caregivers to find all of the
-              information and materials that they need in one place.
-            </strong>
+            Local basket is an app where users can buy produce and products
+            directly from farmers and makers at their community farmer’s market.
+            As a farmers market app, Local Basket provides a convenient way for
+            users to access locally grown, high-quality products, while
+            supporting local small-scale farmers and makers.
           </p>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             The Problem
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
+            Farmer’s Markets are a great resource for promoting local
+            agriculture, supporting eco-friendliness and sustainability, and
+            improving access to fresh and healthy food in our communities. While
+            farmers markets are very popular, they are often not the first
+            option one thinks of when considering a quick and efficient option
+            for grocery shopping.{' '}
             <strong>
-              As a parent or caregiver, finding ways to support a child’s
-              education and development from home can be a difficult task.
+              With a busy schedule it can be difficult to plan your shopping
+              around the unpredictability of a farmers market.
             </strong>{' '}
-            Without a background or degree in Early Childhood Education, it may
-            be hard to know how to best support children’s growth and
-            developmental milestones.Often, parents and caregivers will search
-            the internet or ask their friends and community for recommendations
-            on activities to provide for their children. This can be time
-            consuming and lead to confusion surrounding the many teaching
-            philosophies or approaches. Cleverist researched how to address
-            these pain points.
+            Local Basket is an app that provides customers with a convenient way
+            to purchase fresh produce and other goods directly from local
+            farmers and vendors by placing orders ahead of time for pickup.
+            Using an app ordering system allows vendors to display their current
+            in-season offerings, and allows users to better plan their trip to
+            the farmers market in a way that supports their grocery shopping
+            needs.
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
@@ -135,16 +140,11 @@ export default function CaseStudy1() {
             The Solution
           </h2>
           <div className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            <p>A responsive mobile site where parents and caregivers can:</p>
+            <p>A convenient mobile app where users can:</p>
             <ul className="list-disc ml-8">
-              <li>
-                Search for educational activities using filters such as age,
-                duration, and subject.
-              </li>
-              <li>Save, share, and print educational activities.</li>
-              <li>
-                Purchase materials needed for activities via affiliate links.
-              </li>
+              <li>Search for local farmers markets in their area.</li>
+              <li>Obtain market and vendor information.</li>
+              <li>Place orders for produce and goods in advance of pickup.</li>
             </ul>
           </div>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-10 sm:mb-20">
@@ -159,65 +159,71 @@ export default function CaseStudy1() {
             Research
           </h3>
           <p className="mb-16 sm:mb-32 text-start text-lg sm:text-2xl">
-            My goal was to understand the experience that parents or caregivers
-            have when trying to facilitate educational activities for their
-            children at home. I made a research plan to find out what materials
-            and information parents and caregivers were interested in seeing in
-            an Educational Activity Resource. I looked at the current
-            competition to see what they offered, and kept that in mind during
-            user interviews.
+            My goal was to understand the experience that users have when trying
+            to shop for their weekly groceries, and particularly at farmers
+            markets. I made a research plan to find out what features and
+            information users were interested in seeing in a Farmers Market app.
+            I looked at the current competition to see what they offered, and
+            kept that in mind during user interviews.
           </p>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             Looking at the competition
           </h2>
           <p className=" text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            All of the competitor services offered educational activities, but
-            the subscription services tended to be costly and not backed by
-            educational resources. The non subscription service had lots of
-            information about child development, but not an easy way to produce
-            materials for the activities, or clear directions.
+            Competitive Analysis showed that farmers market apps were typically
+            geared toward ordering pre-set boxes or visiting farms. While some
+            had an online ordering system for shipping or pickup, none of them
+            had a customizable online ordering system or the ability to shop
+            multiple vendors in one pickup area.
           </p>
         </div>
       </div>
       <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center">
+        <div className="col-span-12 sm:col-span-6 flex flex-col items-center">
           <div className="flex items-center" style={{ height: '114px' }}>
-            <img
-              src={pbs_kids}
-              className="max-w-full h-auto"
-              alt="PBS Kids logo"
-            ></img>
+            <img src={good} className="max-w-full h-auto" alt="Good logo"></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
-            Free access to media content and community based experiences that
-            support learning for young children.
+            Website with a statewide network of farmers markets connecting
+            Oregon’s farmers and consumers.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
+        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
-              src={little_passports}
-              className="max-w-full h-auto rounded-sm border-white border-8 border-solid"
-              alt="Little Passports logo"
+              src={cafe_olli}
+              className="max-w-full h-auto rounded-sm"
+              alt="Cafe Olli logo"
             ></img>
           </div>
           <p className="text-lg sm:text-2xl">
-            Subscriptions for kids that inspire them to learn about the world
-            through toys and activities.
+            An app that is a fair and transparent marketplace for local food
+            sold by members of the community.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
+        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
-              src={kiwico}
+              src={starbucks}
               className="max-w-full h-auto"
-              alt="Kiwico Logo"
+              alt="Starbucks Logo"
             ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
-            Subscription box with materials to inspire natural creativity, while
-            helping parents who want to bring enriching experiences to their
-            children.
+            An app that connects communities with local food sources to buy and
+            sell garden produce, backyard chicken eggs, supplies, and more.
+          </p>
+        </div>
+        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
+          <div className="flex items-center" style={{ height: '114px' }}>
+            <img
+              src={stumptown}
+              className="max-w-full h-auto"
+              alt="Stumptown Logo"
+            ></img>
+          </div>
+          <p className="text-lg sm:text-2xl mt-4">
+            A website and app that connects people with local businesses.
           </p>
         </div>
       </div>
@@ -228,50 +234,51 @@ export default function CaseStudy1() {
           </h2>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
             I held 1:1 user interviews with three research participants to learn
-            about their needs and pain points when looking for educational
-            activities to do with their children. I learned that{' '}
+            about their needs and pain points when shopping for groceries,
+            specifically at the farmers market.{' '}
             <strong>
-              the main concerns were time, quality, and availability.
+              The main concerns were navigation, consistency, and availability.
             </strong>
           </p>
           <div className="grid grid-cols-12 mb-10 sm:mb-20">
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
-              <img src={time} className="max-w-full" alt="time"></img>
+              <img
+                src={convenience}
+                className="max-w-full"
+                alt="Convenience"
+              ></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-                Parents and caregivers are often busy with their child’s
-                schedule as well as their own. Finding activities quickly and
-                easily is important.
+                Users expressed that finding their way around their local
+                farmers market is challenging and they would benefit from a
+                directory with vendor location and information.
               </p>
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={quality}
+                src={ambiance}
                 className="max-w-full h-auto"
                 // style={{ maxWidth: '160px' }}
-                alt="Quality"
+                alt="Ambiance"
               ></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-                Parents and caregivers are often busy with their child’s
-                schedule as well as their own. Finding activities quickly and
-                easily is important.
+                Users prefer to shop with their favorite vendors but are unclear
+                on when they will be at the market or what their offerings will
+                be week to week.
               </p>
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
-              <img
-                src={availability}
-                className="max-w-full"
-                alt="Availability"
-              ></img>
+              <img src={offerings} className="max-w-full" alt="Offerings"></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-                Parents and caregivers do not often have the materials necessary
-                for an activity available at home. A link to an itemized online
-                shopping list would make this more convenient.
+                Users were interested in shopping for in-season produce but
+                doing so impacted their ability to plan their groceries and shop
+                at the farmers market. Knowing what is available and in season
+                each week would be helpful.
               </p>
             </div>
           </div>
@@ -287,9 +294,10 @@ export default function CaseStudy1() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “ Time is the biggest issue. Also just not knowing what to do
-                and ending up putting out crayons and paper for the millionth
-                time. I don’t know how all these pinterest moms do it. ”
+                “ When I go to the farmers market I like to see in season
+                produce, which im actually just now learning more about. I never
+                used to pay attention to that growing up buying everything from
+                Albertsons. ”
               </strong>
             </p>
           </div>
@@ -300,9 +308,9 @@ export default function CaseStudy1() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “ It is hard coming up with new ideas or ideas that are as good
-                as what they have already done at school, since those activities
-                have more philosophy in place. ”
+                “ It’s almost always really chaotic. I try to remember where my
+                favorite vendors are but there seems to be no real rhyme or
+                reason for how its all set up.”
               </strong>
             </p>
           </div>
@@ -313,10 +321,10 @@ export default function CaseStudy1() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “ Time spent sourcing materials takes away from the time we have
-                to do activities together, We often default to ordering things
-                on Amazon for efficiency. We like to be able to re-order things
-                we liked. ”
+                “Not knowing who will be there or what they will have and in
+                what quantity. It makes it hard to buy what you need and you
+                just end up with a little bit of everything which also feels
+                wasteful.”
               </strong>
             </p>
           </div>
@@ -324,7 +332,7 @@ export default function CaseStudy1() {
             <img
               src={how_might_we2}
               className="max-w-full h-auto"
-              alt="Mobile Preview"
+              alt="Cloud"
             ></img>
           </div>
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12 ">
@@ -333,16 +341,16 @@ export default function CaseStudy1() {
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
             Before coming up with a design to solve this problem, I needed to
             further define our target user and find out what their wants and
-            needs would be for this product. Meet our user Megan. Megan is a
-            work at home/stay at home mom who wants to provide enriching
-            educational activities for her children to do at home, understand
-            the educational reasoning behind the activities, and participate in
-            the activities with her children.
+            needs would be for this product. Meet our user Jade. Jade is a
+            teacher and mother who wants to shop sustainable, in season produce
+            and goods from her local farmers market. So that she can better plan
+            her grocery needs, she would like to be able to see what is
+            available each week and purchase her produce and goods in advance.
           </p>
           <div className="flex justify-center items-center">
             <div className="flex flex-col items-start">
               <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-12">
-                Meet Megan
+                Meet Allie and Tyler
               </h2>
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/User+Persona+V+1.pdf"
@@ -351,7 +359,19 @@ export default function CaseStudy1() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={user_persona1}
+                  src={guilder_persona1}
+                  className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                  alt="Link to user persona figma file"
+                ></img>
+              </a>
+              <a
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/User+Persona+V+1.pdf"
+                className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={guilder_persona2}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -374,17 +394,19 @@ export default function CaseStudy1() {
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
             With the needs of our user identified, it was clear that there was a
-            need for an educational activity resource that{' '}
-            <strong>was quick and easy to use,</strong> and that gave a{' '}
-            <strong>simple solution for gathering materials</strong> for each
-            activity.
+            need for a product that would allow users to{' '}
+            <strong>
+              find a local farmers market, browse their vendors and offerings,
+              and place orders in advance.
+            </strong>
           </p>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            The next question was: how can these goals be achieved with
-            Cleverist? Since one of the biggest pain points was time, I wanted
-            to ensure that the site’s design was{' '}
-            <strong>easy to understand,</strong> and organized in a way that
-            made it as <strong>time efficient</strong> as possible.
+            The next question was: how can these goals be achieved with Local
+            Basket? Since one of the biggest pain points was{' '}
+            <strong>navigation</strong>, I wanted to ensure that the app’s
+            design was <strong>easy to understand</strong>, and{' '}
+            <strong>organized</strong> in a way that made it as{' '}
+            <strong>intuitive</strong> as possible.
           </p>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             Finding the Flow
@@ -406,10 +428,10 @@ export default function CaseStudy1() {
             on which of our desired features were must-haves for a minimum
             viable product, versus which features would be nice but could be
             added in later iterations of the product. I chose the features in P1
-            and P2 based primarily on feedback from user interviews. The
-            participants expressed wanting the ability to share/print/download
-            the activities, as well as view and leave comments. The more basic
-            features were added based on competitor analysis.
+            and P2 based primarily on competitor analysis because I wanted to
+            user to feel a sense of familiarity in the flows on the app. I added
+            several new features which were all based on the needs that users
+            expressed in interviews.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
@@ -420,7 +442,7 @@ export default function CaseStudy1() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={feature_set}
+                  src={features}
                   className="max-w-full h-auto"
                   alt="Feature Set"
                 ></img>
@@ -430,11 +452,12 @@ export default function CaseStudy1() {
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
             The <strong>sitemap</strong> was built by considering the feature
             set and how it could be best applied for quick and easy navigation.
-            The Log In and Search icons area separated from the navigation and
-            on the same level as the logo at the top of the screen. The
-            navigation consists of drop downs for Account, About, Community, and
-            Activities. Each of those navigation points expands further to
-            include more detailed options.
+            The Log In and Order icons area separated from the navigation and on
+            the same level as the logo at the top of the screen. The navigation
+            consists of drop downs for Menus, Order, and About Us. Keeping the
+            navigation simple was important to the design because it keeps the
+            focus on ordering. Each of those navigation points expands further
+            to include more detailed options.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
@@ -445,7 +468,7 @@ export default function CaseStudy1() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={learn_grow_sitemap1}
+                  src={guilder_user_flow}
                   className="max-w-full h-auto"
                   alt="Site Map"
                 ></img>
@@ -453,32 +476,32 @@ export default function CaseStudy1() {
             </div>
           </div>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            These <strong>user flows</strong> helped determine exactly the
-            Cleverist user would go about creating an account, and how to find
-            and save an activity. Both of which were very important to the
-            design of the site. I wanted to work out which steps the user would
-            take to complete these tasks, and what options would be available
-            along the way. For Account Creation, we start with the assumption
-            that the user potentially has an account, and if not they can choose
-            the option to make one. For Finding an Activity, the user can either
-            use the search bar to find an activity, or choose to browse
-            activities using filters. The filters within the Activities area of
-            navigation were originally By Age, By Interest, and By Time. Along
-            the way I received feedback from critiques and usability tests and
-            the filters were changed to Age, Subject, and Duration for clarity.
+            This <strong>user flow</strong> helped determine exactly the Local
+            Basket user would go about placing an order ahead for pickup, which
+            was very important to the design of the app. I wanted to work out
+            which steps the user would take to complete this task, and what
+            options would be available along the way. We start with the
+            assumption that the user potentially has an account, and if not they
+            can choose the option to make one. Next, the user can either choose
+            to browse markets/products/vendors on the landing page, or search
+            for vendors and products using a search bar. Once a category is
+            chosen the flow is very similar to popular food delivery apps where
+            the user can add items to their cart. The filters within the
+            Activities area of navigation were originally By Age, By Interest,
+            and By Time.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/User+Flows.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Learn+_+Grow+Sitemap+1.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={user_flows}
+                  src={guilder_sitemap}
                   className="max-w-full h-auto"
-                  alt="User Flows"
+                  alt="Site Map"
                 ></img>
               </a>
             </div>
@@ -493,12 +516,15 @@ export default function CaseStudy1() {
             </h3>
             <p className="text-left text-lg sm:text-2xl mb-16 sm:mb-32">
               After determining my information architecture, i got to work
-              creating concept sketches and worked on branding using Cleverist’s
-              core values. Using the sketches and branding, I moved on to
-              wireframes to develop a more complete design. I tried to focus on
-              how the user interface could be most time efficient for our user,
-              while still providing a{' '}
-              <strong>delightful and inspiring experience.</strong>
+              creating concept sketches and worked on branding using Local
+              Basket’s core values. I focused on a clean and intuitive design
+              that had a familiar flow that users could follow to place an
+              order. The main features that were added for an MVP were{' '}
+              <strong>placing an order</strong> for pickup,{' '}
+              <strong>searching nearby markets, vendors</strong>, and{' '}
+              <strong>products</strong>, and repeating a previous order. At the
+              end of the order process, <strong>directories and maps</strong>{' '}
+              were provided to help the user find their pickup location.
             </p>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
               Early Sketches
@@ -508,12 +534,9 @@ export default function CaseStudy1() {
               to get an idea of how things would look. While these were a great
               place to start, there was still a lot of UI work to do to pull it
               together. In these early sketches, the focus was seeing how the
-              flows would be applied to the mobile site. I wanted to see where
-              each step of the flow would take the use. Starting with the
-              navigation (hamburger menu), choosing activities, then interest
-              and finally art. From there I laid out how the filtered activities
-              would appear to the user, and how an activity page would look once
-              one activity was chosen.
+              flows would be applied to the app. I wanted to see where each step
+              of the flow would take the use. Starting with home page categories
+              I included markets, vendors, and products.
             </p>
             <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
               <a
@@ -523,7 +546,7 @@ export default function CaseStudy1() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={early_sketches}
+                  src={guilder_sketches}
                   className="max-w-full h-auto"
                   alt="Link to figma file of early sketches"
                 ></img>
@@ -535,24 +558,24 @@ export default function CaseStudy1() {
             <div className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
               <p className="mb-10">
                 With a general idea of how the site could be laid out, the next
-                piece was deciding how I would communicate the Cleverist values
-                using inspiration, color pallette, and logo. I chose to use
-                colors that were a playful spin on primary colors so often seen
-                in children’s products. The core values that I wanted to
+                piece was deciding how I would communicate the Local Basket's
+                values using inspiration, color pallette, and logo. I chose to
+                use colors that were a playful spin on primary colors so often
+                seen in children’s products. The core values that I wanted to
                 communicate with the overall branding were:
               </p>
               <ul className="list-disc ml-8">
-                <li>Inspiring</li>
-                <li>Playful</li>
-                <li>Creative</li>
-                <li>Enriching</li>
+                <li>Familiar</li>
+                <li>Vibrant</li>
+                <li>Organic</li>
+                <li>Warm</li>
                 <li>Approachable</li>
               </ul>
             </div>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <div>
                 <img
-                  src={mood_board_w_color_pallette1}
+                  src={guilder_mood_board}
                   className="max-w-full h-auto"
                   alt="Mood Board"
                 ></img>
@@ -563,13 +586,11 @@ export default function CaseStudy1() {
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
               Based on the sketches, I created mid fidelity,{' '}
-              <strong>responsive wireframes </strong> across mobile and desktop
-              so that users could access the site on different devices and have
-              a consistent experience. I like to think of these as the blueprint
-              stage. One main detail that was built apon was how the filters
-              would be applied, at this stage in the design I chose to makethe
-              filters in a checklist style rather than a braod drop down
-              category so that the user could choose multiple filter options.
+              <strong>responsive wireframes</strong> for mobile to see how users
+              would work through a flow with more detail. I like to think of
+              these as the blueprint stage. One main detail that was built upon
+              was how the user and item ratings could be shown, as well as the
+              layout of the maps and directories toward the end of the flow.
             </p>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <a
@@ -579,7 +600,7 @@ export default function CaseStudy1() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={mid_fi_wire_frames}
+                  src={guilder_mid_fi}
                   className="max-w-full h-auto"
                   alt="Link to figma file of mid fi wire frames"
                 ></img>
@@ -589,11 +610,21 @@ export default function CaseStudy1() {
               High Fidelity UI
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
-              This step is where the design really came together visually. I was
-              able to fully design the Cleverist site while keeping our persona,
-              Megan in mind. A combination of custom made icons and real imagery
-              gave the site the exact feel we were going for in a way that was
-              simple, clean, and time efficient.
+              The app came together beautifully, but I conducted usability
+              testing to gather feedback on the new design. The feedback was
+              great for the UI elements as well as the ease of completing tasks.
+              Based on notes from the users, some changes needed to be made to
+              elevate this design. The main change would be to{' '}
+              <strong>
+                create an opportunity for the user to order from multiple
+                vendors at one market within one transaction.
+              </strong>{' '}
+              With this new feature, some elements needed to be changed to
+              better support ordering from several vendors. A number icon was
+              added to the basket rather than as a hovering button above
+              navigation which would prevent clutter on the screen. Next, an
+              accordion option at the end of checkout was added to allow users
+              to see maps and directories for each vendor in an organized way.
             </p>
             <a
               href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=1%3A3&t=05AJXlKrrTlhUCzR-1"
@@ -614,7 +645,7 @@ export default function CaseStudy1() {
                 className="max-w-full h-auto"
               >
                 <img
-                  src={hi_fi_wire_frames}
+                  src={guilder_hi_fi}
                   className="max-w-full h-auto"
                   alt="Link to figma file of hi fi wire frames"
                 ></img>
@@ -630,7 +661,7 @@ export default function CaseStudy1() {
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
             At the end of the visual design portion came one of the most
-            important parts of the Cleverist design process - testing. I felt
+            important parts of the Guilder design process - testing. I felt
             confident about my overall design but conducting usability tests
             using the Figma prototype would give clarity and inform my further
             iterations.
@@ -673,13 +704,13 @@ export default function CaseStudy1() {
             The usability <strong>tests were considered successful</strong>{' '}
             because all of the users could quickly and effectively complete the
             task flows that the wireframes were created for. Some feedback was
-            given for future iterations which will be applied to make the
-            Cleverist site even easier and more delightful to use.
+            given for future iterations which will be applied to make the Local
+            Basket App even easier and more delightful to use.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <img
-                src={cleverist_iphone}
+                src={guilder_iphone}
                 className="max-w-full h-auto"
                 alt="Cleverist iphone preview"
               ></img>
@@ -694,7 +725,7 @@ export default function CaseStudy1() {
             what could change, what questions the participants had, and their
             additional ideas. This organization helped me visualize{' '}
             <strong>design opportunities</strong> and{' '}
-            <strong>potential next steps.</strong>
+            <strong>potential next steps</strong>.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 mb-10 sm:mb-20">
             <div className="col-span-1">
@@ -715,15 +746,15 @@ export default function CaseStudy1() {
               <div className="font-semibold text-lg sm:text-2xl text-left">
                 What Could Change:
                 <ul className="list-disc ml-8 mt-4">
-                  <li>Users felt there should be a button to apply filters.</li>
                   <li>
-                    Users wanted a heart or save icon on activities to allow
-                    activities to be saved to library.
+                    Adjusting the “items in basket” to being just a number on
+                    the basket icon rather than a bar.
                   </li>
                   <li>
-                    Users wanted to see an area where they could leave a comment
-                    on an activity.
+                    Users felt there should be away to place orders with
+                    multiple vendors in one transaction.
                   </li>
+                  <li>More information on parking and accessibility.</li>
                 </ul>
               </div>
             </div>
@@ -736,11 +767,11 @@ export default function CaseStudy1() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                {/* <img
                   src={analyzing_results1}
                   className="max-w-full h-auto"
                   alt="Analyzing results"
-                ></img>
+                ></img> */}
               </a>
             </div>
           </div>
@@ -749,14 +780,13 @@ export default function CaseStudy1() {
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
             Based on the test results, I made some priority revisions throughout
-            the site based on how impactful it would be and how it would fit
-            into the time frame I had. Below are the main revisions that were
-            made.
+            the app based on how impactful it would be and how it would fit into
+            the timeframe I had. Below are the main revisions that were made.
           </p>
           <ul className="list-disc ml-8 font-semibold text-lg sm:text-2xl text-left mb-10 sm:mb-20">
             <li className="mb-10 sm:mb-20">
-              Button at the end of filter section to allow the user to apply
-              filters rather than clicking “X”.
+              Showing the items in basket as a number, rather than a hovering
+              bar.
               <div className="flex justify-center items-center mb-16 sm:mb-32">
                 <div>
                   <img
@@ -768,28 +798,31 @@ export default function CaseStudy1() {
               </div>
             </li>
             <li className="mb-10 sm:mb-20">
-              Button at the end of filter section to allow the user to apply
-              filters rather than clicking “X”.
+              The ability to add multiple orders from different vendors to one
+              transaction was added. Vendors were listed separately at checkout,
+              but joined as one transaction.
               <div className="flex justify-center items-center mb-16 sm:mb-32">
                 <div>
-                  <img
+                  {/* <img
                     src={color_mixing}
                     className="max-w-full h-auto"
                     alt="Color Mixing"
-                  ></img>
+                  ></img> */}
                 </div>
               </div>
             </li>
             <li className="mb-6 sm:mb-12">
-              On the Activity page, “Leave a Comment” section added before the
-              existing comments from other users.
+              To include more accessibility and parking information, I needed to
+              keep the maps and directory but find a way to keep it clean and
+              easy to view. I chose to make each vendor’s information pop out as
+              an accordion to view.
               <div className="flex justify-center items-center mb-16 sm:mb-32">
                 <div>
-                  <img
+                  {/* <img
                     src={comments}
                     className="max-w-full h-auto"
                     alt="Comments"
-                  ></img>
+                  ></img> */}
                 </div>
               </div>
             </li>
@@ -805,9 +838,15 @@ export default function CaseStudy1() {
             With more time, the next steps I would take on this design project
             would be:
             <ul className="list-disc ml-8 font-semibold">
-              <li>Creating an “add your own activity” feature.</li>
-              <li>Design features for the Community section.</li>
-              <li>Add a FAQ section.</li>
+              <li>
+                Creating designs for a potential “Vendor” side of the app.
+              </li>
+              <li>Add a grocery list feature.</li>
+              <li>
+                Include Information about other local events such as
+                craft/makers markets.
+              </li>
+              <li>Add social media links.</li>
               <li>Continue to test and iterate.</li>
             </ul>
           </div>
@@ -819,28 +858,24 @@ export default function CaseStudy1() {
             Learnings & Final Thoughts
           </h3>
           <p className="mb-10 text-left text-lg sm:text-2xl">
-            This was my first real UI/UX design project that I have worked on
-            and I learned so much from it.My main growth came in the areas of
-            tool sets (primarily Figma), and seeing a project from start to
-            finish.
+            The Local Basket app was able to effectively connect users to
+            farmers and makers in their community. In doing so, this app makes
+            it easy to promote local agriculture, support eco-friendliness and
+            sustainability, and improve access to fresh and healthy food which
+            was what inspired me to choose this project from the start.
           </p>
           <p className="mb-10 text-left text-lg sm:text-2xl">
-            I also learned how I would like to continue to improve as a
-            designer,. After experiencing the entire design thinking process, I
-            have a much better idea how to organize projects and at which stages
-            to seek critique and feedback.
+            My research and testing methods allowed me to identify user pain
+            points and design a solution that addressed those issues, resulting
+            in a successful outcome and a pleasant shopping experience that
+            users would be happy to implement in their weekly routine.
           </p>
           <p className="mb-10 text-left text-lg sm:text-2xl">
-            This was certainly an accelerated version of the Ui/UX design
-            process, and there are some things I would have pursued further if
-            given more time. I would have liked to see how the further
-            iterations of my design took shape, and how they would evolve
-            through prototyping and testing.
-          </p>
-          <p className="text-left text-lg sm:text-2xl mb-8">
-            Although this project was new and sometimes challenging, I truly
-            enjoyed the challenge and feel that I will continue to stay curious
-            about the process and grow as a designer.
+            One big takeaway from this particular project was that although new
+            design patterns are interesting to explore, users often prefer
+            designs that are familiar to them so that they are as intuitive as
+            possible. I believe I was able to use inspiration from other food
+            ordering apps while still putting my own authentic spin on it.
           </p>
         </div>
       </div>
