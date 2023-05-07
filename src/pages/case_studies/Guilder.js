@@ -343,7 +343,7 @@ export default function Guilder() {
                 Meet Allie and Tyler
               </h2>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/User+Persona+V+1.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/persona1.pdf"
                 className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -355,7 +355,7 @@ export default function Guilder() {
                 ></img>
               </a>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/User+Persona+V+1.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/persona2.pdf"
                 className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -450,7 +450,7 @@ export default function Guilder() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Learn+_+Grow+Sitemap+1.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/user_flow.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -525,7 +525,7 @@ export default function Guilder() {
             </p>
             <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Early+Sketches.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/sketches.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -562,11 +562,17 @@ export default function Guilder() {
             </div>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <div>
-                <img
-                  src={mood_board}
-                  className="max-w-full h-auto"
-                  alt="Mood Board"
-                ></img>
+                <a
+                  href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/mood_board.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={mood_board}
+                    className="max-w-full h-auto"
+                    alt="Mood Board"
+                  ></img>
+                </a>
               </div>
             </div>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
@@ -582,7 +588,7 @@ export default function Guilder() {
             </p>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Mid+Fi+Wire+Frames.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/mid_fi_wireframes.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -623,7 +629,7 @@ export default function Guilder() {
             </a>
             <div className="flex justify-center items-center mt-8 sm:mt-16">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Hi+Fi+Wire+frames.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/hi_fi_wireframes.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="max-w-full h-auto"
