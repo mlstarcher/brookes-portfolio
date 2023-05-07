@@ -27,6 +27,8 @@ import iteration3 from '../../assets/local_basket/iteration3.png';
 import user_flow from '../../assets/local_basket/user_flow.png';
 import sketches from '../../assets/local_basket/sketches.png';
 import local_basket_iphones from '../../assets/local_basket/local_basket_iphones.png';
+import mobile_preview from '../../assets/local_basket/mobile_preview.png';
+import footer from '../../assets/local_basket/footer.png';
 
 export default function LocalBasket() {
   return (
@@ -55,20 +57,31 @@ export default function LocalBasket() {
         <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8">
           <div className="relative" style={{ height: '600px', width: '300px' }}>
             <img
-              className="absolute z-10 pointer-events-none h-full w-auto"
+              className="absolute z-20 pointer-events-none h-full w-auto"
               src={iphone_14}
-              alt="Mobile preview"
+              alt="iphone 14"
             ></img>
             <div
               className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
               style={{ marginTop: '14px' }}
             >
-              {/* <img
-                src={guilder_order}
+              <img
+                src={mobile_preview}
                 className="max-w-full h-auto wireframe"
-                alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
-              ></img> */}
+                alt="HMobile previewow might we provide quality educational activities for parents and caregivers to do with their children at home?"
+              ></img>
             </div>
+            <img
+              className="absolute z-10 pointer-events-none"
+              style={{
+                bottom: '15',
+                left: '9px',
+                borderRadius: '0px 0px 20px 20px',
+                width: '280px'
+              }}
+              src={footer}
+              alt="Mobile preview footer"
+            ></img>
           </div>
         </div>
       </div>
@@ -366,17 +379,6 @@ export default function LocalBasket() {
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
-              </a>
-              <a
-                href="https://www.figma.com/file/tDsKLFg18liGSNKWCh40dg/PERSONAS?node-id=1%3A131&t=G2zip3zjHLc8hmne-1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer  mb-16 sm:mb-32"
-              >
-                <div className="flex items-center">
-                  <p className="mr-2">View Figma</p>
-                  <FaArrowRight className="m-h-5" />
-                </div>
               </a>
             </div>
           </div>
@@ -772,7 +774,7 @@ export default function LocalBasket() {
             <li className="mb-10 sm:mb-20">
               Showing the items in basket as a number, rather than a hovering
               bar.
-              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
                     src={iteration1}
@@ -786,7 +788,7 @@ export default function LocalBasket() {
               The ability to add multiple orders from different vendors to one
               transaction was added. Vendors were listed separately at checkout,
               but joined as one transaction.
-              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
                     src={iteration2}

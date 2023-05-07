@@ -26,6 +26,8 @@ import sitemap from '../../assets/guilder/sitemap.png';
 import user_flow from '../../assets/guilder/user_flow.png';
 import sketches from '../../assets/guilder/sketches.png';
 import guilder_iphones from '../../assets/guilder/guilder_iphones.png';
+import iteration1 from '../../assets/guilder/iteration1.png';
+import iteration2 from '../../assets/guilder/iteration2.png';
 
 export default function Guilder() {
   return (
@@ -365,17 +367,6 @@ export default function Guilder() {
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
-              </a>
-              <a
-                href="https://www.figma.com/file/tDsKLFg18liGSNKWCh40dg/PERSONAS?node-id=1%3A131&t=G2zip3zjHLc8hmne-1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer  mb-16 sm:mb-32"
-              >
-                <div className="flex items-center">
-                  <p className="mr-2">View Figma</p>
-                  <FaArrowRight className="m-h-5" />
-                </div>
               </a>
             </div>
           </div>
@@ -762,25 +753,25 @@ export default function Guilder() {
               Nutritional information linked under the item description as well
               as a drop down option for adding a tip percentage to the order and
               an area to add additional notes.
-              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
-                  {/* <img
+                  <img
                     src={iteration1}
                     className="max-w-full h-auto"
                     alt="Iteration 1"
-                  ></img> */}
+                  ></img>
                 </div>
               </div>
             </li>
             <li className="mb-10 sm:mb-20">
               On the order total page, tip amount is added accordingly.
-              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
-                  {/* <img
+                  <img
                     src={iteration2}
                     className="max-w-full h-auto"
                     alt="Iteration 2"
-                  ></img> */}
+                  ></img>
                 </div>
               </div>
             </li>

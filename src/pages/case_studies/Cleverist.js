@@ -356,17 +356,6 @@ export default function Cleverist() {
                   alt="Link to user persona figma file"
                 ></img>
               </a>
-              <a
-                href="https://www.figma.com/file/tDsKLFg18liGSNKWCh40dg/PERSONAS?node-id=1%3A131&t=G2zip3zjHLc8hmne-1"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer  mb-16 sm:mb-32"
-              >
-                <div className="flex items-center">
-                  <p className="mr-2">View Figma</p>
-                  <FaArrowRight className="m-h-5" />
-                </div>
-              </a>
             </div>
           </div>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
@@ -757,7 +746,7 @@ export default function Cleverist() {
             <li className="mb-10 sm:mb-20">
               Button at the end of filter section to allow the user to apply
               filters rather than clicking “X”.
-              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
                     src={activity_filters}
@@ -770,7 +759,7 @@ export default function Cleverist() {
             <li className="mb-10 sm:mb-20">
               Button at the end of filter section to allow the user to apply
               filters rather than clicking “X”.
-              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
                     src={color_mixing}
