@@ -4,7 +4,7 @@ import Home from './pages/Home.js';
 import About from './pages/About.js';
 import Cleverist from './pages/case_studies/Cleverist.js';
 import LocalBasket from './pages/case_studies/LocalBasket.js';
-// import Guilder from './pages/case_studies/Guilder.js';
+import Guilder from './pages/case_studies/Guilder.js';
 // import Sephora from './pages/case_studies/Sephora.js';
 // import ComingSoon from './pages/ComingSoon';
 import ErrorPage from './pages/ErrorPage.js';
@@ -22,7 +22,7 @@ function App() {
             <Route index path="about" element={<About />} />
             <Route path="cleverist" element={<Cleverist />} />
             <Route path="local-basket" element={<LocalBasket />} />
-            {/* <Route path="guilder" element={<Guilder />} /> */}
+            <Route path="guilder" element={<Guilder />} />
             {/* <Route path="sephora" element={<Sephora />} /> */}
             {/* <Route path="coming-soon" element={<ComingSoon />} /> */}
             <Route path="*" element={<ErrorPage />} />

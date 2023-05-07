@@ -5,7 +5,7 @@ import { FaArrowRight } from 'react-icons/fa';
 
 import iphone_14 from '../../assets/iphone_14_transparent.png';
 import design_thinking_image from '../../assets/design_thinking_image.png';
-import mobile_preview from '../../assets/guilder/guilder_order.png';
+import mobile_preview from '../../assets/guilder/mobile_preview.png';
 import how_might_we1 from '../../assets/guilder/how_might_we1.png';
 import how_might_we2 from '../../assets/guilder/how_might_we2.png';
 import how_might_we3 from '../../assets/guilder/how_might_we3.png';
@@ -20,11 +20,11 @@ import persona1 from '../../assets/guilder/persona1.png';
 import persona2 from '../../assets/guilder/persona2.png';
 import features from '../../assets/guilder/features.png';
 import mood_board from '../../assets/guilder/mood_board.png';
-import mid_fi from '../../assets/guilder/mid_fi.png';
-import hi_fi from '../../assets/guilder/hi_fi.png';
+import mid_fi_wireframes from '../../assets/guilder/mid_fi_wireframes.png';
+import hi_fi_wireframes from '../../assets/guilder/hi_fi_wireframes.png';
 import sitemap from '../../assets/guilder/sitemap.png';
 import user_flow from '../../assets/guilder/user_flow.png';
-import sketches from '../../assets/guilder/guilder_sketches.png';
+import sketches from '../../assets/guilder/sketches.png';
 import guilder_iphones from '../../assets/guilder/guilder_iphones.png';
 
 export default function Guilder() {
@@ -349,7 +349,7 @@ export default function Guilder() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={guilder_persona1}
+                  src={persona1}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -361,7 +361,7 @@ export default function Guilder() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={guilder_persona2}
+                  src={persona2}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -629,7 +629,7 @@ export default function Guilder() {
                 className="max-w-full h-auto"
               >
                 <img
-                  src={guilder_hi_fi}
+                  src={hi_fi_wireframes}
                   className="max-w-full h-auto"
                   alt="Link to figma file of hi fi wire frames"
                 ></img>
