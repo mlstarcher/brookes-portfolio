@@ -402,11 +402,11 @@ export default function LocalBasket() {
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             Finding the Flow
           </h2>
-          <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
+          {/* <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
             With the user’s problems in mind, the next steps were to determine
             our feature set, create a site map, and user flows. These tools
             helped give scaffolding to the design of the product.
-          </p>
+          </p> */}
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={how_might_we3}
@@ -477,9 +477,7 @@ export default function LocalBasket() {
             to browse markets/products/vendors on the landing page, or search
             for vendors and products using a search bar. Once a category is
             chosen the flow is very similar to popular food delivery apps where
-            the user can add items to their cart. The filters within the
-            Activities area of navigation were originally By Age, By Interest,
-            and By Time.
+            the user can add items to their cart.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
@@ -527,8 +525,8 @@ export default function LocalBasket() {
               place to start, there was still a lot of UI work to do to pull it
               together. In these early sketches, the focus was seeing how the
               flows would be applied to the app. I wanted to see where each step
-              of the flow would take the use. Starting with home page categories
-              I included markets, vendors, and products.
+              of the flow would take the user. Starting with home page
+              categories I included markets, vendors, and products.
             </p>
             <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
               <a
@@ -550,11 +548,10 @@ export default function LocalBasket() {
             <div className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
               <p className="mb-10">
                 With a general idea of how the site could be laid out, the next
-                piece was deciding how I would communicate the Local Basket's
+                piece was deciding how I would communicate the Local Basket
                 values using inspiration, color pallette, and logo. I chose to
-                use colors that were a playful spin on primary colors so often
-                seen in children’s products. The core values that I wanted to
-                communicate with the overall branding were:
+                use colors that were welcoming and earthy. The core values that
+                I wanted to communicate with the overall branding were:
               </p>
               <ul className="list-disc ml-8">
                 <li>Familiar</li>
