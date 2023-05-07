@@ -430,9 +430,9 @@ export default function Cleverist() {
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
             The <strong>sitemap</strong> was built by considering the feature
             set and how it could be best applied for quick and easy navigation.
-            The Log In and Search icons area separated from the navigation and
-            on the same level as the logo at the top of the screen. The
-            navigation consists of drop downs for Account, About, Community, and
+            The Log In and Search icons are separated from the navigation and on
+            the same level as the logo at the top of the screen. The navigation
+            consists of drop downs for Account, About, Community, and
             Activities. Each of those navigation points expands further to
             include more detailed options.
           </p>
@@ -509,7 +509,7 @@ export default function Cleverist() {
               place to start, there was still a lot of UI work to do to pull it
               together. In these early sketches, the focus was seeing how the
               flows would be applied to the mobile site. I wanted to see where
-              each step of the flow would take the use. Starting with the
+              each step of the flow would take the user. Starting with the
               navigation (hamburger menu), choosing activities, then interest
               and finally art. From there I laid out how the filtered activities
               would appear to the user, and how an activity page would look once
@@ -563,11 +563,11 @@ export default function Cleverist() {
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
               Based on the sketches, I created mid fidelity,{' '}
-              <strong>responsive wireframes </strong> across mobile and desktop
+              <strong>responsive wireframes</strong> across mobile and desktop
               so that users could access the site on different devices and have
               a consistent experience. I like to think of these as the blueprint
-              stage. One main detail that was built apon was how the filters
-              would be applied, at this stage in the design I chose to makethe
+              stage. One main detail that was built upon was how the filters
+              would be applied, at this stage in the design I chose to make the
               filters in a checklist style rather than a braod drop down
               category so that the user could choose multiple filter options.
             </p>
@@ -823,21 +823,20 @@ export default function Cleverist() {
             and I learned so much from it.My main growth came in the areas of
             tool sets (primarily Figma), and seeing a project from start to
             finish.
-          </p>
-          <p className="mb-10 text-left text-lg sm:text-2xl">
-            I also learned how I would like to continue to improve as a
-            designer,. After experiencing the entire design thinking process, I
+            <br />
+            <br />I also learned how I would like to continue to improve as a
+            designer. After experiencing the entire design thinking process, I
             have a much better idea how to organize projects and at which stages
             to seek critique and feedback.
-          </p>
-          <p className="mb-10 text-left text-lg sm:text-2xl">
+            <br />
+            <br />
             This was certainly an accelerated version of the Ui/UX design
             process, and there are some things I would have pursued further if
             given more time. I would have liked to see how the further
             iterations of my design took shape, and how they would evolve
             through prototyping and testing.
-          </p>
-          <p className="text-left text-lg sm:text-2xl mb-8">
+            <br />
+            <br />
             Although this project was new and sometimes challenging, I truly
             enjoyed the challenge and feel that I will continue to stay curious
             about the process and grow as a designer.

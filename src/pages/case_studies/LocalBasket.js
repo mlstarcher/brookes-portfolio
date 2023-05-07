@@ -441,14 +441,17 @@ export default function LocalBasket() {
             </div>
           </div>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            The <strong>sitemap</strong> was built by considering the feature
-            set and how it could be best applied for quick and easy navigation.
-            The Log In and Order icons area separated from the navigation and on
-            the same level as the logo at the top of the screen. The navigation
-            consists of drop downs for Menus, Order, and About Us. Keeping the
-            navigation simple was important to the design because it keeps the
-            focus on ordering. Each of those navigation points expands further
-            to include more detailed options.
+            This <strong>user flow</strong> helped determine exactly the Local
+            Basket user would go about placing an order ahead for pickup, which
+            was very important to the design of the app. I wanted to work out
+            which steps the user would take to complete this task, and what
+            options would be available along the way. We start with the
+            assumption that the user potentially has an account, and if not they
+            can choose the option to make one. Next, the user can either choose
+            to browse markets/products/vendors on the landing page, or search
+            for vendors and products using a search bar. Once a category is
+            chosen the flow is very similar to popular food delivery apps where
+            the user can add items to their cart.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
@@ -466,19 +469,6 @@ export default function LocalBasket() {
               </a>
             </div>
           </div>
-          <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            This <strong>user flow</strong> helped determine exactly the Local
-            Basket user would go about placing an order ahead for pickup, which
-            was very important to the design of the app. I wanted to work out
-            which steps the user would take to complete this task, and what
-            options would be available along the way. We start with the
-            assumption that the user potentially has an account, and if not they
-            can choose the option to make one. Next, the user can either choose
-            to browse markets/products/vendors on the landing page, or search
-            for vendors and products using a search bar. Once a category is
-            chosen the flow is very similar to popular food delivery apps where
-            the user can add items to their cart.
-          </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
