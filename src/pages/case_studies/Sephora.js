@@ -375,7 +375,7 @@ export default function Sephora() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={jouney_map}
+                  src={journey_map}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -387,28 +387,25 @@ export default function Sephora() {
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
             With the needs of our user identified, it was clear that there was a
-            need for a product that would allow users to{' '}
-            <strong>
-              find a local farmers market, browse their vendors and offerings,
-              and place orders in advance.
-            </strong>
-          </p>
-          <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            The next question was: how can these goals be achieved with Local
-            Basket? Since one of the biggest pain points was{' '}
-            <strong>navigation</strong>, I wanted to ensure that the app’s
-            design was <strong>easy to understand</strong>, and{' '}
-            <strong>organized</strong> in a way that made it as{' '}
-            <strong>intuitive</strong> as possible.
+            need for a website feature that <strong>was informative</strong>,
+            and that provided an <strong>efficient</strong> way to recycle
+            cosmetics.
+            <br />
+            The next question was: how can these goals be achieved with Sephora?
+            Since one of the biggest pain points was efficiency, I wanted to
+            ensure that the feature was{' '}
+            <strong>quick and simple to use, easy to understand,</strong> and
+            <strong>organized</strong> in a way that provided information about
+            the company’s eco friendly practices.
           </p>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             Finding the Flow
           </h2>
-          {/* <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
+          <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
             With the user’s problems in mind, the next steps were to determine
-            our feature set, create a site map, and user flows. These tools
-            helped give scaffolding to the design of the product.
-          </p> */}
+            our feature elements using a value matrix, and task flow. These
+            tools helped give scaffolding to the design of the product.
+          </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={how_might_we3}
@@ -417,14 +414,14 @@ export default function Sephora() {
             ></img>
           </div>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
-            The <strong>feature set</strong> shown here helped me to narrow in
-            on which of our desired features were must-haves for a minimum
-            viable product, versus which features would be nice but could be
-            added in later iterations of the product. I chose the features in P1
-            and P2 based primarily on competitor analysis because I wanted to
-            user to feel a sense of familiarity in the flows on the app. I added
-            several new features which were all based on the needs that users
-            expressed in interviews.
+            This <strong>value matrix</strong> helped me analyze and prioritize
+            different values and factors that were important for the recycling
+            feature. High impact items were prioritized, and specifically the
+            high impact items that were also low effort as to save time getting
+            an MVP designed. These included information on recycling cosmetics,
+            tips for cleaning and preparing cosmetics for recycle, the option to
+            add “recycle” to your basket while shopping, and earning beauty
+            insider points for using the feature.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
@@ -443,17 +440,13 @@ export default function Sephora() {
             </div>
           </div>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            This <strong>user flow</strong> helped determine exactly the Local
-            Basket user would go about placing an order ahead for pickup, which
-            was very important to the design of the app. I wanted to work out
-            which steps the user would take to complete this task, and what
-            options would be available along the way. We start with the
-            assumption that the user potentially has an account, and if not they
-            can choose the option to make one. Next, the user can either choose
-            to browse markets/products/vendors on the landing page, or search
-            for vendors and products using a search bar. Once a category is
-            chosen the flow is very similar to popular food delivery apps where
-            the user can add items to their cart.
+            These <strong>task flows</strong> helped determine exactly how the
+            Sephora user would go about using the recycling feature. It was
+            important to explore multiple task flows, since there would be
+            multiple ways to access the feature. A user going to the site with
+            the intention of recycling might choose the CTA, while other
+            shoppers might discover the feature during checkout and add it to
+            their basket then.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
@@ -463,15 +456,15 @@ export default function Sephora() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {/* <img
-                  src={user_flow}
+                <img
+                  src={task_flow}
                   className="max-w-full h-auto"
                   alt="Site Map"
-                ></img> */}
+                ></img>
               </a>
             </div>
           </div>
-          <div className="flex justify-center items-center mb-16 sm:mb-32">
+          {/* <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Learn+_+Grow+Sitemap+1.pdf"
@@ -479,15 +472,14 @@ export default function Sephora() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {/* TODO */}
-                {/* <img
+                <img
                   src={sitemap}
                   className="max-w-full h-auto"
                   alt="Site Map"
-                ></img> */}
+                ></img>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="grid grid-cols-12 mb-16 sm:mb-32">
@@ -498,15 +490,12 @@ export default function Sephora() {
             </h3>
             <p className="text-left text-lg sm:text-2xl mb-16 sm:mb-32">
               After determining my information architecture, i got to work
-              creating concept sketches and worked on branding using Local
-              Basket’s core values. I focused on a clean and intuitive design
-              that had a familiar flow that users could follow to place an
-              order. The main features that were added for an MVP were{' '}
-              <strong>placing an order</strong> for pickup,{' '}
-              <strong>searching nearby markets, vendors</strong>, and{' '}
-              <strong>products</strong>, and repeating a previous order. At the
-              end of the order process, <strong>directories and maps</strong>{' '}
-              were provided to help the user find their pickup location.
+              creating concept sketches and worked on branding using Sephora and
+              Pact’s existing design patterns and branding. Using the sketches
+              and branding, I moved on to wireframes to develop a more complete
+              design. I tried to focus on how the user interface could be most
+              time efficient for our user, while still providing a{' '}
+              <strong>delightful and inspiring experience.</strong>
             </p>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
               Early Sketches
@@ -516,9 +505,13 @@ export default function Sephora() {
               to get an idea of how things would look. While these were a great
               place to start, there was still a lot of UI work to do to pull it
               together. In these early sketches, the focus was seeing how the
-              flows would be applied to the app. I wanted to see where each step
-              of the flow would take the user. Starting with home page
-              categories I included markets, vendors, and products.
+              flow would be applied to the site. I wanted to see where each step
+              of the flow would take the user. Starting with choosing the
+              recycling CTA, landing on the Sephora x Pact page with the option
+              for getting more info or starting the multi part form, and finally
+              adding to basket and checking out. During the process, I realized
+              there should be screens to show how the user would track the
+              progress of their recycling mailer as well.
             </p>
             <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
               <a
@@ -535,23 +528,18 @@ export default function Sephora() {
               </a>
             </div>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
-              Branding
+              UI Elements
             </h2>
             <div className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
               <p className="mb-10">
                 With a general idea of how the site could be laid out, the next
-                piece was deciding how I would communicate the Local Basket
-                values using inspiration, color pallette, and logo. I chose to
-                use colors that were welcoming and earthy. The core values that
-                I wanted to communicate with the overall branding were:
+                piece was deciding how I would create UI elements that would fit
+                in seamlessly with Sephora’s existing design. Another piece to
+                consider was using cards and illustrations similar to the ones
+                Pact uses on their site, but through the Sephora lense. For
+                colors, I used Sephora’s classic color palette of black and
+                white with pops of red.
               </p>
-              <ul className="list-disc ml-8">
-                <li>Familiar</li>
-                <li>Vibrant</li>
-                <li>Organic</li>
-                <li>Warm</li>
-                <li>Approachable</li>
-              </ul>
             </div>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <div>
@@ -563,7 +551,7 @@ export default function Sephora() {
                   <img
                     src={illustration1}
                     className="max-w-full h-auto"
-                    alt="Mood Board"
+                    alt="Product Ilustration"
                   ></img>
                 </a>
               </div>
@@ -572,12 +560,11 @@ export default function Sephora() {
               Mid Fidelity Wireframes
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-              Based on the sketches, I created mid fidelity,{' '}
-              <strong>responsive wireframes</strong> for mobile to see how users
-              would work through a flow with more detail. I like to think of
-              these as the blueprint stage. One main detail that was built upon
-              was how the user and item ratings could be shown, as well as the
-              layout of the maps and directories toward the end of the flow.
+              Based on the sketches, I created mid fidelity wireframes. I like
+              to think of these as the blueprint stage. One main detail that was
+              built upon was how the multi page form would look. It needed to be
+              consistent with Pact’s process, but still fit in with the Sephora
+              site.
             </p>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <a
@@ -597,24 +584,15 @@ export default function Sephora() {
               High Fidelity UI
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
-              The app came together beautifully, but I conducted usability
-              testing to gather feedback on the new design. The feedback was
-              great for the UI elements as well as the ease of completing tasks.
-              Based on notes from the users, some changes needed to be made to
-              elevate this design. The main change would be to{' '}
-              <strong>
-                create an opportunity for the user to order from multiple
-                vendors at one market within one transaction.
-              </strong>{' '}
-              With this new feature, some elements needed to be changed to
-              better support ordering from several vendors. A number icon was
-              added to the basket rather than as a hovering button above
-              navigation which would prevent clutter on the screen. Next, an
-              accordion option at the end of checkout was added to allow users
-              to see maps and directories for each vendor in an organized way.
+              This step is where the design really came together visually. I was
+              able to fully design the Sephora recycling feature while keeping
+              our persona, Wren in mind. A combination of custom made
+              illustrations and real imagery gave the site the exact feel we
+              were going for in a way that was simple, clean, and time
+              efficient.
             </p>
             <a
-              href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=1%3A3&t=05AJXlKrrTlhUCzR-1"
+              href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=12%3A542&t=XeB5o0Zi9PKohavh-1"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer mb-10 sm:mb-20"
