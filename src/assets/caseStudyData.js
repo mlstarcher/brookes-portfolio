@@ -1,6 +1,7 @@
 import cleverist_iphone from './cleverist/cleverist_iphone.png';
 import local_basket_iphones from './local_basket/local_basket_iphones.png';
 import guilder_iphones from './guilder/guilder_iphones.png';
+import sephora_macbook from './sephora/sephora_macbook.png';
 
 const caseStudyData = [
   {
@@ -27,7 +28,7 @@ const caseStudyData = [
     short_description:
       'A responsive website where parents and caregivers can find educational activities to do with their children at home.',
     link: `sephora`,
-    image_name: cleverist_iphone,
+    image_name: sephora_macbook,
     alt_tag: 'iphones'
   },
   {
