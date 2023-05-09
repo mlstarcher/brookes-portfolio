@@ -626,13 +626,13 @@ export default function Sephora() {
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
             At the end of the visual design portion came one of the most
-            important parts of the Guilder design process - testing. I felt
-            confident about my overall design but conducting usability tests
-            using the Figma prototype would give clarity and inform my further
-            iterations.
+            important parts of the Sephora Recycle Feature design process -
+            testing. I felt confident about my overall design but conducting
+            usability tests using the Figma prototype would give clarity and
+            inform my further iterations.
           </p>
           <a
-            href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
+            href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
@@ -646,17 +646,19 @@ export default function Sephora() {
             Usability Testing
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-10">
-            I conducted usability testing sessions to test the homepage, the
-            process of creating an account, and the process of finding and
-            saving an activity using filters. I held usability testing sessions
-            with three participants and documented all feedback.
+            I conducted usability testing sessions to test the process of
+            choosing the recycle feature from the homepage CTA, following the
+            multi page form, and adding to basket/checking out. I also included
+            the flows for tracking the progress of the recycle mailer. I held
+            usability testing sessions with three participants and documented
+            all feedback.
           </p>
           <div className="text-start text-lg sm:text-2xl ">
             The usability test goals were:
             <ul className="list-disc ml-8 mb-10">
               <li>
                 To evaluate wether the prototype allows users to quickly and
-                effectively complete the task flows that the wireframes were
+                effectively complete the task flow that the wireframes were
                 created for.
               </li>
               <li>
@@ -668,9 +670,9 @@ export default function Sephora() {
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
             The usability <strong>tests were considered successful</strong>{' '}
             because all of the users could quickly and effectively complete the
-            task flows that the wireframes were created for. Some feedback was
-            given for future iterations which will be applied to make the Local
-            Basket App even easier and more delightful to use.
+            task flow that the wireframes were created for. Some feedback was
+            given for future iterations which will be applied to make the
+            Sephora recycle feature even easier and more delightful to use.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
@@ -699,8 +701,8 @@ export default function Sephora() {
                 <ul className="list-disc ml-8 mt-4 pr-4">
                   <li>Familiar and easy to navigate.</li>
                   <li>
-                    Colors, illustrations, typeface, and other UI were clean and
-                    minimal while remaining playful and interesting.
+                    Colors, illustrations, typeface, and other UI elements were
+                    clean and minimal while staying on brand with Sephora.
                   </li>
                   <li>Tasks were intuitive and easy to complete.</li>
                   <li>Information provided was detailed and comprehensive.</li>
@@ -712,19 +714,26 @@ export default function Sephora() {
                 What Could Change:
                 <ul className="list-disc ml-8 mt-4">
                   <li>
-                    Adjusting the “items in basket” to being just a number on
-                    the basket icon rather than a bar.
+                    Users wanted to see the option to learn more information
+                    about the recycle program.
                   </li>
                   <li>
-                    Users felt there should be away to place orders with
-                    multiple vendors in one transaction.
+                    Users wanted to know what would happen if they selected that
+                    the item were not clean.
                   </li>
-                  <li>More information on parking and accessibility.</li>
+                  <li>
+                    Users felt unclear about needing to add the quantity of each
+                    item.
+                  </li>
+                  <li>
+                    Users were confused on what the red in the illustrations
+                    indicated.
+                  </li>
                 </ul>
               </div>
             </div>
           </div>
-          <div className="flex justify-center items-center mb-16 sm:mb-32">
+          {/* <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Analyzing+Results+1.pdf"
@@ -732,26 +741,27 @@ export default function Sephora() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {/* <img
+                <img
                   src={analyzing_results1}
                   className="max-w-full h-auto"
                   alt="Analyzing results"
-                ></img> */}
+                ></img>
               </a>
             </div>
-          </div>
+          </div> */}
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             Final Iterations
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
             Based on the test results, I made some priority revisions throughout
-            the app based on how impactful it would be and how it would fit into
-            the timeframe I had. Below are the main revisions that were made.
+            the site based on how impactful it would be and how it would fit
+            into the timeframe I had. Below are the main revisions that were
+            made.
           </p>
           <ul className="list-disc ml-8 font-semibold text-lg sm:text-2xl text-left mb-10 sm:mb-20">
             <li className="mb-10 sm:mb-20">
-              Showing the items in basket as a number, rather than a hovering
-              bar.
+              Clickable link to “learn more” about the Sephora x Pact recycle
+              program.
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
@@ -763,9 +773,9 @@ export default function Sephora() {
               </div>
             </li>
             <li className="mb-10 sm:mb-20">
-              The ability to add multiple orders from different vendors to one
-              transaction was added. Vendors were listed separately at checkout,
-              but joined as one transaction.
+              Clarity was added in step 1, so that the user knows that if they
+              choose “no” they will be directed to information about how and why
+              to clean their cosmetics packaging.
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
@@ -777,10 +787,10 @@ export default function Sephora() {
               </div>
             </li>
             <li className="mb-6 sm:mb-12">
-              To include more accessibility and parking information, I needed to
-              keep the maps and directory but find a way to keep it clean and
-              easy to view. I chose to make each vendor’s information pop out as
-              an accordion to view.
+              Pop of “Sephora red” color was only added to item illustrations
+              once chosen, as another indication that they were selected.
+              Additionally, information was added for clarity on the quality
+              that could be sent.
               <div className="flex justify-center items-center mb-16 sm:mb-32">
                 <div>
                   <img
@@ -804,12 +814,16 @@ export default function Sephora() {
             would be:
             <ul className="list-disc ml-8 font-semibold">
               <li>
-                Creating designs for a potential “Vendor” side of the app.
+                Adding the ability to earn extra points for Beauty Insider
+                towards clean beauty brands carried at Sephora.
               </li>
-              <li>Add a grocery list feature.</li>
               <li>
-                Include Information about other local events such as
-                craft/makers markets.
+                Fully designing the pages that would include information about
+                the Sephora x Pact recycling program.
+              </li>
+              <li>
+                Create the ability to have a QR code generated to be used for in
+                person recycling drop off.
               </li>
               <li>Add social media links.</li>
               <li>Continue to test and iterate.</li>
@@ -823,24 +837,30 @@ export default function Sephora() {
             Learnings & Final Thoughts
           </h3>
           <p className="mb-10 text-left text-lg sm:text-2xl">
-            The Local Basket app was able to effectively connect users to
-            farmers and makers in their community. In doing so, this app makes
-            it easy to promote local agriculture, support eco-friendliness and
-            sustainability, and improve access to fresh and healthy food which
-            was what inspired me to choose this project from the start.
-          </p>
-          <p className="mb-10 text-left text-lg sm:text-2xl">
-            My research and testing methods allowed me to identify user pain
-            points and design a solution that addressed those issues, resulting
-            in a successful outcome and a pleasant shopping experience that
-            users would be happy to implement in their weekly routine.
-          </p>
-          <p className="mb-10 text-left text-lg sm:text-2xl">
-            One big takeaway from this particular project was that although new
-            design patterns are interesting to explore, users often prefer
-            designs that are familiar to them so that they are as intuitive as
-            possible. I believe I was able to use inspiration from other food
-            ordering apps while still putting my own authentic spin on it.
+            This design experience was unique to my other design projects in
+            that I had to work with a pre existing design. Creating designs
+            based on something that already existed had its pros and cons. I
+            liked having a frame of reference to use for consistency, but it did
+            limit what could be done creatively in some ways.
+            <br />
+            <br />
+            The use of the journey map helped me a lot when figuring out what
+            the full experience would look like for the user. In this case, it
+            meant that the task wasn't completed when the user checked out, but
+            rather when the user logged back in to check the status of their
+            mailer.
+            <br />
+            <br />
+            This was certainly an accelerated version of the Ui/UX design
+            process, and there are some things I would have pursued further if
+            given more time. I would have liked to see how the further
+            iterations of my design took shape, and how they would evolve
+            through prototyping and testing.
+            <br />
+            <br />
+            Although this project was new and sometimes challenging, I truly
+            enjoyed the challenge and feel that I will continue to stay curious
+            about the process and grow as a designer.
           </p>
         </div>
       </div>
