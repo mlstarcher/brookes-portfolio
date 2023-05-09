@@ -32,14 +32,14 @@ export default function Sephora() {
       <div className="grid grid-cols-12 mb-10 sm:mb-20 mt-10 sm:mt-0">
         <div className="flex flex-col justify-center items-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
-            Local Basket
+            Sephora Recycle Feature
           </h1>
           <p className="text-lg sm:text-2xl text-center">
-            An app that helps users place orders for produce and goods from
-            vendors at their local farmer’s market.
+            A website feature that allows users to mail their old or unwanted
+            cosmetics and packaging to Sephora for recycling.
           </p>
           <a
-            href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
+            href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
@@ -54,10 +54,10 @@ export default function Sephora() {
           <div className="relative" style={{ height: '600px', width: '300px' }}>
             <img
               className="absolute z-20 pointer-events-none h-full w-auto"
-              src={iphone_14}
+              src={sephora_macbook}
               alt="iphone 14"
             ></img>
-            <div
+            {/* <div
               className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
               style={{ marginTop: '14px' }}
             >
@@ -66,26 +66,22 @@ export default function Sephora() {
                 className="max-w-full h-auto wireframe"
                 alt="Mobile preview"
               ></img>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
       <div className="bg-accent text-white p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-3">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
-            End-to-end UX/UI designer
-          </p>
+          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">UX/UI designer</p>
         </div>
         <div className="col-span-12 sm:col-span-3">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Product</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Mobile App</p>
+          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Website Feature</p>
         </div>
         <div className="col-span-12 sm:col-span-3">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
-            February to March 2023
-          </p>
+          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">April to May 2023</p>
         </div>
         <div className="col-span-12 sm:col-span-3">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Tools</h4>
@@ -98,33 +94,35 @@ export default function Sephora() {
             Overview
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            Local basket is an app where users can buy produce and products
-            directly from farmers and makers at their community farmer’s market.
-            As a farmers market app, Local Basket provides a convenient way for
-            users to access locally grown, high-quality products, while
-            supporting local small-scale farmers and makers.
+            The goal of this project was to create a{' '}
+            <strong>convenient and accessible feature</strong> that would allow
+            customers to <strong>recycle their old cosmetics</strong>
+            and packaging as well as{' '}
+            <strong>
+              promote environmental sustainability and responsible business
+              practices
+            </strong>{' '}
+            among Sephora customers
           </p>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             The Problem
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            Farmer’s Markets are a great resource for promoting local
-            agriculture, supporting eco-friendliness and sustainability, and
-            improving access to fresh and healthy food in our communities. While
-            farmers markets are very popular, they are often not the first
-            option one thinks of when considering a quick and efficient option
-            for grocery shopping.{' '}
+            Sephora is a leading beauty retailer that offers a wide range of
+            cosmetics, skincare, haircare, and fragrance products. Sephora has
+            2600 stores in 34 countries as well as a website and mobile app.
+            After learning that the beauty and wellness industries generate over
+            120 billion packages every year,{' '}
             <strong>
-              With a busy schedule it can be difficult to plan your shopping
-              around the unpredictability of a farmers market.
+              Sephora is looking to improve their environmental footprint.
             </strong>{' '}
-            Local Basket is an app that provides customers with a convenient way
-            to purchase fresh produce and other goods directly from local
-            farmers and vendors by placing orders ahead of time for pickup.
-            Using an app ordering system allows vendors to display their current
-            in-season offerings, and allows users to better plan their trip to
-            the farmers market in a way that supports their grocery shopping
-            needs.
+            Sephora recently partnered with a nonprofit called Pact that helps
+            recycle empty cosmetics containers to be mechanically recycled into
+            another product (e.g., packaging, carpet, pallets), down-cycled
+            (e.g. into asphalt), molecularly recycled (can then be used to build
+            something else), or converted into energy. Currently Pact has bins
+            in select stores for recycling, but unfortunately that option
+            doesn't reach as many users as Sephora would like.
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
@@ -137,11 +135,16 @@ export default function Sephora() {
             The Solution
           </h2>
           <div className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            <p>A convenient mobile app where users can:</p>
+            <p>A site feature where users can:</p>
             <ul className="list-disc ml-8">
-              <li>Search for local farmers markets in their area.</li>
-              <li>Obtain market and vendor information.</li>
-              <li>Place orders for produce and goods in advance of pickup.</li>
+              <li>
+                Generate a return label, and send their empty containers back to
+                Sephora's recycling program in the mailer package they received.
+              </li>
+              <li>
+                Earn Beauty Insider points to use for perks and purchases as
+                incentive for recycling their cosmetics
+              </li>
             </ul>
           </div>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-10 sm:mb-20">
@@ -156,22 +159,21 @@ export default function Sephora() {
             Research
           </h3>
           <p className="mb-16 sm:mb-32 text-start text-lg sm:text-2xl">
-            My goal was to understand the experience that users have when trying
-            to shop for their weekly groceries, and particularly at farmers
-            markets. I made a research plan to find out what features and
-            information users were interested in seeing in a Farmers Market app.
-            I looked at the current competition to see what they offered, and
-            kept that in mind during user interviews.
+            My goal was to understand the experience that users have when
+            finding a solution for their old or unwanted cosmetics products and
+            packaging. I made a research plan to find out what qualities and
+            characteristics users were interested in seeing in an online
+            cosmetics recycling feature. I looked at the current competition to
+            see what they offered, and kept that in mind during user interviews.
           </p>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             Looking at the competition
           </h2>
           <p className=" text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            Competitive Analysis showed that farmers market apps were typically
-            geared toward ordering pre-set boxes or visiting farms. While some
-            had an online ordering system for shipping or pickup, none of them
-            had a customizable online ordering system or the ability to shop
-            multiple vendors in one pickup area.
+            All of the competitor services sell cosmetics products from their
+            sites as well as in store, but only one of the competitors (Credo)
+            offers recycling. Credo also partnered with Pact and has in store
+            drop off, but no online option at this time.
           </p>
         </div>
       </div>
@@ -185,8 +187,8 @@ export default function Sephora() {
             ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
-            Website with a statewide network of farmers markets connecting
-            Oregon’s farmers and consumers.
+            Website and store that carries only “clean beauty” products with
+            focus on safety, sustainability, sourcing, ethics, and transparancy.
           </p>
         </div>
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
@@ -198,8 +200,8 @@ export default function Sephora() {
             ></img>
           </div>
           <p className="text-lg sm:text-2xl">
-            An app that is a fair and transparent marketplace for local food
-            sold by members of the community.
+            Storefront, website, and app that sells cosmetics as well as various
+            beauty services. Ulta is very similar to Sephora.
           </p>
         </div>
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
@@ -211,8 +213,9 @@ export default function Sephora() {
             ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
-            An app that connects communities with local food sources to buy and
-            sell garden produce, backyard chicken eggs, supplies, and more.
+            Amazon Premium Beauty is the luxury cosmetics section of the biggest
+            online retailers. They carry products that can also be found in
+            Sephora, ulta, and department stores.
           </p>
         </div>
       </div>
@@ -223,10 +226,10 @@ export default function Sephora() {
           </h2>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
             I held 1:1 user interviews with three research participants to learn
-            about their needs and pain points when shopping for groceries,
-            specifically at the farmers market.{' '}
+            about their needs and pain points when looking for a recycling
+            solution for their cosmetics. I learned that{' '}
             <strong>
-              The main concerns were navigation, consistency, and availability.
+              the main concerns were eco-friendliness, efficiency, and clarity.
             </strong>
           </p>
           <div className="grid grid-cols-12 mb-10 sm:mb-20">
@@ -239,9 +242,9 @@ export default function Sephora() {
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-                Users expressed that finding their way around their local
-                farmers market is challenging and they would benefit from a
-                directory with vendor location and information.
+                While users wanted to participate in a recycling program in
+                theory, they weren’t sure they would get around to it unless it
+                was a simple and convenient process.
               </p>
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
@@ -254,9 +257,9 @@ export default function Sephora() {
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-                Users prefer to shop with their favorite vendors but are unclear
-                on when they will be at the market or what their offerings will
-                be week to week.
+                Users weren't sure which types of cosmetics containers and
+                packaging could in fact be recycled. Additionally, they wanted
+                more information on how to prepare items for recycling.
               </p>
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
@@ -283,10 +286,9 @@ export default function Sephora() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “ When I go to the farmers market I like to see in season
-                produce, which im actually just now learning more about. I never
-                used to pay attention to that growing up buying everything from
-                Albertsons. ”
+                “ I love an in-store moment but realistically I mostly shop
+                online for convenience unless it is something I need
+                like...today.”
               </strong>
             </p>
           </div>
@@ -297,9 +299,9 @@ export default function Sephora() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “ It’s almost always really chaotic. I try to remember where my
-                favorite vendors are but there seems to be no real rhyme or
-                reason for how its all set up.”
+                “ I am really doing my best to shift to supporting companies
+                that are open about their sourcing and business practices, but
+                especially about their commitment to being eco-friendly.”
               </strong>
             </p>
           </div>
@@ -310,10 +312,9 @@ export default function Sephora() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “Not knowing who will be there or what they will have and in
-                what quantity. It makes it hard to buy what you need and you
-                just end up with a little bit of everything which also feels
-                wasteful.”
+                “ I always try to recycle exterior packaging like boxes but I
+                never know what to do with the makeup that I don’t use, so it
+                just ends up sitting in my cabinet. ”
               </strong>
             </p>
           </div>
@@ -330,16 +331,16 @@ export default function Sephora() {
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
             Before coming up with a design to solve this problem, I needed to
             further define our target user and find out what their wants and
-            needs would be for this product. Meet our user Jade. Jade is a
-            teacher and mother who wants to shop sustainable, in season produce
-            and goods from her local farmers market. So that she can better plan
-            her grocery needs, she would like to be able to see what is
-            available each week and purchase her produce and goods in advance.
+            needs would be for this product. Meet our user Wren. Wren is a
+            college student living in Los Angeles who wants to be an
+            eco-conscious cosmetics consumer. Wren frequently shops with Sephora
+            and wishes their recycling program was more accessible and easier to
+            participate in.
           </p>
           <div className="flex justify-center items-center">
             <div className="flex flex-col items-start">
               <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-12">
-                Meet Jade
+                Meet Wren
               </h2>
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/journey_map.pdf"
@@ -349,6 +350,32 @@ export default function Sephora() {
               >
                 <img
                   src={persona1}
+                  className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                  alt="Link to user persona figma file"
+                ></img>
+              </a>
+            </div>
+          </div>
+          <div className="flex justify-center items-center">
+            <div className="flex flex-col items-start">
+              <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-12">
+                Wren's Journey
+              </h2>
+              <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
+                After getting to know our user Wren, I made a journey map as a
+                visual representation of her journey to recycle cosmetics. This
+                helped me understand what her actions, thoughts, behaviors, and
+                emotions would be and therefore what her pain points might be so
+                that I could better address them.
+              </p>
+              <a
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/journey_map.pdf"
+                className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={jouney_map}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
