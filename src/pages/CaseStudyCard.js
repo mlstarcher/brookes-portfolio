@@ -8,7 +8,7 @@ export default function CaseStudyCard({ case_study }) {
       <div className="sm:pr-16 flex justify-center col-span-12 sm:col-start-2 sm:col-end-7 order-2 sm:order-1">
         <img
           src={case_study.image_name}
-          className="m-w-100"
+          className="w-full object-cover"
           style={{ maxHeight: '500px' }}
           alt={case_study.alt_tag}
         ></img>

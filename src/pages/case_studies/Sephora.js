@@ -51,13 +51,18 @@ export default function Sephora() {
           </a>
         </div>
         <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8">
-          <div className="relative" style={{ height: '600px', width: '300px' }}>
-            <img
+          <img
+            className="pointer-events-none w-full h-auto"
+            src={sephora_macbook}
+            alt="Laptop preview"
+          ></img>
+          {/* <div className="relative" style={{ height: '600px', width: '300px' }}>
+            {/* <img
               className="absolute z-20 pointer-events-none h-full w-auto"
               src={sephora_macbook}
-              alt="iphone 14"
-            ></img>
-            {/* <div
+              alt="Laptop preview"
+            ></img> */}
+          {/* <div
               className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
               style={{ marginTop: '14px' }}
             >
@@ -66,8 +71,8 @@ export default function Sephora() {
                 className="max-w-full h-auto wireframe"
                 alt="Mobile preview"
               ></img>
-            </div> */}
-          </div>
+            </div>
+          </div> */}
         </div>
       </div>
       <div className="bg-accent text-white p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-16 sm:mb-32">
