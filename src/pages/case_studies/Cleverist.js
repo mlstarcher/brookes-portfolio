@@ -181,10 +181,11 @@ export default function Cleverist() {
       </div>
       <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-4 flex flex-col items-center">
-          <div className="flex items-center" style={{ height: '114px' }}>
+          <div className="flex items-center">
             <img
               src={pbs_kids}
-              className="max-w-full h-auto"
+              className="object-cover w-full"
+              style={{ height: '114px' }}
               alt="PBS Kids logo"
             ></img>
           </div>
@@ -201,16 +202,17 @@ export default function Cleverist() {
               alt="Little Passports logo"
             ></img>
           </div>
-          <p className="text-lg sm:text-2xl">
+          <p className="text-lg sm:text-2xl mt-4">
             Subscriptions for kids that inspire them to learn about the world
             through toys and activities.
           </p>
         </div>
         <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
-          <div className="flex items-center" style={{ height: '114px' }}>
+          <div className="flex items-center">
             <img
               src={kiwico}
-              className="max-w-full h-auto"
+              className="object-cover w-full"
+              style={{ height: '114px' }}
               alt="Kiwico Logo"
             ></img>
           </div>
