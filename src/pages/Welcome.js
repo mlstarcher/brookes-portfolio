@@ -1,5 +1,5 @@
 import React from 'react';
-import portrait from '../assets/portrait.svg';
+import portrait from '../assets/portrait.png';
 
 export default function Welcome() {
   return (
@@ -17,11 +17,11 @@ export default function Welcome() {
         </p>
         <p className="sm:text-2xl text-base"></p>
       </div>
-      <div className="flex justify-center items-center sm:pr-20 mb-8 sm:mb-16 sm:mt-8 sm:mb-0 col-span-12 sm:col-start-7 sm:col-end-12">
+      <div className="flex justify-center items-center mb-8 sm:mb-16 sm:mt-8 sm:mb-0 col-span-12 sm:col-start-7 sm:col-end-13">
         <div>
           <img
             src={portrait}
-            className="max-w-full sm:h-auto h-48"
+            className="max-w-full sm:h-auto"
             alt="Portrait"
           ></img>
         </div>

@@ -2,8 +2,6 @@ import React from 'react';
 import Welcome from './Welcome.js';
 import CaseStudyCard from './CaseStudyCard.js';
 import caseStudyData from '../assets/caseStudyData.js';
-import StudyComingSoon from './StudyComingSoon.js';
-import placeholderData from '../assets/placeholderData.js';
 
 export default function Home() {
   return (

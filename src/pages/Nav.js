@@ -54,13 +54,15 @@ export default function Nav() {
           </Link>
         </li>
         <li className="ml-8 mb-6">
-          <Link
+          <a
+            href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/brooke_starcher_resume.pdf"
             onClick={() => closeMenu()}
-            to={`coming-soon`}
+            target="_blank"
+            rel="noopener noreferrer"
             className="font-semibold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
           >
             Resume
-          </Link>
+          </a>
         </li>
       </ul>
       <ul className="justify-between text-3lg hidden sm:flex">
@@ -77,20 +79,16 @@ export default function Nav() {
           </Link>
         </li>
         <li className="mx-4 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
-          <Link to={`coming-soon`} className="font-semibold text-xl ">
+          <a
+            href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/brooke_starcher_resume.pdf"
+            onClick={() => closeMenu()}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold text-xl"
+          >
             Resume
-          </Link>
+          </a>
         </li>
-        {/* <li className="mx-4 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
-        <a
-          href={Resume}
-          target="_blank"
-          className="font-semibold text-xl"
-          rel="noreferrer"
-        >
-          Resume
-        </a>
-      </li> */}
       </ul>
     </nav>
   );

@@ -175,8 +175,13 @@ export default function Guilder() {
       </div>
       <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center">
-          <div className="flex items-center" style={{ height: '114px' }}>
-            <img src={good} className="max-w-full h-auto" alt="Good logo"></img>
+          <div className="flex items-center">
+            <img
+              src={good}
+              className="max-w-full h-auto"
+              alt="Good logo"
+              style={{ height: '114px' }}
+            ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
             Portland coffee shop serving and roasting coffee. Emphasis on
@@ -184,9 +189,10 @@ export default function Guilder() {
           </p>
         </div>
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
-          <div className="flex items-center" style={{ height: '114px' }}>
+          <div className="flex items-center">
             <img
               src={cafe_olli}
+              style={{ height: '114px' }}
               className="max-w-full h-auto rounded-sm"
               alt="Cafe Olli logo"
             ></img>
@@ -197,10 +203,11 @@ export default function Guilder() {
           </p>
         </div>
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
-          <div className="flex items-center" style={{ height: '114px' }}>
+          <div className="flex items-center">
             <img
               src={starbucks}
               className="max-w-full h-auto"
+              style={{ height: '114px' }}
               alt="Starbucks Logo"
             ></img>
           </div>
@@ -210,10 +217,11 @@ export default function Guilder() {
           </p>
         </div>
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
-          <div className="flex items-center" style={{ height: '114px' }}>
+          <div className="flex items-center">
             <img
               src={stumptown}
               className="max-w-full h-auto"
+              style={{ height: '114px' }}
               alt="Stumptown Logo"
             ></img>
           </div>
@@ -229,9 +237,9 @@ export default function Guilder() {
             Hearing People's Stories
           </h2>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
-            I held 1:1 user interviews witrh three research participants to
-            learn about their needs and pain points when visiting and ordering
-            from local coffee shops. I learned that{' '}
+            I held 1:1 user interviews with three research participants to learn
+            about their needs and pain points when visiting and ordering from
+            local coffee shops. I learned that{' '}
             <strong>
               the main concerns were convenience, ambience, and offerings.
             </strong>
