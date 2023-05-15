@@ -520,7 +520,7 @@ export default function LocalBasket() {
               of the flow would take the user. Starting with home page
               categories I included markets, vendors, and products.
             </p>
-            <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
+            <div className="flex justify-center items-center px-0 mb-16 sm:mb-32">
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/sketches.pdf"
                 className="max-w-full h-auto"
@@ -803,7 +803,7 @@ export default function LocalBasket() {
               keep the maps and directory but find a way to keep it clean and
               easy to view. I chose to make each vendor’s information pop out as
               an accordion to view.
-              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <div className="flex justify-center items-center my-16 sm:my-32">
                 <div>
                   <img
                     src={iteration3}
