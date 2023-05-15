@@ -42,7 +42,7 @@ export default function Guilder() {
             new design including an online ordering system.
           </p>
           <a
-            href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
+            href="https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=26%3A11944&t=JQnchFyV1qHpQvbJ-1"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
@@ -616,7 +616,7 @@ export default function Guilder() {
               busy it was before placing an order and picking up.
             </p>
             <a
-              href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=1%3A3&t=05AJXlKrrTlhUCzR-1"
+              href="https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=1%3A15093&t=JQnchFyV1qHpQvbJ-1"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer mb-10 sm:mb-20"
@@ -656,7 +656,7 @@ export default function Guilder() {
             iterations.
           </p>
           <a
-            href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
+            href="https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=26%3A11944&t=JQnchFyV1qHpQvbJ-1"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"

@@ -43,7 +43,7 @@ export default function LocalBasket() {
             vendors at their local farmer’s market.
           </p>
           <a
-            href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
+            href="https://www.figma.com/file/td42UQTbPexRFYnAhW9ktP/Local-Basket-Wireframes?type=design&node-id=20%3A5823&t=RzetAYDIXzbhdaaR-1"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
@@ -614,7 +614,7 @@ export default function LocalBasket() {
               to see maps and directories for each vendor in an organized way.
             </p>
             <a
-              href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=1%3A3&t=05AJXlKrrTlhUCzR-1"
+              href="https://www.figma.com/file/td42UQTbPexRFYnAhW9ktP/Local-Basket-Wireframes?type=design&node-id=46%3A3327&t=RzetAYDIXzbhdaaR-1"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer mb-10 sm:mb-20"
@@ -654,7 +654,7 @@ export default function LocalBasket() {
             iterations.
           </p>
           <a
-            href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
+            href="https://www.figma.com/file/td42UQTbPexRFYnAhW9ktP/Local-Basket-Wireframes?type=design&node-id=20%3A5823&t=RzetAYDIXzbhdaaR-1"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
