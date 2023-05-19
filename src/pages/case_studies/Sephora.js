@@ -3,7 +3,6 @@ import React from 'react';
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
 
-import iphone_14 from '../../assets/iphone_14_transparent.png';
 import design_thinking_image from '../../assets/design_thinking_image.png';
 import how_might_we1 from '../../assets/sephora/how_might_we1.png';
 import how_might_we2 from '../../assets/sephora/how_might_we2.png';
@@ -35,8 +34,9 @@ export default function Sephora() {
             Sephora Recycle Feature
           </h1>
           <p className="text-lg sm:text-2xl text-center">
-            A website feature that allows users to mail their old or unwanted
-            cosmetics and packaging to Sephora for recycling.
+            A <span className="text-accent">website feature</span> that allows
+            users to mail their old or unwanted cosmetics and packaging to
+            Sephora for <span className="text-accent">recycling.</span>
           </p>
           <a
             href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1"
@@ -294,7 +294,7 @@ export default function Sephora() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “ I love an in-store moment but realistically I mostly shop
+                “I love an in-store moment but realistically I mostly shop
                 online for convenience unless it is something I need
                 like...today.”
               </strong>
@@ -307,8 +307,8 @@ export default function Sephora() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “ I am really doing my best to shift to supporting companies
-                that are open about their sourcing and business practices, but
+                “I am really doing my best to shift to supporting companies that
+                are open about their sourcing and business practices, but
                 especially about their commitment to being eco-friendly.”
               </strong>
             </p>
@@ -320,9 +320,9 @@ export default function Sephora() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “ I always try to recycle exterior packaging like boxes but I
+                “I always try to recycle exterior packaging like boxes but I
                 never know what to do with the makeup that I don’t use, so it
-                just ends up sitting in my cabinet. ”
+                just ends up sitting in my cabinet.”
               </strong>
             </p>
           </div>
@@ -799,7 +799,7 @@ export default function Sephora() {
               once chosen, as another indication that they were selected.
               Additionally, information was added for clarity on the quality
               that could be sent.
-              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <div className="flex justify-center items-center my-16 sm:my-32">
                 <div>
                   <img
                     src={iteration3}
