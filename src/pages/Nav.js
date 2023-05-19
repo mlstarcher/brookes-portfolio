@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-// import Resume from '../assets/brooke-starcher-resume.pdf';
 import { HashLink as Link } from 'react-router-hash-link';
 
 export default function Nav() {

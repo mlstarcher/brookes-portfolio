@@ -38,8 +38,10 @@ export default function Cleverist() {
             Cleverist
           </h1>
           <p className="text-lg sm:text-2xl text-center">
-            A website that helps parents and caregivers find educational
-            activities to do with their children at home.
+            A <span className="text-accent">website</span> that helps parents
+            and caregivers find{' '}
+            <span className="text-accent">educational activities</span> to do
+            with their children at home.
           </p>
           <a
             href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
@@ -53,7 +55,7 @@ export default function Cleverist() {
             </div>
           </a>
         </div>
-        <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8">
+        <div className="flex flex-col items-center col-span-12 sm:col-span-3 sm:col-start-8">
           <div className="relative" style={{ height: '600px', width: '300px' }}>
             <img
               className="absolute z-10 pointer-events-none h-full w-auto"

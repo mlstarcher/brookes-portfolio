@@ -193,13 +193,13 @@ export default function LocalBasket() {
         </div>
       </div>
       <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center">
+        <div className="col-span-12 sm:col-span-4 sm:col-start-2 flex flex-col items-center">
           <div className="flex items-center">
             <img
               src={ofma}
               className="max-w-full"
               alt="OFMA logo"
-              style={{ height: '114px' }}
+              style={{ height: '93px' }}
             ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
@@ -207,12 +207,12 @@ export default function LocalBasket() {
             Oregon’s farmers and consumers.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
+        <div className="col-span-12 sm:col-span-4 sm:col-start-8 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center">
             <img
               src={grown_by}
               className="max-w-full rounded-sm"
-              style={{ height: '114px' }}
+              style={{ height: '93px' }}
               alt="Grown by logo"
             ></img>
           </div>
@@ -221,12 +221,12 @@ export default function LocalBasket() {
             sold by members of the community.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
+        <div className="col-span-12 sm:col-span-4 sm:col-start-2 flex flex-col items-center mt-8">
           <div className="flex items-center">
             <img
               src={farmish}
               className="max-w-full "
-              style={{ height: '114px' }}
+              style={{ height: '93px' }}
               alt="Farmish Logo"
             ></img>
           </div>
@@ -235,12 +235,12 @@ export default function LocalBasket() {
             sell garden produce, backyard chicken eggs, supplies, and more.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
+        <div className="col-span-12 sm:col-span-4 sm:col-start-8 flex flex-col items-center mt-8">
           <div className="flex items-center">
             <img
               src={yelp}
               className="max-w-full "
-              style={{ height: '114px' }}
+              style={{ height: '93px' }}
               alt="Yelp Logo"
             ></img>
           </div>
@@ -494,7 +494,7 @@ export default function LocalBasket() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Learn+_+Grow+Sitemap+1.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/user_flow.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"

@@ -177,7 +177,7 @@ export default function Guilder() {
         </div>
       </div>
       <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center">
+        <div className="col-span-12 sm:col-span-4 sm:col-start-2 flex flex-col items-center">
           <div className="flex items-center">
             <img
               src={good}
@@ -191,7 +191,7 @@ export default function Guilder() {
             community involvement.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
+        <div className="col-span-12 sm:col-span-4 sm:col-start-8 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center">
             <img
               src={cafe_olli}
@@ -205,7 +205,7 @@ export default function Guilder() {
             sourced, sustainable, and employee owned.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
+        <div className="col-span-12 sm:col-span-4 sm:col-start-2 flex flex-col items-center mt-8">
           <div className="flex items-center">
             <img
               src={starbucks}
@@ -219,7 +219,7 @@ export default function Guilder() {
             with wide variety of drink and food options.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
+        <div className="col-span-12 sm:col-span-4 sm:col-start-8 flex flex-col items-center mt-8">
           <div className="flex items-center">
             <img
               src={stumptown}
@@ -229,7 +229,7 @@ export default function Guilder() {
             ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
-            Portland coffee shop serving high quality ethically sourced coffee .
+            Portland coffee shop serving high quality ethically sourced coffee.
             Emphasis on highlighting particular varieties of coffee.
           </p>
         </div>
