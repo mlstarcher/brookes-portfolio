@@ -43,7 +43,7 @@ export default function LocalBasket() {
             vendors at their local farmer’s market.
           </p>
           <a
-            href="https://www.figma.com/file/td42UQTbPexRFYnAhW9ktP/Local-Basket-Wireframes?type=design&node-id=20%3A5823&t=RzetAYDIXzbhdaaR-1"
+            href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
@@ -622,7 +622,9 @@ export default function LocalBasket() {
               to see maps and directories for each vendor in an organized way.
             </p>
             <a
-              href="https://www.figma.com/file/td42UQTbPexRFYnAhW9ktP/Local-Basket-Wireframes?type=design&node-id=46%3A3327&t=RzetAYDIXzbhdaaR-1"
+              href="
+https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=12%3A542&t=XeB5o0Zi9PKohavh-1
+"
               target="_blank"
               rel="noopener noreferrer"
               className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer mb-10 sm:mb-20"
@@ -662,7 +664,7 @@ export default function LocalBasket() {
             iterations.
           </p>
           <a
-            href="https://www.figma.com/file/td42UQTbPexRFYnAhW9ktP/Local-Basket-Wireframes?type=design&node-id=20%3A5823&t=RzetAYDIXzbhdaaR-1"
+            href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1"
             target="_blank"
             rel="noopener noreferrer"
             className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
