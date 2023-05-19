@@ -451,13 +451,13 @@ export default function Guilder() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/user_flow.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/sitemap.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={user_flow}
+                  src={sitemap}
                   className="max-w-full h-auto"
                   alt="Site Map"
                 ></img>
@@ -481,15 +481,15 @@ export default function Guilder() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Learn+_+Grow+Sitemap+1.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/user_flow.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={sitemap}
+                  src={user_flow}
                   className="max-w-full h-auto"
-                  alt="Site Map"
+                  alt="User Flow"
                 ></img>
               </a>
             </div>
