@@ -183,12 +183,13 @@ export default function Sephora() {
         </div>
       </div>
       <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center">
-          <div className="flex items-center" style={{ height: '114px' }}>
+        <div className="col-span-12 sm:col-span-4 flex flex-col items-center">
+          <div className="flex items-center">
             <img
               src={credo}
               className="max-w-full h-auto"
               alt="Good logo"
+              style={{ height: '114px' }}
             ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
@@ -196,25 +197,27 @@ export default function Sephora() {
             focus on safety, sustainability, sourcing, ethics, and transparancy.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
-          <div className="flex items-center" style={{ height: '114px' }}>
+        <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
+          <div className="flex items-center">
             <img
               src={ulta}
               className="max-w-full h-auto rounded-sm"
               alt="Cafe Olli logo"
+              style={{ height: '114px' }}
             ></img>
           </div>
-          <p className="text-lg sm:text-2xl">
+          <p className="text-lg sm:text-2xl mt-4">
             Storefront, website, and app that sells cosmetics as well as various
             beauty services. Ulta is very similar to Sephora.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
-          <div className="flex items-center" style={{ height: '114px' }}>
+        <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
+          <div className="flex items-center">
             <img
               src={amazon}
               className="max-w-full h-auto"
               alt="Starbucks Logo"
+              style={{ height: '114px' }}
             ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
@@ -348,7 +351,7 @@ export default function Sephora() {
                 Meet Wren
               </h2>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/journey_map.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/journey_map.pdf"
                 className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -374,7 +377,7 @@ export default function Sephora() {
                 that I could better address them.
               </p>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/journey_map.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/journey_map.pdf"
                 className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -431,7 +434,7 @@ export default function Sephora() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/feature_set.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/value_matrix.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -456,7 +459,7 @@ export default function Sephora() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Learn+_+Grow+Sitemap+1.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/task_flow.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -573,7 +576,7 @@ export default function Sephora() {
             </p>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/mid_fi_wireframes.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/mid_fi_wireframes.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -609,7 +612,7 @@ export default function Sephora() {
             </a>
             <div className="flex justify-center items-center mt-8 sm:mt-16">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/hi_fi_wireframes.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/hi_fi_wireframes.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="max-w-full h-auto"
@@ -741,7 +744,7 @@ export default function Sephora() {
           {/* <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Analyzing+Results+1.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/illustrations.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
