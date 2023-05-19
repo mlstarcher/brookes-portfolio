@@ -23,8 +23,8 @@ import hi_fi_wireframes from '../../assets/local_basket/hi_fi_wireframes.png';
 import iteration1 from '../../assets/local_basket/iteration1.png';
 import iteration2 from '../../assets/local_basket/iteration2.png';
 import iteration3 from '../../assets/local_basket/iteration3.png';
-// import guilder_sitemap from '../../assets/local_basket/guilder_sitemap.png';
 import user_flow from '../../assets/local_basket/user_flow.png';
+import journey_map from '../../assets/local_basket/journey_map.png';
 import sketches from '../../assets/local_basket/sketches.png';
 import local_basket_iphones from '../../assets/local_basket/local_basket_iphones.png';
 import mobile_preview from '../../assets/local_basket/mobile_preview.png';
@@ -39,8 +39,10 @@ export default function LocalBasket() {
             Local Basket
           </h1>
           <p className="text-lg sm:text-2xl text-center">
-            An app that helps users place orders for produce and goods from
-            vendors at their local farmer’s market.
+            An app that helps users{' '}
+            <span className="text-accent">place orders</span> for{' '}
+            <span className="text-accent">produce and goods</span> from vendors
+            at their local <span className="text-accent">farmer’s market.</span>
           </p>
           <a
             href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1"
@@ -265,7 +267,7 @@ export default function LocalBasket() {
               <img
                 src={navigation}
                 className="max-w-full"
-                alt="Convenience"
+                alt="Navigation"
               ></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
@@ -279,8 +281,7 @@ export default function LocalBasket() {
               <img
                 src={consistency}
                 className="max-w-full "
-                style={{ height: '114px' }}
-                alt="Ambiance"
+                alt="Consistency"
               ></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
@@ -294,7 +295,7 @@ export default function LocalBasket() {
               <img
                 src={availability}
                 className="max-w-full"
-                alt="Offerings"
+                alt="Availability"
               ></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
@@ -384,6 +385,33 @@ export default function LocalBasket() {
               >
                 <img
                   src={persona1}
+                  className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                  alt="Link to user persona figma file"
+                ></img>
+              </a>
+            </div>
+          </div>
+
+          <div className="flex justify-center items-center">
+            <div className="flex flex-col items-start">
+              <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+                Jade's Journey
+              </h2>
+              <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
+                After getting to know our user Jade, I made a journey map as a
+                visual representation of her journey to shop the farmers market.
+                This helped me understand what her actions, thoughts, behaviors,
+                and emotions would be and therefore what her pain points might
+                be so that I could better address them.
+              </p>
+              <a
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/journey_map.pdf"
+                className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={journey_map}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
