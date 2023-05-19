@@ -38,8 +38,11 @@ export default function Guilder() {
             Guilder
           </h1>
           <p className="text-lg sm:text-2xl text-center">
-            A Princess Bride themed coffee shop in Portland, Oregon in need of a
-            new design including an online ordering system.
+            A Princess Bride themed{' '}
+            <span className="text-accent">coffee shop</span> in Portland, Oregon
+            in need of a <span className="text-accent">new design</span>{' '}
+            including an <span className="text-accent">online ordering</span>{' '}
+            system.
           </p>
           <a
             href="https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=26%3A11944&t=JQnchFyV1qHpQvbJ-1"
@@ -102,10 +105,10 @@ export default function Guilder() {
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
             Guilder is a{' '}
-            <strong>Princess Bride themed coffee shop and restaurant</strong>{' '}
-            with two locations in Portland, Oregon. Guilder has two locations,
-            one in Northeast Portland, and one inside of the famous Powell’s
-            City of Books, and offers in person as well as online ordering.
+            <strong>Princess Bride themed coffee shop and restaurant</strong> in
+            Portland, Oregon. Guilder has two locations, one in Northeast
+            Portland, and one inside of the famous Powell’s City of Books, and
+            offers in person as well as online ordering.
           </p>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             The Problem
@@ -154,12 +157,12 @@ export default function Guilder() {
             Research
           </h3>
           <p className="mb-16 sm:mb-32 text-start text-lg sm:text-2xl">
-            My goal was to understand the experience that parents or caregivers
-            have when ordering coffee and food from Guilder. I made a research
-            plan to find out what offerings and information users were
-            interested in seeing in a local coffee shop’s site. I looked at the
-            current competition to see what they offered, and kept that in mind
-            during user interviews.
+            My goal was to understand the experience that users have when
+            ordering coffee and food from Guilder. I made a research plan to
+            find out what offerings and information users were interested in
+            seeing in a local coffee shop’s site. I looked at the current
+            competition to see what they offered, and kept that in mind during
+            user interviews.
           </p>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             Looking at the competition
@@ -197,7 +200,7 @@ export default function Guilder() {
               alt="Cafe Olli logo"
             ></img>
           </div>
-          <p className="text-lg sm:text-2xl">
+          <p className="text-lg sm:text-2xl mt-4">
             Portland coffee shop/restaurant that is seasonally focused, locally
             sourced, sustainable, and employee owned.
           </p>
@@ -279,9 +282,8 @@ export default function Guilder() {
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-                Parents and caregivers do not often have the materials necessary
-                for an activity available at home. A link to an itemized online
-                shopping list would make this more convenient.
+                Users expressed that they prefer to order from local coffee
+                shops that have a food menu in addition to their drink menu.
               </p>
             </div>
           </div>
@@ -297,8 +299,8 @@ export default function Guilder() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “ I prefer to order off apps or square if a coffee shop has that
-                option, it is such a time saver and easy to modify my drink. ”
+                “I prefer to order off apps or square if a coffee shop has that
+                option, it is such a time saver and easy to modify my drink.”
               </strong>
             </p>
           </div>
@@ -309,9 +311,9 @@ export default function Guilder() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “ I think it all really ties together.. The name, decor, logo,
+                “I think it all really ties together... The name, decor, logo,
                 ambiance, menu offerings. I like to see it all make sense as a
-                story. ”
+                story.”
               </strong>
             </p>
           </div>
@@ -322,9 +324,9 @@ export default function Guilder() {
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
-                “ If I can’t walk to the coffee shop, it has to be on my way to
+                “If I can’t walk to the coffee shop, it has to be on my way to
                 work for me to visit. This is especially true because of the
-                time I account for with wait time. ”
+                time I account for with wait time.”
               </strong>
             </p>
           </div>
@@ -463,7 +465,7 @@ export default function Guilder() {
             </div>
           </div>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            These <strong>user</strong> flows helped determine exactly the how
+            These <strong>user flows</strong> helped determine exactly the how
             the user would go about creating an account, and how to place an
             order online for pickup. Both of which were very important to the
             design of the site. I wanted to work out which steps the user would
@@ -502,8 +504,8 @@ export default function Guilder() {
             </h3>
             <p className="text-left text-lg sm:text-2xl mb-16 sm:mb-32">
               After determining my information architecture, i got to work
-              creating concept sketches and worked on branding using Cleverist’s
-              core values. Using the sketches and branding, I moved on to
+              creating concept sketches and worked on branding using Guilder’s
+              theme as the focus. Using the sketches and branding, I moved on to
               wireframes to develop a more complete design. I tried to focus on
               how the user interface could be most time efficient for our user,
               while still providing a{' '}
@@ -522,7 +524,7 @@ export default function Guilder() {
               happen if the user wanted to create an account, or as the user
               selects the CTA and places an order.
             </p>
-            <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
+            <div className="flex justify-center items-center px-0 mb-16 sm:mb-32">
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/sketches.pdf"
                 className="max-w-full h-auto"
@@ -670,10 +672,9 @@ export default function Guilder() {
             Usability Testing
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-10">
-            I conducted usability testing sessions to test the homepage, the
-            process of creating an account, and the process of finding and
-            saving an activity using filters. I held usability testing sessions
-            with five participants and documented all feedback.
+            I conducted usability testing sessions to test the process of
+            placing an online order for pickup. I held usability testing
+            sessions with five participants and documented all feedback.
           </p>
           <div className="text-start text-lg sm:text-2xl ">
             The usability test goals were:
