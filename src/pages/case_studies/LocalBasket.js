@@ -74,7 +74,7 @@ export default function LocalBasket() {
             <img
               className="absolute z-10 pointer-events-none"
               style={{
-                bottom: '15',
+                bottom: '15px',
                 left: '9px',
                 borderRadius: '0px 0px 20px 20px',
                 width: '280px'
@@ -192,8 +192,13 @@ export default function LocalBasket() {
       </div>
       <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center">
-          <div className="flex items-center" style={{ height: '114px' }}>
-            <img src={ofma} className="max-w-full h-auto" alt="Good logo"></img>
+          <div className="flex items-center">
+            <img
+              src={ofma}
+              className="max-w-full"
+              alt="OFMA logo"
+              style={{ height: '114px' }}
+            ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
             Website with a statewide network of farmers markets connecting
@@ -201,24 +206,26 @@ export default function LocalBasket() {
           </p>
         </div>
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8 sm:mt-0">
-          <div className="flex items-center" style={{ height: '114px' }}>
+          <div className="flex items-center">
             <img
               src={grown_by}
-              className="max-w-full h-auto rounded-sm"
-              alt="Cafe Olli logo"
+              className="max-w-full rounded-sm"
+              style={{ height: '114px' }}
+              alt="Grown by logo"
             ></img>
           </div>
-          <p className="text-lg sm:text-2xl">
+          <p className="text-lg sm:text-2xl mt-4">
             An app that is a fair and transparent marketplace for local food
             sold by members of the community.
           </p>
         </div>
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
-          <div className="flex items-center" style={{ height: '114px' }}>
+          <div className="flex items-center">
             <img
               src={farmish}
-              className="max-w-full h-auto"
-              alt="Starbucks Logo"
+              className="max-w-full "
+              style={{ height: '114px' }}
+              alt="Farmish Logo"
             ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
@@ -227,11 +234,12 @@ export default function LocalBasket() {
           </p>
         </div>
         <div className="col-span-12 sm:col-span-6 flex flex-col items-center mt-8">
-          <div className="flex items-center" style={{ height: '114px' }}>
+          <div className="flex items-center">
             <img
               src={yelp}
-              className="max-w-full h-auto"
-              alt="Stumptown Logo"
+              className="max-w-full "
+              style={{ height: '114px' }}
+              alt="Yelp Logo"
             ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
@@ -270,8 +278,8 @@ export default function LocalBasket() {
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
                 src={consistency}
-                className="max-w-full h-auto"
-                // style={{ maxWidth: '160px' }}
+                className="max-w-full "
+                style={{ height: '114px' }}
                 alt="Ambiance"
               ></img>
             </div>
@@ -369,7 +377,7 @@ export default function LocalBasket() {
                 Meet Jade
               </h2>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/journey_map.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/persona1.pdf"
                 className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                 target="_blank"
                 rel="noopener noreferrer"
