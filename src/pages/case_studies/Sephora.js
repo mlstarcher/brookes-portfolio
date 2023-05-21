@@ -24,6 +24,7 @@ import iteration3 from '../../assets/sephora/iteration3.png';
 import task_flow from '../../assets/sephora/task_flow.png';
 import illustration1 from '../../assets/sephora/illustration1.png';
 import sephora_macbook from '../../assets/sephora/sephora_macbook.png';
+import value_matrix from '../../assets/sephora/value_matrix.png';
 
 export default function Sephora() {
   return (
@@ -132,7 +133,8 @@ export default function Sephora() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={how_might_we1}
-              className="max-w-full h-auto"
+              className="h-auto"
+              style={{ maxWidth: '630px' }}
               alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
             ></img>
           </div>
@@ -329,7 +331,8 @@ export default function Sephora() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={how_might_we2}
-              className="max-w-full h-auto"
+              className="h-auto"
+              style={{ maxWidth: '630px' }}
               alt="Cloud"
             ></img>
           </div>
@@ -351,7 +354,7 @@ export default function Sephora() {
                 Meet Wren
               </h2>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/journey_map.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/persona.pdf"
                 className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -393,7 +396,7 @@ export default function Sephora() {
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             Determining the Problems to Solve
           </h2>
-          <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
+          <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
             With the needs of our user identified, it was clear that there was a
             need for a website feature that <strong>was informative</strong>,
             and that provided an <strong>efficient</strong> way to recycle
@@ -417,7 +420,8 @@ export default function Sephora() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={how_might_we3}
-              className="max-w-full h-auto"
+              className="h-auto"
+              style={{ maxWidth: '630px' }}
               alt="Mobile Preview"
             ></img>
           </div>
@@ -439,11 +443,11 @@ export default function Sephora() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {/* <img
-                  src={feature_set}
+                <img
+                  src={value_matrix}
                   className="max-w-full h-auto"
                   alt="Feature Set"
-                ></img> */}
+                ></img>
               </a>
             </div>
           </div>
@@ -521,9 +525,9 @@ export default function Sephora() {
               there should be screens to show how the user would track the
               progress of their recycling mailer as well.
             </p>
-            <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
+            <div className="flex justify-center items-center px-0 mb-16 sm:mb-32">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/sketches.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/sketches.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -591,7 +595,7 @@ export default function Sephora() {
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
               High Fidelity UI
             </h2>
-            <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
+            <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-10">
               This step is where the design really came together visually. I was
               able to fully design the Sephora recycling feature while keeping
               our persona, Wren in mind. A combination of custom made

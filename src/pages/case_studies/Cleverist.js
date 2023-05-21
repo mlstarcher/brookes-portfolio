@@ -129,7 +129,8 @@ export default function Cleverist() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={how_might_we1}
-              className="max-w-full h-auto"
+              className="h-auto"
+              style={{ maxWidth: '630px' }}
               alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
             ></img>
           </div>
@@ -327,7 +328,8 @@ export default function Cleverist() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={how_might_we2}
-              className="max-w-full h-auto"
+              className="h-auto"
+              style={{ maxWidth: '630px' }}
               alt="Mobile Preview"
             ></img>
           </div>
@@ -390,7 +392,8 @@ export default function Cleverist() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={how_might_we3}
-              className="max-w-full h-auto"
+              className="h-auto"
+              style={{ maxWidth: '630px' }}
               alt="Mobile Preview"
             ></img>
           </div>
@@ -508,7 +511,7 @@ export default function Cleverist() {
               would appear to the user, and how an activity page would look once
               one activity was chosen.
             </p>
-            <div className="flex justify-center items-center px-0 sm:px-16 mb-16 sm:mb-32">
+            <div className="flex justify-center items-center px-0 mb-16 sm:mb-32">
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Early+Sketches.pdf"
                 className="max-w-full h-auto"
@@ -581,7 +584,7 @@ export default function Cleverist() {
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
               High Fidelity UI
             </h2>
-            <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
+            <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-10">
               This step is where the design really came together visually. I was
               able to fully design the Cleverist site while keeping our persona,
               Megan in mind. A combination of custom made icons and real imagery

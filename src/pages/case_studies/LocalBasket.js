@@ -56,7 +56,7 @@ export default function LocalBasket() {
             </div>
           </a>
         </div>
-        <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8">
+        <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8 sm:col-span-3">
           <div className="relative" style={{ height: '600px', width: '300px' }}>
             <img
               className="absolute z-20 pointer-events-none h-full w-auto"
@@ -70,7 +70,7 @@ export default function LocalBasket() {
               <img
                 src={mobile_preview}
                 className="max-w-full h-auto wireframe"
-                alt="HMobile previewow might we provide quality educational activities for parents and caregivers to do with their children at home?"
+                alt="Mobile preview might we provide quality educational activities for parents and caregivers to do with their children at home?"
               ></img>
             </div>
             <img
@@ -146,7 +146,8 @@ export default function LocalBasket() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={how_might_we1}
-              className="max-w-full h-auto"
+              className="h-auto"
+              style={{ maxWidth: '630px' }}
               alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
             ></img>
           </div>
@@ -356,7 +357,8 @@ export default function LocalBasket() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={how_might_we2}
-              className="max-w-full h-auto"
+              className="h-auto"
+              style={{ maxWidth: '630px' }}
               alt="Cloud"
             ></img>
           </div>
@@ -440,15 +442,11 @@ export default function LocalBasket() {
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             Finding the Flow
           </h2>
-          {/* <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            With the user’s problems in mind, the next steps were to determine
-            our feature set, create a site map, and user flows. These tools
-            helped give scaffolding to the design of the product.
-          </p> */}
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={how_might_we3}
-              className="max-w-full h-auto"
+              className="h-auto"
+              style={{ maxWidth: '630px' }}
               alt="Mobile Preview"
             ></img>
           </div>
@@ -632,7 +630,7 @@ export default function LocalBasket() {
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
               High Fidelity UI
             </h2>
-            <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
+            <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-10">
               The app came together beautifully, but I conducted usability
               testing to gather feedback on the new design. The feedback was
               great for the UI elements as well as the ease of completing tasks.
@@ -752,7 +750,7 @@ https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wirefr
             <strong>design opportunities</strong> and{' '}
             <strong>potential next steps</strong>.
           </p>
-          <div className="grid grid-cols-1 sm:grid-cols-2 mb-10 sm:mb-20">
+          <div className="grid grid-cols-1 sm:grid-cols-2">
             <div className="col-span-1">
               <div className="font-semibold text-lg sm:text-2xl text-left">
                 What Worked:
