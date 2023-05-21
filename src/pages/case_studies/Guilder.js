@@ -39,10 +39,14 @@ export default function Guilder() {
           </h1>
           <p className="text-lg sm:text-2xl text-center">
             A Princess Bride themed{' '}
-            <span className="text-accent">coffee shop</span> in Portland, Oregon
-            in need of a <span className="text-accent">new design</span>{' '}
-            including an <span className="text-accent">online ordering</span>{' '}
-            system.
+            <span className="text-accent">coffee shop</span>
+            <br /> in Portland, Oregon in need of a{' '}
+            <span className="text-accent">
+              new
+              <br /> design
+            </span>{' '}
+            including an <span className="text-accent">online ordering</span>
+            <br /> system.
           </p>
           <a
             href="https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=26%3A11944&t=JQnchFyV1qHpQvbJ-1"

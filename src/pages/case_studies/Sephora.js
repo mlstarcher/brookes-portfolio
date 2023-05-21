@@ -29,15 +29,18 @@ import value_matrix from '../../assets/sephora/value_matrix.png';
 export default function Sephora() {
   return (
     <div className="bg-offWhite">
-      <div className="grid grid-cols-12 mb-10 sm:mb-20 mt-10 sm:mt-0">
+      <div className="grid grid-cols-12 mb-10 sm:mb-32 mt-10 sm:mt-0">
         <div className="flex flex-col justify-center items-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
             Sephora Recycle Feature
           </h1>
           <p className="text-lg sm:text-2xl text-center">
             A <span className="text-accent">website feature</span> that allows
-            users to mail their old or unwanted cosmetics and packaging to
-            Sephora for <span className="text-accent">recycling.</span>
+            users to
+            <br /> mail their old or unwanted cosmetics
+            <br /> and packaging to Sephora for
+            <br />
+            <span className="text-accent">recycling.</span>
           </p>
           <a
             href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1"

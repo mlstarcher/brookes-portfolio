@@ -39,9 +39,10 @@ export default function Cleverist() {
           </h1>
           <p className="text-lg sm:text-2xl text-center">
             A <span className="text-accent">website</span> that helps parents
-            and caregivers find{' '}
-            <span className="text-accent">educational activities</span> to do
-            with their children at home.
+            and
+            <br /> caregivers find{' '}
+            <span className="text-accent">educational activities</span> to
+            <br /> do with their children at home.
           </p>
           <a
             href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"

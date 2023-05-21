@@ -40,8 +40,12 @@ export default function LocalBasket() {
           </h1>
           <p className="text-lg sm:text-2xl text-center">
             An app that helps users{' '}
-            <span className="text-accent">place orders</span> for{' '}
-            <span className="text-accent">produce and goods</span> from vendors
+            <span className="text-accent">place orders</span>
+            <br /> for <span className="text-accent">
+              produce and goods
+            </span>{' '}
+            from vendors
+            <br />
             at their local <span className="text-accent">farmer’s market.</span>
           </p>
           <a
