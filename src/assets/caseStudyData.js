@@ -1,7 +1,3 @@
-import cleverist_iphone from './cleverist/cleverist_iphone.png';
-import local_basket_iphones from './local_basket/local_basket_iphones.png';
-import guilder_iphones from './guilder/guilder_iphones.png';
-import sephora_macbook from './sephora/sephora_macbook.png';
 
 const caseStudyData = [
   {
@@ -10,7 +6,7 @@ const caseStudyData = [
     short_description:
       'An app that helps users place orders for produce and goods from vendors at their local farmer’s market.',
     link: `local-basket`,
-    image_name: local_basket_iphones,
+    image_name: 'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/iphone14.png',
     alt_tag: 'iphones'
   },
   {
@@ -19,7 +15,7 @@ const caseStudyData = [
     short_description:
       'A responsive website where parents and caregivers can find educational activities to do with their children at home.',
     link: `cleverist`,
-    image_name: cleverist_iphone,
+    image_name: 'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iPhone_14.png',
     alt_tag: 'iphones'
   },
   {
@@ -28,7 +24,7 @@ const caseStudyData = [
     short_description:
       'A responsive website where parents and caregivers can find educational activities to do with their children at home.',
     link: `sephora`,
-    image_name: sephora_macbook,
+    image_name: 'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/macbook_air.png',
     alt_tag: 'iphones'
   },
   {
@@ -37,7 +33,7 @@ const caseStudyData = [
     short_description:
       'A responsive website where parents and caregivers can find educational activities to do with their children at home.',
     link: `guilder`,
-    image_name: guilder_iphones,
+    image_name: 'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/iphone_14.png',
     alt_tag: 'iphones'
   }
 ];
