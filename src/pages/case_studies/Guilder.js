@@ -3,31 +3,10 @@ import React from 'react';
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
 
-import iphone_14 from '../../assets/iphone_14_transparent.png';
-import design_thinking_image from '../../assets/design_thinking_image.png';
-import mobile_preview from '../../assets/guilder/mobile_preview.png';
-import how_might_we1 from '../../assets/guilder/how_might_we1.png';
-import how_might_we2 from '../../assets/guilder/how_might_we2.png';
-import how_might_we3 from '../../assets/guilder/how_might_we3.png';
-import good from '../../assets/guilder/good.png';
-import cafe_olli from '../../assets/guilder/cafe_olli.png';
-import starbucks from '../../assets/guilder/starbucks.png';
-import stumptown from '../../assets/guilder/stumptown.png';
-import ambiance from '../../assets/guilder/ambiance.png';
-import convenience from '../../assets/guilder/convenience.png';
-import offerings from '../../assets/guilder/offerings.png';
-import persona1 from '../../assets/guilder/persona1.png';
-import persona2 from '../../assets/guilder/persona2.png';
-import features from '../../assets/guilder/features.png';
-import mood_board from '../../assets/guilder/mood_board.png';
-import mid_fi_wireframes from '../../assets/guilder/mid_fi_wireframes.png';
-import hi_fi_wireframes from '../../assets/guilder/hi_fi_wireframes.png';
-import sitemap from '../../assets/guilder/sitemap.png';
-import user_flow from '../../assets/guilder/user_flow.png';
-import sketches from '../../assets/guilder/sketches.png';
-import guilder_iphones from '../../assets/guilder/guilder_iphones.png';
-import iteration1 from '../../assets/guilder/iteration1.png';
-import iteration2 from '../../assets/guilder/iteration2.png';
+//TODO: Missing images
+//iphone_14
+//mobile_preview
+//how_might_we3
 
 export default function Guilder() {
   return (
@@ -62,20 +41,20 @@ export default function Guilder() {
         </div>
         <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8">
           <div className="relative" style={{ height: '600px', width: '300px' }}>
-            <img
+            {/* <img
               className="absolute z-10 pointer-events-none h-full w-auto"
               src={iphone_14}
               alt="iPhone 14"
-            ></img>
+            ></img> */}
             <div
               className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
               style={{ marginTop: '14px' }}
             >
-              <img
+              {/* <img
                 src={mobile_preview}
                 className="max-w-full h-auto wireframe"
                 alt="Mobile Preview"
-              ></img>
+              ></img> */}
             </div>
           </div>
         </div>
@@ -133,7 +112,7 @@ export default function Guilder() {
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
-              src={how_might_we1}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/how_might_we1.png'}
               className="h-auto"
               style={{ maxWidth: '630px' }}
               alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
@@ -154,7 +133,7 @@ export default function Guilder() {
             Design Thinking Process
           </h2>
           <img
-            src={design_thinking_image}
+            src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/design_thinking.png'}
             className="max-w-full h-auto mb-16 sm:mb-32"
             alt="Research, define, design, test"
           ></img>
@@ -185,7 +164,7 @@ export default function Guilder() {
         <div className="col-span-12 sm:col-span-4 sm:col-start-2 flex flex-col items-center">
           <div className="flex items-center">
             <img
-              src={good}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/good.png'}
               className="max-w-full h-auto"
               alt="Good logo"
               style={{ height: '114px' }}
@@ -199,7 +178,7 @@ export default function Guilder() {
         <div className="col-span-12 sm:col-span-4 sm:col-start-8 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center">
             <img
-              src={cafe_olli}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/cafe_olli.png'}
               style={{ height: '114px' }}
               className="max-w-full h-auto rounded-sm"
               alt="Cafe Olli logo"
@@ -213,7 +192,7 @@ export default function Guilder() {
         <div className="col-span-12 sm:col-span-4 sm:col-start-2 flex flex-col items-center mt-8">
           <div className="flex items-center">
             <img
-              src={starbucks}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/starbucks.png'}
               className="max-w-full h-auto"
               style={{ height: '114px' }}
               alt="Starbucks Logo"
@@ -227,7 +206,7 @@ export default function Guilder() {
         <div className="col-span-12 sm:col-span-4 sm:col-start-8 flex flex-col items-center mt-8">
           <div className="flex items-center">
             <img
-              src={stumptown}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/stumptown.png'}
               className="max-w-full h-auto"
               style={{ height: '114px' }}
               alt="Stumptown Logo"
@@ -255,7 +234,7 @@ export default function Guilder() {
           <div className="grid grid-cols-12 mb-10 sm:mb-20">
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={convenience}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/convenience.png'}
                 className="max-w-full"
                 alt="Convenience"
               ></img>
@@ -269,7 +248,7 @@ export default function Guilder() {
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={ambiance}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/ambiance.png'}
                 className="max-w-full h-auto"
                 // style={{ maxWidth: '160px' }}
                 alt="Ambiance"
@@ -283,7 +262,7 @@ export default function Guilder() {
               </p>
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
-              <img src={offerings} className="max-w-full" alt="Offerings"></img>
+              <img src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/offerings.png'} className="max-w-full" alt="Offerings"></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
@@ -337,7 +316,7 @@ export default function Guilder() {
           </div>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
-              src={how_might_we2}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/how_might_we2.png'}
               className="h-auto"
               style={{ maxWidth: '630px' }}
               alt="Cloud"
@@ -367,7 +346,7 @@ export default function Guilder() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={persona1}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/persona1.png'}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -379,7 +358,7 @@ export default function Guilder() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={persona2}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/persona2.png'}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -411,12 +390,12 @@ export default function Guilder() {
             helped give scaffolding to the design of the product.
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
-            <img
+            {/* <img
               src={how_might_we3}
               className="h-auto"
               style={{ maxWidth: '630px' }}
               alt="Mobile Preview"
-            ></img>
+            ></img> */}
           </div>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
             The <strong>feature set</strong> shown here helped me to narrow in
@@ -438,7 +417,7 @@ export default function Guilder() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={features}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/Screen+Shot+2023-04-29+at+3.28+1.png'}
                   className="max-w-full h-auto"
                   alt="Feature Set"
                 ></img>
@@ -464,7 +443,7 @@ export default function Guilder() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={sitemap}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/sitemap.png'}
                   className="max-w-full h-auto"
                   alt="Site Map"
                 ></img>
@@ -494,7 +473,7 @@ export default function Guilder() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={user_flow}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/user_flow.png'}
                   className="max-w-full h-auto"
                   alt="User Flow"
                 ></img>
@@ -539,7 +518,7 @@ export default function Guilder() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={sketches}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/sketches.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of early sketches"
                 ></img>
@@ -576,7 +555,7 @@ export default function Guilder() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={mood_board}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/Mood+Board+1.png'}
                     className="max-w-full h-auto"
                     alt="Mood Board"
                   ></img>
@@ -602,7 +581,7 @@ export default function Guilder() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={mid_fi_wireframes}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/Mid+Fidelity.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of mid fi wire frames"
                 ></img>
@@ -643,7 +622,7 @@ export default function Guilder() {
                 className="max-w-full h-auto"
               >
                 <img
-                  src={hi_fi_wireframes}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/hi_fi.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of hi fi wire frames"
                 ></img>
@@ -707,7 +686,7 @@ export default function Guilder() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <img
-                src={guilder_iphones}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/iphone_14.png'}
                 className="max-w-full h-auto"
                 alt="Cleverist iphone preview"
               ></img>
@@ -772,7 +751,7 @@ export default function Guilder() {
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
-                    src={iteration1}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/iteration1.png'}
                     className="max-w-full h-auto"
                     alt="Iteration 1"
                   ></img>
@@ -784,7 +763,7 @@ export default function Guilder() {
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
-                    src={iteration2}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/iteration2.png'}
                     className="max-w-full h-auto"
                     alt="Iteration 2"
                   ></img>
