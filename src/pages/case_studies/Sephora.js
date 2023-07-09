@@ -1,34 +1,11 @@
 import React from 'react';
+import ButtonPrimary from '../ButtonPrimary.js';
 
-//Images and icons
 import { FaArrowRight } from 'react-icons/fa';
-
-// import design_thinking_image from '../../assets/design_thinking_image.png';
-// import how_might_we1 from '../../assets/sephora/how_might_we1.png';
-// import how_might_we2 from '../../assets/sephora/how_might_we2.png';
-// import how_might_we3 from '../../assets/sephora/how_might_we3.png';
-// import credo from '../../assets/sephora/credo.png';
-// import ulta from '../../assets/sephora/ulta.png';
-// import amazon from '../../assets/sephora/amazon.png';
-// import clarity from '../../assets/sephora/clarity.png';
-// import efficiency from '../../assets/sephora/efficiency.png';
-// import eco_friendliness from '../../assets/sephora/eco_friendliness.png';
-// import persona1 from '../../assets/sephora/persona1.png';
-// import journey_map from '../../assets/sephora/journey_map.png';
-// import sketches from '../../assets/sephora/sketches.png';
-// import mid_fi_wireframes from '../../assets/sephora/mid_fi_wireframes.png';
-// import hi_fi_wireframes from '../../assets/sephora/hi_fi_wireframes.png';
-// import iteration1 from '../../assets/sephora/iteration1.png';
-// import iteration2 from '../../assets/sephora/iteration2.png';
-// import iteration3 from '../../assets/sephora/iteration3.png';
-// import task_flow from '../../assets/sephora/task_flow.png';
-// import illustration1 from '../../assets/sephora/illustration1.png';
-// import sephora_macbook from '../../assets/sephora/sephora_macbook.png';
-// import value_matrix from '../../assets/sephora/value_matrix.png';
 
 export default function Sephora() {
   return (
-    <div className="bg-offWhite">
+    <div className="bg-offWhite mt-8 sm:mt-32">
       <div className="grid grid-cols-12 mb-10 sm:mb-32 mt-10 sm:mt-0">
         <div className="flex flex-col justify-center items-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
@@ -42,7 +19,8 @@ export default function Sephora() {
             <br />
             <span className="text-accent">recycling.</span>
           </p>
-          <a
+          <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1'}/>
+          {/* <a
             href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1"
             target="_blank"
             rel="noopener noreferrer"
@@ -52,7 +30,8 @@ export default function Sephora() {
               <p className="mr-2">View Prototype</p>
               <FaArrowRight className="m-h-5" />
             </div>
-          </a>
+          </a> */}
+
         </div>
         <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8">
           {/* <img
@@ -79,9 +58,9 @@ export default function Sephora() {
           </div> */}
         </div>
       </div>
-      <div className="bg-accent text-white p-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
+      <div className="bg-secondary  p-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
+          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl"></h4>
           <p className="text-lg sm:text-2xl mb-8 sm:mb-0">UX/UI designer</p>
         </div>
         <div className="col-span-12 sm:col-span-3">
@@ -294,7 +273,7 @@ export default function Sephora() {
           </div>
           <div className="flex mb-16 sm:mb-32">
             <div
-              className="bg-accent rounded mr-4"
+              className="bg-secondary rounded mr-4"
               style={{ width: '10px' }}
             ></div>
             <p className="text-left text-lg sm:text-2xl">
@@ -307,7 +286,7 @@ export default function Sephora() {
           </div>
           <div className="flex mb-16 sm:mb-32">
             <div
-              className="bg-accent rounded mr-4"
+              className="bg-secondary rounded mr-4"
               style={{ width: '10px' }}
             ></div>
             <p className="text-left text-lg sm:text-2xl">
@@ -320,7 +299,7 @@ export default function Sephora() {
           </div>
           <div className="flex mb-16 sm:mb-32">
             <div
-              className="bg-accent rounded mr-4"
+              className="bg-secondary rounded mr-4"
               style={{ width: '10px' }}
             ></div>
             <p className="text-left text-lg sm:text-2xl">
@@ -819,7 +798,7 @@ export default function Sephora() {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-12 p-10 sm:px-0  bg-secondary mb-16 sm:mb-32">
+      <div className="grid grid-cols-12 p-10 sm:px-0  bg-primary mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
             Next Steps
@@ -827,7 +806,7 @@ export default function Sephora() {
           <div className="mt-4 text-start text-lg sm:text-2xl mb-10">
             With more time, the next steps I would take on this design project
             would be:
-            <ul className="list-disc ml-8 font-semibold">
+            <ul className="list-disc ml-8 font-semibold mt-8">
               <li>
                 Adding the ability to earn extra points for Beauty Insider
                 towards clean beauty brands carried at Sephora.
@@ -846,7 +825,7 @@ export default function Sephora() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 mb-16 sm:mb-32 sm:px-0 p-10  bg-accent text-white">
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 sm:px-0 p-10  bg-secondary ">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
             Learnings & Final Thoughts

@@ -59,7 +59,7 @@ export default function Guilder() {
           </div>
         </div>
       </div>
-      <div className="bg-accent text-white p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-16 sm:mb-32">
+      <div className="bg-accent text-white p-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-3">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
           <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
@@ -160,7 +160,7 @@ export default function Guilder() {
           </p>
         </div>
       </div>
-      <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
+      <div className="bg-primary p-10 grid grid-cols-12  mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-4 sm:col-start-2 flex flex-col items-center">
           <div className="flex items-center">
             <img
@@ -483,7 +483,7 @@ export default function Guilder() {
         </div>
       </div>
       <div className="grid grid-cols-12 mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6 rounded-2xl bg-primary grid grid-cols-12 sm:grid-cols-10">
+        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6  bg-primary grid grid-cols-12 sm:grid-cols-10">
           <div className="col-span-12 sm:col-span-8 sm:col-start-2 flex flex-col">
             <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
               Design
@@ -773,7 +773,7 @@ export default function Guilder() {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-12 p-10 sm:px-0 rounded-2xl bg-secondary mb-16 sm:mb-32">
+      <div className="grid grid-cols-12 p-10 sm:px-0  bg-secondary mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
             Next Steps
@@ -794,7 +794,7 @@ export default function Guilder() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 mb-16 sm:mb-32 sm:px-0 p-10 rounded-2xl bg-accent text-white">
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 sm:px-0 p-10  bg-accent text-white">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
             Learnings & Final Thoughts
