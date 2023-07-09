@@ -22,7 +22,7 @@ export default function Cleverist() {
           </div>
         </div>
         <div className="flex flex-col items-center col-span-12 sm:col-span-3 sm:col-start-8">
-          <div className="relative" style={{ height: '600px', width: '300px' }}>
+          <div className="relative mt-8 sm:mt-0" style={{ height: '600px', width: '300px' }}>
             <img
               role="presentation"
               className="absolute z-10 pointer-events-none h-full w-auto"
@@ -68,7 +68,7 @@ export default function Cleverist() {
       </div>
       <div className="grid grid-cols-12">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Overview
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
@@ -78,7 +78,7 @@ export default function Cleverist() {
               information and materials that they need in one place.
             </strong>
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             The Problem
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
@@ -91,12 +91,12 @@ export default function Cleverist() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/how_might_we1.png'}
-              className="h-auto"
+              className="h-auto w-full"
               style={{ maxWidth: '630px' }}
               alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
             ></img>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             The Solution
           </h2>
           <div className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
@@ -120,13 +120,13 @@ export default function Cleverist() {
             className="max-w-full h-auto mb-16 sm:mb-32"
             alt="Research, define, design, test"
           ></img>
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Research
           </h3>
           <p className="mb-16 sm:mb-32 text-start text-lg sm:text-2xl">
             My goal was to understand the experience that parents or caregivers have when trying to facilitate educational activities for their children at home. I made a research plan to find out what materials and information parents and caregivers were interested in seeing in an Educational Activity Resource. I looked at the current competition to see what they offered, and kept that in mind during user interviews.
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Looking at the competition
           </h2>
           <p className=" text-start text-lg sm:text-2xl mb-10 sm:mb-20">
@@ -185,12 +185,10 @@ export default function Cleverist() {
             </p>
           </div>
         </div>
-
-
       </div>
       <div className="grid grid-cols-12 mt-8 sm:mt-16">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Hearing People's Stories
           </h2>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
@@ -222,9 +220,7 @@ export default function Cleverist() {
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-                Parents and caregivers are often busy with their child’s
-                schedule as well as their own. Finding activities quickly and
-                easily is important.
+              Parents and caregivers are not always trained as teachers, but they would like to provide activities that are backed by educational resources.
               </p>
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
@@ -248,11 +244,11 @@ export default function Cleverist() {
             </p>
           </div>
           <div className="flex mb-16 sm:mb-32">
-            <div
-              className="bg-primary rounded mr-4"
-              style={{ width: '16px' }}
-            ></div>
-            <p className="text-left text-lg sm:text-2xl">
+            <span
+              className="bg-primary rounded"
+              style={{ width: '10px' }}
+            ></span>
+            <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
                 “ Time is the biggest issue. Also just not knowing what to do
                 and ending up putting out crayons and paper for the millionth
@@ -261,11 +257,11 @@ export default function Cleverist() {
             </p>
           </div>
           <div className="flex mb-16 sm:mb-32">
-            <div
-              className="bg-primary rounded mr-4"
-              style={{ width: '16px' }}
-            ></div>
-            <p className="text-left text-lg sm:text-2xl">
+            <span
+              className="bg-primary rounded"
+              style={{ width: '10px' }}
+            ></span>
+            <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
                 “ It is hard coming up with new ideas or ideas that are as good
                 as what they have already done at school, since those activities
@@ -274,11 +270,11 @@ export default function Cleverist() {
             </p>
           </div>
           <div className="flex mb-16 sm:mb-32">
-            <div
-              className="bg-primary rounded mr-4"
-              style={{ width: '16px' }}
-            ></div>
-            <p className="text-left text-lg sm:text-2xl">
+            <span
+              className="bg-primary rounded"
+              style={{ width: '10px' }}
+            ></span>
+            <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
                 “ Time spent sourcing materials takes away from the time we have
                 to do activities together, We often default to ordering things
@@ -290,26 +286,20 @@ export default function Cleverist() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/how_might_we2.png'}
-              className="h-auto"
+              className="h-auto w-full"
               style={{ maxWidth: '630px' }}
               alt="Mobile Preview"
             ></img>
           </div>
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12 ">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Define
           </h3>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
-            Before coming up with a design to solve this problem, I needed to
-            further define our target user and find out what their wants and
-            needs would be for this product. Meet our user Megan. Megan is a
-            work at home/stay at home mom who wants to provide enriching
-            educational activities for her children to do at home, understand
-            the educational reasoning behind the activities, and participate in
-            the activities with her children.
+          Before coming up with a design to solve this problem, I needed to further define our target user and find out what their wants and needs would be for this product. Meet our user Megan. Megan is a work at home/stay at home mom who wants to provide enriching educational activities for her children to do at home, understand the educational reasoning behind the activities, and participate in the activities with her children. 
           </p>
           <div className="flex justify-center items-center">
             <div className="flex flex-col items-start">
-              <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-12">
+              <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-10">
                 Meet Megan
               </h2>
               <a
@@ -326,7 +316,7 @@ export default function Cleverist() {
               </a>
             </div>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Determining the Problems to Solve
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
@@ -343,7 +333,7 @@ export default function Cleverist() {
             <strong>easy to understand,</strong> and organized in a way that
             made it as <strong>time efficient</strong> as possible.
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Finding the Flow
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
@@ -354,7 +344,7 @@ export default function Cleverist() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/how_might_we3.png'}
-              className="h-auto"
+              className="h-auto w-full"
               style={{ maxWidth: '630px' }}
               alt="Mobile Preview"
             ></img>
@@ -443,10 +433,10 @@ export default function Cleverist() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6  bg-primary grid grid-cols-12 sm:grid-cols-10">
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 bg-primary">
+        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6 grid grid-cols-12 sm:grid-cols-10">
           <div className="col-span-12 sm:col-span-8 sm:col-start-2 flex flex-col">
-            <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+            <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
               Design
             </h3>
             <p className="text-left text-lg sm:text-2xl mb-16 sm:mb-32">
@@ -458,7 +448,7 @@ export default function Cleverist() {
               while still providing a{' '}
               <strong>delightful and inspiring experience.</strong>
             </p>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Early Sketches
             </h2>
             <p className="mb-6 sm:mb-12 text-start text-lg sm:text-2xl">
@@ -473,7 +463,7 @@ export default function Cleverist() {
               would appear to the user, and how an activity page would look once
               one activity was chosen.
             </p>
-            <div className="flex justify-center items-center px-0 mb-16 sm:mb-32">
+            <div className="flex justify-center items-center px-0 sm:px-24 mb-16 sm:mb-32">
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Early+Sketches.pdf"
                 className="max-w-full h-auto"
@@ -487,19 +477,14 @@ export default function Cleverist() {
                 ></img>
               </a>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Branding
             </h2>
             <div className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
               <p className="mb-10">
-                With a general idea of how the site could be laid out, the next
-                piece was deciding how I would communicate the Cleverist values
-                using inspiration, color pallette, and logo. I chose to use
-                colors that were a playful spin on primary colors so often seen
-                in children’s products. The core values that I wanted to
-                communicate with the overall branding were:
+              With a general idea of how the site could be laid out, the next piece was deciding how I would <strong>communicate the Cleverist values</strong> using inspiration, color pallette, and logo. I chose to use colors that were a playful spin on primary colors so often seen in children’s products. The core values that I wanted to communicate with the overall branding were:
               </p>
-              <ul className="list-disc ml-8">
+              <ul className="list-disc ml-8 font-bold">
                 <li>Inspiring</li>
                 <li>Playful</li>
                 <li>Creative</li>
@@ -516,7 +501,7 @@ export default function Cleverist() {
                 ></img>
               </div>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Mid Fidelity Wireframes
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
@@ -543,28 +528,17 @@ export default function Cleverist() {
                 ></img>
               </a>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               High Fidelity UI
             </h2>
-            <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-10">
+            <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
               This step is where the design really came together visually. I was
               able to fully design the Cleverist site while keeping our persona,
               Megan in mind. A combination of custom made icons and real imagery
               gave the site the exact feel we were going for in a way that was
               simple, clean, and time efficient.
             </p>
-            <a
-              href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=1%3A3&t=05AJXlKrrTlhUCzR-1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer mb-10 sm:mb-20"
-            >
-              <div className="flex items-center">
-                <p className="mr-2">View all designs in Figma</p>
-                <FaArrowRight className="m-h-5" />
-              </div>
-            </a>
-            <div className="flex justify-center items-center mt-8 sm:mt-16">
+            <div className="flex justify-center items-center">
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Hi+Fi+Wire+frames.pdf"
                 target="_blank"
@@ -583,7 +557,7 @@ export default function Cleverist() {
       </div>
       <div className="grid grid-cols-12">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Test
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
@@ -593,21 +567,13 @@ export default function Cleverist() {
             using the Figma prototype would give clarity and inform my further
             iterations.
           </p>
-          <a
-            href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
-          >
-            <div className="flex items-center mb-16 sm:mb-32">
-              <p className="mr-2">View Prototype</p>
-              <FaArrowRight className="m-h-5" />
-            </div>
-          </a>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <div className='text-left mb-16 sm:mb-32'>
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1'} type={'external'} className="mt-20" />
+          </div>
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Usability Testing
           </h2>
-          <p className="text-start text-lg sm:text-2xl mb-10">
+          <p className="text-start text-lg sm:text-2xl mb-6">
             I conducted usability testing sessions to test the homepage, the
             process of creating an account, and the process of finding and
             saving an activity using filters. I held usability testing sessions
@@ -615,7 +581,7 @@ export default function Cleverist() {
           </p>
           <div className="text-start text-lg sm:text-2xl ">
             The usability test goals were:
-            <ul className="list-disc ml-8 mb-10">
+            <ul className="list-disc ml-8 mb-6">
               <li>
                 To evaluate wether the prototype allows users to quickly and
                 effectively complete the task flows that the wireframes were
@@ -643,7 +609,7 @@ export default function Cleverist() {
               ></img>
             </div>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Analyzing & Prioritizing Results
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
@@ -702,7 +668,7 @@ export default function Cleverist() {
               </a>
             </div>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Final Iterations
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
@@ -712,10 +678,10 @@ export default function Cleverist() {
             made.
           </p>
           <ul className="list-disc ml-8 font-semibold text-lg sm:text-2xl text-left mb-10 sm:mb-20">
-            <li className="mb-10 sm:mb-20">
+            <li className="mb-10 sm:mb-32">
               Button at the end of filter section to allow the user to apply
               filters rather than clicking “X”.
-              <div className="flex justify-center items-center mt-16 sm:mt-32">
+              <div className="flex justify-center items-center mt-16 sm:mt-20">
                 <div>
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iteration_1.png'}
@@ -725,7 +691,7 @@ export default function Cleverist() {
                 </div>
               </div>
             </li>
-            <li className="mb-10 sm:mb-20">
+            <li className="mb-10 sm:mb-32">
               Button at the end of filter section to allow the user to apply
               filters rather than clicking “X”.
               <div className="flex justify-center items-center mt-16 sm:mt-32">
@@ -741,7 +707,7 @@ export default function Cleverist() {
             <li className="mb-6 sm:mb-12">
               On the Activity page, “Leave a Comment” section added before the
               existing comments from other users.
-              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <div className="flex justify-center items-center my-16 sm:my-32">
                 <div>
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iteration_3.png'}
@@ -754,15 +720,15 @@ export default function Cleverist() {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-12 p-10 sm:px-0  bg-primary mb-16 sm:mb-32">
+      <div className="grid grid-cols-12 py-20 bg-primary mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Next Steps
           </h3>
           <div className="mt-4 text-start text-lg sm:text-2xl mb-10">
             With more time, the next steps I would take on this design project
             would be:
-            <ul className="list-disc ml-8 font-semibold">
+            <ul className="list-disc ml-8 font-semibold mt-10">
               <li>Creating an “add your own activity” feature.</li>
               <li>Design features for the Community section.</li>
               <li>Add a FAQ section.</li>
@@ -771,9 +737,9 @@ export default function Cleverist() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 mb-16 sm:mb-32 sm:px-0 p-10  bg-secondary">
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 p-10 sm:py-32 bg-secondary">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Learnings & Final Thoughts
           </h3>
           <p className="mb-10 text-left text-lg sm:text-2xl">
