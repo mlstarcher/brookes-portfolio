@@ -8,11 +8,11 @@ export default function CaseStudyCard({ case_study, index }) {
       <div className={"flex flex-col items-center justify-center w-full md:w-1/2 " + (isOddIndex ? 'md:order-first' : 'md:order-last')}>
         <img
           src={case_study.image_name}
-          className="w-full h-auto object-contain"
+          className="w-full h-auto object-contain mb-4 sm:mb-0 "
           alt={case_study.alt_tag}
         ></img>
       </div>
-      <div className={"flex flex-col items-start w-full md:w-1/2  " + (!isOddIndex ? 'md:order-first' : 'md:order-last')}>
+      <div className={"mb-4 sm:mb-0 flex flex-col items-start w-full md:w-1/2  " + (!isOddIndex ? 'md:order-first' : 'md:order-last')}>
         <h4 className="font-semibold text-2xl text-left md:text-4xl mb-6 md:mb-12">
           {case_study.title}
         </h4>

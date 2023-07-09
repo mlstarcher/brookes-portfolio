@@ -37,7 +37,7 @@ export default function Nav() {
               onClick={() => closeMenu()}
               to="/#work"
               smooth
-              className="font-semibold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
+              className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
             >
               Work
             </Link>
@@ -47,7 +47,7 @@ export default function Nav() {
           <Link
             onClick={() => closeMenu()}
             to={`about`}
-            className="font-semibold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
+            className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
           >
             About
           </Link>
@@ -58,7 +58,7 @@ export default function Nav() {
             onClick={() => closeMenu()}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
+            className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
           >
             Resume
           </a>
@@ -67,13 +67,13 @@ export default function Nav() {
       <ul className="justify-between text-3lg hidden sm:flex">
         <li className="mx-4 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
           <div>
-            <Link to="/#work" smooth className="font-semibold text-xl">
+            <Link to="/#work" smooth className="font-bold text-xl">
               Work
             </Link>
           </div>
         </li>
         <li className="mx-4 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
-          <Link to={`about`} className="font-semibold text-xl ">
+          <Link to={`about`} className="font-bold text-xl ">
             About
           </Link>
         </li>
@@ -83,7 +83,7 @@ export default function Nav() {
             onClick={() => closeMenu()}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-semibold text-xl"
+            className="font-bold text-xl"
           >
             Resume
           </a>

@@ -1,5 +1,4 @@
 import React from 'react';
-import profile from '../assets/profile.jpg';
 
 export default function About() {
   return (
@@ -7,7 +6,7 @@ export default function About() {
       <div className="grid grid-cols-12">
         <div className="flex flex-col items-center col-span-12 sm:col-start-2 sm:col-end-7">
           <img
-            src={profile}
+            src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/global/welcome.png'}
             className="rounded-full m-w-100 h-auto"
             height="300"
             width="300"

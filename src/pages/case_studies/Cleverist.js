@@ -1,33 +1,5 @@
 import React from 'react';
-
-//Images and icons
 import { FaArrowRight } from 'react-icons/fa';
-
-import cleverist_iphone from '../../assets/cleverist/cleverist_iphone.png';
-import color_mixing from '../../assets/cleverist/color_mixing.png';
-import early_sketches from '../../assets/cleverist/early_sketches.png';
-import mid_fi_wire_frames from '../../assets/cleverist/mid_fi_wire_frames.png';
-import hi_fi_wire_frames from '../../assets/cleverist/hi_fi_wire_frames.png';
-import how_might_we1 from '../../assets/cleverist/how_might_we1.png';
-import how_might_we2 from '../../assets/cleverist/how_might_we2.png';
-import how_might_we3 from '../../assets/cleverist/how_might_we3.png';
-import learn_grow_sitemap1 from '../../assets/cleverist/learn_grow_sitemap1.png';
-import mood_board_w_color_pallette1 from '../../assets/cleverist/mood_board_w_color_pallette1.png';
-import user_flows from '../../assets/cleverist/user_flows.png';
-import user_persona1 from '../../assets/cleverist/user_persona1.png';
-import design_thinking_image from '../../assets/design_thinking_image.png';
-import feature_set from '../../assets/cleverist/feature_set.png';
-import analyzing_results1 from '../../assets/cleverist/analyzing_results1.png';
-import activity_filters from '../../assets/cleverist/activity_filters.png';
-import quality from '../../assets/cleverist/quality.png';
-import time from '../../assets/cleverist/time.png';
-import availability from '../../assets/cleverist/availability.png';
-import kiwico from '../../assets/cleverist/kiwico.png';
-import pbs_kids from '../../assets/cleverist/pbs_kids.png';
-import little_passports from '../../assets/cleverist/little_passports.png';
-import comments from '../../assets/cleverist/comments.png';
-import iphone_14 from '../../assets/iphone_14_transparent.png';
-import cleverist_mobile_wireframe from '../../assets/cleverist/cleverist_mobile_wireframe.jpg';
 
 export default function Cleverist() {
   return (
@@ -60,7 +32,7 @@ export default function Cleverist() {
           <div className="relative" style={{ height: '600px', width: '300px' }}>
             <img
               className="absolute z-10 pointer-events-none h-full w-auto"
-              src={iphone_14}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iPhone_14.png'}
               alt="Mobile preview"
             ></img>
             <div
@@ -68,7 +40,7 @@ export default function Cleverist() {
               style={{ marginTop: '14px' }}
             >
               <img
-                src={cleverist_mobile_wireframe}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/wireframes.png'}
                 className="max-w-full h-auto wireframe"
                 alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
               ></img>
@@ -76,7 +48,7 @@ export default function Cleverist() {
           </div>
         </div>
       </div>
-      <div className="bg-accent text-white p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-16 sm:mb-32">
+      <div className="bg-secondary p-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-3">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
           <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
@@ -129,7 +101,7 @@ export default function Cleverist() {
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
-              src={how_might_we1}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/how_might_we1.png'}
               className="h-auto"
               style={{ maxWidth: '630px' }}
               alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
@@ -155,7 +127,7 @@ export default function Cleverist() {
             Design Thinking Process
           </h2>
           <img
-            src={design_thinking_image}
+            src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/design_thinking.png'}
             className="max-w-full h-auto mb-16 sm:mb-32"
             alt="Research, define, design, test"
           ></img>
@@ -183,11 +155,11 @@ export default function Cleverist() {
           </p>
         </div>
       </div>
-      <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
+      <div className="bg-primary p-10 grid grid-cols-12  mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-4 flex flex-col items-center">
           <div className="flex items-center">
             <img
-              src={pbs_kids}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/pbs.png'}
               className="object-cover w-full"
               style={{ height: '114px' }}
               alt="PBS Kids logo"
@@ -201,7 +173,7 @@ export default function Cleverist() {
         <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center" style={{ height: '114px' }}>
             <img
-              src={little_passports}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/little_passports.png'}
               className="max-w-full h-auto rounded-sm border-white border-8 border-solid"
               alt="Little Passports logo"
             ></img>
@@ -214,7 +186,7 @@ export default function Cleverist() {
         <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center">
             <img
-              src={kiwico}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/kiwico.png'}
               className="object-cover w-full"
               style={{ height: '114px' }}
               alt="Kiwico Logo"
@@ -242,7 +214,7 @@ export default function Cleverist() {
           </p>
           <div className="grid grid-cols-12 mb-10 sm:mb-20">
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
-              <img src={time} className="max-w-full" alt="time"></img>
+              <img src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/time.png'} className="max-w-full" alt="time"></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
@@ -253,7 +225,7 @@ export default function Cleverist() {
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={quality}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/quality.png'}
                 className="max-w-full h-auto"
                 // style={{ maxWidth: '160px' }}
                 alt="Quality"
@@ -268,7 +240,7 @@ export default function Cleverist() {
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={availability}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/availabilty.png'}
                 className="max-w-full"
                 alt="Availability"
               ></img>
@@ -288,8 +260,8 @@ export default function Cleverist() {
           </div>
           <div className="flex mb-16 sm:mb-32">
             <div
-              className="bg-accent rounded mr-4"
-              style={{ width: '10px' }}
+              className="bg-primary rounded mr-4"
+              style={{ width: '16px' }}
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
@@ -301,8 +273,8 @@ export default function Cleverist() {
           </div>
           <div className="flex mb-16 sm:mb-32">
             <div
-              className="bg-accent rounded mr-4"
-              style={{ width: '10px' }}
+              className="bg-primary rounded mr-4"
+              style={{ width: '16px' }}
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
@@ -314,8 +286,8 @@ export default function Cleverist() {
           </div>
           <div className="flex mb-16 sm:mb-32">
             <div
-              className="bg-accent rounded mr-4"
-              style={{ width: '10px' }}
+              className="bg-primary rounded mr-4"
+              style={{ width: '16px' }}
             ></div>
             <p className="text-left text-lg sm:text-2xl">
               <strong>
@@ -328,7 +300,7 @@ export default function Cleverist() {
           </div>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
-              src={how_might_we2}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/how_might_we2.png'}
               className="h-auto"
               style={{ maxWidth: '630px' }}
               alt="Mobile Preview"
@@ -358,7 +330,7 @@ export default function Cleverist() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={user_persona1}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/user_persona.png'}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -392,7 +364,7 @@ export default function Cleverist() {
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
-              src={how_might_we3}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/how_might_we3.png'}
               className="h-auto"
               style={{ maxWidth: '630px' }}
               alt="Mobile Preview"
@@ -417,7 +389,7 @@ export default function Cleverist() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={feature_set}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/feature_set.png'}
                   className="max-w-full h-auto"
                   alt="Feature Set"
                 ></img>
@@ -442,7 +414,7 @@ export default function Cleverist() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={learn_grow_sitemap1}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/sitemap.png'}
                   className="max-w-full h-auto"
                   alt="Site Map"
                 ></img>
@@ -473,7 +445,7 @@ export default function Cleverist() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={user_flows}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/user_flows.png'}
                   className="max-w-full h-auto"
                   alt="User Flows"
                 ></img>
@@ -483,7 +455,7 @@ export default function Cleverist() {
         </div>
       </div>
       <div className="grid grid-cols-12 mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6 rounded-2xl bg-primary grid grid-cols-12 sm:grid-cols-10">
+        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6  bg-primary grid grid-cols-12 sm:grid-cols-10">
           <div className="col-span-12 sm:col-span-8 sm:col-start-2 flex flex-col">
             <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
               Design
@@ -520,7 +492,7 @@ export default function Cleverist() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={early_sketches}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/wireframes.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of early sketches"
                 ></img>
@@ -549,7 +521,7 @@ export default function Cleverist() {
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <div>
                 <img
-                  src={mood_board_w_color_pallette1}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/mood_board.png'}
                   className="max-w-full h-auto"
                   alt="Mood Board"
                 ></img>
@@ -576,7 +548,7 @@ export default function Cleverist() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={mid_fi_wire_frames}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/mid_fi.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of mid fi wire frames"
                 ></img>
@@ -611,7 +583,7 @@ export default function Cleverist() {
                 className="max-w-full h-auto"
               >
                 <img
-                  src={hi_fi_wire_frames}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/hi_fi.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of hi fi wire frames"
                 ></img>
@@ -676,7 +648,7 @@ export default function Cleverist() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <img
-                src={cleverist_iphone}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iPhone_14.png'}
                 className="max-w-full h-auto"
                 alt="Cleverist iphone preview"
               ></img>
@@ -734,7 +706,7 @@ export default function Cleverist() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={analyzing_results1}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/analyzing_results.png'}
                   className="max-w-full h-auto"
                   alt="Analyzing results"
                 ></img>
@@ -757,7 +729,7 @@ export default function Cleverist() {
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
-                    src={activity_filters}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iteration_1.png'}
                     className="max-w-full h-auto"
                     alt="Activity Filters"
                   ></img>
@@ -770,7 +742,7 @@ export default function Cleverist() {
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
-                    src={color_mixing}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iteration_2.png'}
                     className="max-w-full h-auto"
                     alt="Color Mixing"
                   ></img>
@@ -783,7 +755,7 @@ export default function Cleverist() {
               <div className="flex justify-center items-center mb-16 sm:mb-32">
                 <div>
                   <img
-                    src={comments}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iteration_3.png'}
                     className="max-w-full h-auto"
                     alt="Comments"
                   ></img>
@@ -793,7 +765,7 @@ export default function Cleverist() {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-12 p-10 sm:px-0 rounded-2xl bg-secondary mb-16 sm:mb-32">
+      <div className="grid grid-cols-12 p-10 sm:px-0  bg-primary mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
             Next Steps
@@ -810,7 +782,7 @@ export default function Cleverist() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 mb-16 sm:mb-32 sm:px-0 p-10 rounded-2xl bg-accent text-white">
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 sm:px-0 p-10  bg-secondary">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
             Learnings & Final Thoughts

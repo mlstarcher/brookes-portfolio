@@ -1,8 +1,8 @@
 import React from 'react';
 import Layout from './pages/Layout.js';
 import Home from './pages/Home.js';
-// import About from './pages/About.js';
-// import Cleverist from './pages/case_studies/Cleverist.js';
+import About from './pages/About.js';
+import Cleverist from './pages/case_studies/Cleverist.js';
 // import LocalBasket from './pages/case_studies/LocalBasket.js';
 // import Guilder from './pages/case_studies/Guilder.js';
 // import Sephora from './pages/case_studies/Sephora.js';
@@ -18,11 +18,11 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index path="" element={<Home />} />
-            {/* <Route index path="about" element={<About />} />
+            <Route index path="about" element={<About />} />
             <Route path="cleverist" element={<Cleverist />} />
-            <Route path="local-basket" element={<LocalBasket />} />
-            <Route path="guilder" element={<Guilder />} />
-            <Route path="sephora" element={<Sephora />} /> */}
+            {/* <Route path="local-basket" element={<LocalBasket />} /> */}
+            {/* <Route path="guilder" element={<Guilder />} /> */}
+            {/* <Route path="sephora" element={<Sephora />} /> */}
             {/* <Route path="*" element={<ErrorPage />} /> */}
           </Route>
         </Routes>
