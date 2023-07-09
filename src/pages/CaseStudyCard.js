@@ -4,7 +4,7 @@ import ButtonPrimary from './ButtonPrimary.js';
 export default function CaseStudyCard({ case_study, index }) {
   const isOddIndex = index % 2 === 0;
   return (
-    <div className="flex flex-col md:flex-row md:mb-40 mb-20 drop-shadow-md bg-white sm:py-16 py-10 md:px-12 px-10">
+    <div className="flex flex-col md:flex-row md:mb-20 mb-10 drop-shadow-md bg-white sm:py-16 py-10 md:px-12 px-10">
       <div className={"flex flex-col items-center justify-center w-full md:w-1/2 " + (isOddIndex ? 'md:order-first' : 'md:order-last')}>
         <img
           src={case_study.image_name}
