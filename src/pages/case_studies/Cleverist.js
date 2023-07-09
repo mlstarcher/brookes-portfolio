@@ -17,19 +17,8 @@ export default function Cleverist() {
             <span className="text-accent">educational activities</span> to
             <br /> do with their children at home.
           </p>
-          {/* <a
-            href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
-          >
-            <div className="flex items-center mt-4">
-              <p className="mr-2">View Prototype</p>
-              <FaArrowRight className="m-h-5" />
-            </div>
-          </a> */}
           <div className='mt-10'>
-            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1'} type={'external'} className="mt-20"/>
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1'} type={'external'} className="mt-20" />
           </div>
         </div>
         <div className="flex flex-col items-center col-span-12 sm:col-span-3 sm:col-start-8">
@@ -53,26 +42,28 @@ export default function Cleverist() {
           </div>
         </div>
       </div>
-      <div className="bg-secondary p-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
-            End-to-end UX/UI designer
-          </p>
-        </div>
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Product</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Mobile Website</p>
-        </div>
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
-            July to November 2022
-          </p>
-        </div>
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Tools</h4>
-          <p className="text-lg sm:text-2xl">Figma</p>
+      <div className="bg-secondary py-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
+        <div className='flex justify-between flex-col sm:flex-row col-start-3 col-end-11'>
+          <div className="">
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
+            <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
+              UX/UI Designer
+            </p>
+          </div>
+          <div className="">
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Product</h4>
+            <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Mobile Website</p>
+          </div>
+          <div className="">
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
+            <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
+              July to Nov 2022
+            </p>
+          </div>
+          <div className="">
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Tools</h4>
+            <p className="text-lg sm:text-2xl">Figma</p>
+          </div>
         </div>
       </div>
       <div className="grid grid-cols-12">
