@@ -6,16 +6,16 @@ export default function Cleverist() {
   return (
     <div className="bg-offWhite">
       <div className="grid grid-cols-12 mb-10 sm:mb-20 mt-10 sm:mt-0">
-        <div className="flex flex-col justify-center items-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
+        <div className="flex flex-col  justify-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
             Cleverist
           </h1>
           <p className="text-lg sm:text-2xl text-center">
-            A <span className="text-accent">website</span> that helps parents
+            A <span className="text-secondary">website</span> that helps parents
             and
             <br /> caregivers find{' '}
-            <span className="text-accent">educational activities</span> to
-            <br /> do with their children at home.
+            <span className="text-secondary">educational activities</span>
+            <br />to do with their children at home.
           </p>
           <div className='mt-10'>
             <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1'} type={'external'} className="mt-20" />
@@ -86,14 +86,7 @@ export default function Cleverist() {
               As a parent or caregiver, finding ways to support a child’s
               education and development from home can be a difficult task.
             </strong>{' '}
-            Without a background or degree in Early Childhood Education, it may
-            be hard to know how to best support children’s growth and
-            developmental milestones.Often, parents and caregivers will search
-            the internet or ask their friends and community for recommendations
-            on activities to provide for their children. This can be time
-            consuming and lead to confusion surrounding the many teaching
-            philosophies or approaches. Cleverist researched how to address
-            these pain points.
+            Without a background or degree in Early Childhood Education, it may be hard to know how to best support children’s growth and developmental milestones. Often, parents and caregivers will search the internet or ask their friends and community for recommendations on activities to provide for their children. This can be time consuming and lead to confusion surrounding the many teaching philosophies or approaches. Cleverist researched how to address these pain points.
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
@@ -131,69 +124,69 @@ export default function Cleverist() {
             Research
           </h3>
           <p className="mb-16 sm:mb-32 text-start text-lg sm:text-2xl">
-            My goal was to understand the experience that parents or caregivers
-            have when trying to facilitate educational activities for their
-            children at home. I made a research plan to find out what materials
-            and information parents and caregivers were interested in seeing in
-            an Educational Activity Resource. I looked at the current
-            competition to see what they offered, and kept that in mind during
-            user interviews.
+            My goal was to understand the experience that parents or caregivers have when trying to facilitate educational activities for their children at home. I made a research plan to find out what materials and information parents and caregivers were interested in seeing in an Educational Activity Resource. I looked at the current competition to see what they offered, and kept that in mind during user interviews.
           </p>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
             Looking at the competition
           </h2>
           <p className=" text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            All of the competitor services offered educational activities, but
-            the subscription services tended to be costly and not backed by
-            educational resources. The non subscription service had lots of
-            information about child development, but not an easy way to produce
-            materials for the activities, or clear directions.
+            All of the competitor services offered educational activities, but the subscription services tended to be costly and not backed by educational resources. The non subscription service had lots of information about child development, but not an easy way to produce materials for the activities, or clear directions.
           </p>
         </div>
       </div>
-      <div className="bg-primary p-10 grid grid-cols-12  mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center">
-          <div className="flex items-center">
-            <img
-              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/pbs.png'}
-              className="object-cover w-full"
-              style={{ height: '114px' }}
-              alt="PBS Kids logo"
-            ></img>
+      <div className="bg-primary p-20 grid grid-cols-12  mb-16 sm:mb-32">
+        <div className="col-span-12 sm:col-start-2 sm:col-end-6">
+          <div className="flex flex-col items-center">
+            <div className="flex items-center">
+              <img
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/pbs.png'}
+                className="object-cover w-full"
+                style={{ height: '94px' }}
+                alt="PBS Kids logo"
+              ></img>
+            </div>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
             Free access to media content and community based experiences that
             support learning for young children.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
-          <div className="flex items-center" style={{ height: '114px' }}>
-            <img
-              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/little_passports.png'}
-              className="max-w-full h-auto rounded-sm border-white border-8 border-solid"
-              alt="Little Passports logo"
-            ></img>
+
+        <div className="col-span-12 sm:col-start-8 sm:col-end-12">
+          <div className="flex flex-col items-center mt-10 sm:mt-0">
+            <div className="flex items-center">
+              <img
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/kiwico.png'}
+                className="object-cover w-full"
+                style={{ height: '94px' }}
+                alt="Kiwico Logo"
+              ></img>
+            </div>
+            <p className="text-lg sm:text-2xl mt-4">
+              Subscription box with materials to inspire natural creativity, while
+              helping parents who want to bring enriching experiences to their
+              children.
+            </p>
           </div>
-          <p className="text-lg sm:text-2xl mt-4">
-            Subscriptions for kids that inspire them to learn about the world
-            through toys and activities.
-          </p>
         </div>
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
-          <div className="flex items-center">
-            <img
-              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/kiwico.png'}
-              className="object-cover w-full"
-              style={{ height: '114px' }}
-              alt="Kiwico Logo"
-            ></img>
+
+        <div className="col-span-12 sm:col-start-5 sm:col-end-9">
+        <div className="flex flex-col items-center mt-10 sm:mt-16">
+            <div className="flex items-center" style={{ height: '94px' }}>
+              <img
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/little_passports.png'}
+                className="max-w-full h-auto rounded-sm border-white border-8 border-solid"
+                alt="Little Passports logo"
+              ></img>
+            </div>
+            <p className="text-lg sm:text-2xl mt-4">
+              Subscriptions for kids that inspire them to learn about the world
+              through toys and activities.
+            </p>
           </div>
-          <p className="text-lg sm:text-2xl mt-4">
-            Subscription box with materials to inspire natural creativity, while
-            helping parents who want to bring enriching experiences to their
-            children.
-          </p>
         </div>
+
+
       </div>
       <div className="grid grid-cols-12 mt-8 sm:mt-16">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
