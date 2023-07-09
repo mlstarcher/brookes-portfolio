@@ -3,32 +3,10 @@ import React from 'react';
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
 
-import iphone_14 from '../../assets/iphone_14_transparent.png';
-import design_thinking_image from '../../assets/design_thinking_image.png';
-import how_might_we1 from '../../assets/local_basket/how_might_we1.png';
-import how_might_we2 from '../../assets/local_basket/how_might_we2.png';
-import how_might_we3 from '../../assets/local_basket/how_might_we3.png';
-import yelp from '../../assets/local_basket/yelp.png';
-import ofma from '../../assets/local_basket/ofma.png';
-import farmish from '../../assets/local_basket/farmish.png';
-import grown_by from '../../assets/local_basket/grown_by.png';
-import availability from '../../assets/local_basket/availability.png';
-import consistency from '../../assets/local_basket/consistency.png';
-import navigation from '../../assets/local_basket/navigation.png';
-import persona1 from '../../assets/local_basket/persona1.png';
-import feature_set from '../../assets/local_basket/feature_set.png';
-import mood_board from '../../assets/local_basket/mood_board.png';
-import mid_fi_wireframes from '../../assets/local_basket/mid_fi_wireframes.png';
-import hi_fi_wireframes from '../../assets/local_basket/hi_fi_wireframes.png';
-import iteration1 from '../../assets/local_basket/iteration1.png';
-import iteration2 from '../../assets/local_basket/iteration2.png';
-import iteration3 from '../../assets/local_basket/iteration3.png';
-import user_flow from '../../assets/local_basket/user_flow.png';
-import journey_map from '../../assets/local_basket/journey_map.png';
-import sketches from '../../assets/local_basket/sketches.png';
-import local_basket_iphones from '../../assets/local_basket/local_basket_iphones.png';
-import mobile_preview from '../../assets/local_basket/mobile_preview.png';
-import footer from '../../assets/local_basket/footer.png';
+// TODO: Missing Images
+// iphone_14
+// feature_set
+// mood_board
 
 export default function LocalBasket() {
   return (
@@ -62,17 +40,17 @@ export default function LocalBasket() {
         </div>
         <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8 sm:col-span-3">
           <div className="relative" style={{ height: '600px', width: '300px' }}>
-            <img
+            {/* <img
               className="absolute z-20 pointer-events-none h-full w-auto"
               src={iphone_14}
               alt="iphone 14"
-            ></img>
+            ></img> */}
             <div
               className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
               style={{ marginTop: '14px' }}
             >
               <img
-                src={mobile_preview}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/scrolling_preview.png'}
                 className="max-w-full h-auto wireframe"
                 alt="Mobile preview might we provide quality educational activities for parents and caregivers to do with their children at home?"
               ></img>
@@ -85,7 +63,7 @@ export default function LocalBasket() {
                 borderRadius: '0px 0px 20px 20px',
                 width: '280px'
               }}
-              src={footer}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/footer.png'}
               alt="Mobile preview footer"
             ></img>
           </div>
@@ -149,7 +127,7 @@ export default function LocalBasket() {
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
-              src={how_might_we1}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/how_might_we1.png'}
               className="h-auto"
               style={{ maxWidth: '630px' }}
               alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
@@ -170,7 +148,7 @@ export default function LocalBasket() {
             Design Thinking Process
           </h2>
           <img
-            src={design_thinking_image}
+            src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/design_thinking.png'}
             className="max-w-full h-auto mb-16 sm:mb-32"
             alt="Research, define, design, test"
           ></img>
@@ -201,7 +179,7 @@ export default function LocalBasket() {
         <div className="col-span-12 sm:col-span-4 sm:col-start-2 flex flex-col items-center">
           <div className="flex items-center">
             <img
-              src={ofma}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/ofma.png'}
               className="max-w-full"
               alt="OFMA logo"
               style={{ height: '93px' }}
@@ -215,7 +193,7 @@ export default function LocalBasket() {
         <div className="col-span-12 sm:col-span-4 sm:col-start-8 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center">
             <img
-              src={grown_by}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/grown_by.png'}
               className="max-w-full rounded-sm"
               style={{ height: '93px' }}
               alt="Grown by logo"
@@ -229,7 +207,7 @@ export default function LocalBasket() {
         <div className="col-span-12 sm:col-span-4 sm:col-start-2 flex flex-col items-center mt-8">
           <div className="flex items-center">
             <img
-              src={farmish}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/farmish.png'}
               className="max-w-full "
               style={{ height: '93px' }}
               alt="Farmish Logo"
@@ -243,7 +221,7 @@ export default function LocalBasket() {
         <div className="col-span-12 sm:col-span-4 sm:col-start-8 flex flex-col items-center mt-8">
           <div className="flex items-center">
             <img
-              src={yelp}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/yelp.png'}
               className="max-w-full "
               style={{ height: '93px' }}
               alt="Yelp Logo"
@@ -270,7 +248,7 @@ export default function LocalBasket() {
           <div className="grid grid-cols-12 mb-10 sm:mb-20">
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={navigation}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/navigation.png'}
                 className="max-w-full"
                 alt="Navigation"
               ></img>
@@ -284,7 +262,7 @@ export default function LocalBasket() {
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={consistency}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/consistency.png'}
                 className="max-w-full "
                 alt="Consistency"
               ></img>
@@ -298,7 +276,7 @@ export default function LocalBasket() {
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={availability}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/availability.png'}
                 className="max-w-full"
                 alt="Availability"
               ></img>
@@ -360,7 +338,7 @@ export default function LocalBasket() {
           </div>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
-              src={how_might_we2}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/how_might_we2.png'}
               className="h-auto"
               style={{ maxWidth: '630px' }}
               alt="Cloud"
@@ -390,7 +368,7 @@ export default function LocalBasket() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={persona1}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/persona.png'}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -417,7 +395,7 @@ export default function LocalBasket() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={journey_map}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/journey_map.png'}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -448,7 +426,7 @@ export default function LocalBasket() {
           </h2>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
-              src={how_might_we3}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/how_might_we3.png'}
               className="h-auto"
               style={{ maxWidth: '630px' }}
               alt="Mobile Preview"
@@ -472,11 +450,11 @@ export default function LocalBasket() {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <img
+                {/* <img
                   src={feature_set}
                   className="max-w-full h-auto"
                   alt="Feature Set"
-                ></img>
+                ></img> */}
               </a>
             </div>
           </div>
@@ -502,7 +480,7 @@ export default function LocalBasket() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={user_flow}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/user_flow.png'}
                   className="max-w-full h-auto"
                   alt="Site Map"
                 ></img>
@@ -566,7 +544,7 @@ export default function LocalBasket() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={sketches}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/sketches.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of early sketches"
                 ></img>
@@ -598,11 +576,11 @@ export default function LocalBasket() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  <img
+                  {/* <img
                     src={mood_board}
                     className="max-w-full h-auto"
                     alt="Mood Board"
-                  ></img>
+                  ></img> */}
                 </a>
               </div>
             </div>
@@ -625,7 +603,7 @@ export default function LocalBasket() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={mid_fi_wireframes}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/mid_fi.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of mid fi wire frames"
                 ></img>
@@ -672,7 +650,7 @@ https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wirefr
                 className="max-w-full h-auto"
               >
                 <img
-                  src={hi_fi_wireframes}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/hi_fi.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of hi fi wire frames"
                 ></img>
@@ -737,7 +715,7 @@ https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wirefr
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <img
-                src={local_basket_iphones}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/iphone14.png'}
                 className="max-w-full h-auto"
                 alt="Cleverist iphone preview"
               ></img>
@@ -817,7 +795,7 @@ https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wirefr
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
-                    src={iteration1}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/iteration1.png'}
                     className="max-w-full h-auto"
                     alt="Activity Filters"
                   ></img>
@@ -831,7 +809,7 @@ https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wirefr
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
-                    src={iteration2}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/iteration2.png'}
                     className="max-w-full h-auto"
                     alt="Color Mixing"
                   ></img>
@@ -846,7 +824,7 @@ https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wirefr
               <div className="flex justify-center items-center my-16 sm:my-32">
                 <div>
                   <img
-                    src={iteration3}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/iteration3.png'}
                     className="max-w-full h-auto"
                     alt="Comments"
                   ></img>
