@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function About() {
   return (
-    <div className="flex flex-col sm:mb-16 sm:mt-0 mt-8">
+    <div className="flex flex-col sm:mb-16 sm:mt-32 mt-8">
       <div className="grid grid-cols-12">
         <div className="flex flex-col items-center col-span-12 sm:col-start-2 sm:col-end-7">
           <img

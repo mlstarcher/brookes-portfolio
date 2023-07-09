@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaArrowRight } from 'react-icons/fa';
+import ButtonPrimary from '../ButtonPrimary';
 
 export default function Cleverist() {
   return (
@@ -16,7 +17,7 @@ export default function Cleverist() {
             <span className="text-accent">educational activities</span> to
             <br /> do with their children at home.
           </p>
-          <a
+          {/* <a
             href="https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1"
             target="_blank"
             rel="noopener noreferrer"
@@ -26,23 +27,27 @@ export default function Cleverist() {
               <p className="mr-2">View Prototype</p>
               <FaArrowRight className="m-h-5" />
             </div>
-          </a>
+          </a> */}
+          <div className='mt-10'>
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1'} type={'external'} className="mt-20"/>
+          </div>
         </div>
         <div className="flex flex-col items-center col-span-12 sm:col-span-3 sm:col-start-8">
           <div className="relative" style={{ height: '600px', width: '300px' }}>
             <img
+              role="presentation"
               className="absolute z-10 pointer-events-none h-full w-auto"
-              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iPhone_14.png'}
-              alt="Mobile preview"
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/global/iphone_transparent.png'}
+              alt="iPhone 14"
             ></img>
             <div
               className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
               style={{ marginTop: '14px' }}
             >
               <img
-                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/wireframes.png'}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/mobile_preview.jpg'}
                 className="max-w-full h-auto wireframe"
-                alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
+                alt="Preview of final design for mobile"
               ></img>
             </div>
           </div>
