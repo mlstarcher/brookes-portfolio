@@ -8,13 +8,20 @@ export default function Home() {
     <div className="">
       <Welcome />
       <div id="work" className="flex justify-center mb-8">
-        <h2 className="sm:text-5xl text-3xl font-bold mb-8 sm:mb-10">
-          My Case Studies:
+        <h2 className="sm:text-5xl text-3xl font-bold mb-8 sm:mb-20">
+          My Work:
         </h2>
       </div>
-      <div>
-        {caseStudyData.map((case_study, key) => {
-          return <CaseStudyCard case_study={case_study} key={key} />;
+      <div className="grid grid-cols-12">
+        {caseStudyData.map((case_study, index) => {
+          const isOddIndex = index % 2 === 0;
+          // const colClass = isOddIndex ? 'col-start-4' : '';
+
+          return (
+            <div className={"col-span-12 " + (isOddIndex ? 'sm:col-start-4 sm:col-end-13' : 'sm:col-start-1 sm:col-end-10')}  key={index}>
+              <CaseStudyCard case_study={case_study} index={index} />
+            </div>
+          );
         })}
       </div>
     </div>
