@@ -3,28 +3,28 @@ import React from 'react';
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
 
-import design_thinking_image from '../../assets/design_thinking_image.png';
-import how_might_we1 from '../../assets/sephora/how_might_we1.png';
-import how_might_we2 from '../../assets/sephora/how_might_we2.png';
-import how_might_we3 from '../../assets/sephora/how_might_we3.png';
-import credo from '../../assets/sephora/credo.png';
-import ulta from '../../assets/sephora/ulta.png';
-import amazon from '../../assets/sephora/amazon.png';
-import clarity from '../../assets/sephora/clarity.png';
-import efficiency from '../../assets/sephora/efficiency.png';
-import eco_friendliness from '../../assets/sephora/eco_friendliness.png';
-import persona1 from '../../assets/sephora/persona1.png';
-import journey_map from '../../assets/sephora/journey_map.png';
-import sketches from '../../assets/sephora/sketches.png';
-import mid_fi_wireframes from '../../assets/sephora/mid_fi_wireframes.png';
-import hi_fi_wireframes from '../../assets/sephora/hi_fi_wireframes.png';
-import iteration1 from '../../assets/sephora/iteration1.png';
-import iteration2 from '../../assets/sephora/iteration2.png';
-import iteration3 from '../../assets/sephora/iteration3.png';
-import task_flow from '../../assets/sephora/task_flow.png';
-import illustration1 from '../../assets/sephora/illustration1.png';
-import sephora_macbook from '../../assets/sephora/sephora_macbook.png';
-import value_matrix from '../../assets/sephora/value_matrix.png';
+// import design_thinking_image from '../../assets/design_thinking_image.png';
+// import how_might_we1 from '../../assets/sephora/how_might_we1.png';
+// import how_might_we2 from '../../assets/sephora/how_might_we2.png';
+// import how_might_we3 from '../../assets/sephora/how_might_we3.png';
+// import credo from '../../assets/sephora/credo.png';
+// import ulta from '../../assets/sephora/ulta.png';
+// import amazon from '../../assets/sephora/amazon.png';
+// import clarity from '../../assets/sephora/clarity.png';
+// import efficiency from '../../assets/sephora/efficiency.png';
+// import eco_friendliness from '../../assets/sephora/eco_friendliness.png';
+// import persona1 from '../../assets/sephora/persona1.png';
+// import journey_map from '../../assets/sephora/journey_map.png';
+// import sketches from '../../assets/sephora/sketches.png';
+// import mid_fi_wireframes from '../../assets/sephora/mid_fi_wireframes.png';
+// import hi_fi_wireframes from '../../assets/sephora/hi_fi_wireframes.png';
+// import iteration1 from '../../assets/sephora/iteration1.png';
+// import iteration2 from '../../assets/sephora/iteration2.png';
+// import iteration3 from '../../assets/sephora/iteration3.png';
+// import task_flow from '../../assets/sephora/task_flow.png';
+// import illustration1 from '../../assets/sephora/illustration1.png';
+// import sephora_macbook from '../../assets/sephora/sephora_macbook.png';
+// import value_matrix from '../../assets/sephora/value_matrix.png';
 
 export default function Sephora() {
   return (
@@ -55,11 +55,11 @@ export default function Sephora() {
           </a>
         </div>
         <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8">
-          <img
+          {/* <img
             className="pointer-events-none w-full h-auto"
             src={sephora_macbook}
             alt="Laptop preview"
-          ></img>
+          ></img> */}
           {/* <div className="relative" style={{ height: '600px', width: '300px' }}>
             {/* <img
               className="absolute z-20 pointer-events-none h-full w-auto"
@@ -79,7 +79,7 @@ export default function Sephora() {
           </div> */}
         </div>
       </div>
-      <div className="bg-accent text-white p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-16 sm:mb-32">
+      <div className="bg-accent text-white p-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-3">
           <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
           <p className="text-lg sm:text-2xl mb-8 sm:mb-0">UX/UI designer</p>
@@ -135,7 +135,7 @@ export default function Sephora() {
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
-              src={how_might_we1}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/how_might_we1.png'}
               className="h-auto"
               style={{ maxWidth: '630px' }}
               alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
@@ -161,7 +161,7 @@ export default function Sephora() {
             Design Thinking Process
           </h2>
           <img
-            src={design_thinking_image}
+            src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/design_thinking.png'}
             className="max-w-full h-auto mb-16 sm:mb-32"
             alt="Research, define, design, test"
           ></img>
@@ -187,11 +187,11 @@ export default function Sephora() {
           </p>
         </div>
       </div>
-      <div className="bg-primary p-10 grid grid-cols-12 rounded-2xl mb-16 sm:mb-32">
+      <div className="bg-primary p-10 grid grid-cols-12  mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-4 flex flex-col items-center">
           <div className="flex items-center">
             <img
-              src={credo}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/credo.png'}
               className="max-w-full h-auto"
               alt="Good logo"
               style={{ height: '114px' }}
@@ -205,7 +205,7 @@ export default function Sephora() {
         <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center">
             <img
-              src={ulta}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/ulta.png'}
               className="max-w-full h-auto rounded-sm"
               alt="Cafe Olli logo"
               style={{ height: '114px' }}
@@ -219,7 +219,7 @@ export default function Sephora() {
         <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center">
             <img
-              src={amazon}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/amazon.png'}
               className="max-w-full h-auto"
               alt="Starbucks Logo"
               style={{ height: '114px' }}
@@ -248,7 +248,7 @@ export default function Sephora() {
           <div className="grid grid-cols-12 mb-10 sm:mb-20">
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={eco_friendliness}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/time.png'}
                 className="max-w-full"
                 alt="Convenience"
               ></img>
@@ -262,7 +262,7 @@ export default function Sephora() {
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
               <img
-                src={efficiency}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/quality.png'}
                 className="max-w-full h-auto"
                 // style={{ maxWidth: '160px' }}
                 alt="Ambiance"
@@ -276,7 +276,7 @@ export default function Sephora() {
               </p>
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
-              <img src={clarity} className="max-w-full" alt="Offerings"></img>
+              <img src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/availabilty.png'} className="max-w-full" alt="Offerings"></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
@@ -333,7 +333,7 @@ export default function Sephora() {
           </div>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
-              src={how_might_we2}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/how_might_we2.png'}
               className="h-auto"
               style={{ maxWidth: '630px' }}
               alt="Cloud"
@@ -363,7 +363,7 @@ export default function Sephora() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={persona1}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/persona.png'}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -389,7 +389,7 @@ export default function Sephora() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={journey_map}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/journey_map.png'}
                   className="max-w-full h-auto mb-6 sm:mb-12 pointer"
                   alt="Link to user persona figma file"
                 ></img>
@@ -422,10 +422,10 @@ export default function Sephora() {
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
-              src={how_might_we3}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/how_might_we3.png'}
               className="h-auto"
               style={{ maxWidth: '630px' }}
-              alt="Mobile Preview"
+              alt="How might we"
             ></img>
           </div>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
@@ -447,7 +447,7 @@ export default function Sephora() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={value_matrix}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/value_matrix.png'}
                   className="max-w-full h-auto"
                   alt="Feature Set"
                 ></img>
@@ -472,7 +472,7 @@ export default function Sephora() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={task_flow}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/task_flows.png'}
                   className="max-w-full h-auto"
                   alt="Site Map"
                 ></img>
@@ -498,7 +498,7 @@ export default function Sephora() {
         </div>
       </div>
       <div className="grid grid-cols-12 mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6 rounded-2xl bg-primary grid grid-cols-12 sm:grid-cols-10">
+        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6  bg-primary grid grid-cols-12 sm:grid-cols-10">
           <div className="col-span-12 sm:col-span-8 sm:col-start-2 flex flex-col">
             <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
               Design
@@ -536,7 +536,7 @@ export default function Sephora() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={sketches}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/recycle_feature.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of early sketches"
                 ></img>
@@ -564,7 +564,7 @@ export default function Sephora() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={illustration1}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/illustrations.png'}
                     className="max-w-full h-auto"
                     alt="Product Ilustration"
                   ></img>
@@ -589,7 +589,7 @@ export default function Sephora() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={mid_fi_wireframes}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/mid_fi.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of mid fi wire frames"
                 ></img>
@@ -625,7 +625,7 @@ export default function Sephora() {
                 className="max-w-full h-auto"
               >
                 <img
-                  src={hi_fi_wireframes}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/hi_fi.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of hi fi wire frames"
                 ></img>
@@ -692,9 +692,9 @@ export default function Sephora() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <img
-                src={sephora_macbook}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/macbook_air.png'}
                 className="max-w-full h-auto"
-                alt="Cleverist iphone preview"
+                alt="Sephora desktop preview"
               ></img>
             </div>
           </div>
@@ -780,7 +780,7 @@ export default function Sephora() {
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
-                    src={iteration1}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/iteration1.png'}
                     className="max-w-full h-auto"
                     alt="Activity Filters"
                   ></img>
@@ -794,7 +794,7 @@ export default function Sephora() {
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
-                    src={iteration2}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/iteration2.png'}
                     className="max-w-full h-auto"
                     alt="Color Mixing"
                   ></img>
@@ -809,7 +809,7 @@ export default function Sephora() {
               <div className="flex justify-center items-center my-16 sm:my-32">
                 <div>
                   <img
-                    src={iteration3}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/iteration3.png'}
                     className="max-w-full h-auto"
                     alt="Comments"
                   ></img>
@@ -819,7 +819,7 @@ export default function Sephora() {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-12 p-10 sm:px-0 rounded-2xl bg-secondary mb-16 sm:mb-32">
+      <div className="grid grid-cols-12 p-10 sm:px-0  bg-secondary mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
             Next Steps
@@ -846,7 +846,7 @@ export default function Sephora() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 mb-16 sm:mb-32 sm:px-0 p-10 rounded-2xl bg-accent text-white">
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 sm:px-0 p-10  bg-accent text-white">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
             Learnings & Final Thoughts
