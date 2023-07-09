@@ -4,8 +4,8 @@ import ButtonPrimary from '../ButtonPrimary';
 
 export default function Cleverist() {
   return (
-    <div className="bg-offWhite">
-      <div className="grid grid-cols-12 mb-10 sm:mb-20 mt-10 sm:mt-0">
+    <div className="bg-offWhite mt-16 sm:mt-32">
+      <div className="grid grid-cols-12 mb-10 sm:mb-20">
         <div className="flex flex-col  justify-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
             Cleverist
@@ -692,8 +692,7 @@ export default function Cleverist() {
               </div>
             </li>
             <li className="mb-10 sm:mb-32">
-              Button at the end of filter section to allow the user to apply
-              filters rather than clicking “X”.
+            Heart icon added to the upper right corner of each activity image so that the user can easily add the activity to their library.
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
