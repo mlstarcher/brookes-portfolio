@@ -5,9 +5,10 @@ import ButtonPrimary from '../ButtonPrimary';
 export default function Cleverist() {
   return (
     <div className="bg-offWhite mt-16 sm:mt-32">
+      {/* Intro and App Preview */}
       <div className="grid grid-cols-12 mb-10 sm:mb-20">
         <div className="flex flex-col  justify-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
-          <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
+          <h1 className="font-bold text-3xl sm:text-6xl text-offBlack mb-10">
             Cleverist
           </h1>
           <p className="text-lg sm:text-2xl text-center">
@@ -42,6 +43,7 @@ export default function Cleverist() {
           </div>
         </div>
       </div>
+      {/* Role details */}
       <div className="bg-secondary py-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
         <div className='flex justify-between flex-col sm:flex-row col-start-3 col-end-11'>
           <div className="">
@@ -57,7 +59,7 @@ export default function Cleverist() {
           <div className="">
             <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
             <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
-              July to Nov 2022
+              July-Nov 2022
             </p>
           </div>
           <div className="">
@@ -66,6 +68,7 @@ export default function Cleverist() {
           </div>
         </div>
       </div>
+      {/* Overview */}
       <div className="grid grid-cols-12">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
@@ -134,6 +137,7 @@ export default function Cleverist() {
           </p>
         </div>
       </div>
+      {/* Competition Card */}
       <div className="bg-primary p-20 grid grid-cols-12  mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-start-2 sm:col-end-6">
           <div className="flex flex-col items-center">
@@ -186,6 +190,7 @@ export default function Cleverist() {
           </div>
         </div>
       </div>
+      {/* Hearing Peoples Stories */}
       <div className="grid grid-cols-12 mt-8 sm:mt-16">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
@@ -433,6 +438,7 @@ export default function Cleverist() {
           </div>
         </div>
       </div>
+      {/* Design */}
       <div className="grid grid-cols-12 mb-16 sm:mb-32 bg-primary">
         <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6 grid grid-cols-12 sm:grid-cols-10">
           <div className="col-span-12 sm:col-span-8 sm:col-start-2 flex flex-col">
@@ -451,7 +457,7 @@ export default function Cleverist() {
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Early Sketches
             </h2>
-            <p className="mb-6 sm:mb-12 text-start text-lg sm:text-2xl">
+            <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
               I began with some <strong>low fidelity</strong> concept sketches
               to get an idea of how things would look. While these were a great
               place to start, there was still a lot of UI work to do to pull it
@@ -463,7 +469,7 @@ export default function Cleverist() {
               would appear to the user, and how an activity page would look once
               one activity was chosen.
             </p>
-            <div className="flex justify-center items-center px-0 sm:px-24 mb-16 sm:mb-32">
+            <div className="flex justify-center items-center px-0 mb-16 sm:mb-32">
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Early+Sketches.pdf"
                 className="max-w-full h-auto"
@@ -555,6 +561,7 @@ export default function Cleverist() {
           </div>
         </div>
       </div>
+      {/* Test */}
       <div className="grid grid-cols-12">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
@@ -719,6 +726,7 @@ export default function Cleverist() {
           </ul>
         </div>
       </div>
+      {/* Next Steps */}
       <div className="grid grid-cols-12 py-20 bg-primary mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
@@ -736,6 +744,7 @@ export default function Cleverist() {
           </div>
         </div>
       </div>
+      {/* Final Thoughts */}
       <div className="grid grid-cols-12 mb-16 sm:mb-32 p-10 sm:py-32 bg-secondary">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">

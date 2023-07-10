@@ -19,7 +19,7 @@ export default function CaseStudyCard({ case_study, index }) {
         <p className="mb-10 text-base text-left md:text-2xl line-clamp-3">
           {case_study.short_description}
         </p>
-        <ButtonPrimary text="view case study" location={case_study.link} />
+        <ButtonPrimary text="view case study" location={case_study.link} type={'internal'}/>
       </div>
     </div>
   );
