@@ -713,7 +713,7 @@ export default function Cleverist() {
             <li className="mb-6 sm:mb-12">
               On the Activity page, “Leave a Comment” section added before the
               existing comments from other users.
-              <div className="flex justify-center items-center my-16 sm:my-32">
+              <div className="flex justify-center items-center mb-16 mt-10 sm:mt-10 sm:my-20">
                 <div>
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iteration_3.png'}

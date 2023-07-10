@@ -1001,8 +1001,7 @@ export default function LocalBasket() {
           </p>
           <ul className="list-disc ml-8 font-semibold text-lg sm:text-2xl text-left mb-10 sm:mb-20">
             <li className="mb-10 sm:mb-20">
-              Button at the end of filter section to allow the user to apply
-              filters rather than clicking “X”.
+            Showing the items in basket as a number, rather than a hovering bar.
               <div className="flex justify-center items-center mt-16 sm:mt-20">
                 <div>
                   <img
@@ -1014,9 +1013,7 @@ export default function LocalBasket() {
               </div>
             </li>
             <li className="mb-10 sm:mb-20">
-            The ability to add multiple orders from different vendors to one
-              transaction was added. Vendors were listed separately at checkout,
-              but joined as one transaction.
+            The ability to add multiple orders from different vendors to one transaction was added. Vendors were listed separately at checkout, but joined as one transaction.
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
@@ -1028,10 +1025,7 @@ export default function LocalBasket() {
               </div>
             </li>
             <li className="mb-6 sm:mb-12">
-            To include more accessibility and parking information, I needed to
-              keep the maps and directory but find a way to keep it clean and
-              easy to view. I chose to make each vendor’s information pop out as
-              an accordion to view.
+            To include more accessibility and parking information, I needed to keep the maps and directory but find a way to keep it clean and easy to view. I chose to make each vendor’s information pop out as an accordion to view.
               <div className="flex justify-center items-center mt-10 mb-16 sm:mt-20 sm:mb-32">
                 <div>
                   <img
