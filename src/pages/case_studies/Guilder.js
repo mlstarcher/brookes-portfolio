@@ -1,5 +1,5 @@
 import React from 'react';
-
+import ButtonPrimary from '../ButtonPrimary';
 //Images and icons
 import { FaArrowRight } from 'react-icons/fa';
 
@@ -10,10 +10,11 @@ import { FaArrowRight } from 'react-icons/fa';
 
 export default function Guilder() {
   return (
-    <div className="bg-offWhite">
-      <div className="grid grid-cols-12 mb-10 sm:mb-20 mt-10 sm:mt-0">
-        <div className="flex flex-col justify-center items-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
-          <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
+    <div className="bg-offWhite mt-16 sm:mt-32">
+      {/* Intro */}
+      <div className="grid grid-cols-12 mb-10 sm:mb-20">
+        <div className="flex flex-col  justify-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
+          <h1 className="font-bold text-3xl sm:text-6xl text-offBlack mb-10">
             Guilder
           </h1>
           <p className="text-lg sm:text-2xl text-center">
@@ -27,63 +28,60 @@ export default function Guilder() {
             including an <span className="text-accent">online ordering</span>
             <br /> system.
           </p>
-          <a
-            href="https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=26%3A11944&t=JQnchFyV1qHpQvbJ-1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
-          >
-            <div className="flex items-center mt-4">
-              <p className="mr-2">View Prototype</p>
-              <FaArrowRight className="m-h-5" />
-            </div>
-          </a>
+          <div className='mt-10'>
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1'} type={'external'} className="mt-20" />
+          </div>
         </div>
-        <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8">
-          <div className="relative" style={{ height: '600px', width: '300px' }}>
-            {/* <img
+        <div className="flex flex-col items-center col-span-12 sm:col-span-3 sm:col-start-8">
+          <div className="relative mt-8 sm:mt-0" style={{ height: '600px', width: '300px' }}>
+            <img
+              role="presentation"
               className="absolute z-10 pointer-events-none h-full w-auto"
-              src={iphone_14}
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/global/iphone_transparent.png'}
               alt="iPhone 14"
-            ></img> */}
+            ></img>
             <div
               className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
               style={{ marginTop: '14px' }}
             >
-              {/* <img
-                src={mobile_preview}
+              <img
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/mobile_preview.png'}
                 className="max-w-full h-auto wireframe"
-                alt="Mobile Preview"
-              ></img> */}
+                alt="Preview of final design"
+              ></img>
             </div>
           </div>
         </div>
       </div>
-      <div className="bg-accent text-white p-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
-            End-to-end UX/UI designer
-          </p>
-        </div>
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Product</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Mobile Website</p>
-        </div>
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
-            December 2022 to January 2023
-          </p>
-        </div>
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Tools</h4>
-          <p className="text-lg sm:text-2xl">Figma</p>
+      {/* Role Details */}
+      <div className="bg-secondary py-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
+        <div className='flex justify-between flex-col sm:flex-row col-start-3 col-end-11'>
+          <div className="">
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
+            <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
+              UX/UI Designer
+            </p>
+          </div>
+          <div className="">
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Product</h4>
+            <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Mobile Website</p>
+          </div>
+          <div className="">
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
+            <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
+              Dec 2022 to Jan 2023
+            </p>
+          </div>
+          <div className="">
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Tools</h4>
+            <p className="text-lg sm:text-2xl">Figma</p>
+          </div>
         </div>
       </div>
+      {/* Overview */}
       <div className="grid grid-cols-12">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Overview
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
@@ -93,7 +91,7 @@ export default function Guilder() {
             Portland, and one inside of the famous Powell’s City of Books, and
             offers in person as well as online ordering.
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             The Problem
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
@@ -113,15 +111,16 @@ export default function Guilder() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/how_might_we1.png'}
-              className="h-auto"
+              className="h-auto w-full"
               style={{ maxWidth: '630px' }}
               alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
             ></img>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             The Solution
           </h2>
           <div className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
+            <p>A convenient mobile app where users can:</p>
             <p>A responsive mobile site where users can:</p>
             <ul className="list-disc ml-8">
               <li>Place an online order from Guilder for pickup.</li>
@@ -137,7 +136,7 @@ export default function Guilder() {
             className="max-w-full h-auto mb-16 sm:mb-32"
             alt="Research, define, design, test"
           ></img>
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Research
           </h3>
           <p className="mb-16 sm:mb-32 text-start text-lg sm:text-2xl">
@@ -148,7 +147,7 @@ export default function Guilder() {
             competition to see what they offered, and kept that in mind during
             user interviews.
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Looking at the competition
           </h2>
           <p className=" text-start text-lg sm:text-2xl mb-10 sm:mb-20">
@@ -160,14 +159,15 @@ export default function Guilder() {
           </p>
         </div>
       </div>
-      <div className="bg-primary p-10 grid grid-cols-12  mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-4 sm:col-start-2 flex flex-col items-center">
+      {/* Competition Card */}
+      <div className="bg-primary grid grid-cols-12 py-10 px-6 sm:px-0 sm:py-20 mb-16 sm:mb-32">
+        <div className="col-span-12 sm:col-start-3 sm:col-end-7 flex flex-col items-center">
           <div className="flex items-center">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/good.png'}
-              className="max-w-full h-auto"
-              alt="Good logo"
-              style={{ height: '114px' }}
+              className="max-w-full"
+              alt="Good company logo"
+              style={{ height: '93px' }}
             ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
@@ -175,12 +175,12 @@ export default function Guilder() {
             community involvement.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-4 sm:col-start-8 flex flex-col items-center mt-8 sm:mt-0">
+        <div className="col-span-12 sm:col-start-7 sm:col-end-11 flex flex-col items-center mt-8 sm:mt-0">
           <div className="flex items-center">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/cafe_olli.png'}
-              style={{ height: '114px' }}
-              className="max-w-full h-auto rounded-sm"
+              className="max-w-full rounded-sm"
+              style={{ height: '93px' }}
               alt="Cafe Olli logo"
             ></img>
           </div>
@@ -189,12 +189,12 @@ export default function Guilder() {
             sourced, sustainable, and employee owned.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-4 sm:col-start-2 flex flex-col items-center mt-8">
+        <div className="col-span-12 sm:col-start-3 sm:col-end-7 flex flex-col items-center mt-8 sm:mt-16">
           <div className="flex items-center">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/starbucks.png'}
-              className="max-w-full h-auto"
-              style={{ height: '114px' }}
+              className="max-w-full "
+              style={{ height: '93px' }}
               alt="Starbucks Logo"
             ></img>
           </div>
@@ -203,12 +203,12 @@ export default function Guilder() {
             with wide variety of drink and food options.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-4 sm:col-start-8 flex flex-col items-center mt-8">
+        <div className="col-span-12 sm:col-start-7 sm:col-end-11 flex flex-col items-center mt-8 sm:mt-16">
           <div className="flex items-center">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/stumptown.png'}
-              className="max-w-full h-auto"
-              style={{ height: '114px' }}
+              className="max-w-full "
+              style={{ height: '93px' }}
               alt="Stumptown Logo"
             ></img>
           </div>
@@ -218,9 +218,10 @@ export default function Guilder() {
           </p>
         </div>
       </div>
+      {/* Hearing People */}
       <div className="grid grid-cols-12 mt-8 sm:mt-16">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Hearing People's Stories
           </h2>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
@@ -233,11 +234,7 @@ export default function Guilder() {
           </p>
           <div className="grid grid-cols-12 mb-10 sm:mb-20">
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
-              <img
-                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/convenience.png'}
-                className="max-w-full"
-                alt="Convenience"
-              ></img>
+              <img src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/convenience.png'} className="max-w-full" alt="time"></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
@@ -250,8 +247,7 @@ export default function Guilder() {
               <img
                 src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/ambiance.png'}
                 className="max-w-full h-auto"
-                // style={{ maxWidth: '160px' }}
-                alt="Ambiance"
+                alt="Quality"
               ></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
@@ -262,7 +258,11 @@ export default function Guilder() {
               </p>
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
-              <img src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/offerings.png'} className="max-w-full" alt="Offerings"></img>
+              <img
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/offerings.png'}
+                className="max-w-full"
+                alt="Availability"
+              ></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
@@ -277,52 +277,52 @@ export default function Guilder() {
             </p>
           </div>
           <div className="flex mb-16 sm:mb-32">
-            <div
-              className="bg-accent rounded mr-4"
+            <span
+              className="bg-primary rounded"
               style={{ width: '10px' }}
-            ></div>
-            <p className="text-left text-lg sm:text-2xl">
+            ></span>
+            <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “I prefer to order off apps or square if a coffee shop has that
-                option, it is such a time saver and easy to modify my drink.”
+                “ I prefer to order off apps or square if a coffee shop has that
+                option, it is such a time saver and easy to modify my drink. ”
               </strong>
             </p>
           </div>
           <div className="flex mb-16 sm:mb-32">
-            <div
-              className="bg-accent rounded mr-4"
+            <span
+              className="bg-primary rounded"
               style={{ width: '10px' }}
-            ></div>
-            <p className="text-left text-lg sm:text-2xl">
+            ></span>
+            <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “I think it all really ties together... The name, decor, logo,
+                “ I think it all really ties together... The name, decor, logo,
                 ambiance, menu offerings. I like to see it all make sense as a
-                story.”
+                story. ”
               </strong>
             </p>
           </div>
           <div className="flex mb-16 sm:mb-32">
-            <div
-              className="bg-accent rounded mr-4"
+            <span
+              className="bg-primary rounded"
               style={{ width: '10px' }}
-            ></div>
-            <p className="text-left text-lg sm:text-2xl">
+            ></span>
+            <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “If I can’t walk to the coffee shop, it has to be on my way to
+                “ If I can’t walk to the coffee shop, it has to be on my way to
                 work for me to visit. This is especially true because of the
-                time I account for with wait time.”
+                time I account for with wait time. ”
               </strong>
             </p>
           </div>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/how_might_we2.png'}
-              className="h-auto"
+              className="h-auto w-full"
               style={{ maxWidth: '630px' }}
-              alt="Cloud"
+              alt="Mobile Preview"
             ></img>
           </div>
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12 ">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Define
           </h3>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
@@ -336,7 +336,7 @@ export default function Guilder() {
           </p>
           <div className="flex justify-center items-center">
             <div className="flex flex-col items-start">
-              <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-12">
+              <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-10">
                 Meet Allie and Tyler
               </h2>
               <a
@@ -365,10 +365,10 @@ export default function Guilder() {
               </a>
             </div>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Determining the Problems to Solve
           </h2>
-          <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
+          <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
             With the needs of our user identified, it was clear that there was a
             need for a better online ordering system that{' '}
             <strong>was quick and easy to use,</strong> and that gave the user
@@ -381,7 +381,7 @@ export default function Guilder() {
             <strong>informative,</strong> and <strong>organized</strong> in a
             way that made it as <strong>convenient</strong> as possible.
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Finding the Flow
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
@@ -390,12 +390,12 @@ export default function Guilder() {
             helped give scaffolding to the design of the product.
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
-            {/* <img
-              src={how_might_we3}
-              className="h-auto"
+            <img
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/how_might_we3.png'}
+              className="h-auto w-full"
               style={{ maxWidth: '630px' }}
-              alt="Mobile Preview"
-            ></img> */}
+              alt="Cloud"
+            ></img>
           </div>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
             The <strong>feature set</strong> shown here helped me to narrow in
@@ -417,7 +417,7 @@ export default function Guilder() {
                 rel="noopener noreferrer"
               >
                 <img
-                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/Screen+Shot+2023-04-29+at+3.28+1.png'}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/feature_set.png'}
                   className="max-w-full h-auto"
                   alt="Feature Set"
                 ></img>
@@ -475,17 +475,18 @@ export default function Guilder() {
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/user_flow.png'}
                   className="max-w-full h-auto"
-                  alt="User Flow"
+                  alt="User Flows"
                 ></img>
               </a>
             </div>
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6  bg-primary grid grid-cols-12 sm:grid-cols-10">
+      {/* Design */}
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 bg-primary">
+        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6 grid grid-cols-12 sm:grid-cols-10">
           <div className="col-span-12 sm:col-span-8 sm:col-start-2 flex flex-col">
-            <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+            <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
               Design
             </h3>
             <p className="text-left text-lg sm:text-2xl mb-16 sm:mb-32">
@@ -497,10 +498,10 @@ export default function Guilder() {
               while still providing a{' '}
               <strong>delightful and inspiring experience.</strong>
             </p>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Early Sketches
             </h2>
-            <p className="mb-6 sm:mb-12 text-start text-lg sm:text-2xl">
+            <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
               I began with some <strong>low fidelity</strong> concept sketches
               to get an idea of how things would look. While these were a great
               place to start, there was still a lot of UI work to do to pull it
@@ -524,7 +525,7 @@ export default function Guilder() {
                 ></img>
               </a>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Branding
             </h2>
             <div className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
@@ -539,7 +540,7 @@ export default function Guilder() {
                 Princess Bride story woven throughout. The values that I wanted
                 to communicate with the overall branding were:
               </p>
-              <ul className="list-disc ml-8">
+              <ul className="list-disc ml-8 font-bold">
                 <li>Whimsical</li>
                 <li>Inspired</li>
                 <li>Vintage</li>
@@ -555,14 +556,14 @@ export default function Guilder() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/Mood+Board+1.png'}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/mood_board.png'}
                     className="max-w-full h-auto"
                     alt="Mood Board"
                   ></img>
                 </a>
               </div>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Mid Fidelity Wireframes
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
@@ -583,14 +584,14 @@ export default function Guilder() {
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/Mid+Fidelity.png'}
                   className="max-w-full h-auto"
-                  alt="Link to figma file of mid fi wire frames"
+                  alt="Mid fi wire frames"
                 ></img>
               </a>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               High Fidelity UI
             </h2>
-            <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-10">
+            <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
               This step is where the design really came together visually. I was
               able to fully design the Guilder site while keeping our persona
               users Allie and Tyler . I focused on simplifying the navigation,
@@ -603,18 +604,7 @@ export default function Guilder() {
               also made visible on the main page so that the user would know how
               busy it was before placing an order and picking up.
             </p>
-            <a
-              href="https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=1%3A15093&t=JQnchFyV1qHpQvbJ-1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer mb-10 sm:mb-20"
-            >
-              <div className="flex items-center">
-                <p className="mr-2">View all designs in Figma</p>
-                <FaArrowRight className="m-h-5" />
-              </div>
-            </a>
-            <div className="flex justify-center items-center mt-8 sm:mt-16">
+            <div className="flex justify-center items-center">
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/hi_fi_wireframes.pdf"
                 target="_blank"
@@ -631,9 +621,10 @@ export default function Guilder() {
           </div>
         </div>
       </div>
+      {/*  Test */}
       <div className="grid grid-cols-12">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Test
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
@@ -643,28 +634,20 @@ export default function Guilder() {
             using the Figma prototype would give clarity and inform my further
             iterations.
           </p>
-          <a
-            href="https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=26%3A11944&t=JQnchFyV1qHpQvbJ-1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
-          >
-            <div className="flex items-center mb-16 sm:mb-32">
-              <p className="mr-2">View Prototype</p>
-              <FaArrowRight className="m-h-5" />
-            </div>
-          </a>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <div className='text-left mb-16 sm:mb-32'>
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=26%3A11944&t=JQnchFyV1qHpQvbJ-1'} type={'external'} className="mt-20" />
+          </div>
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Usability Testing
           </h2>
-          <p className="text-start text-lg sm:text-2xl mb-10">
+          <p className="text-start text-lg sm:text-2xl mb-6">
             I conducted usability testing sessions to test the process of
             placing an online order for pickup. I held usability testing
             sessions with five participants and documented all feedback.
           </p>
           <div className="text-start text-lg sm:text-2xl ">
             The usability test goals were:
-            <ul className="list-disc ml-8 mb-10">
+            <ul className="list-disc ml-8 mb-6">
               <li>
                 To evaluate wether the prototype allows users to quickly and
                 effectively complete the task flows that the wireframes were
@@ -677,7 +660,7 @@ export default function Guilder() {
             </ul>
           </div>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            The usability <strong>tests were considered successful</strong>{' '}
+          The usability <strong>tests were considered successful</strong>{' '}
             because all of the users could quickly and effectively complete the
             task flows that the wireframes were created for. Some feedback was
             given for future iterations which will be applied to make the
@@ -692,11 +675,11 @@ export default function Guilder() {
               ></img>
             </div>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Analyzing & Prioritizing Results
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            I took the <strong>insights</strong> from the usability testing
+          I took the <strong>insights</strong> from the usability testing
             sessions and organized them in a way that would show what worked,
             what could change, what questions the participants had, and their
             additional ideas. This organization helped me visualize{' '}
@@ -708,7 +691,7 @@ export default function Guilder() {
               <div className="font-semibold text-lg sm:text-2xl text-left">
                 What Worked:
                 <ul className="list-disc ml-8 mt-4 pr-4">
-                  <li>Familiar and easy to navigate.</li>
+                <li>Familiar and easy to navigate.</li>
                   <li>
                     Colors, illustrations, typeface, and other UI were clean and
                     minimal while remaining on theme.
@@ -722,7 +705,7 @@ export default function Guilder() {
               <div className="font-semibold text-lg sm:text-2xl text-left">
                 What Could Change:
                 <ul className="list-disc ml-8 mt-4">
-                  <li>Users felt there should be the option to add a tip.</li>
+                <li>Users felt there should be the option to add a tip.</li>
                   <li>
                     Users wanted a form field for notes on the order items.
                   </li>
@@ -734,21 +717,19 @@ export default function Guilder() {
               </div>
             </div>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Final Iterations
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
-            Based on the test results, I made some priority revisions throughout
+          Based on the test results, I made some priority revisions throughout
             the site based on how impactful it would be and how it would fit
-            into the timeframe I had. Below are the main revisions that were
+            into the time frame I had. Below are the main revisions that were
             made.
           </p>
           <ul className="list-disc ml-8 font-semibold text-lg sm:text-2xl text-left mb-10 sm:mb-20">
-            <li className="mb-10 sm:mb-20">
-              Nutritional information linked under the item description as well
-              as a drop down option for adding a tip percentage to the order and
-              an area to add additional notes.
-              <div className="flex justify-center items-center mt-16 sm:mt-32">
+            <li className="mb-10 sm:mb-32">
+            Nutritional information linked under the item description as well as a drop down option for adding a tip percentage to the order and an area to add additional notes.  
+              <div className="flex justify-center items-center mt-16 sm:mt-20">
                 <div>
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/iteration1.png'}
@@ -758,8 +739,8 @@ export default function Guilder() {
                 </div>
               </div>
             </li>
-            <li className="mb-10 sm:mb-20">
-              On the order total page, tip amount is added accordingly.
+            <li className="mb-10 sm:mb-32">
+            On the order total page, tip amount is added accordingly.
               <div className="flex justify-center items-center mt-16 sm:mt-32">
                 <div>
                   <img
@@ -773,16 +754,17 @@ export default function Guilder() {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-12 p-10 sm:px-0  bg-secondary mb-16 sm:mb-32">
+      {/* Next Steps */}
+      <div className="grid grid-cols-12 py-20 bg-primary mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Next Steps
           </h3>
           <div className="mt-4 text-start text-lg sm:text-2xl mb-10">
-            With more time, the next steps I would take on this design project
+          With more time, the next steps I would take on this design project
             would be:
-            <ul className="list-disc ml-8 font-semibold">
-              <li>Adding the ability to like and rate menu items.</li>
+            <ul className="list-disc ml-8 font-semibold mt-10">
+            <li>Adding the ability to like and rate menu items.</li>
               <li>Include the option to repeat a previous order.</li>
               <li>
                 Feature an information section for each location (ambiance,
@@ -794,13 +776,13 @@ export default function Guilder() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 mb-16 sm:mb-32 sm:px-0 p-10  bg-accent text-white">
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 p-10 sm:py-32 bg-secondary">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Learnings & Final Thoughts
           </h3>
           <p className="mb-10 text-left text-lg sm:text-2xl">
-            I enjoyed being able to work on a site for a real local business
+          I enjoyed being able to work on a site for a real local business
             that I was familiar with. Knowing a bit about who they are and what
             they were lacking was really helpful to the design process. The
             experience of contacting the company and presenting my design is

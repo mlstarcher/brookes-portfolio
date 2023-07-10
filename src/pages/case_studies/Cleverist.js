@@ -59,7 +59,7 @@ export default function Cleverist() {
           <div className="">
             <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
             <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
-              July-Nov 2022
+              July to Nov 2022
             </p>
           </div>
           <div className="">
