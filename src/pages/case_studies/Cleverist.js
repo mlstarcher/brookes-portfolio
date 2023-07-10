@@ -700,7 +700,7 @@ export default function Cleverist() {
             </li>
             <li className="mb-10 sm:mb-32">
             Heart icon added to the upper right corner of each activity image so that the user can easily add the activity to their library.
-              <div className="flex justify-center items-center mt-16 sm:mt-32">
+              <div className="flex justify-center items-center mt-10 sm:mt-20">
                 <div>
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iteration_2.png'}

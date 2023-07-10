@@ -19,17 +19,17 @@ export default function Guilder() {
           </h1>
           <p className="text-lg sm:text-2xl text-center">
             A Princess Bride themed{' '}
-            <span className="text-accent">coffee shop</span>
+            <span className="text-secondary">coffee shop</span>
             <br /> in Portland, Oregon in need of a{' '}
-            <span className="text-accent">
+            <span className="text-secondary">
               new
               <br /> design
             </span>{' '}
-            including an <span className="text-accent">online ordering</span>
+            including an <span className="text-secondary">online ordering</span>
             <br /> system.
           </p>
           <div className='mt-10'>
-            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/Ezh6ISzgp5C1WpG1js5Myz/Cleverist-Prototypes?node-id=0%3A1&t=BzMBsCR7T6rMBXQM-1'} type={'external'} className="mt-20" />
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=26%3A11944&t=JQnchFyV1qHpQvbJ-1'} type={'external'} className="mt-20" />
           </div>
         </div>
         <div className="flex flex-col items-center col-span-12 sm:col-span-3 sm:col-start-8">
@@ -104,7 +104,7 @@ export default function Guilder() {
             <strong>
               ordering system could be redesigned to better user experience and
               create more sales for the coffee shop.
-            </strong>
+            </strong>{' '}
             The theme of the coffee shop is sometimes hard to understand, and
             could be woven into the experience more clearly.
           </p>
@@ -140,22 +140,13 @@ export default function Guilder() {
             Research
           </h3>
           <p className="mb-16 sm:mb-32 text-start text-lg sm:text-2xl">
-            My goal was to understand the experience that users have when
-            ordering coffee and food from Guilder. I made a research plan to
-            find out what offerings and information users were interested in
-            seeing in a local coffee shop’s site. I looked at the current
-            competition to see what they offered, and kept that in mind during
-            user interviews.
+          My goal was to understand the experience that users have when ordering coffee and food from Guilder. I made a research plan to find out what offerings and information users were interested in seeing in a local coffee shop’s site. I looked at the current competition to see what they offered, and kept that in mind during user interviews.
           </p>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Looking at the competition
           </h2>
           <p className=" text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            All of the competitor services offered coffee and food at locations
-            in the Portland area, but varied in their online ordering services.
-            The larger companies had apps or established online ordering systems
-            with little branding/story, while the smaller companies had an
-            inspiring aesthetic with inadequate online ordering systems.
+          All of the competitor services offered coffee and food at locations in the Portland area, but varied in their online ordering services. The larger companies had apps or established online ordering systems with little branding/story, while the smaller companies had an inspiring aesthetic with inadequate online ordering systems.
           </p>
         </div>
       </div>
@@ -295,7 +286,7 @@ export default function Guilder() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “ I think it all really ties together... The name, decor, logo,
+              “ I think it all really ties together... The name, decor, logo,
                 ambiance, menu offerings. I like to see it all make sense as a
                 story. ”
               </strong>
@@ -326,13 +317,7 @@ export default function Guilder() {
             Define
           </h3>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
-            Before coming up with a design to solve this problem, I needed to
-            further define our target user and find out what their wants and
-            needs would be for this product. Meet our users Allie and Tyler.
-            Allie is a stay at home mom that enjoys walking to coffee shops in
-            her neighborhood where her family, friends, and dog are welcome.
-            Tyler is a sous chef who likes to pick up his coffee from local
-            shops that make it easy to order on his way to work.
+          Before coming up with a design to solve this problem, I needed to further define our target user and find out what their wants and needs would be for this product. Meet our users Allie and Tyler. Allie is a stay at home mom that enjoys walking to coffee shops in her neighborhood where her family, friends, and dog are welcome. Tyler is a sous chef who likes to pick up his coffee from local shops that make it easy to order on his way to work.
           </p>
           <div className="flex justify-center items-center">
             <div className="flex flex-col items-start">
@@ -341,25 +326,25 @@ export default function Guilder() {
               </h2>
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/persona1.pdf"
-                className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                className="max-w-full h-auto mb-6 sm:mb-10 pointer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/persona1.png'}
-                  className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                  className="max-w-full h-auto pointer"
                   alt="Link to user persona figma file"
                 ></img>
               </a>
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/persona2.pdf"
-                className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                className="max-w-full h-auto mb-6 sm:mb-32 pointer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/persona2.png'}
-                  className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                  className="max-w-full h-auto pointer"
                   alt="Link to user persona figma file"
                 ></img>
               </a>
@@ -556,7 +541,7 @@ export default function Guilder() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/mood_board.png'}
+                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/Mood+Board+1.png'}
                     className="max-w-full h-auto"
                     alt="Mood Board"
                   ></img>
@@ -741,7 +726,7 @@ export default function Guilder() {
             </li>
             <li className="mb-10 sm:mb-32">
             On the order total page, tip amount is added accordingly.
-              <div className="flex justify-center items-center mt-16 sm:mt-32">
+              <div className="flex justify-center items-center mt-10 sm:mt-20">
                 <div>
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/iteration2.png'}
