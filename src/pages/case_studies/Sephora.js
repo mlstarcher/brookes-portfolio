@@ -6,34 +6,25 @@ import { FaArrowRight } from 'react-icons/fa';
 export default function Sephora() {
   return (
     <div className="bg-offWhite mt-8 sm:mt-32">
-      <div className="grid grid-cols-12 mb-10 sm:mb-32 mt-10 sm:mt-0">
-        <div className="flex flex-col justify-center items-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
-          <h1 className="font-bold text-3xl sm:text-6xl text-offBlack pb-4">
-            Sephora Recycle Feature
+      {/* Intro */}
+      <div className="grid grid-cols-12 mb-10 sm:mb-20">
+        <div className="flex flex-col  justify-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
+          <h1 className="font-bold text-3xl sm:text-6xl text-offBlack mb-10">
+          Sephora Recycle Feature
           </h1>
           <p className="text-lg sm:text-2xl text-center">
-            A <span className="text-accent">website feature</span> that allows
+          A <span className="text-accent">website feature</span> that allows
             users to
             <br /> mail their old or unwanted cosmetics
             <br /> and packaging to Sephora for
             <br />
             <span className="text-accent">recycling.</span>
           </p>
-          <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1'}/>
-          {/* <a
-            href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
-          >
-            <div className="flex items-center mt-4">
-              <p className="mr-2">View Prototype</p>
-              <FaArrowRight className="m-h-5" />
-            </div>
-          </a> */}
-
+          <div className='mt-10'>
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1'} type={'external'} className="mt-20" />
+          </div>
         </div>
-        <div className="flex flex-col items-center justify-center col-span-12  sm:col-start-8">
+        <div className="flex flex-col items-center col-span-12 sm:col-span-3 sm:col-start-8">
           {/* <img
             className="pointer-events-none w-full h-auto"
             src={sephora_macbook}
@@ -56,33 +47,59 @@ export default function Sephora() {
               ></img>
             </div>
           </div> */}
+          <div className="relative mt-8 sm:mt-0" style={{ height: '600px', width: '300px' }}>
+            <img
+              role="presentation"
+              className="absolute z-10 pointer-events-none h-full w-auto"
+              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/global/iphone_transparent.png'}
+              alt="iPhone 14"
+            ></img>
+            <div
+              className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
+              style={{ marginTop: '14px' }}
+            >
+              <img
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/mobile_preview.jpg'}
+                className="max-w-full h-auto wireframe"
+                alt="Preview of final design for mobile"
+              ></img>
+            </div>
+          </div>
         </div>
       </div>
-      <div className="bg-secondary  p-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl"></h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">UX/UI designer</p>
-        </div>
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Product</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Website Feature</p>
-        </div>
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
-          <p className="text-lg sm:text-2xl mb-8 sm:mb-0">April to May 2023</p>
-        </div>
-        <div className="col-span-12 sm:col-span-3">
-          <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Tools</h4>
-          <p className="text-lg sm:text-2xl">Figma</p>
+      {/* Role details */}
+      <div className="bg-secondary py-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
+        <div className='flex justify-between flex-col sm:flex-row col-start-3 col-end-11'>
+          <div>
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
+            <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
+              UX/UI Designer
+            </p>
+          </div>
+          <div>
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Product</h4>
+            <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Website Feature</p>
+          </div>
+          <div>
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
+            <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
+              April to May 2023
+            </p>
+          </div>
+          <div>
+            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Tools</h4>
+            <p className="text-lg sm:text-2xl">Figma</p>
+          </div>
         </div>
       </div>
+      {/* Overview */}
       <div className="grid grid-cols-12">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Overview
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            The goal of this project was to create a{' '}
+          The goal of this project was to create a{' '}
             <strong>convenient and accessible feature</strong> that would allow
             customers to <strong>recycle their old cosmetics</strong>
             and packaging as well as{' '}
@@ -92,11 +109,11 @@ export default function Sephora() {
             </strong>{' '}
             among Sephora customers
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             The Problem
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            Sephora is a leading beauty retailer that offers a wide range of
+          Sephora is a leading beauty retailer that offers a wide range of
             cosmetics, skincare, haircare, and fragrance products. Sephora has
             2600 stores in 34 countries as well as a website and mobile app.
             After learning that the beauty and wellness industries generate over
@@ -115,18 +132,18 @@ export default function Sephora() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/how_might_we1.png'}
-              className="h-auto"
+              className="h-auto w-full"
               style={{ maxWidth: '630px' }}
-              alt="How might we provide quality educational activities for parents and caregivers to do with their children at home?"
+              alt="How might we"
             ></img>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             The Solution
           </h2>
           <div className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
             <p>A site feature where users can:</p>
             <ul className="list-disc ml-8">
-              <li>
+            <li>
                 Generate a return label, and send their empty containers back to
                 Sephora's recycling program in the mailer package they received.
               </li>
@@ -144,80 +161,88 @@ export default function Sephora() {
             className="max-w-full h-auto mb-16 sm:mb-32"
             alt="Research, define, design, test"
           ></img>
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Research
           </h3>
           <p className="mb-16 sm:mb-32 text-start text-lg sm:text-2xl">
-            My goal was to understand the experience that users have when
+          My goal was to understand the experience that users have when
             finding a solution for their old or unwanted cosmetics products and
             packaging. I made a research plan to find out what qualities and
             characteristics users were interested in seeing in an online
             cosmetics recycling feature. I looked at the current competition to
             see what they offered, and kept that in mind during user interviews.
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Looking at the competition
           </h2>
           <p className=" text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            All of the competitor services sell cosmetics products from their
+          All of the competitor services sell cosmetics products from their
             sites as well as in store, but only one of the competitors (Credo)
             offers recycling. Credo also partnered with Pact and has in store
             drop off, but no online option at this time.
           </p>
         </div>
       </div>
-      <div className="bg-primary p-10 grid grid-cols-12  mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center">
-          <div className="flex items-center">
-            <img
-              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/credo.png'}
-              className="max-w-full h-auto"
-              alt="Good logo"
-              style={{ height: '114px' }}
-            ></img>
+      {/* Competition Card */}
+      <div className="bg-primary p-20 grid grid-cols-12  mb-16 sm:mb-32">
+        <div className="col-span-12 sm:col-start-2 sm:col-end-6">
+          <div className="flex flex-col items-center">
+            <div className="flex items-center">
+              <img
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/credo.png'}
+                className="object-cover w-full"
+                style={{ height: '94px' }}
+                alt="Credo logo"
+              ></img>
+            </div>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
-            Website and store that carries only “clean beauty” products with
+          Website and store that carries only “clean beauty” products with
             focus on safety, sustainability, sourcing, ethics, and transparancy.
           </p>
         </div>
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
-          <div className="flex items-center">
-            <img
-              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/ulta.png'}
-              className="max-w-full h-auto rounded-sm"
-              alt="Cafe Olli logo"
-              style={{ height: '114px' }}
-            ></img>
-          </div>
-          <p className="text-lg sm:text-2xl mt-4">
+        <div className="col-span-12 sm:col-start-8 sm:col-end-12">
+          <div className="flex flex-col items-center mt-10 sm:mt-0">
+            <div className="flex items-center">
+              <img
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/ulta.png'}
+                className="object-cover w-full"
+                style={{ height: '94px' }}
+                alt="Ulta Logo"
+              ></img>
+            </div>
+            <p className="text-lg sm:text-2xl mt-4">
             Storefront, website, and app that sells cosmetics as well as various
             beauty services. Ulta is very similar to Sephora.
-          </p>
-        </div>
-        <div className="col-span-12 sm:col-span-4 flex flex-col items-center mt-8 sm:mt-0">
-          <div className="flex items-center">
-            <img
-              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/amazon.png'}
-              className="max-w-full h-auto"
-              alt="Starbucks Logo"
-              style={{ height: '114px' }}
-            ></img>
+            </p>
           </div>
-          <p className="text-lg sm:text-2xl mt-4">
+        </div>
+        <div className="col-span-12 sm:col-start-5 sm:col-end-9">
+        <div className="flex flex-col items-center mt-10 sm:mt-16">
+            <div className="flex items-center">
+              <img
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/amazon.png'}
+                className="object-cover w-full"
+                alt="Amazon logo"
+                style={{ height: '94px' }}
+              ></img>
+            </div>
+            <p className="text-lg sm:text-2xl mt-4">
             Amazon Premium Beauty is the luxury cosmetics section of the biggest
             online retailers. They carry products that can also be found in
             Sephora, ulta, and department stores.
-          </p>
+            </p>
+          </div>
         </div>
       </div>
+      {/* Peoples Stories */}
       <div className="grid grid-cols-12 mt-8 sm:mt-16">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Hearing People's Stories
           </h2>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
-            I held 1:1 user interviews with three research participants to learn
+          I held 1:1 user interviews with three research participants to learn
             about their needs and pain points when looking for a recycling
             solution for their cosmetics. I learned that{' '}
             <strong>
@@ -226,15 +251,11 @@ export default function Sephora() {
           </p>
           <div className="grid grid-cols-12 mb-10 sm:mb-20">
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
-              <img
-                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/time.png'}
-                className="max-w-full"
-                alt="Convenience"
-              ></img>
+              <img src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/time.png'} className="max-w-full" alt="Eco Friendliness"></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-                While users wanted to participate in a recycling program in
+              While users wanted to participate in a recycling program in
                 theory, they weren’t sure they would get around to it unless it
                 was a simple and convenient process.
               </p>
@@ -243,23 +264,26 @@ export default function Sephora() {
               <img
                 src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/quality.png'}
                 className="max-w-full h-auto"
-                // style={{ maxWidth: '160px' }}
-                alt="Ambiance"
+                alt="Efficiency"
               ></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-                Users weren't sure which types of cosmetics containers and
+              Users weren't sure which types of cosmetics containers and
                 packaging could in fact be recycled. Additionally, they wanted
                 more information on how to prepare items for recycling.
               </p>
             </div>
             <div className="col-span-12 sm:col-span-3 mb-6 sm:mb-12 flex sm:block justify-center sm:justify-start">
-              <img src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/availabilty.png'} className="max-w-full" alt="Offerings"></img>
+              <img
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/availabilty.png'}
+                className="max-w-full"
+                alt="Clarity"
+              ></img>
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-                Users were interested in shopping for in-season produce but
+              Users were interested in shopping for in-season produce but
                 doing so impacted their ability to plan their groceries and shop
                 at the farmers market. Knowing what is available and in season
                 each week would be helpful.
@@ -272,57 +296,57 @@ export default function Sephora() {
             </p>
           </div>
           <div className="flex mb-16 sm:mb-32">
-            <div
-              className="bg-secondary rounded mr-4"
+            <span
+              className="bg-primary rounded"
               style={{ width: '10px' }}
-            ></div>
-            <p className="text-left text-lg sm:text-2xl">
+            ></span>
+            <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “I love an in-store moment but realistically I mostly shop
+              “ I love an in-store moment but realistically I mostly shop
                 online for convenience unless it is something I need
-                like...today.”
+                like...today. ”
               </strong>
             </p>
           </div>
           <div className="flex mb-16 sm:mb-32">
-            <div
-              className="bg-secondary rounded mr-4"
+            <span
+              className="bg-primary rounded"
               style={{ width: '10px' }}
-            ></div>
-            <p className="text-left text-lg sm:text-2xl">
+            ></span>
+            <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “I am really doing my best to shift to supporting companies that
+              “ I am really doing my best to shift to supporting companies that
                 are open about their sourcing and business practices, but
-                especially about their commitment to being eco-friendly.”
+                especially about their commitment to being eco-friendly. ”
               </strong>
             </p>
           </div>
           <div className="flex mb-16 sm:mb-32">
-            <div
-              className="bg-secondary rounded mr-4"
+            <span
+              className="bg-primary rounded"
               style={{ width: '10px' }}
-            ></div>
-            <p className="text-left text-lg sm:text-2xl">
+            ></span>
+            <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “I always try to recycle exterior packaging like boxes but I
+              “ I always try to recycle exterior packaging like boxes but I
                 never know what to do with the makeup that I don’t use, so it
-                just ends up sitting in my cabinet.”
+                just ends up sitting in my cabinet. ”
               </strong>
             </p>
           </div>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/how_might_we2.png'}
-              className="h-auto"
+              className="h-auto w-full"
               style={{ maxWidth: '630px' }}
-              alt="Cloud"
+              alt="How might we"
             ></img>
           </div>
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12 ">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Define
           </h3>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
-            Before coming up with a design to solve this problem, I needed to
+          Before coming up with a design to solve this problem, I needed to
             further define our target user and find out what their wants and
             needs would be for this product. Meet our user Wren. Wren is a
             college student living in Los Angeles who wants to be an
@@ -332,7 +356,7 @@ export default function Sephora() {
           </p>
           <div className="flex justify-center items-center">
             <div className="flex flex-col items-start">
-              <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-12">
+              <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-10">
                 Meet Wren
               </h2>
               <a
@@ -351,11 +375,11 @@ export default function Sephora() {
           </div>
           <div className="flex justify-center items-center">
             <div className="flex flex-col items-start">
-              <h2 className="text-2xl sm:text-4xl text-left font-semibold mb-6 sm:mb-12">
+              <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
                 Wren's Journey
               </h2>
-              <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
-                After getting to know our user Wren, I made a journey map as a
+              <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-20">
+              After getting to know our user Wren, I made a journey map as a
                 visual representation of her journey to recycle cosmetics. This
                 helped me understand what her actions, thoughts, behaviors, and
                 emotions would be and therefore what her pain points might be so
@@ -363,26 +387,27 @@ export default function Sephora() {
               </p>
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/journey_map.pdf"
-                className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                className="max-w-full h-auto mb-16 sm:mb-32 pointer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/journey_map.png'}
-                  className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                  className="max-w-full h-auto pointer"
                   alt="Link to user persona figma file"
                 ></img>
               </a>
             </div>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Determining the Problems to Solve
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            With the needs of our user identified, it was clear that there was a
+          With the needs of our user identified, it was clear that there was a
             need for a website feature that <strong>was informative</strong>,
             and that provided an <strong>efficient</strong> way to recycle
             cosmetics.
+            <br />
             <br />
             The next question was: how can these goals be achieved with Sephora?
             Since one of the biggest pain points was efficiency, I wanted to
@@ -391,31 +416,24 @@ export default function Sephora() {
             <strong>organized</strong> in a way that provided information about
             the company’s eco friendly practices.
           </p>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Finding the Flow
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-            With the user’s problems in mind, the next steps were to determine
+          With the user’s problems in mind, the next steps were to determine
             our feature elements using a value matrix, and task flow. These
             tools helped give scaffolding to the design of the product.
           </p>
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/how_might_we3.png'}
-              className="h-auto"
+              className="h-auto w-full"
               style={{ maxWidth: '630px' }}
               alt="How might we"
             ></img>
           </div>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
-            This <strong>value matrix</strong> helped me analyze and prioritize
-            different values and factors that were important for the recycling
-            feature. High impact items were prioritized, and specifically the
-            high impact items that were also low effort as to save time getting
-            an MVP designed. These included information on recycling cosmetics,
-            tips for cleaning and preparing cosmetics for recycle, the option to
-            add “recycle” to your basket while shopping, and earning beauty
-            insider points for using the feature.
+            This <strong>value matrix</strong> helped me analyze and prioritize different values and factors that were important for the recycling feature. High impact items were prioritized, and specifically the high impact items that were also low effort as to save time getting an MVP designed. These included information on recycling cosmetics, tips for cleaning and preparing cosmetics for recycle, the option to add “recycle” to your basket while shopping, and earning beauty insider points for using the feature.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
@@ -428,62 +446,42 @@ export default function Sephora() {
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/value_matrix.png'}
                   className="max-w-full h-auto"
-                  alt="Feature Set"
+                  alt="Value Matrix"
                 ></img>
               </a>
             </div>
           </div>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            These <strong>task flows</strong> helped determine exactly how the
-            Sephora user would go about using the recycling feature. It was
-            important to explore multiple task flows, since there would be
-            multiple ways to access the feature. A user going to the site with
-            the intention of recycling might choose the CTA, while other
-            shoppers might discover the feature during checkout and add it to
-            their basket then.
+          These <strong>task flows</strong> helped determine exactly how the Sephora user would go about using the recycling feature. It was important to explore multiple task flows, since there would be multiple ways to access the feature. A user going to the site with the intention of recycling might choose the CTA, while other shoppers might
+discover the feature during checkout and add it to their basket then.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/task_flow.pdf"
+                href=""
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
-              >
+              ><h1>FIX THIS LINK</h1>
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/task_flows.png'}
                   className="max-w-full h-auto"
-                  alt="Site Map"
+                  alt="Task flow"
                 ></img>
               </a>
             </div>
           </div>
-          {/* <div className="flex justify-center items-center mb-16 sm:mb-32">
-            <div>
-              <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Learn+_+Grow+Sitemap+1.pdf"
-                className="max-w-full h-auto"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={sitemap}
-                  className="max-w-full h-auto"
-                  alt="Site Map"
-                ></img>
-              </a>
-            </div>
-          </div> */}
         </div>
       </div>
-      <div className="grid grid-cols-12 mb-16 sm:mb-32">
-        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6  bg-primary grid grid-cols-12 sm:grid-cols-10">
+      {/* Design */}
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 bg-primary">
+        <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6 grid grid-cols-12 sm:grid-cols-10">
           <div className="col-span-12 sm:col-span-8 sm:col-start-2 flex flex-col">
-            <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+            <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
               Design
             </h3>
             <p className="text-left text-lg sm:text-2xl mb-16 sm:mb-32">
-              After determining my information architecture, i got to work
+            After determining my information architecture, I got to work
               creating concept sketches and worked on branding using Sephora and
               Pact’s existing design patterns and branding. Using the sketches
               and branding, I moved on to wireframes to develop a more complete
@@ -491,11 +489,11 @@ export default function Sephora() {
               time efficient for our user, while still providing a{' '}
               <strong>delightful and inspiring experience.</strong>
             </p>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Early Sketches
             </h2>
-            <p className="mb-6 sm:mb-12 text-start text-lg sm:text-2xl">
-              I began with some <strong>low fidelity</strong> concept sketches
+            <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
+            I began with some <strong>low fidelity</strong> concept sketches
               to get an idea of how things would look. While these were a great
               place to start, there was still a lot of UI work to do to pull it
               together. In these early sketches, the focus was seeing how the
@@ -521,40 +519,37 @@ export default function Sephora() {
                 ></img>
               </a>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
-              UI Elements
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
+            UI Elements
             </h2>
-            <div className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-              <p className="mb-10">
-                With a general idea of how the site could be laid out, the next
+            <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
+            With a general idea of how the site could be laid out, the next
                 piece was deciding how I would create UI elements that would fit
                 in seamlessly with Sephora’s existing design. Another piece to
                 consider was using cards and illustrations similar to the ones
                 Pact uses on their site, but through the Sephora lense. For
                 colors, I used Sephora’s classic color palette of black and
                 white with pops of red.
-              </p>
-            </div>
+            </p>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
-              <div>
-                <a
-                  href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/mood_board.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/illustrations.png'}
-                    className="max-w-full h-auto"
-                    alt="Product Ilustration"
-                  ></img>
-                </a>
-              </div>
+              <a
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/mood_board.pdf"
+                className="max-w-full h-auto"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/illustrations.png'}
+                  className="max-w-full h-auto"
+                  alt="Link to figma file of mid fi wire frames"
+                ></img>
+              </a>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Mid Fidelity Wireframes
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-              Based on the sketches, I created mid fidelity wireframes. I like
+            Based on the sketches, I created mid fidelity wireframes. I like
               to think of these as the blueprint stage. One main detail that was
               built upon was how the multi page form would look. It needed to be
               consistent with Pact’s process, but still fit in with the Sephora
@@ -574,29 +569,18 @@ export default function Sephora() {
                 ></img>
               </a>
             </div>
-            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+            <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               High Fidelity UI
             </h2>
-            <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-10">
-              This step is where the design really came together visually. I was
+            <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
+            This step is where the design really came together visually. I was
               able to fully design the Sephora recycling feature while keeping
               our persona, Wren in mind. A combination of custom made
               illustrations and real imagery gave the site the exact feel we
               were going for in a way that was simple, clean, and time
               efficient.
             </p>
-            <a
-              href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=12%3A542&t=XeB5o0Zi9PKohavh-1"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer mb-10 sm:mb-20"
-            >
-              <div className="flex items-center">
-                <p className="mr-2">View all designs in Figma</p>
-                <FaArrowRight className="m-h-5" />
-              </div>
-            </a>
-            <div className="flex justify-center items-center mt-8 sm:mt-16">
+            <div className="flex justify-center items-center">
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/hi_fi_wireframes.pdf"
                 target="_blank"
@@ -606,41 +590,34 @@ export default function Sephora() {
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/hi_fi.png'}
                   className="max-w-full h-auto"
-                  alt="Link to figma file of hi fi wire frames"
+                  alt="High fi wire frames"
                 ></img>
               </a>
             </div>
           </div>
         </div>
       </div>
+      {/* Test */}
       <div className="grid grid-cols-12">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Test
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
-            At the end of the visual design portion came one of the most
+          At the end of the visual design portion came one of the most
             important parts of the Sephora Recycle Feature design process -
             testing. I felt confident about my overall design but conducting
             usability tests using the Figma prototype would give clarity and
             inform my further iterations.
           </p>
-          <a
-            href="https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="font-semibold text-accent hover:text-secondary text-lg sm:text-2xl pointer"
-          >
-            <div className="flex items-center mb-16 sm:mb-32">
-              <p className="mr-2">View Prototype</p>
-              <FaArrowRight className="m-h-5" />
-            </div>
-          </a>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <div className='text-left mb-16 sm:mb-32'>
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1'} type={'external'} className="mt-20" />
+          </div>
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Usability Testing
           </h2>
-          <p className="text-start text-lg sm:text-2xl mb-10">
-            I conducted usability testing sessions to test the process of
+          <p className="text-start text-lg sm:text-2xl mb-6">
+          I conducted usability testing sessions to test the process of
             choosing the recycle feature from the homepage CTA, following the
             multi page form, and adding to basket/checking out. I also included
             the flows for tracking the progress of the recycle mailer. I held
@@ -649,8 +626,8 @@ export default function Sephora() {
           </p>
           <div className="text-start text-lg sm:text-2xl ">
             The usability test goals were:
-            <ul className="list-disc ml-8 mb-10">
-              <li>
+            <ul className="list-disc ml-8 mb-6">
+            <li>
                 To evaluate wether the prototype allows users to quickly and
                 effectively complete the task flow that the wireframes were
                 created for.
@@ -662,7 +639,7 @@ export default function Sephora() {
             </ul>
           </div>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            The usability <strong>tests were considered successful</strong>{' '}
+          The usability <strong>tests were considered successful</strong>{' '}
             because all of the users could quickly and effectively complete the
             task flow that the wireframes were created for. Some feedback was
             given for future iterations which will be applied to make the
@@ -673,15 +650,15 @@ export default function Sephora() {
               <img
                 src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/macbook_air.png'}
                 className="max-w-full h-auto"
-                alt="Sephora desktop preview"
+                alt="Cleverist iphone preview"
               ></img>
             </div>
           </div>
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Analyzing & Prioritizing Results
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            I took the <strong>insights</strong> from the usability testing
+          I took the <strong>insights</strong> from the usability testing
             sessions and organized them in a way that would show what worked,
             what could change, what questions the participants had, and their
             additional ideas. This organization helped me visualize{' '}
@@ -693,7 +670,7 @@ export default function Sephora() {
               <div className="font-semibold text-lg sm:text-2xl text-left">
                 What Worked:
                 <ul className="list-disc ml-8 mt-4 pr-4">
-                  <li>Familiar and easy to navigate.</li>
+                <li>Familiar and easy to navigate.</li>
                   <li>
                     Colors, illustrations, typeface, and other UI elements were
                     clean and minimal while staying on brand with Sephora.
@@ -707,7 +684,7 @@ export default function Sephora() {
               <div className="font-semibold text-lg sm:text-2xl text-left">
                 What Could Change:
                 <ul className="list-disc ml-8 mt-4">
-                  <li>
+                <li>
                     Users wanted to see the option to learn more information
                     about the recycle program.
                   </li>
@@ -727,70 +704,54 @@ export default function Sephora() {
               </div>
             </div>
           </div>
-          {/* <div className="flex justify-center items-center mb-16 sm:mb-32">
-            <div>
-              <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/illustrations.pdf"
-                className="max-w-full h-auto"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={analyzing_results1}
-                  className="max-w-full h-auto"
-                  alt="Analyzing results"
-                ></img>
-              </a>
-            </div>
-          </div> */}
-          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-12">
+          <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Final Iterations
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
-            Based on the test results, I made some priority revisions throughout
+          Based on the test results, I made some priority revisions throughout
             the site based on how impactful it would be and how it would fit
             into the timeframe I had. Below are the main revisions that were
             made.
           </p>
           <ul className="list-disc ml-8 font-semibold text-lg sm:text-2xl text-left mb-10 sm:mb-20">
-            <li className="mb-10 sm:mb-20">
-              Clickable link to “learn more” about the Sephora x Pact recycle
+            <li className="mb-10 sm:mb-32">
+            Clickable link to “learn more” about the Sephora x Pact recycle
               program.
-              <div className="flex justify-center items-center mt-16 sm:mt-32">
+              <div className="flex justify-center items-center mt-10 sm:mt-20">
                 <div>
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/iteration1.png'}
                     className="max-w-full h-auto"
-                    alt="Activity Filters"
+                    alt="Iteration 1"
                   ></img>
                 </div>
               </div>
             </li>
-            <li className="mb-10 sm:mb-20">
-              Clarity was added in step 1, so that the user knows that if they
+            <li className="mb-10 sm:mb-32">
+            Clarity was added in step 1, so that the user knows that if they
               choose “no” they will be directed to information about how and why
               to clean their cosmetics packaging.
-              <div className="flex justify-center items-center mt-16 sm:mt-32">
+              <div className="flex justify-center items-center mt-10 sm:mt-20">
                 <div>
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/iteration2.png'}
                     className="max-w-full h-auto"
-                    alt="Color Mixing"
+                    alt="Iteration 2"
                   ></img>
                 </div>
               </div>
             </li>
             <li className="mb-6 sm:mb-12">
-              Pop of “Sephora red” color was only added to item illustrations
+            Pop of “Sephora red” color was only added to item illustrations
               once chosen, as another indication that they were selected.
               Additionally, information was added for clarity on the quality
               that could be sent.
-              <div className="flex justify-center items-center my-16 sm:my-32">
+              <div className="flex justify-center items-center mb-16 sm:mb-32 mt-10 sm:mt-10 sm:mt-20">
                 <div>
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/iteration3.png'}
                     className="max-w-full h-auto"
-                    alt="Comments"
+                    alt="Iteration 3"
                   ></img>
                 </div>
               </div>
@@ -798,16 +759,17 @@ export default function Sephora() {
           </ul>
         </div>
       </div>
-      <div className="grid grid-cols-12 p-10 sm:px-0  bg-primary mb-16 sm:mb-32">
+      {/* Next Steps */}
+      <div className="grid grid-cols-12 py-20 bg-primary mb-16 sm:mb-32">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Next Steps
           </h3>
           <div className="mt-4 text-start text-lg sm:text-2xl mb-10">
             With more time, the next steps I would take on this design project
             would be:
-            <ul className="list-disc ml-8 font-semibold mt-8">
-              <li>
+            <ul className="list-disc ml-8 font-semibold mt-10">
+            <li>
                 Adding the ability to earn extra points for Beauty Insider
                 towards clean beauty brands carried at Sephora.
               </li>
@@ -825,13 +787,14 @@ export default function Sephora() {
           </div>
         </div>
       </div>
-      <div className="grid grid-cols-12 mb-16 sm:mb-32 sm:px-0 p-10  bg-secondary ">
+      {/* Final Thoughts */}
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 p-10 sm:py-32 bg-secondary">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
-          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-12">
+          <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Learnings & Final Thoughts
           </h3>
           <p className="mb-10 text-left text-lg sm:text-2xl">
-            This design experience was unique to my other design projects in
+          This design experience was unique to my other design projects in
             that I had to work with a pre existing design. Creating designs
             based on something that already existed had its pros and cons. I
             liked having a frame of reference to use for consistency, but it did

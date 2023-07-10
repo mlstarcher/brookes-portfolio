@@ -155,7 +155,6 @@ export default function Cleverist() {
             support learning for young children.
           </p>
         </div>
-
         <div className="col-span-12 sm:col-start-8 sm:col-end-12">
           <div className="flex flex-col items-center mt-10 sm:mt-0">
             <div className="flex items-center">
@@ -173,14 +172,14 @@ export default function Cleverist() {
             </p>
           </div>
         </div>
-
         <div className="col-span-12 sm:col-start-5 sm:col-end-9">
         <div className="flex flex-col items-center mt-10 sm:mt-16">
-            <div className="flex items-center" style={{ height: '94px' }}>
+            <div className="flex items-center">
               <img
                 src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/little_passports.png'}
-                className="max-w-full h-auto rounded-sm border-white border-8 border-solid"
+                className="object-cover w-full"
                 alt="Little Passports logo"
+                style={{ height: '94px' }}
               ></img>
             </div>
             <p className="text-lg sm:text-2xl mt-4">
