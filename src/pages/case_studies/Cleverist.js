@@ -218,7 +218,6 @@ export default function Cleverist() {
               <img
                 src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/quality.png'}
                 className="max-w-full h-auto"
-                // style={{ maxWidth: '160px' }}
                 alt="Quality"
               ></img>
             </div>
@@ -254,9 +253,9 @@ export default function Cleverist() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “ Time is the biggest issue. Also just not knowing what to do
+                “Time is the biggest issue. Also just not knowing what to do
                 and ending up putting out crayons and paper for the millionth
-                time. I don’t know how all these pinterest moms do it. ”
+                time. I don’t know how all these pinterest moms do it.”
               </strong>
             </p>
           </div>
@@ -267,9 +266,9 @@ export default function Cleverist() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “ It is hard coming up with new ideas or ideas that are as good
+                “It is hard coming up with new ideas or ideas that are as good
                 as what they have already done at school, since those activities
-                have more philosophy in place. ”
+                have more philosophy in place.”
               </strong>
             </p>
           </div>
@@ -280,10 +279,10 @@ export default function Cleverist() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “ Time spent sourcing materials takes away from the time we have
+                “Time spent sourcing materials takes away from the time we have
                 to do activities together, We often default to ordering things
                 on Amazon for efficiency. We like to be able to re-order things
-                we liked. ”
+                we liked.”
               </strong>
             </p>
           </div>
@@ -470,7 +469,7 @@ export default function Cleverist() {
             </p>
             <div className="flex justify-center items-center px-0 mb-16 sm:mb-32">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/Early+Sketches.pdf"
+                href="https://www.figma.com/file/jqZaAtwzFzrSrt6Mb1nqRA/Cleverist-Wireframes?node-id=0%3A1&t=05AJXlKrrTlhUCzR-1"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"

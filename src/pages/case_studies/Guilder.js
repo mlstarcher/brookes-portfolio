@@ -274,8 +274,8 @@ export default function Guilder() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “ I prefer to order off apps or square if a coffee shop has that
-                option, it is such a time saver and easy to modify my drink. ”
+                “I prefer to order off apps or square if a coffee shop has that
+                option, it is such a time saver and easy to modify my drink.”
               </strong>
             </p>
           </div>
@@ -286,9 +286,9 @@ export default function Guilder() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-              “ I think it all really ties together... The name, decor, logo,
+              “I think it all really ties together... The name, decor, logo,
                 ambiance, menu offerings. I like to see it all make sense as a
-                story. ”
+                story.”
               </strong>
             </p>
           </div>
@@ -299,9 +299,9 @@ export default function Guilder() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “ If I can’t walk to the coffee shop, it has to be on my way to
+                “If I can’t walk to the coffee shop, it has to be on my way to
                 work for me to visit. This is especially true because of the
-                time I account for with wait time. ”
+                time I account for with wait time.”
               </strong>
             </p>
           </div>
@@ -535,17 +535,11 @@ export default function Guilder() {
             </div>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <div>
-                <a
-                  href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/mood_board.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/Mood+Board+1.png'}
                     className="max-w-full h-auto"
                     alt="Mood Board"
                   ></img>
-                </a>
               </div>
             </div>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">

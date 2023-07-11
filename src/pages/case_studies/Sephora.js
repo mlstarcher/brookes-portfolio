@@ -10,10 +10,10 @@ export default function Sephora() {
       <div className="grid grid-cols-12 mb-10 sm:mb-20">
         <div className="flex flex-col  justify-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack mb-10">
-          Sephora Recycle Feature
+            Sephora Recycle Feature
           </h1>
           <p className="text-lg sm:text-2xl text-center">
-          A <span className="text-accent">website feature</span> that allows
+            A <span className="text-accent">website feature</span> that allows
             users to
             <br /> mail their old or unwanted cosmetics
             <br /> and packaging to Sephora for
@@ -99,7 +99,7 @@ export default function Sephora() {
             Overview
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-          The goal of this project was to create a{' '}
+            The goal of this project was to create a{' '}
             <strong>convenient and accessible feature</strong> that would allow
             customers to <strong>recycle their old cosmetics</strong>
             and packaging as well as{' '}
@@ -113,7 +113,7 @@ export default function Sephora() {
             The Problem
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-          Sephora is a leading beauty retailer that offers a wide range of
+            Sephora is a leading beauty retailer that offers a wide range of
             cosmetics, skincare, haircare, and fragrance products. Sephora has
             2600 stores in 34 countries as well as a website and mobile app.
             After learning that the beauty and wellness industries generate over
@@ -143,7 +143,7 @@ export default function Sephora() {
           <div className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
             <p>A site feature where users can:</p>
             <ul className="list-disc ml-8">
-            <li>
+              <li>
                 Generate a return label, and send their empty containers back to
                 Sephora's recycling program in the mailer package they received.
               </li>
@@ -165,7 +165,7 @@ export default function Sephora() {
             Research
           </h3>
           <p className="mb-16 sm:mb-32 text-start text-lg sm:text-2xl">
-          My goal was to understand the experience that users have when
+            My goal was to understand the experience that users have when
             finding a solution for their old or unwanted cosmetics products and
             packaging. I made a research plan to find out what qualities and
             characteristics users were interested in seeing in an online
@@ -176,7 +176,7 @@ export default function Sephora() {
             Looking at the competition
           </h2>
           <p className=" text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-          All of the competitor services sell cosmetics products from their
+            All of the competitor services sell cosmetics products from their
             sites as well as in store, but only one of the competitors (Credo)
             offers recycling. Credo also partnered with Pact and has in store
             drop off, but no online option at this time.
@@ -197,7 +197,7 @@ export default function Sephora() {
             </div>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
-          Website and store that carries only “clean beauty” products with
+            Website and store that carries only “clean beauty” products with
             focus on safety, sustainability, sourcing, ethics, and transparancy.
           </p>
         </div>
@@ -212,13 +212,13 @@ export default function Sephora() {
               ></img>
             </div>
             <p className="text-lg sm:text-2xl mt-4">
-            Storefront, website, and app that sells cosmetics as well as various
-            beauty services. Ulta is very similar to Sephora.
+              Storefront, website, and app that sells cosmetics as well as various
+              beauty services. Ulta is very similar to Sephora.
             </p>
           </div>
         </div>
         <div className="col-span-12 sm:col-start-5 sm:col-end-9">
-        <div className="flex flex-col items-center mt-10 sm:mt-16">
+          <div className="flex flex-col items-center mt-10 sm:mt-16">
             <div className="flex items-center">
               <img
                 src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/amazon.png'}
@@ -228,9 +228,9 @@ export default function Sephora() {
               ></img>
             </div>
             <p className="text-lg sm:text-2xl mt-4">
-            Amazon Premium Beauty is the luxury cosmetics section of the biggest
-            online retailers. They carry products that can also be found in
-            Sephora, ulta, and department stores.
+              Amazon Premium Beauty is the luxury cosmetics section of the biggest
+              online retailers. They carry products that can also be found in
+              Sephora, ulta, and department stores.
             </p>
           </div>
         </div>
@@ -242,7 +242,7 @@ export default function Sephora() {
             Hearing People's Stories
           </h2>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
-          I held 1:1 user interviews with three research participants to learn
+            I held 1:1 user interviews with three research participants to learn
             about their needs and pain points when looking for a recycling
             solution for their cosmetics. I learned that{' '}
             <strong>
@@ -255,7 +255,7 @@ export default function Sephora() {
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-              While users wanted to participate in a recycling program in
+                While users wanted to participate in a recycling program in
                 theory, they weren’t sure they would get around to it unless it
                 was a simple and convenient process.
               </p>
@@ -269,7 +269,7 @@ export default function Sephora() {
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-              Users weren't sure which types of cosmetics containers and
+                Users weren't sure which types of cosmetics containers and
                 packaging could in fact be recycled. Additionally, they wanted
                 more information on how to prepare items for recycling.
               </p>
@@ -283,7 +283,7 @@ export default function Sephora() {
             </div>
             <div className="col-span-12 sm:col-span-9 mb-6 sm:mb-12">
               <p className="text-left text-lg sm:text-2xl pl-0 sm:pl-4">
-              Users were interested in shopping for in-season produce but
+                Users were interested in shopping for in-season produce but
                 doing so impacted their ability to plan their groceries and shop
                 at the farmers market. Knowing what is available and in season
                 each week would be helpful.
@@ -302,9 +302,9 @@ export default function Sephora() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-              “ I love an in-store moment but realistically I mostly shop
+                “I love an in-store moment but realistically I mostly shop
                 online for convenience unless it is something I need
-                like...today. ”
+                like...today.”
               </strong>
             </p>
           </div>
@@ -315,9 +315,9 @@ export default function Sephora() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-              “ I am really doing my best to shift to supporting companies that
+                “I am really doing my best to shift to supporting companies that
                 are open about their sourcing and business practices, but
-                especially about their commitment to being eco-friendly. ”
+                especially about their commitment to being eco-friendly.”
               </strong>
             </p>
           </div>
@@ -328,9 +328,9 @@ export default function Sephora() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-              “ I always try to recycle exterior packaging like boxes but I
+                “I always try to recycle exterior packaging like boxes but I
                 never know what to do with the makeup that I don’t use, so it
-                just ends up sitting in my cabinet. ”
+                just ends up sitting in my cabinet.”
               </strong>
             </p>
           </div>
@@ -346,7 +346,7 @@ export default function Sephora() {
             Define
           </h3>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
-          Before coming up with a design to solve this problem, I needed to
+            Before coming up with a design to solve this problem, I needed to
             further define our target user and find out what their wants and
             needs would be for this product. Meet our user Wren. Wren is a
             college student living in Los Angeles who wants to be an
@@ -379,7 +379,7 @@ export default function Sephora() {
                 Wren's Journey
               </h2>
               <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-20">
-              After getting to know our user Wren, I made a journey map as a
+                After getting to know our user Wren, I made a journey map as a
                 visual representation of her journey to recycle cosmetics. This
                 helped me understand what her actions, thoughts, behaviors, and
                 emotions would be and therefore what her pain points might be so
@@ -403,7 +403,7 @@ export default function Sephora() {
             Determining the Problems to Solve
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-          With the needs of our user identified, it was clear that there was a
+            With the needs of our user identified, it was clear that there was a
             need for a website feature that <strong>was informative</strong>,
             and that provided an <strong>efficient</strong> way to recycle
             cosmetics.
@@ -420,7 +420,7 @@ export default function Sephora() {
             Finding the Flow
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-16 sm:mb-32">
-          With the user’s problems in mind, the next steps were to determine
+            With the user’s problems in mind, the next steps were to determine
             our feature elements using a value matrix, and task flow. These
             tools helped give scaffolding to the design of the product.
           </p>
@@ -452,17 +452,17 @@ export default function Sephora() {
             </div>
           </div>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-          These <strong>task flows</strong> helped determine exactly how the Sephora user would go about using the recycling feature. It was important to explore multiple task flows, since there would be multiple ways to access the feature. A user going to the site with the intention of recycling might choose the CTA, while other shoppers might
-discover the feature during checkout and add it to their basket then.
+            These <strong>task flows</strong> helped determine exactly how the Sephora user would go about using the recycling feature. It was important to explore multiple task flows, since there would be multiple ways to access the feature. A user going to the site with the intention of recycling might choose the CTA, while other shoppers might
+            discover the feature during checkout and add it to their basket then.
           </p>
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <a
-                href=""
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/sephora/task_flow.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
-              ><h1>FIX THIS LINK</h1>
+              >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/task_flows.png'}
                   className="max-w-full h-auto"
@@ -481,7 +481,7 @@ discover the feature during checkout and add it to their basket then.
               Design
             </h3>
             <p className="text-left text-lg sm:text-2xl mb-16 sm:mb-32">
-            After determining my information architecture, I got to work
+              After determining my information architecture, I got to work
               creating concept sketches and worked on branding using Sephora and
               Pact’s existing design patterns and branding. Using the sketches
               and branding, I moved on to wireframes to develop a more complete
@@ -493,7 +493,7 @@ discover the feature during checkout and add it to their basket then.
               Early Sketches
             </h2>
             <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
-            I began with some <strong>low fidelity</strong> concept sketches
+              I began with some <strong>low fidelity</strong> concept sketches
               to get an idea of how things would look. While these were a great
               place to start, there was still a lot of UI work to do to pull it
               together. In these early sketches, the focus was seeing how the
@@ -520,36 +520,29 @@ discover the feature during checkout and add it to their basket then.
               </a>
             </div>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
-            UI Elements
+              UI Elements
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            With a general idea of how the site could be laid out, the next
-                piece was deciding how I would create UI elements that would fit
-                in seamlessly with Sephora’s existing design. Another piece to
-                consider was using cards and illustrations similar to the ones
-                Pact uses on their site, but through the Sephora lense. For
-                colors, I used Sephora’s classic color palette of black and
-                white with pops of red.
+              With a general idea of how the site could be laid out, the next
+              piece was deciding how I would create UI elements that would fit
+              in seamlessly with Sephora’s existing design. Another piece to
+              consider was using cards and illustrations similar to the ones
+              Pact uses on their site, but through the Sephora lense. For
+              colors, I used Sephora’s classic color palette of black and
+              white with pops of red.
             </p>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
-              <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/mood_board.pdf"
-                className="max-w-full h-auto"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/illustrations.png'}
                   className="max-w-full h-auto"
                   alt="Link to figma file of mid fi wire frames"
                 ></img>
-              </a>
             </div>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Mid Fidelity Wireframes
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            Based on the sketches, I created mid fidelity wireframes. I like
+              Based on the sketches, I created mid fidelity wireframes. I like
               to think of these as the blueprint stage. One main detail that was
               built upon was how the multi page form would look. It needed to be
               consistent with Pact’s process, but still fit in with the Sephora
@@ -573,7 +566,7 @@ discover the feature during checkout and add it to their basket then.
               High Fidelity UI
             </h2>
             <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-            This step is where the design really came together visually. I was
+              This step is where the design really came together visually. I was
               able to fully design the Sephora recycling feature while keeping
               our persona, Wren in mind. A combination of custom made
               illustrations and real imagery gave the site the exact feel we
@@ -604,7 +597,7 @@ discover the feature during checkout and add it to their basket then.
             Test
           </h3>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
-          At the end of the visual design portion came one of the most
+            At the end of the visual design portion came one of the most
             important parts of the Sephora Recycle Feature design process -
             testing. I felt confident about my overall design but conducting
             usability tests using the Figma prototype would give clarity and
@@ -617,7 +610,7 @@ discover the feature during checkout and add it to their basket then.
             Usability Testing
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-6">
-          I conducted usability testing sessions to test the process of
+            I conducted usability testing sessions to test the process of
             choosing the recycle feature from the homepage CTA, following the
             multi page form, and adding to basket/checking out. I also included
             the flows for tracking the progress of the recycle mailer. I held
@@ -627,7 +620,7 @@ discover the feature during checkout and add it to their basket then.
           <div className="text-start text-lg sm:text-2xl ">
             The usability test goals were:
             <ul className="list-disc ml-8 mb-6">
-            <li>
+              <li>
                 To evaluate wether the prototype allows users to quickly and
                 effectively complete the task flow that the wireframes were
                 created for.
@@ -639,7 +632,7 @@ discover the feature during checkout and add it to their basket then.
             </ul>
           </div>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-          The usability <strong>tests were considered successful</strong>{' '}
+            The usability <strong>tests were considered successful</strong>{' '}
             because all of the users could quickly and effectively complete the
             task flow that the wireframes were created for. Some feedback was
             given for future iterations which will be applied to make the
@@ -658,7 +651,7 @@ discover the feature during checkout and add it to their basket then.
             Analyzing & Prioritizing Results
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-10 sm:mb-20">
-          I took the <strong>insights</strong> from the usability testing
+            I took the <strong>insights</strong> from the usability testing
             sessions and organized them in a way that would show what worked,
             what could change, what questions the participants had, and their
             additional ideas. This organization helped me visualize{' '}
@@ -670,7 +663,7 @@ discover the feature during checkout and add it to their basket then.
               <div className="font-semibold text-lg sm:text-2xl text-left">
                 What Worked:
                 <ul className="list-disc ml-8 mt-4 pr-4">
-                <li>Familiar and easy to navigate.</li>
+                  <li>Familiar and easy to navigate.</li>
                   <li>
                     Colors, illustrations, typeface, and other UI elements were
                     clean and minimal while staying on brand with Sephora.
@@ -684,7 +677,7 @@ discover the feature during checkout and add it to their basket then.
               <div className="font-semibold text-lg sm:text-2xl text-left">
                 What Could Change:
                 <ul className="list-disc ml-8 mt-4">
-                <li>
+                  <li>
                     Users wanted to see the option to learn more information
                     about the recycle program.
                   </li>
@@ -708,14 +701,14 @@ discover the feature during checkout and add it to their basket then.
             Final Iterations
           </h2>
           <p className="text-start text-lg sm:text-2xl mb-6 sm:mb-12">
-          Based on the test results, I made some priority revisions throughout
+            Based on the test results, I made some priority revisions throughout
             the site based on how impactful it would be and how it would fit
             into the timeframe I had. Below are the main revisions that were
             made.
           </p>
           <ul className="list-disc ml-8 font-semibold text-lg sm:text-2xl text-left mb-10 sm:mb-20">
             <li className="mb-10 sm:mb-32">
-            Clickable link to “learn more” about the Sephora x Pact recycle
+              Clickable link to “learn more” about the Sephora x Pact recycle
               program.
               <div className="flex justify-center items-center mt-10 sm:mt-20">
                 <div>
@@ -728,7 +721,7 @@ discover the feature during checkout and add it to their basket then.
               </div>
             </li>
             <li className="mb-10 sm:mb-32">
-            Clarity was added in step 1, so that the user knows that if they
+              Clarity was added in step 1, so that the user knows that if they
               choose “no” they will be directed to information about how and why
               to clean their cosmetics packaging.
               <div className="flex justify-center items-center mt-10 sm:mt-20">
@@ -742,7 +735,7 @@ discover the feature during checkout and add it to their basket then.
               </div>
             </li>
             <li className="mb-6 sm:mb-12">
-            Pop of “Sephora red” color was only added to item illustrations
+              Pop of “Sephora red” color was only added to item illustrations
               once chosen, as another indication that they were selected.
               Additionally, information was added for clarity on the quality
               that could be sent.
@@ -769,7 +762,7 @@ discover the feature during checkout and add it to their basket then.
             With more time, the next steps I would take on this design project
             would be:
             <ul className="list-disc ml-8 font-semibold mt-10">
-            <li>
+              <li>
                 Adding the ability to earn extra points for Beauty Insider
                 towards clean beauty brands carried at Sephora.
               </li>
@@ -794,7 +787,7 @@ discover the feature during checkout and add it to their basket then.
             Learnings & Final Thoughts
           </h3>
           <p className="mb-10 text-left text-lg sm:text-2xl">
-          This design experience was unique to my other design projects in
+            This design experience was unique to my other design projects in
             that I had to work with a pre existing design. Creating designs
             based on something that already existed had its pros and cons. I
             liked having a frame of reference to use for consistency, but it did

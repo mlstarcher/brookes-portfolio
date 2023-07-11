@@ -29,7 +29,7 @@ export default function LocalBasket() {
             at their local <span className="text-secondary">farmer’s market.</span>
           </p>
           <div className='mt-10'>
-            <ButtonPrimary text={'FIX THIS LINK view prototype'} location={'https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1'} type={'external'} className="mt-20" />
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/td42UQTbPexRFYnAhW9ktP/Local-Basket-Wireframes?node-id=20%3A5823&mode=dev'} type={'external'} className="mt-20" />
           </div>
         </div>
         <div className="flex flex-col items-center col-span-12 sm:col-span-3 sm:col-start-8">
@@ -266,10 +266,10 @@ export default function LocalBasket() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “ When I go to the farmers market I like to see in season
+                “When I go to the farmers market I like to see in season
                 produce, which im actually just now learning more about. I never
                 used to pay attention to that growing up buying everything from
-                Albertsons. ”
+                Albertsons.”
               </strong>
             </p>
           </div>
@@ -280,7 +280,7 @@ export default function LocalBasket() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “ It’s almost always really chaotic. I try to remember where my
+                “It’s almost always really chaotic. I try to remember where my
                 favorite vendors are but there seems to be no real rhyme or
                 reason for how its all set up.”
               </strong>
@@ -293,10 +293,10 @@ export default function LocalBasket() {
             ></span>
             <p className="pl-4 text-left text-lg sm:text-2xl m-0">
               <strong>
-                “ Not knowing who will be there or what they will have and in
+                “Not knowing who will be there or what they will have and in
                 what quantity. It makes it hard to buy what you need and you
                 just end up with a little bit of everything which also feels
-                wasteful. ”
+                wasteful.”
               </strong>
             </p>
           </div>
@@ -632,7 +632,7 @@ export default function LocalBasket() {
             iterations.
           </p>
           <div className='text-left mb-16 sm:mb-32'>
-            <ButtonPrimary text={'todo fix this link view prototype'} location={''} type={'external'} className="mt-20" />
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/td42UQTbPexRFYnAhW9ktP/Local-Basket-Wireframes?node-id=20%3A5823&mode=dev'} type={'external'} className="mt-20" />
           </div>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Usability Testing
