@@ -39,7 +39,7 @@ export default function LocalBasket() {
               style={{ marginTop: '14px' }}
             >
               <img
-                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/iphone_preview.png'}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/lb_scrolling_preview.png'}
                 className="max-w-full h-auto wireframe"
                 alt="Preview of final design for mobile"
               ></img>
