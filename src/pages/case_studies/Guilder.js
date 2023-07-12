@@ -22,7 +22,7 @@ export default function Guilder() {
             <br /> system.
           </p>
           <div className='mt-10'>
-            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=26%3A11944&t=JQnchFyV1qHpQvbJ-1'} type={'external'} className="mt-20" />
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/td42UQTbPexRFYnAhW9ktP/Local-Basket-Wireframes?node-id=20%3A5823&mode=dev'} type={'external'} className="mt-20" />
           </div>
         </div>
         <div className="flex flex-col items-center col-span-12 sm:col-span-3 sm:col-start-8">
@@ -47,26 +47,26 @@ export default function Guilder() {
         </div>
       </div>
       {/* Role Details */}
-      <div className="bg-secondary py-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32 drop-shadow-md">
+      <div className="bg-secondary py-10 sm:py-20 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32 drop-shadow-md">
         <div className='flex justify-between flex-col sm:flex-row col-start-3 col-end-11'>
           <div className="">
-            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
+            <p className="mb-2 font-semibold text-2xl sm:text-3xl">Role</p>
             <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
               UX/UI Designer
             </p>
           </div>
           <div className="">
-            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Product</h4>
+            <p className="mb-2 font-semibold text-2xl sm:text-3xl">Product</p>
             <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Mobile Website</p>
           </div>
           <div className="">
-            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
+            <p className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</p>
             <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
               Dec 2022 to Jan 2023
             </p>
           </div>
           <div className="">
-            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Tools</h4>
+            <p className="mb-2 font-semibold text-2xl sm:text-3xl">Tools</p>
             <p className="text-lg sm:text-2xl">Figma</p>
           </div>
         </div>
@@ -607,7 +607,7 @@ export default function Guilder() {
             iterations.
           </p>
           <div className='text-left mb-16 sm:mb-32'>
-            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/LJDJiO6rWKRLxyFQeKx21b/Guilder-Wireframes?type=design&node-id=26%3A11944&t=JQnchFyV1qHpQvbJ-1'} type={'external'} className="mt-20" />
+            <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/td42UQTbPexRFYnAhW9ktP/Local-Basket-Wireframes?node-id=20%3A5823&mode=dev'} type={'external'} className="mt-20" />
           </div>
           <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
             Usability Testing

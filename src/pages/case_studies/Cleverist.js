@@ -43,26 +43,26 @@ export default function Cleverist() {
         </div>
       </div>
       {/* Role details */}
-      <div className="bg-secondary py-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32 drop-shadow-md">
+      <div className="bg-secondary py-10 sm:py-20 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32 drop-shadow-md">
         <div className='flex justify-between flex-col sm:flex-row col-start-3 col-end-11'>
           <div className="">
-            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
+            <p className="mb-2 font-semibold text-2xl sm:text-3xl">Role</p>
             <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
               UX/UI Designer
             </p>
           </div>
           <div className="">
-            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Product</h4>
+            <p className="mb-2 font-semibold text-2xl sm:text-3xl">Product</p>
             <p className="text-lg sm:text-2xl mb-8 sm:mb-0">Mobile Website</p>
           </div>
           <div className="">
-            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</h4>
+            <p className="mb-2 font-semibold text-2xl sm:text-3xl">Duration</p>
             <p className="text-lg sm:text-2xl mb-8 sm:mb-0">
               July to Nov 2022
             </p>
           </div>
           <div className="">
-            <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Tools</h4>
+            <p className="mb-2 font-semibold text-2xl sm:text-3xl">Tools</p>
             <p className="text-lg sm:text-2xl">Figma</p>
           </div>
         </div>
