@@ -546,17 +546,31 @@ export default function Guilder() {
               wireframes maintained the rough sketch design themes but more
               polished, and adding some small UI ideas.
             </p>
-            <div className="flex justify-center items-center mb-16 sm:mb-32">
+            <div className="flex justify-center items-center mb-10 sm:mb-20">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/mid_fi_wireframes.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/mid_fi_desktop.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <img
-                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/Mid+Fidelity.png'}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/mid_fi_desktop.png'}
                   className="max-w-full h-auto drop-shadow-md"
-                  alt="Mid fi wire frames"
+                  alt="Mid fi desktop wire frames"
+                ></img>
+              </a>
+              </div>
+              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <a
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/mid_fi_mobile.pdf"
+                className="max-w-full h-auto"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/mid_fi_mobile.png'}
+                  className="max-w-full h-auto drop-shadow-md"
+                  alt="Mid fi mobile wire frames"
                 ></img>
               </a>
             </div>
@@ -576,17 +590,31 @@ export default function Guilder() {
               also made visible on the main page so that the user would know how
               busy it was before placing an order and picking up.
             </p>
-            <div className="flex justify-center items-center">
+            <div className="flex justify-center items-center mb-10 sm:mb-20">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/hi_fi_wireframes.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/hi_fi_desktop.pdf"
+                className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="max-w-full h-auto"
               >
                 <img
-                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/hi_fi.png'}
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/hi_fi_desktop.png'}
                   className="max-w-full h-auto drop-shadow-md"
-                  alt="Link to figma file of hi fi wire frames"
+                  alt="Mid fi desktop wire frames"
+                ></img>
+              </a>
+              </div>
+              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <a
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/hi_fi_mobile.pdf"
+                className="max-w-full h-auto"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img
+                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/hi_fi_mobile.png'}
+                  className="max-w-full h-auto drop-shadow-md"
+                  alt="Mid fi mobile wire frames"
                 ></img>
               </a>
             </div>
