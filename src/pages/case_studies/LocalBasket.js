@@ -60,7 +60,7 @@ export default function LocalBasket() {
         </div>
       </div>
       {/* Role details */}
-      <div className="bg-secondary py-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
+      <div className="bg-secondary py-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32 drop-shadow-md">
         <div className='flex justify-between flex-col sm:flex-row col-start-3 col-end-11'>
           <div className="">
             <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
@@ -146,7 +146,7 @@ export default function LocalBasket() {
         </div>
       </div>
       {/* Competition Card */}
-      <div className="bg-primary grid grid-cols-12 py-10 px-6 sm:px-0 sm:py-20 mb-16 sm:mb-32">
+      <div className="bg-primary grid grid-cols-12 py-10 px-6 sm:px-0 sm:py-20 mb-16 sm:mb-32 drop-shadow-md">
         <div className="col-span-12 sm:col-start-3 sm:col-end-7 flex flex-col items-center">
           <div className="flex items-center">
             <img
@@ -327,7 +327,7 @@ export default function LocalBasket() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/persona.png'}
-                  className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                  className="max-w-full h-auto mb-6 sm:mb-12 pointer drop-shadow-md"
                   alt="Link to user persona figma file"
                 ></img>
               </a>
@@ -353,7 +353,7 @@ export default function LocalBasket() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/journey_map.png'}
-                  className="max-w-full h-auto pointer"
+                  className="max-w-full h-auto pointer drop-shadow-md"
                   alt="Link to user persona figma file"
                 ></img>
               </a>
@@ -414,7 +414,7 @@ export default function LocalBasket() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/feature_set.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="Feature Set"
                 ></img>
               </a>
@@ -443,7 +443,7 @@ export default function LocalBasket() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/user_flow.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="Site Map"
                 ></img>
               </a>
@@ -452,7 +452,7 @@ export default function LocalBasket() {
         </div>
       </div>
       {/* Design */}
-      <div className="grid grid-cols-12 mb-16 sm:mb-32 bg-primary">
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 bg-primary drop-shadow-md">
         <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6 grid grid-cols-12 sm:grid-cols-10">
           <div className="col-span-12 sm:col-span-8 sm:col-start-2 flex flex-col">
             <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
@@ -491,7 +491,7 @@ export default function LocalBasket() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/sketches.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="Link to figma file of early sketches"
                 ></img>
               </a>
@@ -515,24 +515,11 @@ export default function LocalBasket() {
               <div>
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/mood_board.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="Mood Board"
                 ></img>
               </div>
             </div>
-            {/* <div>
-                <a
-                  href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/mood_board.pdf"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <img
-                    src={mood_board}
-                    className="max-w-full h-auto"
-                    alt="Mood Board"
-                  ></img>
-                </a>
-              </div> */}
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Mid Fidelity Wireframes
             </h2>
@@ -547,7 +534,7 @@ export default function LocalBasket() {
             <div className="flex justify-center items-center mb-16 sm:mb-32">
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/local_basket/mid_fi_wireframes.pdf"
-                className="max-w-full h-auto"
+                className="max-w-full h-auto drop-shadow-md"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -587,7 +574,7 @@ export default function LocalBasket() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/hi_fi.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="Link to figma file of hi fi wire frames"
                 ></img>
               </a>
@@ -743,7 +730,7 @@ export default function LocalBasket() {
         </div>
       </div>
       {/* Next Steps */}
-      <div className="grid grid-cols-12 py-20 bg-primary mb-16 sm:mb-32">
+      <div className="grid grid-cols-12 py-20 bg-primary mb-16 sm:mb-32 drop-shadow-md">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Next Steps
@@ -767,7 +754,7 @@ export default function LocalBasket() {
         </div>
       </div>
       {/* Final Thoughts */}
-      <div className="grid grid-cols-12 mb-16 sm:mb-32 p-10 sm:py-32 bg-secondary">
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 p-10 sm:py-32 bg-secondary drop-shadow-md">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Learnings & Final Thoughts
