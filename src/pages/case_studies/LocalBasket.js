@@ -1,7 +1,6 @@
 import React from 'react';
 
 //Images and icons
-import { FaArrowRight } from 'react-icons/fa';
 import ButtonPrimary from '../ButtonPrimary';
 
 // TODO: Missing Images

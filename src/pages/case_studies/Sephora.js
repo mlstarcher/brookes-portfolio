@@ -1,14 +1,13 @@
 import React from 'react';
 import ButtonPrimary from '../ButtonPrimary.js';
-
-import { FaArrowRight } from 'react-icons/fa';
+import Slideshow from '../Slideshow.js';
 
 export default function Sephora() {
   return (
     <div className="bg-offWhite mt-8 sm:mt-32">
       {/* Intro */}
       <div className="grid grid-cols-12 mb-10 sm:mb-20">
-        <div className="flex flex-col  justify-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7">
+        <div className="flex flex-col justify-center mb-6 sm:mb-12 sm:mb-0 col-span-12 sm:col-start-2 sm:col-end-7 order-2 sm:order-1">
           <h1 className="font-bold text-3xl sm:text-6xl text-offBlack mb-10">
             Sephora Recycle Feature
           </h1>
@@ -24,47 +23,8 @@ export default function Sephora() {
             <ButtonPrimary text={'view prototype'} location={'https://www.figma.com/file/kV1FCexT4imVIc2BapHTpB/Sephora-Recycle-Feature-Wireframes?type=design&node-id=47%3A2&t=XeB5o0Zi9PKohavh-1'} type={'external'} className="mt-20" />
           </div>
         </div>
-        <div className="flex flex-col items-center col-span-12 sm:col-span-3 sm:col-start-8">
-          {/* <img
-            className="pointer-events-none w-full h-auto"
-            src={sephora_macbook}
-            alt="Laptop preview"
-          ></img> */}
-          {/* <div className="relative" style={{ height: '600px', width: '300px' }}>
-            {/* <img
-              className="absolute z-20 pointer-events-none h-full w-auto"
-              src={sephora_macbook}
-              alt="Laptop preview"
-            ></img> */}
-          {/* <div
-              className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
-              style={{ marginTop: '14px' }}
-            >
-              <img
-                src={sephora_macbook}
-                className="max-w-full h-auto wireframe"
-                alt="Mobile preview"
-              ></img>
-            </div>
-          </div> */}
-          <div className="relative mt-8 sm:mt-0" style={{ height: '600px', width: '300px' }}>
-            <img
-              role="presentation"
-              className="absolute z-10 pointer-events-none h-full w-auto"
-              src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/global/iphone_transparent.png'}
-              alt="iPhone 14"
-            ></img>
-            <div
-              className="mx-4 mb-0 hide-scrollbar rounded-lg iphone"
-              style={{ marginTop: '14px' }}
-            >
-              <img
-                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/mobile_preview.jpg'}
-                className="max-w-full h-auto wireframe"
-                alt="Preview of final design for mobile"
-              ></img>
-            </div>
-          </div>
+        <div className="flex flex-col justify-center items-center col-span-12 sm:col-start-7 sm:col-end-12 order-1 sm:order-2">
+          <Slideshow />
         </div>
       </div>
       {/* Role details */}
@@ -532,11 +492,11 @@ export default function Sephora() {
               white with pops of red.
             </p>
             <div className="flex justify-center items-center mb-16 sm:mb-32">
-                <img
-                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/illustrations.png'}
-                  className="max-w-full h-auto"
-                  alt="Link to figma file of mid fi wire frames"
-                ></img>
+              <img
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/illustrations.png'}
+                className="max-w-full h-auto"
+                alt="Link to figma file of mid fi wire frames"
+              ></img>
             </div>
             <h2 className="text-2xl sm:text-4xl text-start font-semibold mb-6 sm:mb-10">
               Mid Fidelity Wireframes

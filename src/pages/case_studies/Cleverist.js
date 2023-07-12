@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaArrowRight } from 'react-icons/fa';
 import ButtonPrimary from '../ButtonPrimary';
 
 export default function Cleverist() {

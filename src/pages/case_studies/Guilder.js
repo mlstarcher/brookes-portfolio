@@ -1,12 +1,5 @@
 import React from 'react';
 import ButtonPrimary from '../ButtonPrimary';
-//Images and icons
-import { FaArrowRight } from 'react-icons/fa';
-
-//TODO: Missing images
-//iphone_14
-//mobile_preview
-//how_might_we3
 
 export default function Guilder() {
   return (
