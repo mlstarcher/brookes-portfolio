@@ -13,7 +13,7 @@ export default function Nav() {
   };
 
   return (
-    <nav>
+    <nav className='nav-link'>
       <div className="sm:hidden">
         <button
           id="nav-icon"
@@ -37,7 +37,7 @@ export default function Nav() {
               onClick={() => closeMenu()}
               to="/#work"
               smooth
-              className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
+              className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary nav-link"
             >
               Work
             </Link>
@@ -47,7 +47,7 @@ export default function Nav() {
           <Link
             onClick={() => closeMenu()}
             to={`about`}
-            className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
+            className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary nav-link"
           >
             About
           </Link>
@@ -58,26 +58,26 @@ export default function Nav() {
             onClick={() => closeMenu()}
             target="_blank"
             rel="noopener noreferrer"
-            className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary"
+            className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary nav-link"
           >
             Resume
           </a>
         </li>
       </ul>
       <ul className="justify-between text-3lg hidden sm:flex">
-        <li className="mx-4 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
+        <li className="mr-10 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
           <div>
             <Link to="/#work" smooth className="font-bold text-xl">
               Work
             </Link>
           </div>
         </li>
-        <li className="mx-4 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
+        <li className="mx-10 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
           <Link to={`about`} className="font-bold text-xl ">
             About
           </Link>
         </li>
-        <li className="mx-4 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
+        <li className="ml-10 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
           <a
             href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/brooke_starcher_resume.pdf"
             onClick={() => closeMenu()}

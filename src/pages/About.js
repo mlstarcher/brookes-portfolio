@@ -7,7 +7,7 @@ export default function About() {
         <div className="flex flex-col items-center col-span-12 sm:col-start-2 sm:col-end-7">
           <img
             src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/global/profile.jpg'}
-            className="rounded-full m-w-100 h-auto"
+            className="m-w-100 h-auto"
             height="300"
             width="300"
             alt="Profile"
