@@ -43,7 +43,7 @@ export default function Cleverist() {
         </div>
       </div>
       {/* Role details */}
-      <div className="bg-secondary py-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32">
+      <div className="bg-secondary py-10 grid grid-cols-12  mb-16 sm:mb-16 sm:mb-32 drop-shadow-md">
         <div className='flex justify-between flex-col sm:flex-row col-start-3 col-end-11'>
           <div className="">
             <h4 className="mb-2 font-semibold text-2xl sm:text-3xl">Role</h4>
@@ -137,7 +137,7 @@ export default function Cleverist() {
         </div>
       </div>
       {/* Competition Card */}
-      <div className="bg-primary p-20 grid grid-cols-12  mb-16 sm:mb-32">
+      <div className="bg-primary p-20 grid grid-cols-12  mb-16 sm:mb-32 drop-shadow-md">
         <div className="col-span-12 sm:col-start-2 sm:col-end-6">
           <div className="flex flex-col items-center">
             <div className="flex items-center">
@@ -312,7 +312,7 @@ export default function Cleverist() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/user_persona.png'}
-                  className="max-w-full h-auto mb-6 sm:mb-12 pointer"
+                  className="max-w-full h-auto mb-6 sm:mb-12 pointer drop-shadow-md"
                   alt="Link to user persona figma file"
                 ></img>
               </a>
@@ -346,9 +346,9 @@ export default function Cleverist() {
           <div className="flex flex-col items-center mb-16 sm:mb-32">
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/how_might_we3.png'}
-              className="h-auto w-full"
+              className="h-auto w-full "
               style={{ maxWidth: '630px' }}
-              alt="Mobile Preview"
+              alt="Cloud"
             ></img>
           </div>
           <p className="mb-10 sm:mb-20 text-start text-lg sm:text-2xl">
@@ -371,7 +371,7 @@ export default function Cleverist() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/feature_set.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="Feature Set"
                 ></img>
               </a>
@@ -396,7 +396,7 @@ export default function Cleverist() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/sitemap.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="Site Map"
                 ></img>
               </a>
@@ -427,7 +427,7 @@ export default function Cleverist() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/user_flows.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="User Flows"
                 ></img>
               </a>
@@ -436,7 +436,7 @@ export default function Cleverist() {
         </div>
       </div>
       {/* Design */}
-      <div className="grid grid-cols-12 mb-16 sm:mb-32 bg-primary">
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 bg-primary drop-shadow-md">
         <div className="col-span-12 sm:col-span-10 sm:col-start-2 items-center py-8 sm:py-20 px-6 grid grid-cols-12 sm:grid-cols-10">
           <div className="col-span-12 sm:col-span-8 sm:col-start-2 flex flex-col">
             <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
@@ -475,7 +475,7 @@ export default function Cleverist() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/wireframes.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="Link to figma file of early sketches"
                 ></img>
               </a>
@@ -499,7 +499,7 @@ export default function Cleverist() {
               <div>
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/mood_board.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="Mood Board"
                 ></img>
               </div>
@@ -526,7 +526,7 @@ export default function Cleverist() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/mid_fi.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="Link to figma file of mid fi wire frames"
                 ></img>
               </a>
@@ -550,7 +550,7 @@ export default function Cleverist() {
               >
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/hi_fi.png'}
-                  className="max-w-full h-auto"
+                  className="max-w-full h-auto drop-shadow-md"
                   alt="Link to figma file of hi fi wire frames"
                 ></img>
               </a>
@@ -724,7 +724,7 @@ export default function Cleverist() {
         </div>
       </div>
       {/* Next Steps */}
-      <div className="grid grid-cols-12 py-20 bg-primary mb-16 sm:mb-32">
+      <div className="grid grid-cols-12 py-20 bg-primary mb-16 sm:mb-32 drop-shadow-md">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Next Steps
@@ -742,7 +742,7 @@ export default function Cleverist() {
         </div>
       </div>
       {/* Final Thoughts */}
-      <div className="grid grid-cols-12 mb-16 sm:mb-32 p-10 sm:py-32 bg-secondary">
+      <div className="grid grid-cols-12 mb-16 sm:mb-32 p-10 sm:py-32 bg-secondary drop-shadow-md">
         <div className="col-span-12 sm:col-span-8 sm:col-start-3">
           <h3 className="text-3xl sm:text-6xl text-center font-semibold mb-6 sm:mb-10">
             Learnings & Final Thoughts
