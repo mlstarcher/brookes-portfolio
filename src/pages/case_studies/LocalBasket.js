@@ -3,11 +3,6 @@ import React from 'react';
 //Images and icons
 import ButtonPrimary from '../ButtonPrimary';
 
-// TODO: Missing Images
-// iphone_14
-// feature_set
-// mood_board
-
 export default function LocalBasket() {
   return (
     <div className="bg-offWhite  mt-16 sm:mt-32">
@@ -454,23 +449,6 @@ export default function LocalBasket() {
               </a>
             </div>
           </div>
-          {/* TODO: Pdf link for User Flow is missing */}
-          {/* <div className="flex justify-center items-center mb-16 sm:mb-32">
-            <div>
-              <a
-                href=""
-                className="max-w-full h-auto"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <img
-                  src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/user_flow.png'}
-                  className="max-w-full h-auto"
-                  alt="User Flows"
-                ></img>
-              </a>
-            </div>
-          </div> */}
         </div>
       </div>
       {/* Design */}
