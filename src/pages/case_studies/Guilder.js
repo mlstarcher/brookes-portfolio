@@ -604,7 +604,7 @@ export default function Guilder() {
                 ></img>
               </a>
               </div>
-              <div className="flex justify-center items-center mb-16 sm:mb-32">
+              <div className="flex justify-center items-center">
               <a
                 href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/hi_fi_mobile.pdf"
                 className="max-w-full h-auto"
