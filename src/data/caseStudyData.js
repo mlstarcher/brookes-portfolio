@@ -2,7 +2,7 @@
 const caseStudyData = [
   {
     title: 'Local Basket',
-    sub_title: 'UI/UX DESIGN, BRANDING',
+    sub_title: 'UI/UX APP DESIGN',
     short_description:
       'An app that helps users place orders for produce and goods from vendors at their local farmer’s market.',
     link: `local-basket`,
@@ -11,7 +11,7 @@ const caseStudyData = [
   },
   {
     title: 'Sephora',
-    sub_title: 'UI/UX DESIGN, BRANDING',
+    sub_title: 'UI/UX FEATURE',
     short_description:
       'A responsive website where parents and caregivers can find educational activities to do with their children at home.',
     link: `sephora`,
@@ -20,7 +20,7 @@ const caseStudyData = [
   },
   {
     title: 'Guilder',
-    sub_title: 'UI/UX DESIGN, BRANDING',
+    sub_title: 'UI/UX DESIGN',
     short_description:
       'A responsive website where parents and caregivers can find educational activities to do with their children at home.',
     link: `guilder`,
@@ -29,7 +29,7 @@ const caseStudyData = [
   },
   {
     title: 'Cleverist',
-    sub_title: 'UI/UX DESIGN, BRANDING',
+    sub_title: 'END-TO-END DESIGN',
     short_description:
       'A responsive website where parents and caregivers can find educational activities to do with their children at home.',
     link: `cleverist`,

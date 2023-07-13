@@ -39,7 +39,7 @@ export default function Nav() {
               smooth
               className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary nav-link"
             >
-              Work
+              work
             </Link>
           </div>
         </li>
@@ -49,7 +49,7 @@ export default function Nav() {
             to={`about`}
             className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary nav-link"
           >
-            About
+            about
           </Link>
         </li>
         <li className="ml-8 mb-6">
@@ -60,7 +60,7 @@ export default function Nav() {
             rel="noopener noreferrer"
             className="font-bold text-2xl border-b-2 border-offWhite hover:text-secondary hover:border-secondary nav-link"
           >
-            Resume
+            resume
           </a>
         </li>
       </ul>
@@ -68,13 +68,13 @@ export default function Nav() {
         <li className="mr-10 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
           <div>
             <Link to="/#work" smooth className="font-bold text-xl">
-              Work
+              work
             </Link>
           </div>
         </li>
         <li className="mx-10 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
           <Link to={`about`} className="font-bold text-xl ">
-            About
+            about
           </Link>
         </li>
         <li className="ml-10 border-b-2 border-offWhite hover:text-secondary hover:border-secondary">
@@ -85,7 +85,7 @@ export default function Nav() {
             rel="noopener noreferrer"
             className="font-bold text-xl"
           >
-            Resume
+            resume
           </a>
         </li>
       </ul>
