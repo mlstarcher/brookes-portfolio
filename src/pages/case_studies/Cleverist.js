@@ -607,8 +607,9 @@ export default function Cleverist() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <img
-                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iPhone_14.png'}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/cleverist_homepage_preview.png'}
                 className="max-w-full h-auto"
+                style={{ maxHeight: "482px"}}
                 alt="Cleverist iphone preview"
               ></img>
             </div>
@@ -667,6 +668,7 @@ export default function Cleverist() {
                 <img
                   src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/analyzing_results.png'}
                   className="max-w-full h-auto"
+                  style={{ maxHeight: "479px"}}
                   alt="Analyzing results"
                 ></img>
               </a>
@@ -690,6 +692,7 @@ export default function Cleverist() {
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iteration_1.png'}
                     className="max-w-full h-auto"
+                    style={{ maxHeight: "717px"}}
                     alt="Activity Filters"
                   ></img>
                 </div>
@@ -702,6 +705,7 @@ export default function Cleverist() {
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iteration_2.png'}
                     className="max-w-full h-auto"
+                    style={{ maxHeight: "717px"}}
                     alt="Color Mixing"
                   ></img>
                 </div>
@@ -715,6 +719,7 @@ export default function Cleverist() {
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/iteration_3.png'}
                     className="max-w-full h-auto"
+                    style={{ maxHeight: "717px"}}
                     alt="Comments"
                   ></img>
                 </div>

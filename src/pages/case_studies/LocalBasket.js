@@ -631,8 +631,9 @@ export default function LocalBasket() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <img
-                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/iphone14.png'}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/lb_homepage_preview.png'}
                 className="max-w-full h-auto"
+                style={{ maxHeight: "479px"}}
                 alt="Local basket iphone preview"
               ></img>
             </div>
@@ -697,6 +698,7 @@ export default function LocalBasket() {
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/iteration1.png'}
                     className="max-w-full h-auto"
+                    style={{ maxHeight: "717px"}}
                     alt="Activity Filters"
                   ></img>
                 </div>
@@ -709,6 +711,7 @@ export default function LocalBasket() {
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/iteration2.png'}
                     className="max-w-full h-auto"
+                    style={{ maxHeight: "717px"}}
                     alt="Color Mixing"
                   ></img>
                 </div>
@@ -720,6 +723,7 @@ export default function LocalBasket() {
                 <div>
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/local_basket/iteration3.png'}
+                    style={{ maxHeight: "717px"}}
                     className="max-w-full h-auto"
                     alt="Comments"
                   ></img>

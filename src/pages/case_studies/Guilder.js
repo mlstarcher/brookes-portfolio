@@ -669,8 +669,9 @@ export default function Guilder() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <img
-                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/iphone_14.png'}
+                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/guilder_homepage_preview.png'}
                 className="max-w-full h-auto"
+                style={{ maxHeight: "479px"}}
                 alt="Cleverist iphone preview"
               ></img>
             </div>
@@ -734,6 +735,7 @@ export default function Guilder() {
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/iteration1.png'}
                     className="max-w-full h-auto"
+                    style={{ maxHeight: "717px"}}
                     alt="Iteration 1"
                   ></img>
                 </div>
@@ -746,6 +748,7 @@ export default function Guilder() {
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/iteration2.png'}
                     className="max-w-full h-auto"
+                    style={{ maxHeight: "717px"}}
                     alt="Iteration 2"
                   ></img>
                 </div>

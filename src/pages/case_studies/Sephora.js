@@ -601,8 +601,9 @@ export default function Sephora() {
           <div className="flex justify-center items-center mb-16 sm:mb-32">
             <div>
               <img
-                src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/macbook_air.png'}
+                src={'	https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/sephora_homepage_preview.png'}
                 className="max-w-full h-auto"
+                style={{ maxHeight: "452px"}}
                 alt="Cleverist iphone preview"
               ></img>
             </div>
@@ -675,6 +676,7 @@ export default function Sephora() {
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/iteration1.png'}
                     className="max-w-full h-auto"
+                    style={{ maxHeight: "717px"}}
                     alt="Iteration 1"
                   ></img>
                 </div>
@@ -689,6 +691,7 @@ export default function Sephora() {
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/iteration2.png'}
                     className="max-w-full h-auto"
+                    style={{ maxHeight: "717px"}}
                     alt="Iteration 2"
                   ></img>
                 </div>
@@ -704,6 +707,7 @@ export default function Sephora() {
                   <img
                     src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/sephora/iteration3.png'}
                     className="max-w-full h-auto"
+                    style={{ maxHeight: "717px"}}
                     alt="Iteration 3"
                   ></img>
                 </div>
