@@ -151,7 +151,7 @@ export default function Guilder() {
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/good.png'}
               className="max-w-full"
               alt="Good company logo"
-              style={{ height: '93px' }}
+              style={{ maxHeight: '93px' }}
             ></img>
           </div>
           <p className="text-lg sm:text-2xl mt-4">
@@ -164,7 +164,7 @@ export default function Guilder() {
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/cafe_olli.png'}
               className="max-w-full rounded-sm"
-              style={{ height: '93px' }}
+              style={{ maxHeight: '93px' }}
               alt="Cafe Olli logo"
             ></img>
           </div>
@@ -178,7 +178,7 @@ export default function Guilder() {
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/starbucks.png'}
               className="max-w-full "
-              style={{ height: '93px' }}
+              style={{ maxHeight: '93px' }}
               alt="Starbucks Logo"
             ></img>
           </div>
@@ -192,7 +192,7 @@ export default function Guilder() {
             <img
               src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/guilder/stumptown.png'}
               className="max-w-full "
-              style={{ height: '93px' }}
+              style={{ maxHeight: '93px' }}
               alt="Stumptown Logo"
             ></img>
           </div>
@@ -592,7 +592,7 @@ export default function Guilder() {
             </p>
             <div className="flex justify-center items-center mb-10 sm:mb-20">
               <a
-                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/hi_fi_desktop.pdf"
+                href="https://s3.us-west-2.amazonaws.com/brookestarcher.com/pdfs/guilder/hi_fi.pdf"
                 className="max-w-full h-auto"
                 target="_blank"
                 rel="noopener noreferrer"

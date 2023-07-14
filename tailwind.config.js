@@ -11,7 +11,7 @@ module.exports = {
       offBlack: '#302E2E',
       primary: '#E1C7A8',
       secondary: '#BAA14E'
-    }
+    },
   },
   plugins: []
 };

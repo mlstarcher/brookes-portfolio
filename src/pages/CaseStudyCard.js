@@ -16,7 +16,7 @@ export default function CaseStudyCard({ case_study, index }) {
         <h4 className="font-semibold text-left text-2xl md:text-5xl mb-4 md:mb-4">
           {case_study.title}
         </h4>
-        <p className="mb-6 text-2xl font-light text-left md:text-2xl line-clamp-3">
+        <p className="mb-6  text-2xl sm:text-3xl font-light text-left md:text-2xl line-clamp-3 leading-none">
           {case_study.sub_title}
         </p>
         <p className="mb-6 text-base text-left md:text-xl line-clamp-3">

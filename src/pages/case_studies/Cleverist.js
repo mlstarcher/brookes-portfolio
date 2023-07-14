@@ -144,7 +144,7 @@ export default function Cleverist() {
               <img
                 src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/pbs.png'}
                 className="object-cover w-full"
-                style={{ height: '94px' }}
+                style={{ maxHeight: '94px' }}
                 alt="PBS Kids logo"
               ></img>
             </div>
@@ -160,7 +160,7 @@ export default function Cleverist() {
               <img
                 src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/kiwico.png'}
                 className="object-cover w-full"
-                style={{ height: '94px' }}
+                style={{ maxHeight: '94px' }}
                 alt="Kiwico Logo"
               ></img>
             </div>
@@ -176,9 +176,9 @@ export default function Cleverist() {
             <div className="flex items-center">
               <img
                 src={'https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/cleverist/little_passports.png'}
-                className="object-cover w-full"
+                className="object-cover w-full border-white border-8 rounded"
                 alt="Little Passports logo"
-                style={{ height: '94px' }}
+                style={{ maxHeight: '94px' }}
               ></img>
             </div>
             <p className="text-lg sm:text-2xl mt-4">
