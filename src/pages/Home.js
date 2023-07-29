@@ -7,8 +7,8 @@ export default function Home() {
   return (
     <div className="">
       <Welcome />
-      <div id="work" className="flex justify-center mb-8">
-        <h2 className="sm:text-6xl text-3xl font-bold mb-8 sm:mb-10">
+      <div id="work" className="flex justify-center">
+        <h2 className="sm:text-6xl text-3xl font-bold mb-10 sm:mb-16">
           My Work:
         </h2>
       </div>

@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Footer() {
   return (
-    <footer className="w-full flex flex-col items-center bg-primary relative mt-0 sm:mt-10">
+    <footer className="w-full flex flex-col items-center bg-primary relative mt-10">
       <img src="https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/global/footer_ellipse.png" role="presentation" className="w-full h-auto px-4" style={{ maxWidth: "400px", transform: 'rotate(-0.3deg)', marginTop: "-1.5px"}} alt="Footer Ellipse"></img>
       <div className="absolute flex items-center justify-center flex flex-col">
         <h4 className="text-lg font-semibold mt-6">Let's keep in touch!</h4>
@@ -25,7 +25,7 @@ export default function Footer() {
           </a>
         </div>
       </div>
-      <img src="https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/global/footer_tape.png" role="presentation" className="w-full h-auto mb-8 mt-16 sm:mt-32" alt="Brooke ZS"></img>
+      <img src="https://s3.us-west-2.amazonaws.com/brookestarcher.com/images/global/footer_tape.png" role="presentation" className="object-cover w-full sm:h-auto h-5 mb-8 mt-16 sm:mt-32" alt="Brooke ZS"></img>
     </footer>
   );
 }
